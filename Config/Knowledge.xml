@@ -203,7 +203,7 @@
     </li>
     <li>
       <key>ClickingMessages</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>ShotAccuracyTooltip</key>
@@ -219,7 +219,7 @@
     </li>
     <li>
       <key>ArrestingCreatesEnemies</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>SwitchFlickingDesignation</key>
