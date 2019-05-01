@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================ New Trees ============================-->
+
+  <ThingDef ParentName="VG_TreeBase">
+    <defName>PlantTreeIronwood</defName>
+    <label>ironwood tree</label>
+    <description>Ironwood trees got their name from the legendary strength of the wood. This is the most commonly used material for making spears and tools.</description>
+    <graphicData>
+      <texPath>Things/Tree/TreeIronwood</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+      </shadowData>
+       <shaderParameters>
+        <_FallColorSource>(0.254, 0.286, 0.125)</_FallColorSource>
+        <_FallColorDestination>/Other/TreeFallGradient</_FallColorDestination>
+        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+      </shaderParameters>
+   </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <plant>
+      <leaflessGraphicPath>Things/Tree/Tree_Leafless/TreeIronwood_Leafless</leaflessGraphicPath>
+      <growDays>30</growDays>
+      <harvestedThingDef>VG_IronWoodLog</harvestedThingDef>
+      <harvestWork>700</harvestWork>
+      <harvestYield>55</harvestYield>
+      <mustBeWildToSow>false</mustBeWildToSow>
+	<wildBiomes>
+		<TemperateForest>0.01</TemperateForest>
+    		<BorealForest>0.01</BorealForest>
+	</wildBiomes>
+       <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+
+
+</Defs>

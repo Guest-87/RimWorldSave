@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealSimple_Bulk.label>烹调简单的食物（4）</CookMealSimple_Bulk.label>
+  <CookMealSimple_Bulk.description>用单种材料烹调4份简易食物。</CookMealSimple_Bulk.description>
+  <CookMealSimple_Bulk.jobString>正在简单的食物。</CookMealSimple_Bulk.jobString>
+
+  <CookMealFine_Bulk.label>烹调精致的食物（4）</CookMealFine_Bulk.label>
+  <CookMealFine_Bulk.description>将生肉和素食组合，烹调4份相对复杂的食物。\n\n必须同时有肉食和素食。</CookMealFine_Bulk.description>
+  <CookMealFine_Bulk.jobString>正在烹调精致的食物。</CookMealFine_Bulk.jobString>
+
+  <CookMealLavish_Bulk.label>烹调奢侈的食物（4）</CookMealLavish_Bulk.label>
+  <CookMealLavish_Bulk.description>将生肉和素食组合，烹调4份非常复杂的食物。大部分材料会被浪费。\n\n必须同时有肉食和素食。</CookMealLavish_Bulk.description>
+  <CookMealLavish_Bulk.jobString>正在烹调奢侈的食物。</CookMealLavish_Bulk.jobString>
+
+  <CookBulkMealSurvival.label>烹饪包装生存食品（4）</CookBulkMealSurvival.label>
+  <CookBulkMealSurvival.description>将生肉和素食材料组合，烹饪一分包装生存食品。大部分材料会被浪费。\n\n必须同时有肉食和素食。</CookBulkMealSurvival.description>
+  <CookBulkMealSurvival.jobString>正在烹饪包装生存食品。</CookBulkMealSurvival.jobString>
+
+  <Stirfrymeal.label>炒菜（4）</Stirfrymeal.label>
+  <Stirfrymeal.description>用肉食和素食组合作为原料炒熟。 \n\n做4份。 \n\n食用效果：操作、血液循环。</Stirfrymeal.description>
+  <Stirfrymeal.jobString>正在炒菜。</Stirfrymeal.jobString>
+
+  <Cookstewpot.label>炖菜（8）</Cookstewpot.label>
+  <Cookstewpot.description>用肉食和素食组合作为原料缓慢炖熟。 \n\n做8份。 \n\n食用效果：意识、新陈代谢、血液过滤、血液循环。</Cookstewpot.description>
+  <Cookstewpot.jobString>正在炖菜。</Cookstewpot.jobString>
+
+  <VG_MakebulkPemmican.label>批量制作干肉饼（72）</VG_MakebulkPemmican.label>
+  <VG_MakebulkPemmican.description>混合肉类、作物制作的干燥加工食品，虽称不上美味，但可以于常温下存放一年以上。</VG_MakebulkPemmican.description>
+  <VG_MakebulkPemmican.jobString>正在批量制作干肉饼。</VG_MakebulkPemmican.jobString>
+
+
+</LanguageData>

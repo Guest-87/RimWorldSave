@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+  <RecipeDef ParentName="CookMealBase">
+		<defName>CookMealFine</defName>
+		<label>cook fine meal</label>
+		<description>Cooks a somewhat complex meal from a combination of raw meat and raw plant ingredients.</description>
+		<jobString>Cooking fine meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+				</filter>
+				<count>0.25</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+				           <li>CookingSupplies</li>
+					</categories>
+				</filter>
+				<count>0.25</count>
+			</li>
+		</ingredients>
+		<products>
+      <MealFine>1</MealFine>
+    </products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+  </RecipeDef>
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookMealLavish</defName>
+		<label>cook lavish meal</label>
+		<description>Cooks a very complex meal from a combination of raw meat and raw plant ingredients. Much of the ingredients are wasted.</description>
+		<jobString>Cooking lavish meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+				</filter>
+				<count>0.5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+				           <li>CookingSupplies</li>
+					</categories>
+				</filter>
+				<count>0.5</count>
+			</li>
+		</ingredients>
+		<products>
+      <MealLavish>1</MealLavish>
+    </products>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+  </RecipeDef>
+
+
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookMealSimple_Bulk</defName>
+		<label>cook four simple meals</label>
+		<description>Cooks a straightforward meal from one ingredient. Makes enough for 4 meals.</description>
+		<jobString>Cooking four simple meals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>1000</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+	<recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+	<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FoodRaw</li>
+						
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealSimple>4</MealSimple>
+		</products>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookMealFine_Bulk</defName>
+		<label>cook four fine meals</label>
+		<description>Cooks a somewhat complex meal from a combination of raw meat and raw plant ingredients. Makes enough for 4 meals.</description>
+		<jobString>Cooking four fine meals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>1400</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+	<recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+	<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+				           <li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+				           <li>CookingSupplies</li>
+				</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealFine>4</MealFine>
+		</products>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookMealLavish_Bulk</defName>
+		<label>cook four lavish meals</label>
+		<description>Cooks a very complex meal from a combination of raw meat and raw plant ingredients. Much of the ingredients are wasted. Makes enough for 4 meals.</description>
+		<jobString>Cooking four lavish meals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>2200</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+	<recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+	<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+				            <li>AnimalProductRaw</li>
+
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					     <li>CookingSupplies</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealLavish>4</MealLavish>
+		</products>
+		<skillRequirements>
+			<Cooking>12</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+
+<RecipeDef ParentName="CookMealBase">
+    <defName>CookBulkMealSurvival</defName>
+    <label>cook four survival meals</label>
+    <description>Cooks four packaged survival meal from a combination of raw meat and raw plant ingredients. Much of the ingredients are wasted.</description>
+    <jobString>Cooking survival meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workAmount>2200</workAmount>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>1.2</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>1.2</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSurvivalPack>4</MealSurvivalPack>
+    </products>
+    <skillRequirements>
+			<Cooking>10</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+	 <recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+  </RecipeDef>
+
+   
+	<RecipeDef ParentName="CookMealBase">
+		<defName>Stirfrymeal</defName>
+		<label>cook four stir-fried meals</label>
+		<description>Cooks a stir-fried meal from a combination of raw meat and raw plant ingredients. \n\nMakes enough for 4 meals.  \n\nFood Effects: Manipulation and Blood Filtration.</description>
+		<jobString>Cooking stir-fried meals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>1500</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+				            <li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+				           <li>CookingSupplies</li>
+				</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<stirfry>4</stirfry>
+		</products>
+		<skillRequirements>
+			<Cooking>10</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+    		    <li>ElectricStove</li>
+		    <li>FueledStove</li>
+     		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>Cookstewpot</defName>
+		<label>cook eight pots of stew</label>
+		<description>Slow cooks a pot of stew from a combination of raw meat and raw plant ingredients. \n\nMakes enough for 8 meals. \n\nFood Effects: Consciousness, Metabolism, Blood Filtration, and Blood Pumping.</description>
+		<jobString>Slow cooking stew.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>2000</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+				           <li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+			           	<li>CookingSupplies</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<products>
+			<bowlstew>8</bowlstew>
+		</products>
+		<skillRequirements>
+			<Cooking>15</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+     		    <li>ElectricStove</li>
+		    <li>FueledStove</li>
+   	     </recipeUsers>
+	</RecipeDef>
+
+  <RecipeDef Name="MakePemmican">
+    <defName>VG_MakebulkPemmican</defName>
+    <label>make bulk pemmican</label>
+    <description>Make pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a year without refrigeration.</description>
+    <jobString>Making pemmican.</jobString>
+    <workAmount>1800</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Pemmican>64</Pemmican>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedCategories>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+      <specialFiltersToDisallow>
+        <li>AllowPlantFood</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  	<recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+</RecipeDef>
+
+
+</Defs>

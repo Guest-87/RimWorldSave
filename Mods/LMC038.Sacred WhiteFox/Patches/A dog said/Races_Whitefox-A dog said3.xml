@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>A Dog Said... Animal Prosthetics</modName>
+				<yourMod>Sacred WhiteFox</yourMod>
+			</li>
+			<!-- ========== Whitefox ========== -->
+			<li Class="PatchOperationInsert">
+				<xpath>Defs/RecipeDef[@Name = "OldWoundsAnimal"]/recipeUsers/li</xpath>
+				<value>
+					<li>Whitefox</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

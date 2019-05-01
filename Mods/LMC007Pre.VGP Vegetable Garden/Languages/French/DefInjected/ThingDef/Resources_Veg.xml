@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <Rawsnowbeet.label>betterave des neiges</Rawsnowbeet.label>
+  <Rawsnowbeet.description>Betterave des neiges crues.</Rawsnowbeet.description>
+
+  <RawBarley.label>orge</RawBarley.label>
+  <RawBarley.description>Céréales utilisées pour l'alimentation du bétail, cuites pour l'alimentation et utilisées pour la fabrication de la bière.</RawBarley.description>
+
+  <Rawbean.label>haricot</Rawbean.label>
+  <Rawbean.description>Haricot commun qui se prépare de plusieurs façons.</Rawbean.description>
+
+  <RawOlive.label>Olive</RawOlive.label>
+  <RawOlive.description>Petite baie qui pousse sur les arbres.</RawOlive.description>
+
+  <Rawmushroom.label>champignon</Rawmushroom.label>
+  <Rawmushroom.description>Champignons crus riches en protéines. Agréable à manger, même cru.</Rawmushroom.description>
+
+  <RawCactusFruit.label>fruit de cactus</RawCactusFruit.label>
+  <RawCactusFruit.description>fruit de cactus cru</RawCactusFruit.description>
+
+
+</LanguageData>

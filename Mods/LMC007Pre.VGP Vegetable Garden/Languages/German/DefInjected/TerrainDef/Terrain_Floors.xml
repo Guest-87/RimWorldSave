@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Misc -->
+
+  <BambooFloor.label>Bambus Boden</BambooFloor.label>
+  <BambooFloor.description>Bambus Bodenbelag. Für ein warmes, heimisches Gefühl.</BambooFloor.description>
+
+  <IronwoodFloor.label>Eisenholz Boden</IronwoodFloor.label>
+  <IronwoodFloor.description>Eisenholz Bodenbelag. </IronwoodFloor.description>
+
+
+</LanguageData>

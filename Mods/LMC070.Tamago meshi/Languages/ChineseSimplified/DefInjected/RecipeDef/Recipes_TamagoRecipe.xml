@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- Author jxb12306 FROM 3DM Localization Group-->
+  <!-- 卵かけご飯を作る -->
+
+  <CookTKG.label>烹饪生蛋拌饭</CookTKG.label>
+  <CookTKG.description>使用生鸡蛋与米饭烹饪生蛋拌饭。</CookTKG.description>
+  <CookTKG.jobString>烹饪生蛋拌饭</CookTKG.jobString>
+
+
+  <!-- 目玉焼きを作る -->
+
+  <CookMedamayaki.label>烹饪煎荷包蛋</CookMedamayaki.label>
+  <CookMedamayaki.description>使用鸡蛋烹饪煎荷包蛋。</CookMedamayaki.description>
+  <CookMedamayaki.jobString>烹饪煎荷包蛋</CookMedamayaki.jobString>
+
+
+  <!-- 卵焼きを作る -->
+
+  <CookTamagoyaki.label>烹饪摊鸡蛋卷</CookTamagoyaki.label>
+  <CookTamagoyaki.description>使用鸡蛋烹饪摊鸡蛋卷。</CookTamagoyaki.description>
+  <CookTamagoyaki.jobString>烹饪摊鸡蛋卷</CookTamagoyaki.jobString>
+
+
+  <!-- エッグトーストを作る -->
+
+  <CookEggToast.label>烹饪鸡蛋吐司</CookEggToast.label>
+  <CookEggToast.description>使用鸡蛋，肉类和蔬菜烹饪鸡蛋吐司。</CookEggToast.description>
+  <CookEggToast.jobString>烹饪鸡蛋吐司</CookEggToast.jobString>
+
+
+  <!-- オムライスを作る -->
+
+  <CookOmuraisu.label>烹饪蛋包饭</CookOmuraisu.label>
+  <CookOmuraisu.description>使用鸡蛋，米饭和肉类烹饪蛋包饭。</CookOmuraisu.description>
+  <CookOmuraisu.jobString>烹饪蛋包饭</CookOmuraisu.jobString>
+
+
+  <!-- プリンを作る -->
+
+  <CookPurin.label>烹饪奶油布丁</CookPurin.label>
+  <CookPurin.description>使用鸡蛋和牛奶烹饪奶油布丁。</CookPurin.description>
+  <CookPurin.jobString>烹饪奶油布丁</CookPurin.jobString>
+
+
+</LanguageData>

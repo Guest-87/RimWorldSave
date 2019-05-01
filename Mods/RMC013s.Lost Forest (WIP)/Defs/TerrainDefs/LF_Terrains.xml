@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--Base Defs-->
+
+  <TerrainDef Name="LF_FloorBase" Abstract="True">
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+    <designationCategory>Floors</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructDirt</constructEffect>
+    <acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+  </TerrainDef>
+
+  <TerrainDef Abstract="True" Name="LF_WaterBase">
+    <edgeType>Water</edgeType>
+    <acceptFilth>false</acceptFilth>
+    <fertility>0</fertility>
+    <avoidWander>true</avoidWander>
+    <holdSnow>false</holdSnow>
+    <takeSplashes>true</takeSplashes>
+    <extinguishesFire>true</extinguishesFire>
+    <extraDeteriorationFactor>3</extraDeteriorationFactor>
+    <traversedThought>SoakingWet</traversedThought>
+    <extraNonDraftedPerceivedPathCost>180</extraNonDraftedPerceivedPathCost>
+    <extraDraftedPerceivedPathCost>18</extraDraftedPerceivedPathCost>
+    <tags>
+      <li>Water</li>
+    </tags>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+
+  <TerrainDef Abstract="True" Name="LF_WaterShallowBase" ParentName="LF_WaterBase">
+    <pathCost>30</pathCost>
+    <affordances>
+      <li>ShallowWater</li>
+      <li>Bridgeable</li>
+    </affordances>
+  </TerrainDef>
+
+	<!-- 排水溝 -->
+
+  <TerrainDef ParentName="LF_FloorBase">
+    <defName>LFTerr_Drain</defName>
+    <label>drain</label>
+    <description>It is a drain groove for washing away dirt. Floor contamination does not adhere.</description>
+    <texturePath>Things/Terrain/Drain</texturePath>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>70</renderPrecedence>
+    <pathCost>0</pathCost>
+    <color>(0.8,0.8,0.8)</color>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>0</Beauty>
+      <Cleanliness>0</Cleanliness>
+    </statBases>
+    <costList>
+      <Steel>7</Steel>
+    </costList>
+    <scatterType></scatterType>
+    <generatedFilth></generatedFilth>
+    <fertility>0</fertility>
+    <takeFootprints>false</takeFootprints>
+    <acceptFilth>false</acceptFilth>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <constructEffect>ConstructMetal</constructEffect>
+  </TerrainDef>
+
+	<!--冷泉-->
+
+  <TerrainDef ParentName="LF_WaterShallowBase">
+    <defName>LFTerr_Spring</defName>
+    <label>cold spring</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>394</renderPrecedence>
+    <driesTo>Gravel</driesTo>
+    <affordances>
+      <li>MovingFluid</li>
+      <li>LFTrAf_Spring</li>
+    </affordances>
+  </TerrainDef>
+
+	<!--温泉-->
+
+  <TerrainDef ParentName="LF_WaterShallowBase">
+    <defName>LFTerr_HotSpring</defName>
+    <label>hot spring</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>394</renderPrecedence>
+    <driesTo>Gravel</driesTo>
+    <affordances>
+      <li>MovingFluid</li>
+      <li>LFTrAf_HotSpring</li>
+    </affordances>
+  </TerrainDef>
+
+	<!--冷泉（Comp付与用）-->
+  <ThingDef ParentName="LF_BuildingBase">
+    <defName>LF_Spring</defName>
+    <label>cold spring water</label>
+    <thingClass>LF_SpringWater</thingClass>	
+    <description>Cold water is gushing from underground.</description>
+    <graphicData>
+      <texPath>Things/Empty</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_LFSpringBase">
+        <driesTo>Gravel</driesTo>      
+        <IsHot>false</IsHot>      
+      </li>
+    </comps>
+    <tickerType>Rare</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <selectable>false</selectable>
+    <destroyable>true</destroyable>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <Flammability>0</Flammability>
+      <Beauty>8</Beauty>
+      <Comfort>0.5</Comfort>
+    </statBases>
+    <fillPercent>0.15</fillPercent>
+		<building>
+			<ai_chillDestination>true</ai_chillDestination>
+		</building>
+    <rotatable>false</rotatable>
+  </ThingDef>
+
+	<!--温泉（Comp付与用）-->
+  <ThingDef ParentName="LF_BuildingBase">
+    <defName>LF_HotSpring</defName>
+    <label>hot spring water</label>
+    <thingClass>LF_SpringWater</thingClass>	
+    <description>Hot water is gushing from underground.</description>
+    <graphicData>
+      <texPath>Things/Empty</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_LFSpringBase">
+        <driesTo>Gravel</driesTo>      
+        <IsHot>true</IsHot>      
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>3</heatPerSecond>
+        <heatPushMaxTemperature>25</heatPushMaxTemperature>
+      </li>
+    </comps>
+    <tickerType>Rare</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <selectable>false</selectable>
+    <destroyable>true</destroyable>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <Flammability>0</Flammability>
+      <Beauty>8</Beauty>
+      <Comfort>0.85</Comfort>
+    </statBases>
+    <fillPercent>0.15</fillPercent>
+		<building>
+			<ai_chillDestination>true</ai_chillDestination>
+		</building>
+    <rotatable>false</rotatable>
+  </ThingDef>
+
+
+  <!-- 埋立土壌 -->
+<!--
+  <TerrainDef>
+    <defName>LFTerr_LandfillSoil</defName>
+    <label>landfill soil</label>
+    <description>Hot water is gushing from underground.</description>
+    <texturePath>Terrain/Surfaces/Gravel</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <color>(255,255,255)</color>
+    <renderPrecedence>320</renderPrecedence>
+    <pathCost>4</pathCost>
+    <statBases>
+      <WorkToBuild>250</WorkToBuild>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <scatterType>Rocky</scatterType>
+    <costList>
+      <RPC_Gravel>20</RPC_Gravel>
+    </costList>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>0.5</fertility>
+    <takeFootprints>True</takeFootprints>
+    <tools>
+      <li>
+        <label>gravel</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>GravelInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+-->
+
+</Defs>

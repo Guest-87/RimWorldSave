@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ShieldGenerator.label>护盾发生器</ShieldGenerator.label>
+  <ShieldGenerator.description>护盾发生器可以拦截来袭的抛射体，并且允许处于护盾内部的人员向外射击。同时也可以拦截远程火炮，敌方空降仓，流星坠落等。凡你想得起的，不管什么护盾都可以阻止它。</ShieldGenerator.description>
+
+  <ShieldGeneratorLarge.label>大型护盾发生器</ShieldGeneratorLarge.label>
+  <ShieldGeneratorLarge.description>大型护盾发生器能产生更大的护盾并且在护盾崩塌前吸收更多的伤害。</ShieldGeneratorLarge.description>
+
+  <ShieldGeneratorPortable.label>便携式护盾发生器</ShieldGeneratorPortable.label>
+  <ShieldGeneratorPortable.description>便携式护盾发生器产生的护盾范围虽小，但是却拥有内置电池并且便于携带。</ShieldGeneratorPortable.description>
+
+
+</LanguageData>

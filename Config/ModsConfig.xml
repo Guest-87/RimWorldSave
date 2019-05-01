@@ -3,5 +3,103 @@
   <version>1.0.2096 rev473</version>
   <activeMods>
     <li>Core</li>
+    <li>LMC000Pre.HugsLib</li>
+    <li>LMC001h.Wall Light</li>
+    <li>LMC002.Configurable Maps</li>
+    <li>LMC003.Roof Support</li>
+    <li>LMC005.Dubs Mint Menus</li>
+    <li>LMC006.More Furniture</li>
+    <li>LMC007.VGP Garden Canning</li>
+    <li>LMC007Pre.VGP Vegetable Garden</li>
+    <li>LMC009Pre.Humanoid Alien Races 2.0</li>
+    <li>LMC008.Wall Vitals Monitor</li>
+    <li>LMC010.Share The Load</li>
+    <li>LMC011.Snowy Trees</li>
+    <li>LMC012.MiningCo. DrillTurret</li>
+    <li>LMC014.MiningCo. MMS</li>
+    <li>LMC015.MiningCo. LaserFence</li>
+    <li>LMC016.MiningCo. Projector</li>
+    <li>LMC017.MiningCo. MiningHelmet</li>
+    <li>LMC019.Small Comms Console</li>
+    <li>LMC020.Advanced Cooling</li>
+    <li>LMC021.Portable Nerfed Generator</li>
+    <li>LMC022.Portable Power Generator</li>
+    <li>LMC023h.Soviet Armory</li>
+    <li>LMC024h.Plant Growing Wall Light</li>
+    <li>LMC025.Deep Ore Identifier</li>
+    <li>LMC028.Recipe icons</li>
+    <li>LMC029.Set Up Camp</li>
+    <li>LMC031.Ofuton and Tatami 1.0</li>
+    <li>LMC032.Garden Box</li>
+    <li>LMC033.九尾の狐</li>
+    <li>LMC034.Not Mine- Unclaim Structures</li>
+    <li>LMC035.Time-of-Day Switches</li>
+    <li>LMC039.advanced powergeneration</li>
+    <li>LMC040h.Avoid Friendly Fire</li>
+    <li>LMC042.Money Trees</li>
+    <li>LMC044.In-wall coolers and vents</li>
+    <li>LMC045h.CleaningStation</li>
+    <li>LMC046.Simply More Bridges</li>
+    <li>LMC048.Watermill Tweaks</li>
+    <li>LMC049.Barbed Wire</li>
+    <li>LMC051Pre.Animal Gear base</li>
+    <li>LMC052Pre.Show Hair With Hats or Hide All Hats</li>
+    <li>LMC054.Dirt Paths</li>
+    <li>LMC057.Medical Training</li>
+    <li>LMC058h.Custom Portraits</li>
+    <li>LMC060.Camping Stuff</li>
+    <li>LMC062.FFGermanShepherd</li>
+    <li>LMC063.Genetically Engineered Plants</li>
+    <li>LMC067.Ignite Everything</li>
+    <li>LMC068.Recycle 1.0</li>
+    <li>LMC070.Tamago meshi</li>
+    <li>LMC071.FFRocketstove</li>
+    <li>LMC072.Fast Moisture Pumps</li>
+    <li>LMC073h.Centralized Climate Control</li>
+    <li>LMC075.SS Bigger Batteries</li>
+    <li>LMC076h.Shield Generators by Frontier Developments</li>
+    <li>LMC078.RenameColony</li>
+    <li>LMC26.Travel through water</li>
+    <li>LMS004.Let's Have a Cat!</li>
+    <li>Realistic Darkness 1.0</li>
+    <li>RMC002.Forbiddable Refuelables</li>
+    <li>RMC003.Xen's Taming Fixer</li>
+    <li>RMC004.MoveSteamGeyser</li>
+    <li>RMC005.Rain Washes Away Filth</li>
+    <li>RMC007.Plantable Wild Berries</li>
+    <li>RMC008.VGP Xtra Trees and Flowers</li>
+    <li>RMC012.The Grass Is Redder On The Other Side</li>
+    <li>LMC009s.Dragonian Race</li>
+    <li>LMC027s.Meat Blend 1.0</li>
+    <li>LMC030s.Stockpile Stack Limit</li>
+    <li>LMC036.Kyulen - NinetailFox</li>
+    <li>LMC036EXs.Range Animal Framework</li>
+    <li>LMC037s.Play Time Tracker</li>
+    <li>LMC038.Sacred WhiteFox</li>
+    <li>LMC041os.fusuma plus</li>
+    <li>LMC043os.Mineral tree Ver0.2</li>
+    <li>LMC047s.Dubs Mint Minimap</li>
+    <li>LMC050s.Veggie Blend 1.0</li>
+    <li>LMC053s.Large Animal Beds</li>
+    <li>LMC055s.Project Itzal Launchers</li>
+    <li>LMC056.Project Itzal Machine guns</li>
+    <li>LMC059s.Caravan Gear v1.6</li>
+    <li>LMC061sPre.ResourcePackCore</li>
+    <li>LMC064s.A Dog Said</li>
+    <li>LMC065s.Transport Pod MK2</li>
+    <li>LMC066s.More Shelves</li>
+    <li>LMC074s.Level Up!</li>
+    <li>LMC069s.Submunition Projectiles</li>
+    <li>LMC077.Highway Restoration</li>
+    <li>LMC079h.RimSaves</li>
+    <li>LMC080s.Commercial Server</li>
+    <li>LMC081s.Small Solar Panels</li>
+    <li>LMC082s.Larger Solar Panel</li>
+    <li>RMC001s.Yokai Village 1.2</li>
+    <li>RMC006s.LinkableDoors</li>
+    <li>RMC011.Turn It On and Off</li>
+    <li>RMC013s.Lost Forest (WIP)</li>
+    <li>RMC014s.RIMMSLoadUp</li>
+    <li>RMC016s.DontBlockDoorMod</li>
   </activeMods>
 </ModsConfigData>

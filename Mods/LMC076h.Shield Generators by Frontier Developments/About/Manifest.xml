@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>FrontierDevelopments-Shields</identifier>
+    <version>1.1.3.2096</version>
+    <dependencies>
+        <li>818773962</li> <!-- HugsLib -->
+    </dependencies>
+    <incompatibleWith>
+    </incompatibleWith>
+    <loadBefore>
+    </loadBefore>
+    <loadAfter>
+    </loadAfter>
+    <suggests>
+        <li>728314182</li> <!-- RT fuses -->
+        <li>728314859</li> <!-- RT Power Switch -->
+        <li>973091113</li> <!-- Centralized Climate Control -->
+        <li>730384702</li> <!-- Crash landing -->
+    </suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://raw.githubusercontent.com/JonnyNova/Rimworld-Shields/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/JonnyNova/Rimworld-Shields/releases/latest</downloadUri>
+</Manifest>

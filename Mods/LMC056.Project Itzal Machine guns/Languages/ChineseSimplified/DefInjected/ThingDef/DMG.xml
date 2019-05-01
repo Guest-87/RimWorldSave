@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Itzal_DMG.label>防御性轻机枪</Itzal_DMG.label>
+  <Itzal_DMG.description>一种气动轻机枪，非常笨拙，它主要用于防守方。</Itzal_DMG.description>
+  <Itzal_DMG.tools.0.label>stock</Itzal_DMG.tools.0.label>
+  <Itzal_DMG.tools.1.label>barrel</Itzal_DMG.tools.1.label>
+
+  <Bullet_DMG.label>防御性轻机枪子弹</Bullet_DMG.label>
+
+
+</LanguageData>

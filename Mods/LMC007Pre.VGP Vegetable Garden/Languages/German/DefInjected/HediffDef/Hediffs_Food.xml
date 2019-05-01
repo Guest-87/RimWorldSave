@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HedStew.label>Eintopf gegessen</HedStew.label>
+  <HedStew.stages.0.label>Satt: Eintopf</HedStew.stages.0.label>
+
+  <HedStirfry.label> Gemüsepfanne gegessen</HedStirfry.label>
+  <HedStirfry.stages.0.label>Satt: Gemüsepfanne</HedStirfry.stages.0.label>
+
+
+</LanguageData>

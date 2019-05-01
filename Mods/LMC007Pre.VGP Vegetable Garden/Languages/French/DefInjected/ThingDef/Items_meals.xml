@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Cuptea.label>thé du jardin</Cuptea.label>
+  <Cuptea.description>Une boisson à base de feuilles de thé infusées.</Cuptea.description>
+  <Cuptea.ingestible.ingestCommandString>boire {0}</Cuptea.ingestible.ingestCommandString>
+  <Cuptea.ingestible.ingestReportString>en train de boire {0}.</Cuptea.ingestible.ingestReportString>
+
+  <Coffee.label>café du jardin</Coffee.label>
+  <Coffee.description>une tasse de café</Coffee.description>
+  <Coffee.ingestible.ingestCommandString>boire {0}</Coffee.ingestible.ingestCommandString>
+  <Coffee.ingestible.ingestReportString>en train de boire {0}.</Coffee.ingestible.ingestReportString>
+
+  <Fruitdrink.label>Jus de fruit</Fruitdrink.label>
+  <Fruitdrink.description>Une boisson à base de fruits pressés pour leur jus.</Fruitdrink.description>
+  <Fruitdrink.ingestible.ingestCommandString>boire {0}</Fruitdrink.ingestible.ingestCommandString>
+  <Fruitdrink.ingestible.ingestReportString>en train de boire {0}.</Fruitdrink.ingestible.ingestReportString>
+
+  <bowlstew.label>bol de ragoût</bowlstew.label>
+  <bowlstew.description>Un bol de ragoût à cuisson lente. \n\nEffets des aliments : Conscience, métabolisme, filtration et pompage sanguin.</bowlstew.description>
+
+  <stirfry.label>friture</stirfry.label>
+  <stirfry.description>Technique de cuisson dans laquelle les ingrédients sont frits dans une petite quantité d'huile très chaude. \n\nEffets des aliments : Manipulation et filtration du sang.</stirfry.description>
+
+
+</LanguageData>

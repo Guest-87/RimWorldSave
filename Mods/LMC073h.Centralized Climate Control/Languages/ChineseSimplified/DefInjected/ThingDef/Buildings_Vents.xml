@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- Author jxb12306 FROM 3DM Localization Group-->
+  <!-- Regular Wall Vent -->
+
+  <WallAirVent.label>壁挂式通风口</WallAirVent.label>
+  <WallAirVent.description>一个壁挂式通风口。</WallAirVent.description>
+  <WallAirVent_Blueprint.label>壁挂式通风口 (蓝图)</WallAirVent_Blueprint.label>
+  <WallAirVent_Frame.label>壁挂式通风口 (建造中)</WallAirVent_Frame.label>
+  <WallAirVent_Frame.description>一个壁挂式通风口。</WallAirVent_Frame.description>
+
+
+  <!-- Small Wall Vent -->
+
+  <WallAirVentSmall.label>小型壁挂式通风口</WallAirVentSmall.label>
+  <WallAirVentSmall.description>一个小型壁挂式通风口。</WallAirVentSmall.description>
+  <WallAirVentSmall_Blueprint.label>小型壁挂式通风口 (蓝图)</WallAirVentSmall_Blueprint.label>
+  <WallAirVentSmall_Frame.label>小型壁挂式通风口 (建造中)</WallAirVentSmall_Frame.label>
+  <WallAirVentSmall_Frame.description>一个小型壁挂式通风口。</WallAirVentSmall_Frame.description>
+
+
+  <!-- Regular Surround Vents -->
+
+  <SurroundAirVent.label>外围通风口</SurroundAirVent.label>
+  <SurroundAirVent.description>一个外围通风口。</SurroundAirVent.description>
+  <SurroundAirVent_Blueprint.label>外围通风口 (蓝图)</SurroundAirVent_Blueprint.label>
+  <SurroundAirVent_Frame.label>外围通风口 (建造中)</SurroundAirVent_Frame.label>
+  <SurroundAirVent_Frame.description>一个外围通风口。</SurroundAirVent_Frame.description>
+
+
+  <!-- Wide Surround Vents -->
+
+  <SurroundAirVentWide.label>加宽型外围通风口</SurroundAirVentWide.label>
+  <SurroundAirVentWide.description>一个加宽型外围通风口。</SurroundAirVentWide.description>
+  <SurroundAirVentWide_Blueprint.label>加宽型外围通风口 (蓝图)</SurroundAirVentWide_Blueprint.label>
+  <SurroundAirVentWide_Frame.label>加宽型外围通风口 (建造中)</SurroundAirVentWide_Frame.label>
+  <SurroundAirVentWide_Frame.description>一个加宽型外围通风口。</SurroundAirVentWide_Frame.description>
+
+
+  <!-- Legacy Support: Full Size Vents -->
+
+  <AirVent.label>通风口</AirVent.label>
+  <AirVent.description>一个通风口。</AirVent.description>
+
+
+</LanguageData>

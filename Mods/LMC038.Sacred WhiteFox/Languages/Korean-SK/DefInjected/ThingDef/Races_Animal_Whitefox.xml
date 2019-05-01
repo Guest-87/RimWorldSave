@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Whitefox.label>성백호</Whitefox.label>
+  <Whitefox.description>유전자 기술의 집합체로 탄생한 이 여우는 비단처럼 부드러운 흰색털을 가졌으며 신으로서 숭배받을 정도의 매력을 지녔습니다. 또한 이 짐승이 가지고 있는 특유의 지능은 인간을 넘어섰다는 추측도 있습니다.</Whitefox.description>
+  <Whitefox.tools.0.label>왼발 손톱</Whitefox.tools.0.label>
+  <Whitefox.tools.1.label>오른발 손톱</Whitefox.tools.1.label>
+  <Whitefox.tools.3.label>꼬리</Whitefox.tools.3.label>
+  <Whitefox_Leather.label>성백호의 털가죽</Whitefox_Leather.label>
+  <Whitefox_Leather.description>특유의 흰색 털은 굉장히 부드러웠지만 가죽은 의외로 질긴 모피입니다.</Whitefox_Leather.description>
+  <Whitefox_Leather.stuffProps.stuffAdjective>성백호의 가죽</Whitefox_Leather.stuffProps.stuffAdjective>
+  <Whitefox_Meat.label>성백호의 고기</Whitefox_Meat.label>
+  <Whitefox_Meat.description>성백호의 고기입니다.</Whitefox_Meat.description>
+  <Whitefox_Corpse.label>성백호의 시체</Whitefox_Corpse.label>
+  <Whitefox_Corpse.description>성백호의 시체입니다.</Whitefox_Corpse.description>
+
+
+</LanguageData>

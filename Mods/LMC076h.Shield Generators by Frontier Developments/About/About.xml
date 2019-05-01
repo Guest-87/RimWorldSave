@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LMC076h.护盾发生器（功能汉化版）</name>
+	<targetVersion>1.0.2059</targetVersion>
+	<author>JohnnyNova and Jetpack Maniac</author>
+	<url>https://github.com/JonnyNova/Rimworld-Shields</url>
+	<description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+
+警告：本汉化为基础功能版，未完成100%汉化，但是已经可以正常使用。
+未汉化的部分：
+-MOD配置
+-内部菜单
+-护盾崩溃事件提醒
+NO ETA!!!
+
+Allows for the building shield generators. Shields will stop projectiles that try to enter it but allow weapons to be fired out.  This includes bullets, rockets, mortar rounds, pods of **any** variety (enemies via drop pods, cargo pods, escape pods, and yes, **your** pods).  Shields have low idle power use and high power usage when stopping projectiles.  Shield strength is determined from stored battery power.  More batteries equals more protection.
+允许建造护盾发生器。护盾将拦截试图来袭的远程火力，但允许武器从内部发射出去。这包括子弹、火箭、迫击炮、**任何**种类的吊舱（敌人通过吊舱、货舱、逃生舱，是的，**你的**舱）。护盾空闲时低功率使用，拦截时高功率使用。屏蔽强度由储存的蓄电池电力决定。更多的电力意味着更多的保护。
+
+
+**Features:**
+- Existing save compatible
+- Stop projectiles (bullets, rockets, grenades, mortars, drop pods)
+- Shields use a small amount of idle power
+- Shield strength is the stored energy on your power net
+- Shields generators will heat up as the shields absorb damage and will shut off if they overheat
+- Shields come in three sizes:
+- small (3m)
+- medium (3m - 10m)
+- large (5m - 25m)
+- The small shield is minifiable and portable and contains an internal battery (1000 Wd, 50% efficient)
+- Larger shields can soak more heat before the shield collapses
+特性：
+-存档兼容
+-拦截远程火力
+-空闲时低功耗
+-护盾强度由储存的电力决定
+-护盾发生器会持续升温并在过热时关闭
+-护盾半径
+-小（3米）
+-中（3-10米）
+-大（5-25米）
+-便携式护盾发生器内置电池
+-大型护盾发生器能吸收更多的伤害
+
+
+**Shields Don't:**
+- Stop movement of pawns in or out of the shields
+- Stop fires
+- Heal people
+- Stop fires from explosions from propagating into the shield (Tip: don't stand near the edge if the bad guy has an incendiary launcher)
+护盾不能做到
+-阻止人们进出护盾
+-熄灭火焰
+-治疗人们
+-阻止从外部蔓延进入护盾的火焰
+
+**Compatibility:**
+- No known mod conflicts
+
+**Optionally Supported Mods:**
+- Combat Extended (CE): Use the CE support expansion
+- RedistHeat: Cool shields with ducts
+
+Special Thanks to:
+
+JohnnyNova: Code Lead
+Jetpack Maniac: Code, documentation
+Halno: Building and UI Art
+Jaxxa: Inspired this mod from his ED-ShieldsBasic mod
+Jdalt40: Update to b19
+
+Version: 1.1.3.2096</description>
+</ModMetaData>

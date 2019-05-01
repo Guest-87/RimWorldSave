@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_CoffeeBeans.label>咖啡豆</CPD_CoffeeBeans.label>
+  <CPD_CoffeeBeans.description>咖啡豆，煮一杯咖啡吧！</CPD_CoffeeBeans.description>
+
+  <Rawtea.label>茶叶</Rawtea.label>
+  <Rawtea.description>用来泡茶的茶叶。</Rawtea.description>
+
+  <!--[Core] <RawHops.label>啤酒花</RawHops.label>-->
+  <!--[Core] <RawHops.description>生的啤酒花。是酿制啤酒时必需的调味剂和保鲜剂。</RawHops.description>-->
+
+  <!--[Core] <Hay.label>干草</Hay.label>-->
+  <!--[Core] <Hay.description>营养丰富的草和幼芽，收获并压缩储存起来。干草是很好的饲料，但对于人类来说难以下咽。</Hay.description>-->
+
+
+  <!-- Kibble -->
+
+  <!--[Core] <Kibble.label>粗饲料</Kibble.label>-->
+  <!--[Core] <Kibble.description>将肉和植物原料混合而成的动物粗饲料。人也能吃，但真的、真的没人喜欢。</Kibble.description>-->
+
+  <Silage.label>青贮饲料</Silage.label>
+  <Silage.description>由干草和谷物发酵而成营养丰富的动物饲料。发酵可以防止青贮饲料腐坏。</Silage.description>
+
+  <VG_Biofuel.label>生物燃料</VG_Biofuel.label>
+  <VG_Biofuel.description>通过精炼各种类型的油和醇类植物制成的燃料。可用作燃料发电机和工作台的燃料。</VG_Biofuel.description>
+
+
+</LanguageData>

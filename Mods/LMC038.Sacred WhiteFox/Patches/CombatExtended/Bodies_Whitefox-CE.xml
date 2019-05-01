@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Combat Extended</modName>
+				<yourMod>Sacred WhiteFox</yourMod>
+			</li>
+			<!-- ========== Sacred WhiteFox CE ========== -->
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "QuadrupedAnimalWhitefox"]/corePart/groups</xpath>
+			<value>
+					<li>CoveredByNaturalArmor</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "QuadrupedAnimalWhitefox"]/corePart/parts/li[def="Neck"]/parts/li[def = "Head"]/groups</xpath>
+			<value>
+					<li>CoveredByNaturalArmor</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "QuadrupedAnimalWhitefox"]/corePart/parts/li[def="Neck"]/parts/li[def = "Head"]/parts/li[def="Skull"]/groups</xpath>
+			<value>
+					<li>CoveredByNaturalArmor</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "QuadrupedAnimalWhitefox"]/corePart/parts/li[def = "Leg"]/groups</xpath>
+			<value>
+					<li>CoveredByNaturalArmor</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "QuadrupedAnimalWhitefox"]/corePart/parts/li[def = "WhitefoxTail"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "QuadrupedAnimalWhitefox"]/corePart/parts/li[def = "Neck"]/groups</xpath>
+			<value>
+					<li>CoveredByNaturalArmor</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "QuadrupedAnimalWhitefox"]/corePart/parts/li[def="Neck"]/parts/li[def = "Head"]/parts/li[def="AnimalJaw"]/groups</xpath>
+				<value>
+					<li>CoveredByNaturalArmor</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "QuadrupedAnimalWhitefox"]/corePart/parts/li[def = "Leg"]/parts/li[def = "Paw"]/groups</xpath>
+			<value>
+					<li>CoveredByNaturalArmor</li>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GermanShepherd.label>德国牧羊犬</GermanShepherd.label>
+  <GermanShepherd.description>据说是有史以来最聪明最忠诚的狗，德国牧羊犬（又名阿尔萨斯狼犬）是一种工作犬种，具有良好的战斗能力。</GermanShepherd.description>
+  <GermanShepherd.tools.0.label>左爪</GermanShepherd.tools.0.label>
+  <GermanShepherd.tools.1.label>右爪</GermanShepherd.tools.1.label>
+  <GermanShepherd.tools.3.label>头</GermanShepherd.tools.3.label>
+  <GermanShepherd_Leather.label>德国牧羊犬皮</GermanShepherd_Leather.label>
+  <GermanShepherd_Leather.description>德国牧羊犬皮</GermanShepherd_Leather.description>
+  <GermanShepherd_Leather.stuffProps.stuffAdjective>德国牧羊犬皮</GermanShepherd_Leather.stuffProps.stuffAdjective>
+  <GermanShepherd_Meat.label>德国牧羊犬肉</GermanShepherd_Meat.label>
+  <GermanShepherd_Meat.description>德国牧羊犬肉</GermanShepherd_Meat.description>
+  <GermanShepherd_Corpse.label>德国牧羊犬尸体</GermanShepherd_Corpse.label>
+  <GermanShepherd_Corpse.description>德国牧羊犬尸体</GermanShepherd_Corpse.description>
+
+
+</LanguageData>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef/comps/li[@Class = "CompProperties_Refuelable" and fuelFilter/thingDefs/li[text() = "WoodLog"]]/fuelFilter/thingDefs</xpath>
+				<value>
+		 <li>Bamboo</li>
+  		 <li>VG_Biofuel</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+	<li Class="ModFinder.PatchOperationFindMod">
+		<modName>DeCore 1.0</modName>
+      	<success>Invert</success>
+	</li>	
+	<li Class="ModFinder.PatchOperationFindMod">
+		<modName>Stuffed Workbenches</modName>
+      	<success>Invert</success>
+	</li>	
+    <li Class="PatchOperationRemove">
+ <xpath>Defs/ThingDef[defName = "PassiveCooler"]/constructEffect</xpath>
+	</li>
+    <li Class="PatchOperationRemove">
+ <xpath>Defs/ThingDef[defName = "PassiveCooler"]/costList</xpath>
+	</li>
+    <li Class="PatchOperationAdd">
+ <xpath>Defs/ThingDef[defName = "PassiveCooler"]</xpath>
+    <value>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    </value>
+	</li>
+  </operations>
+</Operation>
+
+
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+	<li Class="PatchOperationTest">
+<xpath>Defs/ThingDef[defName = "TableButcher"]/costList</xpath>
+	</li>	
+	<li Class="PatchOperationRemove">
+ <xpath>Defs/ThingDef[defName = "TableButcher"]/costList</xpath>
+	</li>
+	</operations>
+  </Operation>
+
+
+</Patch>
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>RebuiltLamppost</defName>
+		<thingClass>Building</thingClass>
+		<label>Highway lamp post</label>
+		<description>A refurbished lighting solution. Once used by the ancients as road lighting, now repaired for your own use.</description>
+		<category>Building</category>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<size>(1,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<selectable>true</selectable>
+		<fillPercent>0.20</fillPercent>
+		<pathCost>8</pathCost>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<designationCategory>Furniture</designationCategory>
+		<rotatable>true</rotatable>
+		<graphicData>
+			<texPath>Things/Building/RebuiltLamppost/RebuiltLamppost</texPath>
+			<drawSize>(6,6)</drawSize>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/RebuiltLamppost/RebuiltLamppost_north</uiIconPath>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>75</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>15</glowRadius>
+				<glowColor>(217,217,208,0)</glowColor>
+			</li>
+		</comps>
+		<statBases>
+			<Mass>10</Mass>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>300</WorkToBuild>
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+    <ThingDef ParentName="BuildingBase">
+		<defName>HighwayBarrierLarge</defName>
+		<label>highway barrier</label>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/RebuiltBarrier/RebuiltBarrier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<pathCost>40</pathCost>
+		<pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.75</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<Mass>20</Mass>
+			<MaxHitPoints>450</MaxHitPoints>
+			<Beauty>-10</Beauty>
+			<WorkToBuild>180</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+		</building>
+		<description>A refurbished traffic solution. Works as better cover than sandbags.</description>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<filthLeaving>SandbagRubble</filthLeaving>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Security</designationCategory>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<constructEffect>ConstructDirt</constructEffect>
+		<repairEffect>ConstructDirt</repairEffect>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+</Defs>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_CoffeeBeans.label>coffee beans</CPD_CoffeeBeans.label>
+  <CPD_CoffeeBeans.description>Raw Coffee. Best prepared as a beverage</CPD_CoffeeBeans.description>
+
+  <Rawtea.label>tea leaves</Rawtea.label>
+  <Rawtea.description>Tea leaves for brewing.</Rawtea.description>
+
+
+  <!-- Kibble -->
+
+  <Silage.label>silage</Silage.label>
+  <Silage.description>Nutrient-rich fermented hay and grains for your animals. The fermentation process preserves the silage preventing rot.</Silage.description>
+
+  <VG_Biofuel.label>biofuel</VG_Biofuel.label>
+  <VG_Biofuel.description>Fuel made from the processes of refining various types of plants for oils and alcohols. And is used to fuel generators and workbenches.</VG_Biofuel.description>
+
+
+</LanguageData>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LMC059s.远征便携式装备</name>
+	<author>Thom Blair III</author>
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+	
+Provides lightweight, portable gear specially designed for caravans and camping.
+提供专为远征和野营设计的便携装备。
+
+Caravan Chair:
+- Prevents the "Uncomfortable (need something soft to sit on)" mood while on caravans
+- Weight: 1kg
+- Research requirement: Complex furniture
+便携式休息椅：
+-在远征时防止“不舒服（需要柔软的东西坐着）”的情绪
+-重量：1KG
+-科技要求：复杂家具
+
+Caravan Table:
+- Prevents the "Ate without a table" mood while on caravans
+- Size: 1x1
+- Seats 4 people
+- Weight: 2kg
+- Research requirement: Complex furniture
+便携式餐桌
+-防止在远征时“没有桌子可用于进餐”的情绪
+-尺寸：1x1
+-可以供4人使用
+-重量：2KG
+-科技要求：复杂家具
+
+Caravan Chemfuel Stove:
+- Holds 3 chemfuel
+- Can cook any type of meal
+- Size: 1x1
+- Weight: 1kg
+便携式燃炉
+-可装载3个化合燃料
+-可以烹饪任何类型的食物
+-尺寸：1x1
+-重量：1KG
+
+Caravan Lantern:
+- Powered by chemfuel
+- 3 chemfuel provides 1.4 days of runtime
+- Can be switched on and off
+- Weight: 0.5kg
+便携式照明灯
+-由化合燃料提供动力
+-3单位化合燃料提供1.4天的运行时间
+-可以手动开关
+-重量：0.5KG
+
+Caravan Biofuel Refinery:
+- Produces chemfuel from wood, raw food, and plant matter 
+- Approximately 2 organic matter yields 1 chemfuel
+- Weight: 1kg
+- Research requirement: Electricity and Biofuel refining
+便携式精炼厂
+-用木材、生食和植物生产化合燃料
+-大约2单位有机物产生1单位化合燃料
+-重量：1KG
+-科技要求：电力和燃料精炼
+
+Caravan Generator:
+- Powered by chemfuel
+- Generates 500W
+- 5 chemfuel provides 2.5 days of runtime
+- Weight: 2.5kg
+- Research requirement: Electricity 
+便携式发电机
+-产生500W功率
+-5单位化合燃料提供2.5天的运行时间
+-重量：2.5KG
+-科技要求：电力
+
+Fully save compatible. Please report any errors.
+</description>
+</ModMetaData>

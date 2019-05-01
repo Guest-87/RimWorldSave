@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NinetailfoxTail.label>九莲尾巴</NinetailfoxTail.label>
+  <NinetailfoxTail.description>一堆价值连城的九莲的尾巴，可以以非常昂贵的价格出售。</NinetailfoxTail.description>
+
+  <Foxbead.label>九莲宝珠</Foxbead.label>
+  <Foxbead.description>这是一颗由九莲生成的宝珠。当它被激活时，会释放出一种舒缓的精神脉冲，让地图上的每一个人都有暂时的情绪提升，或者，可以把它以昂贵的价格卖给一个罕见的商人。</Foxbead.description>
+  <Foxbead.comps.1.useLabel>激活</Foxbead.comps.1.useLabel>
+
+
+</LanguageData>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 卵かけご飯 -->
+
+  <TKG.label>卵かけご飯</TKG.label>
+  <TKG.description>ほかほかのご飯に生卵を乗せた、簡単で美味しい日本人の朝のお供。
+醤油を垂らした後、黄身を潰して食べるほか、白身をよけて黄身だけを崩してご飯にかけたり、
+ご飯と卵をぐちゃぐちゃに混ぜて食べたりと、食べ方は人それぞれ。
+
+この環境で生卵を使うのは勇気がいるが、食中毒は気合で乗り切れ！</TKG.description>
+
+
+  <!-- 目玉焼き -->
+
+  <Medamayaki.label>目玉焼き</Medamayaki.label>
+  <Medamayaki.description>シンプルイズベスト。卵を割ってフライパンで焼くだけだが、
+焼き方にも片面焼きや両面焼き、蒸し焼きなど豊富で、半熟か固焼きかでも違った美味しさが楽しめる。
+またかける調味料も人によって違い、醤油、塩、ソースなど様々。</Medamayaki.description>
+
+
+  <!-- 卵焼き -->
+
+  <Tamagoyaki.label>卵焼き</Tamagoyaki.label>
+  <Tamagoyaki.description>溶いた卵を薄く焼いて巻き上げた、ふわふわで美味しい日本料理。
+お弁当の定番のおかずで、しょっぱい味と甘めな味の二通りの味付けがある。</Tamagoyaki.description>
+
+
+  <!-- エッグトースト -->
+
+  <EggToast.label>エッグトースト</EggToast.label>
+  <EggToast.description>サクサクのトーストに肉と目玉焼きを乗せた、美味しい朝食。
+最初に目玉焼きだけ食べちゃうのもまた一興</EggToast.description>
+
+
+  <!-- オムライス -->
+
+  <Omuraisu.label>オムライス</Omuraisu.label>
+  <Omuraisu.description>肉と野菜、ケチャップ等を混ぜて炒めたご飯を、
+薄く焼いたふわふわの卵で包んだ、みんな大好きな卵料理。
+表面にケチャップで絵や文字を書くのがとても楽しい。</Omuraisu.description>
+
+
+  <!-- プリン -->
+
+  <Purin.label>プリン</Purin.label>
+  <Purin.description>ぷるぷる震える美味しいおやつ。
+プッチンするのが楽しい。</Purin.description>
+
+
+</LanguageData>

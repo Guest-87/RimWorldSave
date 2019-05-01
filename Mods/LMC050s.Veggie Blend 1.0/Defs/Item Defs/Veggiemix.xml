@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="VeggiemixRaw">
+	<thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+	<alwaysHaulable>true</alwaysHaulable>
+	<drawGUIOverlay>true</drawGUIOverlay>
+	<rotatable>false</rotatable>
+	<pathCost>15</pathCost>
+	<socialPropernessMatters>true</socialPropernessMatters>
+    <defName>VeggiemixRaw</defName>
+    <label>Veggie Mix</label>
+    <description>A blend of vegetable products, combined for cooking.</description>
+	<tickerType>Rare</tickerType>
+    <graphicData>
+	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>veggietexture</texPath>
+    </graphicData>
+    <statBases>
+	  <Beauty>-10</Beauty>
+      <MarketValue>3.5</MarketValue>
+	  <MaxHitPoints>80</MaxHitPoints>
+	  <Nutrition>0.05</Nutrition>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>20</DeteriorationRate>
+	  <Mass>0.1</Mass>
+    </statBases>
+    <ingestible>
+	  <preferability>NeverForNutrition</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+	  <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+	<thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+    <comps>
+	  <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+      </li>
+	  <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+  </ThingDef>
+
+</Defs>

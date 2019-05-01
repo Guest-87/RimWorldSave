@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Can be packed into a hard surface -->
+  <TerrainAffordanceDef>
+    <defName>Packable</defName>
+    <label>packable</label>
+    <order>3500</order>
+  </TerrainAffordanceDef>
+
+
+  <TerrainDef ParentName="FloorBase">
+    <defName>DirtPath</defName>
+    <label>dirt path</label>
+    <description>Simple dirt pathway</description>
+    <texturePath>Terrain/Surfaces/DirtPath</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <takeFootprints>True</takeFootprints>
+    <renderPrecedence>320</renderPrecedence>
+    <scatterType>Rocky</scatterType>
+    <statBases>
+    	<Beauty>1</Beauty>
+      <WorkToBuild>35</WorkToBuild>
+    </statBases>
+    <terrainAffordanceNeeded>Packable</terrainAffordanceNeeded>
+    <costList></costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FloorBase">
+    <defName>DirtPathLight</defName>
+    <label>dirt path alt</label>
+    <description>Alternate dirt pathway, Lighter style</description>
+    <texturePath>Terrain/Surfaces/DirtPath2</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <takeFootprints>True</takeFootprints>
+    <renderPrecedence>320</renderPrecedence>
+    <scatterType>Rocky</scatterType>
+    <statBases>
+      <Beauty>1</Beauty>
+      <WorkToBuild>35</WorkToBuild>
+    </statBases>
+    <terrainAffordanceNeeded>Packable</terrainAffordanceNeeded>
+    <costList></costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FloorBase">
+    <defName>PackedDirt</defName>
+    <label>packed dirt</label>
+    <description>Packed dirt</description>
+    <texturePath>Terrain/Surfaces/PackedDirt</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <takeFootprints>True</takeFootprints>
+    <renderPrecedence>320</renderPrecedence>
+    <scatterType>Rocky</scatterType>
+    <statBases>
+      <Beauty>1</Beauty>
+      <WorkToBuild>35</WorkToBuild>
+    </statBases>
+    <terrainAffordanceNeeded>Packable</terrainAffordanceNeeded>
+    <costList></costList>
+  </TerrainDef>
+
+</Defs>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 1 Plants -->
+
+  <Plant_Barley.label>orge</Plant_Barley.label>
+  <Plant_Barley.description>Un grain de céréales. Plante cordiale qui est immunisée contre le mildiou. Utilisé en cuisine et pour la fabrication de la bière.</Plant_Barley.description>
+
+
+  <!-- Tier 2 Plants -->
+
+  <Plant_Snowbeet.label>betterave des neige</Plant_Snowbeet.label>
+  <Plant_Snowbeet.description>Une plante simple et très nutritive. Grandit bien même dans un sol assez pauvre. Récolte rapide. Une culture forte et polyvalente. Ne meurt pas par temps froid.</Plant_Snowbeet.description>
+
+  <Plant_redlentil.label>lentille rouge</Plant_redlentil.label>
+  <Plant_redlentil.description>Variété rougeâtre de la plante de lentille. Une des plus anciennes plantes domestiquées connues.</Plant_redlentil.description>
+
+  <Plant_bean.label>haricot</Plant_bean.label>
+  <Plant_bean.description>Haricot commun qui se prépare de plusieurs façons.</Plant_bean.description>
+
+  <Plant_Olivetree.label>olivier</Plant_Olivetree.label>
+  <Plant_Olivetree.description>Arbre fruitier qui produit des olives et qui n'est pas détruit lors de la cueillette.</Plant_Olivetree.description>
+
+
+  <!-- Other Plants -->
+
+  <Plant_Tea.label>thé</Plant_Tea.label>
+  <Plant_Tea.description>Une plante à feuilles vertes, dont les feuilles peuvent être brassées pour en faire une boisson savoureuse.</Plant_Tea.description>
+
+  <Plant_Coffee.label>café</Plant_Coffee.label>
+  <Plant_Coffee.description>Plante verte, feuillue, produisant des grains de café. Ces grains peuvent être transformés en une boisson savoureuse.</Plant_Coffee.description>
+
+  <!--[Core] <Plant_TreeBamboo.label>bamboo tree</Plant_TreeBamboo.label>-->
+  <!--[Core] <Plant_TreeBamboo.description>A fast-growing tree-like plant that grows in dense groves. Bamboo can be harvested for a wood-like material. The plant itself is not beautiful.</Plant_TreeBamboo.description>-->
+
+
+</LanguageData>

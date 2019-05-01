@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New crop types Fruit Trees -->
+
+  <PlantAppletree.label>apple tree</PlantAppletree.label>
+  <PlantAppletree.description>A fruit bearing tree that grows apples and is not destroyed when picked.</PlantAppletree.description>
+
+  <PlantBananaTree.label>banana tree</PlantBananaTree.label>
+  <PlantBananaTree.description>A fruit bearing tree that grows banana and is not destroyed when picked.</PlantBananaTree.description>
+
+  <PlantorangeTree.label>orange tree</PlantorangeTree.label>
+  <PlantorangeTree.description>A fruit bearing tree that grows oranges and is not destroyed when picked.</PlantorangeTree.description>
+
+  <PlantPeachTree.label>peach tree</PlantPeachTree.label>
+  <PlantPeachTree.description>A fruit bearing tree that grows peaches and is not destroyed when picked.</PlantPeachTree.description>
+
+  <DateTree.label>date palm tree</DateTree.label>
+  <DateTree.description>A fruit bearing tree that grows dates and is not destroyed when picked.</DateTree.description>
+
+  <FigTree.label>fig tree</FigTree.label>
+  <FigTree.description>A fruit bearing tree that grows figs and is not destroyed when picked.</FigTree.description>
+
+  <Coconuttree.label>coconut tree</Coconuttree.label>
+  <Coconuttree.description>A fruit bearing tree that grows coconuts and is not destroyed when picked.</Coconuttree.description>
+
+  <PlantCherrytree.label>cherry tree</PlantCherrytree.label>
+  <PlantCherrytree.description>A fruit bearing tree that grows cherries and is not destroyed when picked.</PlantCherrytree.description>
+
+
+  <!-- New fruit crop types -->
+
+  <Plantpineapple.label>pineapple plant</Plantpineapple.label>
+  <Plantpineapple.description>Think skin fruit that grows a top a bush.</Plantpineapple.description>
+
+  <Plantcloudberry.label>cloudberry plant</Plantcloudberry.label>
+  <Plantcloudberry.description>A berry bush that grows well in cold climates.</Plantcloudberry.description>
+
+  <Plantgooseberry.label>gooseberry plant</Plantgooseberry.label>
+  <Plantgooseberry.description>A berry bush that grows well in cold climates.</Plantgooseberry.description>
+
+  <Plantgrape.label>grape vine</Plantgrape.label>
+  <Plantgrape.description>A sweet small fruit that grows in small viney bushes.</Plantgrape.description>
+
+  <Plantblueberry.label>blueberry plant</Plantblueberry.label>
+  <Plantblueberry.description>Blue colored berry that grows in bushes.</Plantblueberry.description>
+
+  <Plantwatermelon.label>watermelon plant</Plantwatermelon.label>
+  <Plantwatermelon.description>This fruit is rich in vitamins A and C and can be eaten raw or cooked in a variety of ways.</Plantwatermelon.description>
+
+
+</LanguageData>

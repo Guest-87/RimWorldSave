@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 卵かけご飯を作る -->
+
+  <CookTKG.label>卵かけご飯を作る</CookTKG.label>
+  <CookTKG.description>卵と生米を使って卵かけご飯を作ります。</CookTKG.description>
+  <CookTKG.jobString>卵かけご飯を作っています</CookTKG.jobString>
+
+  <CookTKGCampfire.label>卵かけご飯を作る</CookTKGCampfire.label>
+  <CookTKGCampfire.description>卵と生米を使って卵かけご飯を作ります。</CookTKGCampfire.description>
+  <CookTKGCampfire.jobString>卵かけご飯を作っています</CookTKGCampfire.jobString>
+
+
+  <!-- 目玉焼きを作る -->
+
+  <CookMedamayaki.label>目玉焼きを作る</CookMedamayaki.label>
+  <CookMedamayaki.description>卵を2つ使って目玉焼きを2個作ります。</CookMedamayaki.description>
+  <CookMedamayaki.jobString>目玉焼きを作っています</CookMedamayaki.jobString>
+
+
+  <!-- 卵焼きを作る -->
+
+  <CookTamagoyaki.label>卵焼きを作る</CookTamagoyaki.label>
+  <CookTamagoyaki.description>卵を使って卵焼きを作ります。</CookTamagoyaki.description>
+  <CookTamagoyaki.jobString>卵焼きを作っています</CookTamagoyaki.jobString>
+
+
+  <!-- エッグトーストを作る -->
+
+  <CookEggToast.label>エッグトーストを作る</CookEggToast.label>
+  <CookEggToast.description>卵と肉、そして適当な野菜をパンにすることでエッグトーストを作ります。</CookEggToast.description>
+  <CookEggToast.jobString>エッグトーストを作っています</CookEggToast.jobString>
+
+
+  <!-- オムライスを作る -->
+
+  <CookOmuraisu.label>オムライスを作る</CookOmuraisu.label>
+  <CookOmuraisu.description>卵と米、そして肉を使ってオムライスを作ります。</CookOmuraisu.description>
+  <CookOmuraisu.jobString>オムライスを作っています</CookOmuraisu.jobString>
+
+
+  <!-- プリンを作る -->
+
+  <CookPurin.label>プリンを作る</CookPurin.label>
+  <CookPurin.description>卵とミルクを使ってプリンを作ります。</CookPurin.description>
+  <CookPurin.jobString>プリンを作っています</CookPurin.jobString>
+
+
+</LanguageData>

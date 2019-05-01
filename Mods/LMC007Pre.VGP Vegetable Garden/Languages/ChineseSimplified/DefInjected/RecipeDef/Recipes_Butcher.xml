@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Duplicated] <MakeSilage.label>make silage</MakeSilage.label>-->
+  <!--[Duplicated] <MakeSilage.description>Make silage from hay and raw grains.</MakeSilage.description>-->
+  <!--[Duplicated] <MakeSilage.jobString>Making silage.</MakeSilage.jobString>-->
+
+  <MakeSilage.label>制作青贮饲料（75）</MakeSilage.label>
+  <MakeSilage.description>用干草和谷物制作青贮饲料。</MakeSilage.description>
+  <MakeSilage.jobString>正在制作青贮饲料。</MakeSilage.jobString>
+
+  <VG_MakebulkKibble.label>批量制作饲料（200）</VG_MakebulkKibble.label>
+  <VG_MakebulkKibble.description>混和生肉和作物制成动物饲料。</VG_MakebulkKibble.description>
+  <VG_MakebulkKibble.jobString>正在批量制作饲料。</VG_MakebulkKibble.jobString>
+
+
+</LanguageData>

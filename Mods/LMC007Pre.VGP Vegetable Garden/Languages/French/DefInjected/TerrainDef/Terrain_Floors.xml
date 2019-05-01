@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Misc -->
+
+  <BambooFloor.label>plancher en bambou</BambooFloor.label>
+  <BambooFloor.description>Plancher en bambou. Pour ce sentiment chaleureux et accueillant.</BambooFloor.description>
+
+  <IronwoodFloor.label>plancher en bois de fer</IronwoodFloor.label>
+  <IronwoodFloor.description>Plancher de bois de fer.</IronwoodFloor.description>
+
+
+</LanguageData>

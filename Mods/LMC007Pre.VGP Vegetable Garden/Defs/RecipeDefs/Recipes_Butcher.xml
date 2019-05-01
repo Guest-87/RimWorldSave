@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<RecipeDef>
+		<defName>MakeSilage</defName>
+		<label>make silage</label>
+		<description>Make silage from hay and raw grains.</description>
+		<jobString>Making silage.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>900</workAmount>
+		<ingredients>
+			<li>
+			    <filter>
+			      <thingDefs>
+			        <li>RawCorn</li>
+			        <li>RawRice</li>
+				   <li>RawBarley</li>
+			    	   <li>Rawbean</li>
+     			 </thingDefs>
+	  		    </filter>
+			<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hay</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			    <li>RawCorn</li>
+			    <li>RawRice</li>
+			    <li>RawBarley</li>
+			    <li>Rawbean</li>
+			    <li>Hay</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Silage>50</Silage>
+		</products>
+		<workSkill>Cooking</workSkill>
+  		<recipeUsers>
+			<li>TableButcher</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakebulkSilage</defName>
+		<label>make bulk silage</label>
+		<description>Make large amounts silage from hay and raw grains.</description>
+		<jobString>Making bulk silage.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+			    <filter>
+			      <thingDefs>
+			        <li>RawCorn</li>
+			        <li>RawRice</li>
+				   <li>RawBarley</li>
+			    	   <li>Rawbean</li>
+     			 </thingDefs>
+	  		    </filter>
+			<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hay</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			    <li>RawCorn</li>
+			    <li>RawRice</li>
+			    		<li>RawBarley</li>
+			    		<li>Rawbean</li>
+			    <li>Hay</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Silage>150</Silage>
+		</products>
+		<workSkill>Cooking</workSkill>
+  		<recipeUsers>
+			<li>TableButcher</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+
+  <RecipeDef>
+    <defName>VG_MakebulkKibble</defName>
+    <label>make bulk kibble</label>
+    <description>Make animal kibble by combining raw meat and plants.</description>
+    <jobString>Making kibble.</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+          <thingDefs>
+            <li>Hay</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <Kibble>200</Kibble>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Hay</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>Foods</li>
+      </categories>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+      <disallowedThingDefs>
+        <li>InsectJelly</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+	<recipeUsers>
+			<li>TableButcher</li>
+      </recipeUsers>
+  </RecipeDef>
+
+
+</Defs>

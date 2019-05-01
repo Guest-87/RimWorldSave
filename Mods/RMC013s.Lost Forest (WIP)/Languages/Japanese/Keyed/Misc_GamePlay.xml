@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!-- LF Cooler & Heater -->
+	<Running>稼働中</Running>
+	<Stopped>停止中</Stopped>
+
+    <!-- Incident : ShortCircuit-->
+	<ShortCircuitWasPrevented>しかしそれは杞憂だったようです。発生した過電流は{0}の内部機構によりすべて吸収されました。目立った被害は何もありません。</ShortCircuitWasPrevented>
+	<ShortCircuitRainWasPrevented>しかし{0}の高度な制御機構により過電流が遮断されたため、被害を免れました。</ShortCircuitRainWasPrevented>
+	<SCPEffectReductionBatteryPowerLossOnLeakage>[{0} 効果]\n漏電時のバッテリー損失{1}%軽減</SCPEffectReductionBatteryPowerLossOnLeakage>
+	<SCPEffectAbsorptionAllLeakedEnergy>[{0} 効果]\n放出されたエネルギー{1}Wdをすべて吸収</SCPEffectAbsorptionAllLeakedEnergy>
+
+    <!-- AuraEffect of HolyWoodSapring : Treatment of infections -->
+	<MechanitesInfectionWasCuredCompletely>{0}が完治した</MechanitesInfectionWasCuredCompletely>
+
+    <!-- Waterway Construction -->
+	<WaterVeinDrillingProgress>進行度</WaterVeinDrillingProgress>
+	<WaterVeinDrillingSucceeded>{0}は{1}を掘り当てた！</WaterVeinDrillingSucceeded>
+    <!-- PlaceWorkerReport : Waterway Construction -->
+	<MustPlaceWithWaterSourceAndFreeSpace>水源と作業スペースが必要です。</MustPlaceWithWaterSourceAndFreeSpace>
+    <!-- TerrainSourceError : Waterway Construction -->
+	<DrawWaterwayFailedNonWaterSource>{0}は水源以外のものを水路に引き込もうとした。しかし愚かな試みは失敗に終わった。</DrawWaterwayFailedNonWaterSource>
+
+    <!-- RestInHotSpring : GetReport -->
+	<RelaxingInHotSpring>温泉でくつろいでいる</RelaxingInHotSpring>
+	<WatchingEclipseAtHotSpring>温泉に浸りながら日食を眺めている</WatchingEclipseAtHotSpring>
+	<WatchingAuroraAtHotSpring>温泉に浸りながらオーロラを眺めている</WatchingAuroraAtHotSpring>
+	<StargazingAtHotSpring>温泉に浸りながら夜空の星を眺めている</StargazingAtHotSpring>
+	<CloudWatchingAtHotSpring>温泉に浸りながら流れる雲を眺めている</CloudWatchingAtHotSpring>
+	<WatchingSunriseAtHotSpring>温泉に浸りながら日の出を眺めている</WatchingSunriseAtHotSpring>
+	<WatchingSunsetAtHotSpring>温泉に浸りながら日が沈むのを眺めている</WatchingSunsetAtHotSpring>
+
+
+    <!-- MOD Settings -->
+	<LFSetting_HotSprings>♨===== 温泉関係 =====♨</LFSetting_HotSprings>
+	<LFSetting_UpdateSpringWaterRegularly>・泉、温泉地形の水を定期的に更新する（パフォーマンスへの影響：低）</LFSetting_UpdateSpringWaterRegularly>
+	<LFSetting_RenderBodyInHotSpringJoy>・温泉娯楽中、キャラクタの体を表示する（パフォーマンスへの影響：極小）</LFSetting_RenderBodyInHotSpringJoy>
+	<LFSetting_RenderSpringWaterSurface>・温泉の水面を描画する（パフォーマンスへの影響：低）</LFSetting_RenderSpringWaterSurface>
+	<LFSetting_RenderSpringWaterEdge>・(不完全)水面境界を滑らかに描画する（パフォーマンスへの影響：低-中）</LFSetting_RenderSpringWaterEdge>
+	<LFSetting_RenderHotSpringVapor>・温泉の湯けむりを描画する（パフォーマンスへの影響：低）</LFSetting_RenderHotSpringVapor>
+
+
+
+</LanguageData>

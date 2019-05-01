@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>LMC082s.大型太阳能板</name>
+    <author>Thorbane, cucumpear</author>
+    <supportedVersions><li>1.0</li></supportedVersions>
+    <description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+
+英文名：Larger Solar Panel
+	
+Adds a larger solar panel that better fits into wind farms. Originally created by Thorbane. Updated by cucumpear for Dellamorte78.n/n/Now (finally) with variants that will fit the new Wind turbine dimensions and even a tiled version (note that each tile is a separate building), and the tiles are a bit more expensive than "normal" solar gens.
+增加了一个更大的太阳能电池板，更适合风力发电场。其变体将适合新的风力涡轮机尺寸，甚至是1X1版本（请注意，每个块是一个单独的建筑），并且1X1版本比“正常”太阳能发电机组更贵一些。
+电力选项卡中添加1X1,5X5,5X7,6X7规格太阳能板。
+
+时间戳：2019年4月27日 12:42:52
+PS.看来现在大部分MOD都用supportedVersions了啊。
+</description>
+</ModMetaData>

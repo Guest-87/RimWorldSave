@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Core SK</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Combat Extended</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<!-- ========== Ninetailfox ========== -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[@Name="ThingBaseNinetailFox"]</xpath>
+				<value>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[@Name="ThingBaseNinetailFox"]/statBases</xpath>
+				<value>
+					<MeleeDodgeChance>0.86</MeleeDodgeChance>
+					<MeleeCritChance>0.72</MeleeCritChance>
+					<ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.36</ArmorRating_Sharp>
+					<ArmorRating_Heat>1</ArmorRating_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="ThingBaseNinetailFox"]/race/baseHealthScale</xpath>
+				<value>
+					<baseHealthScale>8</baseHealthScale>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="ThingBaseNinetailFox"]/statBases/MoveSpeed</xpath>
+				<value>
+					<MoveSpeed>8.26</MoveSpeed>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="ThingBaseNinetailFox"]/race/baseBodySize</xpath>
+				<value>
+					<baseBodySize>1.25</baseBodySize>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+		<xpath>*/ThingDef[@Name="ThingBaseNinetailFox"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<capacities>
+						<li>Slash</li>
+					</capacities>
+					<power>20</power>
+					<cooldownTime>1.2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>38</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetration>0.72</armorPenetration>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<capacities>
+						<li>Slash</li>
+					</capacities>
+					<power>20</power>
+					<cooldownTime>1.2</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>38</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetration>0.72</armorPenetration>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities>
+						<li>Bite</li>
+					</capacities>
+					<power>24</power>
+					<cooldownTime>1.6</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>32</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetration>0.88</armorPenetration>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>Tail</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>0.95</cooldownTime>
+					<linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+					<armorPenetration>0.34</armorPenetration>
+				</li>
+			</tools>
+		</value>
+			</li>
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="ThingBaseNinetailFox"]/verbs</xpath>
+			<value>
+			<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+			<recoilAmount>1.1</recoilAmount>
+			<verbClass>Verb_Shoot</verbClass>
+			<defaultProjectile>Projectile_NinetailshotCE</defaultProjectile>
+			<warmupTime>1.62</warmupTime>
+			<burstShotCount>5</burstShotCount>
+			<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+			<minRange>8</minRange>
+			<range>36</range>
+			<soundCast>NinetailShot</soundCast>
+			<muzzleFlashScale>2</muzzleFlashScale>
+			</li>
+			</verbs>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+</Patch>

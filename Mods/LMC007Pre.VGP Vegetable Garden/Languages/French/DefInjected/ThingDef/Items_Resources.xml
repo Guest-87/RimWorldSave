@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_CoffeeBeans.label>graines de café</CPD_CoffeeBeans.label>
+  <CPD_CoffeeBeans.description>Café cru. Meilleur préparer en tant que boisson.</CPD_CoffeeBeans.description>
+
+  <Rawtea.label>feuilles de thé</Rawtea.label>
+  <Rawtea.description>Feuilles de thé à infuser.</Rawtea.description>
+
+
+  <!-- Kibble -->
+
+  <Silage.label>ensilage</Silage.label>
+  <Silage.description>Du foin et des céréales fermentés riches en nutriments pour vos animaux. Le processus de fermentation préserve l'ensilage et empêche la pourriture.</Silage.description>
+
+  <VG_Biofuel.label>biocarburant</VG_Biofuel.label>
+  <VG_Biofuel.description>Combustible issu des procédés de raffinage de différents types d'installations pour huiles et alcools.Utilisé pour alimenter les générateurs et les établis.</VG_Biofuel.description>
+
+
+</LanguageData>

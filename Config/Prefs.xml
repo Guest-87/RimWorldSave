@@ -3,8 +3,8 @@
   <volumeGame>0.8</volumeGame>
   <volumeMusic>0.4</volumeMusic>
   <volumeAmbient>1</volumeAmbient>
-  <screenWidth>1921</screenWidth>
-  <screenHeight>1057</screenHeight>
+  <screenWidth>2560</screenWidth>
+  <screenHeight>1417</screenHeight>
   <fullscreen>False</fullscreen>
   <uiScale>1</uiScale>
   <customCursorEnabled>True</customCursorEnabled>
@@ -25,7 +25,7 @@
   <pauseOnLoad>False</pauseOnLoad>
   <pauseOnUrgentLetter>False</pauseOnUrgentLetter>
   <devMode>False</devMode>
-  <langFolderName>ChineseTraditional</langFolderName>
+  <langFolderName>ChineseSimplified</langFolderName>
   <logVerbose>False</logVerbose>
   <pauseOnError>False</pauseOnError>
   <resetModsConfigOnCrash>True</resetModsConfigOnCrash>

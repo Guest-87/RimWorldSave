@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_ChemfuelFromWood_CaravanBiofuelRefinery_TWB.label>用木材制作化合燃料</Make_ChemfuelFromWood_CaravanBiofuelRefinery_TWB.label>
+  <Make_ChemfuelFromWood_CaravanBiofuelRefinery_TWB.description>从木材中精炼出1单位化合燃料。</Make_ChemfuelFromWood_CaravanBiofuelRefinery_TWB.description>
+  <Make_ChemfuelFromWood_CaravanBiofuelRefinery_TWB.jobString>从木材中提取化合燃料。</Make_ChemfuelFromWood_CaravanBiofuelRefinery_TWB.jobString>
+
+  <Make_ChemfuelFromOrganics_CaravanBiofuelRefinery_TWB.label>用有机物制作化合燃料</Make_ChemfuelFromOrganics_CaravanBiofuelRefinery_TWB.label>
+  <Make_ChemfuelFromOrganics_CaravanBiofuelRefinery_TWB.description>从有机物中提取生物能制成1单位化合燃料。</Make_ChemfuelFromOrganics_CaravanBiofuelRefinery_TWB.description>
+  <Make_ChemfuelFromOrganics_CaravanBiofuelRefinery_TWB.jobString>从有机物中提取化合燃料。</Make_ChemfuelFromOrganics_CaravanBiofuelRefinery_TWB.jobString>
+
+
+</LanguageData>

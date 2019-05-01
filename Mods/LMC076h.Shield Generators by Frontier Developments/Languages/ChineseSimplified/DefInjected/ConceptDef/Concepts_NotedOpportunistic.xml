@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Concepts taught through the learning readout, when opportunities arise -->
+
+  <FD_Shields.label>FD: 护盾发生器</FD_Shields.label>
+  <FD_Shields.helpText>护盾发生器通过消耗电力拦截来袭的炮弹。然而，它们无法阻止敌人穿过所产生的护盾。发生器在待机时使用少量能量，在拦截远程火力时消耗大量能量。\n\n建议使用电池矩阵供电，因为护盾有非常高的瞬时功率消耗。自动武器射击和持续火力会更快地消耗能量，所以建议使用多个电池组成矩阵供电。
+		</FD_Shields.helpText>
+
+  <FD_CoilTemperature.label>FD: 护盾线圈温度</FD_CoilTemperature.label>
+  <FD_CoilTemperature.helpText>当护盾吸收伤害时，护盾线圈会发热。发生器将慢慢地与它所在的房间交换热量，直到达到环境温度为止。\n\n 达到100C:轻微故障，护盾发生器会导致电网短路。\n\n 150C:中度故障，护盾发生器会导致电网短路并可能损坏。\n\n 200C:严重故障，护盾发生器会导致电网短路并且发生爆炸。
+		</FD_CoilTemperature.helpText>
+
+  <FD_ShieldsPortable.label>FD: 便携式护盾发生器</FD_ShieldsPortable.label>
+  <FD_ShieldsPortable.helpText>便携式护盾发生器是一种小型化的发生器，它允许你移动发生器到任何你想要的位置。它们带有一个小型的内部电池，可以作为一个独立的供电单元。\n\n它可以连接到一个正常的电网，并将作为一个正常的电池工作。这些护盾的半径是固定的。
+		</FD_ShieldsPortable.helpText>
+
+
+</LanguageData>

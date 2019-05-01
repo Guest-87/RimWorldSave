@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RMC016s.都说几次了不要堵住门！！！</name>
+  <author>tikubonn</author>
+  <url>https://twitter.com/tikubonn</url>
+  <description>合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+
+这个模型修复了一个困扰许多边缘世界玩家的大问题：门被挡住。无论是囚犯逃跑，入侵者涌入，还是温度泄露，不必要的敞开大门都在许多殖民地引发了灾难。我的mod防止物品被放在在同一块瓷砖上挡住门，允许它按能正常关闭。安装此MOD后，请避免将物品放在与门相同的瓷砖上。这可能会导致一个错误，殖民者会混淆是否要在瓷砖上存储物品。（注：测试中未复现此问题）
+
+</description>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+</ModMetaData>

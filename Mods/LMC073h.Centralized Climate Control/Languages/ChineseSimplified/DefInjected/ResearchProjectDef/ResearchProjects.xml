@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- Author jxb12306 FROM 3DM Localization Group-->
+  <BasicClimateControl.label>基本温度调节系统</BasicClimateControl.label>
+  <BasicClimateControl.description>解锁基本的中央加热和制冷系统，用于调节殖民地的温度。</BasicClimateControl.description>
+
+  <IndustrialClimateControl.label>工业级气候控制</IndustrialClimateControl.label>
+  <IndustrialClimateControl.description>解锁大型进风口与中央温度调节系统。</IndustrialClimateControl.description>
+
+
+</LanguageData>

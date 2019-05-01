@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Ninetailfox.label>큐렌</Ninetailfox.label>
+  <Ninetailfox.description>어느 과학자의 욕망의 결과물. 이 여우는 유전자 공학의 결정체입니다. 아홉개의 꼬리를 가지고 있으며 화염을 만들어내 적을 공격합니다. 그리고 매년 구슬을 만들어낼 수 있습니다. 지능이 대단히 높기 때문에 길들이기는 매우 쉽습니다. 하지만 번식을 할 수 없으며 만나기가 매우 어렵습니다..</Ninetailfox.description>
+  <Ninetailfox.tools.0.label>왼발 발톱</Ninetailfox.tools.0.label>
+  <Ninetailfox.tools.1.label>오른발 발톱</Ninetailfox.tools.1.label>
+  <Ninetailfox.tools.3.label>꼬리</Ninetailfox.tools.3.label>
+  <Ninetailfox_Corpse.label>큐렌의 시체</Ninetailfox_Corpse.label>
+  <Ninetailfox_Corpse.description>큐렌의 시체입니다.</Ninetailfox_Corpse.description>
+
+  <Ninetailfoxwt.label>큐렌</Ninetailfoxwt.label>
+  <Ninetailfoxwt.description>어느 과학자의 욕망의 결과물. 이 여우는 유전자 공학의 결정체입니다. 아홉개의 꼬리를 가지고 있으며 화염을 만들어내 적을 공격합니다. 그리고 매년 구슬을 만들어낼 수 있습니다. 지능이 대단히 높기 때문에 길들이기는 매우 쉽습니다. 하지만 번식을 할 수 없으며 만나기가 매우 어렵습니다..</Ninetailfoxwt.description>
+  <Ninetailfoxwt.tools.0.label>왼발 발톱</Ninetailfoxwt.tools.0.label>
+  <Ninetailfoxwt.tools.1.label>오른발 발톱</Ninetailfoxwt.tools.1.label>
+  <Ninetailfoxwt.tools.3.label>꼬리</Ninetailfoxwt.tools.3.label>
+  <Ninetailfoxwt_Corpse.label>큐렌의 시체</Ninetailfoxwt_Corpse.label>
+  <Ninetailfoxwt_Corpse.description>큐렌의 시체입니다.</Ninetailfoxwt_Corpse.description>
+
+
+</LanguageData>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<RecipeDef>
+		<defName>MakeBambooWood</defName>
+		<label>chop bamboo into wood</label>
+		<description>Cut down bamboo into wood. \n\n100 bamboo into 75 wood logs.</description>
+		<jobString>Chopping wood.</jobString>
+    <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+			    <filter>
+			      <thingDefs>
+			        <li>Bamboo</li>
+     			 </thingDefs>
+	  		    </filter>
+			<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<WoodLog>75</WoodLog>
+		</products>
+  		<recipeUsers>
+			<li>TableStonecutter</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Duplicated] <MakeSilage.label>make silage</MakeSilage.label>-->
+  <!--[Duplicated] <MakeSilage.description>Make silage from hay and raw grains.</MakeSilage.description>-->
+  <!--[Duplicated] <MakeSilage.jobString>Making silage.</MakeSilage.jobString>-->
+
+  <MakeSilage.label>Herstellen von Silage</MakeSilage.label>
+  <MakeSilage.description>Silage für Tiere aus Heu und Körnern.</MakeSilage.description>
+  <MakeSilage.jobString>Silage herstellen.</MakeSilage.jobString>
+
+  <VG_MakebulkKibble.label>Herstellen von Trockenfutter</VG_MakebulkKibble.label>
+  <VG_MakebulkKibble.description>Trockenfutter für Tiere aus rohem Fleisch und Pflanzen.</VG_MakebulkKibble.description>
+  <VG_MakebulkKibble.jobString>Trockenfutter herstellen.</VG_MakebulkKibble.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Author jxb12306 FROM 3DM Localization Group-->
+  <PlantArtiveg.label>高产量根茎植物</PlantArtiveg.label>
+  <PlantArtiveg.description>一种极为脆弱的基因工程植物，只能在肥沃的土地中生长，但具有极高的产量。\n\n被闪耀世界用来提供满足他们庞大人口的食物产量，以解决经常出现的粮食短缺问题。</PlantArtiveg.description>
+
+  <PlantDuraveg.label>高抗性根茎植物</PlantDuraveg.label>
+  <PlantDuraveg.description>一种完全不同的人工品系，其在闪耀世界被选择性地培育和改良，目的是作为一种新的穴居世界食物供应作物。\n\n这种极耐寒的植物能在冰冻的温度下生存，对枯萎病免疫，甚至能在完全黑暗的环境中生长，但产量比起常规作物要低得多。</PlantDuraveg.description>
+
+
+  <!-- production plants -->
+
+  <PlantBranchvine.label>枝蔓植物</PlantBranchvine.label>
+  <PlantBranchvine.description>经过基因工程改造的枝蔓植物，形如木头，而且生长速度极快。然而与树木不同的是，枝蔓植物可以在室内生长，但它们也会在寒冷中死去。</PlantBranchvine.description>
+
+  <PlantRocketree.label>燃料树</PlantRocketree.label>
+  <PlantRocketree.description>一种基因工程树，不生产可利用的木材，但能产生大量的化合燃料。非常脆弱，如果被摧毁会爆炸成一个大火球（Kaboom~~~~~）。</PlantRocketree.description>
+
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ShowHair.ShowHair>显示头发</ShowHair.ShowHair>
+  <ShowHair.HideAllHats>不显示所有种类的帽子</ShowHair.HideAllHats>
+  <ShowHair.SelectHatsWhichHideHair>选择不显示头发的帽子种类</ShowHair.SelectHatsWhichHideHair>
+  <ShowHair.SelectHairThatWillBeHidden>选择不显示帽子的发型</ShowHair.SelectHairThatWillBeHidden>
+  <ShowHair.ShowHatsOnlyWhenDrafted>只有在被征召时才会显示帽子</ShowHair.ShowHatsOnlyWhenDrafted>
+
+</LanguageData>

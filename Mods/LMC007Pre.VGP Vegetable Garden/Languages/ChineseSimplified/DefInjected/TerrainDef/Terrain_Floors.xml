@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Misc -->
+
+  <BambooFloor.label>竹地板</BambooFloor.label>
+  <BambooFloor.description>竹地板，温暖如家的感觉。</BambooFloor.description>
+
+  <IronwoodFloor.label>铁木地板</IronwoodFloor.label>
+  <IronwoodFloor.description>铁木地板。 </IronwoodFloor.description>
+
+
+</LanguageData>

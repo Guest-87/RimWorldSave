@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageDef Name="FoxFlame">
+    <defName>FoxFlame</defName>
+    <workerClass>DamageWorker_Flame</workerClass>
+    <label>flame</label>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>false</canInterruptJobs>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has burned to death.</deathMessage>
+    <hediff>Burn</hediff>
+    <armorCategory>Heat</armorCategory>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>10</defaultDamage>
+    <defaultStoppingPower>1.2</defaultStoppingPower>
+    <defaultArmorPenetration>0.5</defaultArmorPenetration>
+    <buildingDamageFactor>0</buildingDamageFactor>
+    <plantDamageFactor>0.5</plantDamageFactor>
+    <explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
+    <explosionCellMote>Mote_BlastFlame</explosionCellMote>
+    <explosionColorCenter>(1, 0.35, 0.0)</explosionColorCenter>
+    <explosionColorEdge>(1, 0.7, 0.3)</explosionColorEdge>
+    <soundExplosion>NinetailFire</soundExplosion>
+    <combatLogRules>Damage_Flame</combatLogRules>
+    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+    <isExplosive>true</isExplosive>
+  </DamageDef>
+  
+  <DamageDef ParentName="FoxFlame">
+    <defName>FoxFlamewt</defName>
+    <explosionColorCenter>(0, 0.35, 1)</explosionColorCenter>
+    <explosionColorEdge>(0.3, 0.7, 1)</explosionColorEdge>
+  </DamageDef>
+  
+</Defs>

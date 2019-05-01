@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- Author jxb12306 FROM 3DM Localization Group-->
+  <TableAnimalProsthetics.label>动物假体工作台</TableAnimalProsthetics.label>
+  <TableAnimalProsthetics.description>此工作台可以制作动物假体或者仿生组织与器官。</TableAnimalProsthetics.description>
+  <TableAnimalProsthetics_Blueprint.label>动物假体工作台(蓝图)</TableAnimalProsthetics_Blueprint.label>
+  <TableAnimalProsthetics_Blueprint_Install.label>动物假体工作台(蓝图)</TableAnimalProsthetics_Blueprint_Install.label>
+  <TableAnimalProsthetics_Frame.label>动物假体工作台(建造中)</TableAnimalProsthetics_Frame.label>
+  <TableAnimalProsthetics_Frame.description>此工作台可以制作动物假体或者仿生组织与器官。</TableAnimalProsthetics_Frame.description>
+
+
+</LanguageData>

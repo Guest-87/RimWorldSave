@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+   <Rawsnowbeet.label>Schneerübe</Rawsnowbeet.label>
+  <Rawsnowbeet.description>Rohe Schneerübe.</Rawsnowbeet.description>
+
+  <RawBarley.label>Gerste</RawBarley.label>
+  <RawBarley.description>Eine Grasart hauptsächlich genutzt zum Brauen von Bier, aber auch roh oder gekocht als Nahrung.</RawBarley.description>
+
+  <Rawbean.label>Bohne</Rawbean.label>
+  <Rawbean.description>Eine einfache Bohne die vielseitig verwendet werden kann.</Rawbean.description>
+
+  <RawOlive.label>Olive</RawOlive.label>
+  <RawOlive.description>Eine Steinfrucht die auf Bäumen wächst. Fungiert als Nahrung.</RawOlive.description>
+
+  <Rawmushroom.label>Pilz</Rawmushroom.label>
+  <Rawmushroom.description>Roher proteinreicher Pilz. Selbst ungekocht lecker.</Rawmushroom.description>
+  
+   <RawCactusFruit.label>Kaktus</RawCactusFruit.label>
+  <RawCactusFruit.description>Rohe Kaktus Frucht.</RawCactusFruit.description>
+
+
+</LanguageData>

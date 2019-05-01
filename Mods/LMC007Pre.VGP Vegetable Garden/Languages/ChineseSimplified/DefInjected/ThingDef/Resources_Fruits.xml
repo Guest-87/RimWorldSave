@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+
+  <Rawapple.label>苹果</Rawapple.label>
+  <Rawapple.description>长在树上的红色果实。</Rawapple.description>
+
+  <Rawbanana.label>香蕉</Rawbanana.label>
+  <Rawbanana.description>长在树上的黄色果实。</Rawbanana.description>
+
+  <Rawgrape.label>葡萄</Rawgrape.label>
+  <Rawgrape.description>长在藤上的甜蜜小果实。</Rawgrape.description>
+
+  <Raworange.label>橙</Raworange.label>
+  <Raworange.description>长在树上的甜蜜果实。</Raworange.description>
+
+  <Rawpeach.label>桃</Rawpeach.label>
+  <Rawpeach.description>长在树上的甜蜜水果。</Rawpeach.description>
+
+  <Rawpineapple.label>菠萝</Rawpineapple.label>
+  <Rawpineapple.description>低矮植物上结出的果实，有点扎手。</Rawpineapple.description>
+
+  <Rawblueberry.label>蓝莓</Rawblueberry.label>
+  <Rawblueberry.description>长在灌木上的蓝色浆果，即使生吃也很好吃。</Rawblueberry.description>
+
+  <Rawwatermelon.label>西瓜</Rawwatermelon.label>
+  <Rawwatermelon.description>这种水果富含维生素A和C，可以生吃，也可以用多种方法进行烹饪。</Rawwatermelon.description>
+
+  <Rawdate.label>海枣</Rawdate.label>
+  <Rawdate.description>长在树上的甜蜜果实。</Rawdate.description>
+
+  <Rawfig.label>无花果</Rawfig.label>
+  <Rawfig.description>长在树上的甜蜜果实。</Rawfig.description>
+
+  <Rawgooseberry.label>醋栗</Rawgooseberry.label>
+  <Rawgooseberry.description>长在藤上的甜蜜果实。</Rawgooseberry.description>
+
+  <Rawcloudberry.label>云莓</Rawcloudberry.label>
+  <Rawcloudberry.description>长在藤上的甜蜜果实。</Rawcloudberry.description>
+
+  <RawCherry.label>樱桃</RawCherry.label>
+  <RawCherry.description>长在树上的红色小果实。</RawCherry.description>
+
+  <RawCoconut.label>椰子</RawCoconut.label>
+  <RawCoconut.description>长在树上的椰果。有着坚硬的外壳，内部有果肉和大量汁液。可以在食物加工台上劈开得到「椰肉」和「椰汁」。</RawCoconut.description>
+
+  <!--[Core] <RawBerries.label>莓果</RawBerries.label>-->
+  <!--[Core] <RawBerries.description>各种各样的浆果，就算生吃味道也很好。</RawBerries.description>-->
+
+  <!--[Core] <RawAgave.label>龙舌兰果</RawAgave.label>-->
+  <!--[Core] <RawAgave.description>生龙舌兰果。生吃味道很差。</RawAgave.description>-->
+
+
+</LanguageData>

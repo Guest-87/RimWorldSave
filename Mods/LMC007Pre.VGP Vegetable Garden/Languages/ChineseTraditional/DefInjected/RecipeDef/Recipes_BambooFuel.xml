@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeChemfuelFromBamboo.label>從竹子中提煉化合燃料</MakeChemfuelFromBamboo.label>
+  <MakeChemfuelFromBamboo.description>通過氣化竹子提煉化合燃料。</MakeChemfuelFromBamboo.description>
+  <MakeChemfuelFromBamboo.jobString>正在提煉化合燃料。</MakeChemfuelFromBamboo.jobString>
+
+  <VG_MakeBiofuel.label>從穀物中提煉生物燃料</VG_MakeBiofuel.label>
+  <VG_MakeBiofuel.description>通過提煉小麥、玉米或豆類來製造生物燃料。</VG_MakeBiofuel.description>
+  <VG_MakeBiofuel.jobString>正在提煉生物燃料。</VG_MakeBiofuel.jobString>
+
+
+</LanguageData>

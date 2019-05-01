@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VG_Campfire.label>feu de camp en bambou</VG_Campfire.label>
+  <VG_Campfire.description>Prépare les repas et produit de la chaleur. Il s'épuise après quelques jours. Comme toutes les sources de chaleur, il doit être placé à l'intérieur, de sorte qu'il dispose d'un espace fermé pour le chauffage. Ravitaillement possible.</VG_Campfire.description>
+  <VG_Campfire_Blueprint.label>feu de camp en bambou (projet)</VG_Campfire_Blueprint.label>
+  <VG_Campfire_Frame.label>feu de camp en bambou (bâtiment)</VG_Campfire_Frame.label>
+  <VG_Campfire_Frame.description>Prépare les repas et produit de la chaleur. Il s'épuise après quelques jours. Comme toutes les sources de chaleur, il doit être placé à l'intérieur, de sorte qu'il dispose d'un espace fermé pour le chauffage. Ravitaillement possible.</VG_Campfire_Frame.description>
+
+
+</LanguageData>

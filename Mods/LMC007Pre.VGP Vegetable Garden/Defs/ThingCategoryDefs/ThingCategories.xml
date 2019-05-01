@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+        <ThingCategoryDef>
+          <defName>FruitFoodRaw</defName>
+          <label>Fruits</label>
+          <parent>PlantFoodRaw</parent>
+          <iconPath>Ui/Icons/ThingCategories/FruitFoodRaw</iconPath>
+        </ThingCategoryDef>
+
+        <ThingCategoryDef>
+          <defName>AnimalFeed</defName>
+          <label>Animal Feed</label>
+          <parent>Foods</parent>
+          <iconPath>Ui/Icons/ThingCategories/Feed</iconPath>
+        </ThingCategoryDef>
+
+   <ThingCategoryDef>
+        <defName>SweetMeals</defName>
+        <label>Sweets</label>
+        <parent>FoodMeals</parent>
+        <iconPath>Ui/Icons/ThingCategories/Sweets</iconPath>
+      </ThingCategoryDef>
+
+   <ThingCategoryDef>
+        <defName>SimpleMeals</defName>
+        <label>Simple Meals</label>
+        <parent>FoodMeals</parent>
+        <iconPath>UI/Icons/ThingCategories/FoodMeals</iconPath>
+      </ThingCategoryDef>
+ 
+  <ThingCategoryDef>
+        <defName>FineMeals</defName>
+        <label>Fine Meals</label>
+        <parent>FoodMeals</parent>
+        <iconPath>UI/Icons/ThingCategories/FoodMeals</iconPath>
+      </ThingCategoryDef>
+
+   <ThingCategoryDef>
+        <defName>LavishMeals</defName>
+        <label>Lavish Meals</label>
+        <parent>FoodMeals</parent>
+        <iconPath>UI/Icons/ThingCategories/FoodMeals</iconPath>
+      </ThingCategoryDef>
+
+
+<ThingCategoryDef>
+        <defName>CookingSupplies</defName>
+        <label>Ingredients</label>
+        <parent>FoodRaw</parent>
+        <iconPath>Ui/Icons/ThingCategories/Cookingstuff</iconPath>
+	
+
+      </ThingCategoryDef>
+
+
+</Defs>

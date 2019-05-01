@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<LF_Turret_PrecisionMortar.label>高精度迫撃砲</LF_Turret_PrecisionMortar.label>
+	<LF_Turret_PrecisionMortar.description>散布界が狭く極めて射撃精度の高い迫撃砲。近傍の監視衛星やレーウィンゾンデをハッキングして得た情報からリアルタイムで弾道補正を行う。（散布界半径3）</LF_Turret_PrecisionMortar.description>
+
+</LanguageData>

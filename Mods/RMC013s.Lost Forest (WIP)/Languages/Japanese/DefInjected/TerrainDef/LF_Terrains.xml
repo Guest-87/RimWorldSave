@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<LFTerr_Drain.label>排水溝</LFTerr_Drain.label>
+	<LFTerr_Drain.description>汚れを洗い流すための排水溝です。床汚れが発生しません。</LFTerr_Drain.description>
+
+	<LFTerr_Spring.label>泉</LFTerr_Spring.label>
+	<LFTerr_Spring.tools.water.label>水面</LFTerr_Spring.tools.water.label>
+
+	<LFTerr_HotSpring.label>温泉</LFTerr_HotSpring.label>
+	<LFTerr_HotSpring.tools.water.label>水面</LFTerr_HotSpring.tools.water.label>
+
+</LanguageData>

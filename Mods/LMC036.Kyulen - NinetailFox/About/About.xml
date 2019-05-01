@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>LMC036.九莲-九尾狐</name>
+  <author>[KOR]Bichang</author>
+  <supportedVersions><li>1.0</li></supportedVersions>
+  <description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+  
+前言：不知道为什么描述文件是空白的，所以只有自己来写了。
+
+汉化：jxb12306 合集地址：http://bbs.3dmgame.com/thread-5842015-1-1.html
+
+添加了九莲-九尾狐，可以作为宠物饲养。基本参数就不写了吧，需要的看截图或者自己进游戏了解。
+
+这种动物不能繁殖，能够自定义名字，拥有非常高的搬运物资频率。每隔60天能生成一颗宝珠，激活可以获得9天的全体心情加成或者以极高的价格出售。每只九莲拥有一个护盾，可以抵御远程攻击，但是近战无效。
+
+游戏开始90天后可以在地图上出现，但是概率极低，并且每次只会出现一只，没有其他因素影响的条件下，整个游戏过程只有两次驯服的机会，包括一只黄色的一只白色的。
+
+兼用MOD：狗曰（反正直译就是这名，A dog said），动物远程攻击框架（这玩意我汉化过了，九尾的远程攻击必须要有这MOD，我还是放到压缩包里吧），Animal Gear，Combat Extended（都还没开始翻译）
+</description>
+</ModMetaData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>A Dog Said... Animal Prosthetics</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<!-- ========== Ninetailfox ========== -->
+			<li Class="PatchOperationInsert">
+				<xpath>Defs/RecipeDef[@Name = "OldWoundsAnimal"]/recipeUsers/li</xpath>
+				<value>
+					<li>Ninetailfox</li>
+					<li>Ninetailfoxwt</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

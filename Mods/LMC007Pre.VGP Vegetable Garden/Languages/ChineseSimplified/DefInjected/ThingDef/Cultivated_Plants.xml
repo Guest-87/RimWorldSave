@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Starter Plants -->
+
+  <!--[Core] <PlantPotato.label>土豆</PlantPotato.label>-->
+  <!--[Core] <PlantPotato.description>一种简单而营养丰富的块茎植物。即使在比较贫瘠的土地中也能很好地生长。不用多久就能收获。一种强大万能的农作物。</PlantPotato.description>-->
+
+  <!--[Core] <PlantCorn.label>玉米</PlantCorn.label>-->
+  <!--[Core] <PlantCorn.description>一种大型谷类植物，产出美味的黄籽穗。生长时间相对较长，但产量大，很长时间才会变质。需要肥沃的土壤种植。</PlantCorn.description>-->
+
+  <!--[Core] <PlantRice.label>水稻</PlantRice.label>-->
+  <!--[Core] <PlantRice.description>一种低矮的谷类植物，肥沃的土壤中茁壮成长，产出粮食很快，但不煮熟的话不好吃。</PlantRice.description>-->
+
+  <PlantBarley.label>大麦</PlantBarley.label>
+  <PlantBarley.description>一种能够免疫枯萎病的强壮谷物，可用于烹调食物和酿酒。</PlantBarley.description>
+
+
+  <!-- Tier 2 Plants -->
+
+  <PlantSnowbeet.label>雪甜菜</PlantSnowbeet.label>
+  <PlantSnowbeet.description>简单的营养丰富的植物。即使在一些贫瘠的土壤中也能种植。收获迅速。一种强大的多用途的作物。在寒冷的气候下也不会枯萎。</PlantSnowbeet.description>
+
+  <Plantredlentil.label>红扁豆</Plantredlentil.label>
+  <Plantredlentil.description>红色的扁豆品种。已知的最古老的人工种植作物之一。</Plantredlentil.description>
+
+  <Plantbean.label>黄豆</Plantbean.label>
+  <Plantbean.description>黄豆是烹饪中的常见材料。</Plantbean.description>
+
+  <PlantOlivetree.label>橄榄树</PlantOlivetree.label>
+  <PlantOlivetree.description>橄榄树，采摘后能保留树木。</PlantOlivetree.description>
+
+
+  <!-- Other Plants -->
+
+  <!--[Core] <PlantHaygrass.label>干草</PlantHaygrass.label>-->
+  <!--[Core] <PlantHaygrass.description>各种营养丰富的草混合在一起种植，产出大量用于喂养动物的干草。干草是很好的饲料，但对于人类来说难以下咽。</PlantHaygrass.description>-->
+
+  <!--[Core] <PlantGrass.label>草</PlantGrass.label>-->
+  <!--[Core] <PlantGrass.description>野草，在稍微有点光线和土地的地方就会长出来。</PlantGrass.description>-->
+
+  <PlantTea.label>茶树</PlantTea.label>
+  <PlantTea.description>一种灌木。叶子可以冲泡成美味的饮料。</PlantTea.description>
+
+  <PlantCoffee.label>咖啡树</PlantCoffee.label>
+  <PlantCoffee.description>这种矮小的树木结出的红色果实酷似樱桃，种子经过发酵晾晒等工艺，或煮、或研磨成粉冲泡，最后成为美味的饮料。</PlantCoffee.description>
+
+  <!--[Core] <PlantHops.label>啤酒花</PlantHops.label>-->
+  <!--[Core] <PlantHops.description>又名蛇麻草，一种开花植物，产出啤酒花，啤酒原料的必需品。</PlantHops.description>-->
+
+  <!--[Core] <PlantTreeBamboo.label>竹</PlantTreeBamboo.label>-->
+  <!--[Core] <PlantTreeBamboo.description>一种成群生长而又生长迅速的物种，类似于普通的树。可从竹子中收获类似木材的材料。这种植物本身并不好看。</PlantTreeBamboo.description>-->
+
+
+</LanguageData>

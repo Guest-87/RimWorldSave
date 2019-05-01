@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Can be packed into a hard surface -->
+
+  <DirtPath.label>泥土小径</DirtPath.label>
+  <DirtPath.description>简单的泥土小径。</DirtPath.description>
+
+  <DirtPathLight.label>泥土小路</DirtPathLight.label>
+  <DirtPathLight.description>另一种颜色较淡的泥土小径。</DirtPathLight.description>
+
+  <!--[Core] <PackedDirt.label>压紧的泥土</PackedDirt.label>-->
+  <PackedDirt.description>压紧的泥土</PackedDirt.description>
+
+
+</LanguageData>

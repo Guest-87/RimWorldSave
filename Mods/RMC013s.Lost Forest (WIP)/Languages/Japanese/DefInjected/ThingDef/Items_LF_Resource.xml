@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <LF_FoxiaTears.label>ちび狐の涙</LF_FoxiaTears.label>
+    <LF_FoxiaTears.description>力尽きたちび狐が最後に流した涙。彼女達の涙は傷を癒す不思議な力を持ちます。失われた古代神聖大樹の記憶を呼び覚ますという言い伝えがあるそうな。</LF_FoxiaTears.description>
+
+    <LF_WoodLog.label>神聖樹の木材</LF_WoodLog.label>
+    <LF_WoodLog.description>失われた古代神聖大樹のレプリカ木材です。不思議な力で守られていて決して燃えることはありません。この木材で作られた家具は軽く頑丈で、人々に安らぎと疾病に対する特別な守りを与えてくれるでしょう。</LF_WoodLog.description>
+　　<LF_WoodLog.stuffProps.stuffAdjective>神聖樹製</LF_WoodLog.stuffProps.stuffAdjective>
+
+    <PressedIronScraps.label>圧縮成型スクラップ</PressedIronScraps.label>
+    <PressedIronScraps.description>鉄くずを圧縮したもので、鉄材と同様に建築に使用できます。溶鉱炉よりも迅速に利用可能な資源へ変換できるというメリットがある反面、調度品への利用は石材よりもはるかに大きなペナルティを負う点に留意して下さい。溶解することで同数の鉄に変換することもできます。</PressedIronScraps.description>
+　　<PressedIronScraps.stuffProps.stuffAdjective>スクラップ製</PressedIronScraps.stuffProps.stuffAdjective>
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FruitFoodRaw.label>Fruits</FruitFoodRaw.label>
+  <AnimalFeed.label>Alimentation des animaux</AnimalFeed.label>
+  <SweetMeals.label>Bonbons</SweetMeals.label>
+  <SimpleMeals.label>Repas simples</SimpleMeals.label>
+  <FineMeals.label>Repas raffinés</FineMeals.label>
+  <LavishMeals.label>Repas copieux</LavishMeals.label>
+  <CookingSupplies.label>Ingrédients</CookingSupplies.label>
+
+
+</LanguageData>

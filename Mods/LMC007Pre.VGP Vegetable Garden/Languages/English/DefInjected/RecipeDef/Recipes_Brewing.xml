@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fruitdrink.label>make fruit drink</Fruitdrink.label>
+  <Fruitdrink.description>Press fruit into a juicy drink.</Fruitdrink.description>
+  <Fruitdrink.jobString>Pressing fruit.</Fruitdrink.jobString>
+
+  <BrewCoffee.label>brew four garden coffees</BrewCoffee.label>
+  <BrewCoffee.description>Brew four cups of coffee</BrewCoffee.description>
+  <BrewCoffee.jobString>Brewing coffee.</BrewCoffee.jobString>
+
+  <BulkBrewCoffee.label>brew 12 cups of garden coffee</BulkBrewCoffee.label>
+  <BulkBrewCoffee.description>Brew 12 cups of coffee.</BulkBrewCoffee.description>
+  <BulkBrewCoffee.jobString>Brewing coffee.</BulkBrewCoffee.jobString>
+
+  <BrewTea.label>brew two garden teas</BrewTea.label>
+  <BrewTea.description>Prepare tea leaves and brew them into cups of tea.</BrewTea.description>
+  <BrewTea.jobString>Brewing tea.</BrewTea.jobString>
+
+  <BulkBrewTea.label>brew ten cups of garden tea</BulkBrewTea.label>
+  <BulkBrewTea.description>Prepare bulk amounts of tea leaves and brew them into cups of tea.</BulkBrewTea.description>
+  <BulkBrewTea.jobString>Brewing tea.</BulkBrewTea.jobString>
+
+
+</LanguageData>

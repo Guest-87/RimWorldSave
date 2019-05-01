@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_CoffeeBeans.label>Kaffeebohne</CPD_CoffeeBeans.label>
+  <CPD_CoffeeBeans.description>Bittere Bohne die zum Kaffee kochen verwendet wird.</CPD_CoffeeBeans.description>
+
+  <Rawtea.label>Teeblätter</Rawtea.label>
+  <Rawtea.description>Teeblätter zum Kochen von Tee.</Rawtea.description>
+
+ 
+  <!-- Kibble -->
+
+   <Silage.label>Silage</Silage.label>
+  <Silage.description>Nährstoffreiches, fermentiertes Gemisch aus Heu und Körnern, dient als Futter für deine Tiere. Die Fermentierung bewahrt die Silage vor dem Verrotten.</Silage.description>
+
+  <VG_Biofuel.label>Biotreibstoff</VG_Biofuel.label>
+  <VG_Biofuel.description>Treibstoff hergestellt aus verarbeiteten Pflanzenarten. Wird als Treibstoff für Generatoren und Werkbänke verwendet.</VG_Biofuel.description>
+
+
+</LanguageData>

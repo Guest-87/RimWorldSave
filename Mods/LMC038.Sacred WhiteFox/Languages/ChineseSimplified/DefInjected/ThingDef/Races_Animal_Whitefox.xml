@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Whitefox.label>圣白狐</Whitefox.label>
+  <Whitefox.description>这只狐狸有着像丝绸一样温暖的白色调，有一种可以被当作神来崇拜的魅力。有人推测，它独特的智力可能已经超越了人类。</Whitefox.description>
+  <Whitefox.tools.0.label>左爪</Whitefox.tools.0.label>
+  <Whitefox.tools.1.label>右爪</Whitefox.tools.1.label>
+  <Whitefox.tools.3.label>尾巴</Whitefox.tools.3.label>
+  <Whitefox_Leather.label>圣白狐皮</Whitefox_Leather.label>
+  <Whitefox_Leather.description>圣白狐皮</Whitefox_Leather.description>
+  <Whitefox_Leather.stuffProps.stuffAdjective>圣白狐皮</Whitefox_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Fox_Fennec -->
+  <Whitefox_Corpse.label>圣白狐尸体</Whitefox_Corpse.label>
+  <Whitefox_Corpse.description>圣白狐的尸体</Whitefox_Corpse.description>
+
+
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- antipersonel warhead -->
+
+  <Submunitions.label>子母弹</Submunitions.label>
+  <Submunitions.description>允许制造先进弹头，包括一种大范围区域杀伤空炸弹与大范围区域燃烧效果凝固汽油弹，这两种弹头可以通过迫击炮发射。警告！不要瞄准过近的目标以避免友军误伤！</Submunitions.description>
+
+
+</LanguageData>

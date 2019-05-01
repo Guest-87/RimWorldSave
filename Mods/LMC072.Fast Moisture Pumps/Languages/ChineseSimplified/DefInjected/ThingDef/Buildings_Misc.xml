@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <MoisturePump.label>排水泵</MoisturePump.label>-->
+  <!--[Core] <MoisturePump.description>非常缓慢地抽走附近地形的水分，能将沼泽或浅水改造成干燥的土地，或者将细沙地改造成普通的沙地。不能改造深水。</MoisturePump.description>-->
+  <!--[Core] <MoisturePump_Blueprint.label>moisture pump (blueprint)</MoisturePump_Blueprint.label>-->
+  <MoisturePump_Blueprint_Install.label>排水泵 (蓝图)</MoisturePump_Blueprint_Install.label>
+  <!--[Core] <MoisturePump_Frame.label>moisture pump (building)</MoisturePump_Frame.label>-->
+  <!--[Core] <MoisturePump_Frame.description>Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, and soft sand into normal sand. Does not affect deep water.</MoisturePump_Frame.description>-->
+
+  <WDMoisturePumpAdvanced.label>先进排水泵</WDMoisturePumpAdvanced.label>
+  <WDMoisturePumpAdvanced.description>非常快速地抽走附近地形的水分 (是普通排水泵速度的2.5倍)。</WDMoisturePumpAdvanced.description>
+  <WDMoisturePumpAdvanced_Blueprint.label>先进排水泵 (蓝图)</WDMoisturePumpAdvanced_Blueprint.label>
+  <WDMoisturePumpAdvanced_Blueprint_Install.label>先进排水泵 (蓝图)</WDMoisturePumpAdvanced_Blueprint_Install.label>
+  <WDMoisturePumpAdvanced_Frame.label>先进排水泵 (建造中)</WDMoisturePumpAdvanced_Frame.label>
+  <WDMoisturePumpAdvanced_Frame.description>非常快速地抽走附近地形的水分 (是普通排水泵速度的2.5倍)。</WDMoisturePumpAdvanced_Frame.description>
+
+
+</LanguageData>

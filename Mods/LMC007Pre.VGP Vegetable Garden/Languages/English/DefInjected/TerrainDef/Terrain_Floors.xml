@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Misc -->
+
+  <BambooFloor.label>bamboo floor</BambooFloor.label>
+  <BambooFloor.description>bamboo flooring. For that warm, homey feeling.</BambooFloor.description>
+
+  <IronwoodFloor.label>ironwood floor</IronwoodFloor.label>
+  <IronwoodFloor.description>Ironwood flooring.</IronwoodFloor.description>
+
+
+</LanguageData>

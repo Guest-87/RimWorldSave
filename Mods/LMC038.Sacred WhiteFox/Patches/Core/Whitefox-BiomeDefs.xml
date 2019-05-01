@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "BorealForest"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.08</Whitefox>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "Tundra"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.065</Whitefox>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "ColdBog"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.044</Whitefox>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "IceSheet"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.075</Whitefox>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "SeaIce"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.09</Whitefox>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.045</Whitefox>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "TemperateSwamp"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.035</Whitefox>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "TropicalRainforest"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.03</Whitefox>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "TropicalSwamp"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.024</Whitefox>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "AridShrubland"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.02</Whitefox>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "Desert"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.008</Whitefox>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BiomeDef[defName = "ExtremeDesert"]/wildAnimals</xpath>
+		<value>
+			<Whitefox>0.001</Whitefox>
+		</value>
+	</Operation>
+	
+</Patch>

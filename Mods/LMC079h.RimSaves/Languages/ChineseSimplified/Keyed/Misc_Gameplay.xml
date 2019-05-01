@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARS_ConfirmRemoveFolderTitle>删除文件夹</ARS_ConfirmRemoveFolderTitle>
+  <ARS_ConfirmRemoveFolderDesc>你确定要删除这个文件夹吗？其中所有的存档也将被一同删除！</ARS_ConfirmRemoveFolderDesc>
+  <ARS_FolderAlreadyExist>文件夹名已经存在！</ARS_FolderAlreadyExist>
+  <ARS_ToolTipMoveSave>移动这个存档到另一个文件夹中</ARS_ToolTipMoveSave>
+  <ARS_ToolTipAddFolder>新建一个文件夹</ARS_ToolTipAddFolder>
+  <ARS_ToolTipDelFolder>删除当前存档文件夹，其中所有的存档都将被删除！</ARS_ToolTipDelFolder>
+  <ARS_WarningFileMoveAlreadyExist>已经存在 "{0}" 存档于目标文件夹中， 存档已经被重命名为 "{1}"</ARS_WarningFileMoveAlreadyExist>
+  <ARS_SaveAlreadyExist>文件名已经存在！</ARS_SaveAlreadyExist>
+  <ARS_OP_RENAME>重命名此存档</ARS_OP_RENAME>
+  <ARS_OP_DUPLICATE>复制此存档</ARS_OP_DUPLICATE>
+  <ARS_nbSaves>(已有 {0} 个存档)</ARS_nbSaves>
+  <ARS_SettingsNbAutosave>自动存档保留数 ( {0} 个 )</ARS_SettingsNbAutosave>
+
+</LanguageData>

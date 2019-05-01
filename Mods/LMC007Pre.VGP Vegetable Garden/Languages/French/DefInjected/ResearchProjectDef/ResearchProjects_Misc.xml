@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <agriculture.label>agriculture I</agriculture.label>
+  <agriculture.description>Effectue des recherches en génétique végétale pour découvrir de nouveaux types de plantes à cultiver ! \n\n Déverrouille un nouveau niveau de légumes à cultiver. \n\n Déverrouille les semis de betteraves des neiges,haricots,lentilles rouges et olives.</agriculture.description>
+
+  <agricultureII.label>agriculture II</agricultureII.label>
+  <agricultureII.description>Effectue des recherches en génétique végétale pour découvrir de nouveaux types de plantes à cultiver ! \n\n Déverrouille des nouveaux fruits à cultiver. Les fruits ont une meilleure nutrition et nécessitent moins de temps pour la préparation des repas. \n\n Déverrouille le semis de raisins, agave, fraises, myrtilles, et pastèques.</agricultureII.description>
+
+  <agricultureIII.label>agriculture III</agricultureIII.label>
+  <agricultureIII.description>Effectue des recherches en génétique végétale pour découvrir de nouveaux types de plantes à cultiver ! \n\n Débloque de nouveaux arbres fruitiers pour qu'ils poussent. Les arbres fruitiers ont un temps de croissance plus long mais un rendement plus élevé. \n\n Débloque les semis de pommiers, bananiers, orangers et pêchers.</agricultureIII.description>
+
+  <VG_Ambrosia.label>ambroisie</VG_Ambrosia.label>
+  <VG_Ambrosia.description>Recherche sur la capacité de cultiver l'ambroisie dans les bassins hydroponiques.</VG_Ambrosia.description>
+
+  <agricultureIV.label>Plantes sauvages du biome</agricultureIV.label>
+  <agricultureIV.description>Effectue des recherches en génétique végétale pour débloquer de nouveaux types de plantes passionnantes à cultiver ! \n\n Déverrouille de nouveaux fruits et arbres pour qu'ils poussent. Les arbres fruitiers ont un temps de croissance plus long mais un rendement plus élevé. \n\n Débloque les semis de cerisiers, cocotiers, figuiers, dattiers. Ananas, plaquebière et groseilles à maquereau.</agricultureIV.description>
+
+
+</LanguageData>

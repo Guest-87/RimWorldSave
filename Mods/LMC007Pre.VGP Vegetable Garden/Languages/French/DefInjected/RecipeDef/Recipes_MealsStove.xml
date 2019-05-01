@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <CookMealFine.label>cook fine meal</CookMealFine.label>-->
+  <!--[Core] <CookMealFine.description>Cook a somewhat complex meal from a combination of meat and plant ingredients.</CookMealFine.description>-->
+  <!--[Core] <CookMealFine.jobString>Cooking fine meal.</CookMealFine.jobString>-->
+
+  <!--[Core] <CookMealLavish.label>cook lavish meal</CookMealLavish.label>-->
+  <!--[Core] <CookMealLavish.description>Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted.</CookMealLavish.description>-->
+  <!--[Core] <CookMealLavish.jobString>Cooking lavish meal.</CookMealLavish.jobString>-->
+
+  <CookMealSimple_Bulk.label>préparer quatre repas simples</CookMealSimple_Bulk.label>
+  <CookMealSimple_Bulk.description>Cuisine un repas simple à partir d'un seul ingrédient. Donne assez pour 4 repas.</CookMealSimple_Bulk.description>
+  <CookMealSimple_Bulk.jobString>Préparation de quatre repas simples</CookMealSimple_Bulk.jobString>
+
+  <CookMealFine_Bulk.label>cuisiner quatre repas raffinés</CookMealFine_Bulk.label>
+  <CookMealFine_Bulk.description>Cuisine un repas quelque peu complexe à partir d'une combinaison de viande crue et d'ingrédients végétaux crus. Donne assez pour 4 repas.</CookMealFine_Bulk.description>
+  <CookMealFine_Bulk.jobString>Préparation de quatre repas raffinés</CookMealFine_Bulk.jobString>
+
+  <CookMealLavish_Bulk.label>préparer quatre repas copieux</CookMealLavish_Bulk.label>
+  <CookMealLavish_Bulk.description>Cuisine un repas très complexe à partir d'une combinaison de viande crue et d'ingrédients végétaux crus. La plupart des ingrédients sont gaspillés. Donne assez pour 4 repas.</CookMealLavish_Bulk.description>
+  <CookMealLavish_Bulk.jobString>Préparation de quatre repas copieux</CookMealLavish_Bulk.jobString>
+
+  <CookBulkMealSurvival.label>préparer quatre repas de survie</CookBulkMealSurvival.label>
+  <CookBulkMealSurvival.description>Prépare quatre repas de survie préemballés à partir d'une combinaison de viande crue et d'ingrédients végétaux crus. La plupart des ingrédients sont gaspillés.</CookBulkMealSurvival.description>
+  <CookBulkMealSurvival.jobString>Préparation de quatre repas de survie</CookBulkMealSurvival.jobString>
+
+  <Stirfrymeal.label>préparer quatre repas frits</Stirfrymeal.label>
+  <Stirfrymeal.description>Cuisine un repas frit à partir d'une combinaison de viande crue et d'ingrédients végétaux crus. \n\nDonne assez pour 4 repas.  \n\nEffets des aliments : Manipulation et filtration du sang.</Stirfrymeal.description>
+  <Stirfrymeal.jobString>Préparation de quatre repas frits</Stirfrymeal.jobString>
+
+  <Cookstewpot.label>faire cuire huit marmites de ragoût</Cookstewpot.label>
+  <Cookstewpot.description>Fait cuire lentement une marmite de ragoût à partir d'une combinaison de viande crue et d'ingrédients végétaux crus. \n\nDonne assez pour 8 repas. \n\nEffets des aliments : Conscience, métabolisme, filtration et pompage sanguin.</Cookstewpot.description>
+  <Cookstewpot.jobString>Cuire lentement le ragoût</Cookstewpot.jobString>
+
+  <VG_MakebulkPemmican.label>faire du pemmican en vrac</VG_MakebulkPemmican.label>
+  <VG_MakebulkPemmican.description>Préparez du pemmican, une combinaison conservée de viande et d'aliments végétaux. Il n'a pas un goût incroyable, mais il dure un an sans réfrigération.</VG_MakebulkPemmican.description>
+  <VG_MakebulkPemmican.jobString>Préparation de pemmican</VG_MakebulkPemmican.jobString>
+
+
+</LanguageData>

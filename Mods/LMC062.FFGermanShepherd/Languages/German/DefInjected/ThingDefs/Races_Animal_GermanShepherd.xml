@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <GermanShepherd.label>Deutscher Schäferhund</GermanShepherd.label>
+  <GermanShepherd.description>Angeblich die klügste und treueste Hunderasse von allen, ist der Deutsche Schäferhund ein Arbeitstier mit guten Kampfeigenschaften.</GermanShepherd.description>
+  <GermanShepherd_Meat.label>Schäferhundfleisch</GermanShepherd_Meat.label>
+  <GermanShepherd_Meat.description>Das Fleisch eines Schäferhunds.</GermanShepherd_Meat.description>
+  <GermanShepherd_Corpse.label>Toter Schäferhund</GermanShepherd_Corpse.label>
+  <GermanShepherd_Corpse.description>Der Kadaver eines Schäferhunds.</GermanShepherd_Corpse.description>
+  
+</LanguageData>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- Author jxb12306 FROM 3DM Localization Group-->
+  <IntakeFan.label>进气风扇</IntakeFan.label>
+  <IntakeFan.description>一个进气风扇。</IntakeFan.description>
+  <IntakeFan_Blueprint.label>进气风扇 (蓝图)</IntakeFan_Blueprint.label>
+  <IntakeFan_Frame.label>进气风扇 (建造中)</IntakeFan_Frame.label>
+  <IntakeFan_Frame.description>一个进气风扇。</IntakeFan_Frame.description>
+
+  <redAirPipe.label>红色空气管道</redAirPipe.label>
+  <redAirPipe.description>输送空气的红色管道。</redAirPipe.description>
+  <redAirPipe_Blueprint.label>红色空气管道 (蓝图)</redAirPipe_Blueprint.label>
+  <redAirPipe_Frame.label>红色空气管道 (建造中)</redAirPipe_Frame.label>
+  <redAirPipe_Frame.description>输送空气的红色管道。</redAirPipe_Frame.description>
+
+  <blueAirPipe.label>蓝色空气管道</blueAirPipe.label>
+  <blueAirPipe.description>输送空气的蓝色管道。</blueAirPipe.description>
+  <blueAirPipe_Blueprint.label>蓝色空气管道 (蓝图)</blueAirPipe_Blueprint.label>
+  <blueAirPipe_Frame.label>蓝色空气管道 (建造中)</blueAirPipe_Frame.label>
+  <blueAirPipe_Frame.description>输送空气的蓝色管道。</blueAirPipe_Frame.description>
+
+  <cyanAirPipe.label>青色空气管道</cyanAirPipe.label>
+  <cyanAirPipe.description>输送空气的青色管道。</cyanAirPipe.description>
+  <cyanAirPipe_Blueprint.label>青色空气管道 (蓝图)</cyanAirPipe_Blueprint.label>
+  <cyanAirPipe_Frame.label>青色空气管道 (建造中)</cyanAirPipe_Frame.label>
+  <cyanAirPipe_Frame.description>输送空气的青色管道。</cyanAirPipe_Frame.description>
+
+  <AirThermal.label>空气调节系统</AirThermal.label>
+  <AirThermal.description>一个可以将空气加热或冷却到目标温度的设备。</AirThermal.description>
+  <AirThermal_Blueprint.label>空气调节系统 (蓝图)</AirThermal_Blueprint.label>
+  <AirThermal_Frame.label>空气调节系统 (建造中)</AirThermal_Frame.label>
+  <AirThermal_Frame.description>一个可以将空气加热或冷却到目标温度的设备。</AirThermal_Frame.description>
+
+  <LargeIntakeFan.label>大型进气风扇</LargeIntakeFan.label>
+  <LargeIntakeFan.description>一个大型进气风扇。</LargeIntakeFan.description>
+  <LargeIntakeFan_Blueprint.label>大型进气风扇 (蓝图)</LargeIntakeFan_Blueprint.label>
+  <LargeIntakeFan_Frame.label>大型进气风扇 (建造中)</LargeIntakeFan_Frame.label>
+  <LargeIntakeFan_Frame.description>一个大型进气风扇。</LargeIntakeFan_Frame.description>
+
+  <LargeAirThermal.label>大型空气调节系统</LargeAirThermal.label>
+  <LargeAirThermal.description>一个可以将空气加热或冷却到目标温度的大型设备。</LargeAirThermal.description>
+  <LargeAirThermal_Blueprint.label>大型空气调节系统 (蓝图)</LargeAirThermal_Blueprint.label>
+  <LargeAirThermal_Frame.label>大型空气调节系统 (建造中)</LargeAirThermal_Frame.label>
+  <LargeAirThermal_Frame.description>一个可以将空气加热或冷却到目标温度的大型设备。</LargeAirThermal_Frame.description>
+
+
+</LanguageData>

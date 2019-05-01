@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 1 Plants -->
+
+  <Plant_Barley.label>Gerstenpflanze</Plant_Barley.label>
+  <Plant_Barley.description>Ein Getreidekorn. Herzhafte Pflanze, die gegen Trockenfäule immun ist. Wird zum Kochen und zum Biermachen verwendet.</Plant_Barley.description>
+
+
+  <!-- Tier 2 Plants -->
+
+  <Plant_Snowbeet.label>Schneerübe</Plant_Snowbeet.label>
+  <Plant_Snowbeet.description>Eine einfache, sehr nahrhafte Pflanze. Wächst gut, auch in etwas schlechterem Boden. Erntet schnell. Eine starke, vielseitige Pflanze. Stirbt nicht bei kaltem Wetter.</Plant_Snowbeet.description>
+
+  <Plant_redlentil.label>Rote Linse</Plant_redlentil.label>
+  <Plant_redlentil.description>Eine Rettichsorte der Linsenpflanze. Eine der ältesten bekannten domestizierten Pflanzen.</Plant_redlentil.description>
+
+  <Plant_bean.label>Bohnenpflanze</Plant_bean.label>
+  <Plant_bean.description>Gewöhnliche Bohne auf viele Arten gekocht.</Plant_bean.description>
+
+  <Plant_Olivetree.label>Olivenbaum</Plant_Olivetree.label>
+  <Plant_Olivetree.description>Ein fruchttragender Baum, der Oliven anbaut und bei der Ernte nicht zerstört wird.</Plant_Olivetree.description>
+
+
+  <!-- Other Plants -->
+
+  <Plant_Tea.label>Teepflanze</Plant_Tea.label>
+  <Plant_Tea.description>Eine grüne Blattpflanze, deren Blätter zu einem schmackhaften Getränk gebraut werden können.</Plant_Tea.description>
+
+  <Plant_Coffee.label>Kaffeepflanze</Plant_Coffee.label>
+  <Plant_Coffee.description>Eine grüne, blühende Pflanze, die Kaffeebohnen ergibt. Diese Bohnen können zu einem leckeren Getränk gebraut werden.</Plant_Coffee.description>
+
+  <!--[Core] <Plant_TreeBamboo.label>Bambus</Plant_TreeBamboo.label>-->
+  <!--[Core] <Plant_TreeBamboo.description>Eine schnell-wachsende baumähnliche Spezies, die in Gruppen wächst. Aus Bambus kann man ein holzähnliches Material ernten. Die Pflanze selbst ist nicht sonderlich gutaussehend.</Plant_TreeBamboo.description>-->
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>RMC007.可种植的的浆果</name>
+	<author>Chris Bradel (Chrscool8)</author>
+	<targetVersion>1.0.2059</targetVersion>
+	<description>This patch adds Wild Berry Bushes to the list of plantable objects.
+	这个玩意把各种野生浆果添加到了种植列表里。
+    
+(Works with both B19 and 1.0)</description>
+</ModMetaData>

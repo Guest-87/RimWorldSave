@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- Author jxb12306 FROM 3DM Localization Group-->
+  <!-- Injuries -->
+
+  <CureInjuryBurnAnimal.label>治愈烧伤</CureInjuryBurnAnimal.label>
+  <CureInjuryBurnAnimal.description>治愈烧伤。</CureInjuryBurnAnimal.description>
+  <CureInjuryBurnAnimal.jobString>正在治愈烧伤。</CureInjuryBurnAnimal.jobString>
+
+  <CureInjuryCrushAnimal.label>治愈压伤</CureInjuryCrushAnimal.label>
+  <CureInjuryCrushAnimal.description>治愈压伤。</CureInjuryCrushAnimal.description>
+  <CureInjuryCrushAnimal.jobString>正在治愈压伤。</CureInjuryCrushAnimal.jobString>
+
+  <CureInjuryCrackAnimal.label>治愈破裂</CureInjuryCrackAnimal.label>
+  <CureInjuryCrackAnimal.description>治愈破裂。</CureInjuryCrackAnimal.description>
+  <CureInjuryCrackAnimal.jobString>正在治愈破裂。</CureInjuryCrackAnimal.jobString>
+
+  <CureInjuryCutAnimal.label>治愈割伤</CureInjuryCutAnimal.label>
+  <CureInjuryCutAnimal.description>治愈割伤。</CureInjuryCutAnimal.description>
+  <CureInjuryCutAnimal.jobString>正在治愈割伤。</CureInjuryCutAnimal.jobString>
+
+  <CureInjurySurgicalCutAnimal.label>治愈手术伤</CureInjurySurgicalCutAnimal.label>
+  <CureInjurySurgicalCutAnimal.description>治愈手术伤。</CureInjurySurgicalCutAnimal.description>
+  <CureInjurySurgicalCutAnimal.jobString>正在治愈手术伤。</CureInjurySurgicalCutAnimal.jobString>
+
+  <CureInjuryScratchAnimal.label>治愈抓伤</CureInjuryScratchAnimal.label>
+  <CureInjuryScratchAnimal.description>治愈抓伤。</CureInjuryScratchAnimal.description>
+  <CureInjuryScratchAnimal.jobString>正在治愈抓伤。</CureInjuryScratchAnimal.jobString>
+
+  <CureInjuryBiteAnimal.label>治愈咬伤</CureInjuryBiteAnimal.label>
+  <CureInjuryBiteAnimal.description>治愈咬伤。</CureInjuryBiteAnimal.description>
+  <CureInjuryBiteAnimal.jobString>正在治愈咬伤。</CureInjuryBiteAnimal.jobString>
+
+  <CureInjuryStabAnimal.label>治愈刺伤</CureInjuryStabAnimal.label>
+  <CureInjuryStabAnimal.description>治愈刺伤。</CureInjuryStabAnimal.description>
+  <CureInjuryStabAnimal.jobString>正在治愈刺伤。</CureInjuryStabAnimal.jobString>
+
+  <CureInjuryGunshotAnimal.label>治愈枪伤</CureInjuryGunshotAnimal.label>
+  <CureInjuryGunshotAnimal.description>治愈枪伤。</CureInjuryGunshotAnimal.description>
+  <CureInjuryGunshotAnimal.jobString>正在治愈枪伤。</CureInjuryGunshotAnimal.jobString>
+
+  <CureInjuryShreddedAnimal.label>治愈炸伤</CureInjuryShreddedAnimal.label>
+  <CureInjuryShreddedAnimal.description>治愈炸伤。</CureInjuryShreddedAnimal.description>
+  <CureInjuryShreddedAnimal.jobString>正在治愈炸伤。</CureInjuryShreddedAnimal.jobString>
+
+  <CureInjuryBruiseAnimal.label>治愈瘀伤</CureInjuryBruiseAnimal.label>
+  <CureInjuryBruiseAnimal.description>治愈瘀伤。</CureInjuryBruiseAnimal.description>
+  <CureInjuryBruiseAnimal.jobString>正在治愈瘀伤。</CureInjuryBruiseAnimal.jobString>
+
+
+</LanguageData>

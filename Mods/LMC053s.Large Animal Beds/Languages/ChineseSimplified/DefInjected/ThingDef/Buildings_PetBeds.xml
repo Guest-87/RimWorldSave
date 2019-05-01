@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Animal beds -->
+
+  <CCPMAnimalSleepingSpot.label>中型动物睡眠点</CCPMAnimalSleepingSpot.label>
+  <CCPMAnimalSleepingSpot.description>在地板上指定一个给动物睡觉的位置。</CCPMAnimalSleepingSpot.description>
+  <CCPMAnimalSleepingSpot_Blueprint.label>中型动物睡眠点 (蓝图)</CCPMAnimalSleepingSpot_Blueprint.label>
+  <CCPMAnimalSleepingSpot_Frame.label>中型动物睡眠点 (建造中)</CCPMAnimalSleepingSpot_Frame.label>
+  <CCPMAnimalSleepingSpot_Frame.description>在地板上指定一个给动物睡觉的位置。</CCPMAnimalSleepingSpot_Frame.description>
+
+  <CCPLAnimalSleepingSpot.label>大型动物睡眠点</CCPLAnimalSleepingSpot.label>
+  <CCPLAnimalSleepingSpot.description>在地板上指定一个给动物睡觉的位置。</CCPLAnimalSleepingSpot.description>
+  <CCPLAnimalSleepingSpot_Blueprint.label>大型动物睡眠点 (蓝图)</CCPLAnimalSleepingSpot_Blueprint.label>
+  <CCPLAnimalSleepingSpot_Frame.label>大型动物睡眠点 (建造中)</CCPLAnimalSleepingSpot_Frame.label>
+  <CCPLAnimalSleepingSpot_Frame.description>在地板上指定一个给动物睡觉的位置。</CCPLAnimalSleepingSpot_Frame.description>
+
+  <CCPMAnimalSleepingBox.label>中型动物睡眠箱</CCPMAnimalSleepingBox.label>
+  <CCPMAnimalSleepingBox.description>一个供动物睡觉的小箱子。适合体型适中的动物。</CCPMAnimalSleepingBox.description>
+  <CCPMAnimalSleepingBox_Blueprint.label>中型动物睡眠箱 (蓝图)</CCPMAnimalSleepingBox_Blueprint.label>
+  <CCPMAnimalSleepingBox_Blueprint_Install.label>中型动物睡眠箱 (蓝图)</CCPMAnimalSleepingBox_Blueprint_Install.label>
+  <CCPMAnimalSleepingBox_Frame.label>中型动物睡眠箱 (建造中)</CCPMAnimalSleepingBox_Frame.label>
+  <CCPMAnimalSleepingBox_Frame.description>一个供动物睡觉的小箱子。适合体型适中的动物。</CCPMAnimalSleepingBox_Frame.description>
+
+  <CCPLAnimalSleepingBox.label>大型动物睡眠箱</CCPLAnimalSleepingBox.label>
+  <CCPLAnimalSleepingBox.description>一个供动物睡觉的小箱子。适合体型较大的动物。</CCPLAnimalSleepingBox.description>
+  <CCPLAnimalSleepingBox_Blueprint.label>大型动物睡眠箱 (蓝图)</CCPLAnimalSleepingBox_Blueprint.label>
+  <CCPLAnimalSleepingBox_Blueprint_Install.label>大型动物睡眠箱 (蓝图)</CCPLAnimalSleepingBox_Blueprint_Install.label>
+  <CCPLAnimalSleepingBox_Frame.label>大型动物睡眠箱 (建造中)</CCPLAnimalSleepingBox_Frame.label>
+  <CCPLAnimalSleepingBox_Frame.description>一个供动物睡觉的小箱子。适合体型较大的动物。</CCPLAnimalSleepingBox_Frame.description>
+
+  <CCPMAnimalBed.label>中型动物床铺</CCPMAnimalBed.label>
+  <CCPMAnimalBed.description>一个供动物睡觉的柔软床铺。适合任何类型动物。</CCPMAnimalBed.description>
+  <CCPMAnimalBed_Blueprint.label>中型动物床铺 (蓝图)</CCPMAnimalBed_Blueprint.label>
+  <CCPMAnimalBed_Blueprint_Install.label>中型动物床铺 (蓝图)</CCPMAnimalBed_Blueprint_Install.label>
+  <CCPMAnimalBed_Frame.label>中型动物床铺 (建造中)</CCPMAnimalBed_Frame.label>
+  <CCPMAnimalBed_Frame.description>一个供动物睡觉的柔软床铺。适合任何类型动物。</CCPMAnimalBed_Frame.description>
+
+  <CCPLAnimalBed.label>大型动物床铺</CCPLAnimalBed.label>
+  <CCPLAnimalBed.description>一个供动物睡觉的柔软床铺。适合任何类型动物。</CCPLAnimalBed.description>
+  <CCPLAnimalBed_Blueprint.label>大型动物床铺 (蓝图)</CCPLAnimalBed_Blueprint.label>
+  <CCPLAnimalBed_Blueprint_Install.label>大型动物床铺 (蓝图)</CCPLAnimalBed_Blueprint_Install.label>
+  <CCPLAnimalBed_Frame.label>大型动物床铺 (建造中)</CCPLAnimalBed_Frame.label>
+  <CCPLAnimalBed_Frame.description>一个供动物睡觉的柔软床铺。适合任何类型动物。</CCPLAnimalBed_Frame.description>
+
+
+</LanguageData>

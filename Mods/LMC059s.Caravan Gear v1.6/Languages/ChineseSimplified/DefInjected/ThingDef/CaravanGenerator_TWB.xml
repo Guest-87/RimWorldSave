@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CaravanGenerator_TWB.label>便携式发电机</CaravanGenerator_TWB.label>
+  <CaravanGenerator_TWB.description>消耗化合燃料的小型便携式发电机，能产生500W的功率，远征和露营的不二之选。</CaravanGenerator_TWB.description>
+  <CaravanGenerator_TWB_Blueprint.label>便携式发电机 (蓝图)</CaravanGenerator_TWB_Blueprint.label>
+  <CaravanGenerator_TWB_Blueprint_Install.label>便携式发电机 (蓝图)</CaravanGenerator_TWB_Blueprint_Install.label>
+  <CaravanGenerator_TWB_Frame.label>便携式发电机 (建造中)</CaravanGenerator_TWB_Frame.label>
+  <CaravanGenerator_TWB_Frame.description>消耗化合燃料的小型便携式发电机，能产生500W的功率，远征和露营的不二之选。</CaravanGenerator_TWB_Frame.description>
+
+
+</LanguageData>

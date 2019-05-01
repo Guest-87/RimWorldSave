@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Rocketstove.label>火箭柴炉</Rocketstove.label>
+  <Rocketstove.description>火箭柴炉烹饪食物速度很快，并能通过石头传导燃烧产生的热量。用木头作燃料。和所有热源一样，它必须放在室内，这样它就可以加热一个封闭的空间。</Rocketstove.description>
+  <Rocketstove_Blueprint.label>火箭柴炉 (蓝图)</Rocketstove_Blueprint.label>
+  <Rocketstove_Blueprint_Install.label>火箭柴炉 (蓝图)</Rocketstove_Blueprint_Install.label>
+  <Rocketstove_Frame.label>火箭柴炉 (建造中)</Rocketstove_Frame.label>
+  <Rocketstove_Frame.description>火箭柴炉烹饪食物速度很快，并能通过石头传导燃烧产生的热量。用木头作燃料。和所有热源一样，它必须放在室内，这样它就可以加热一个封闭的空间。</Rocketstove_Frame.description>
+
+
+</LanguageData>

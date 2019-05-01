@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <agriculture.label>VG：农业 I</agriculture.label>
+  <agriculture.description>研究植物基因，解锁新的植物种植。\n\n解锁一些蔬菜的种植。\n\n解锁种植「雪甜菜」、「蘑菇」、「红扁豆」、「橄榄树」。</agriculture.description>
+
+  <agricultureII.label>VG：农业 II</agricultureII.label>
+  <agricultureII.description>研究植物基因，解锁新的植物种植。\n\n解锁部分水果的种植。水果富含营养，烹饪成食物的消耗较低。\n\n解锁种植「葡萄」、「龙舌兰」、「草莓」、「蓝莓」、「西瓜」。 </agricultureII.description>
+
+  <agricultureIII.label>VG：农业 III</agricultureIII.label>
+  <agricultureIII.description>研究植物基因，解锁新的植物种植。\n\n解锁部分水果的种植。果树生长周期长，但是可以反覆收获果实。\n\n解锁种植「苹果树」、「香蕉树」、「橙树」、「桃树」。</agricultureIII.description>
+
+  <flowersandtrees.label>VG：花卉与树木</flowersandtrees.label>
+  <flowersandtrees.description>研究额外的花卉和树木种植。</flowersandtrees.description>
+
+  <VG_Ambrosia.label>VG：仙馐果</VG_Ambrosia.label>
+  <VG_Ambrosia.description>研究通过水栽培植物盆种植仙馐果的方法。</VG_Ambrosia.description>
+
+</LanguageData>

@@ -151,7 +151,7 @@
     </li>
     <li>
       <key>HomeArea</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>SpoilageAndFreezers</key>
@@ -227,6 +227,18 @@
     </li>
     <li>
       <key>MaxNumberOfPlayerSettlements</key>
+      <value>0</value>
+    </li>
+    <li>
+      <key>FD_Shields</key>
+      <value>0</value>
+    </li>
+    <li>
+      <key>FD_CoilTemperature</key>
+      <value>0</value>
+    </li>
+    <li>
+      <key>FD_ShieldsPortable</key>
       <value>0</value>
     </li>
   </knowledge>

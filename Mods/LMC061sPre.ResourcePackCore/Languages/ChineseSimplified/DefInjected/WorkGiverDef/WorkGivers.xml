@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Author jxb12306 FROM 3DM Localization Group-->
+
+  <!-- 土採集 -->
+
+  <DoBillsUseRPC_GatheringSpot_Dirt.label>从土壤中采集泥土</DoBillsUseRPC_GatheringSpot_Dirt.label>
+  <DoBillsUseRPC_GatheringSpot_Dirt.verb>采集</DoBillsUseRPC_GatheringSpot_Dirt.verb>
+  <DoBillsUseRPC_GatheringSpot_Dirt.gerund>正在采集中</DoBillsUseRPC_GatheringSpot_Dirt.gerund>
+
+
+  <!-- 砂採集 -->
+
+  <DoBillsUseRPC_GatheringSpot_Sand.label>从土壤中采集沙子</DoBillsUseRPC_GatheringSpot_Sand.label>
+  <DoBillsUseRPC_GatheringSpot_Sand.verb>采集</DoBillsUseRPC_GatheringSpot_Sand.verb>
+  <DoBillsUseRPC_GatheringSpot_Sand.gerund>正在采集中</DoBillsUseRPC_GatheringSpot_Sand.gerund>
+
+
+  <!-- 砂利採集 -->
+
+  <DoBillsUseRPC_GatheringSpot_Gravel.label>从土壤中采集砾石</DoBillsUseRPC_GatheringSpot_Gravel.label>
+  <DoBillsUseRPC_GatheringSpot_Gravel.verb>采集</DoBillsUseRPC_GatheringSpot_Gravel.verb>
+  <DoBillsUseRPC_GatheringSpot_Gravel.gerund>正在采集中</DoBillsUseRPC_GatheringSpot_Gravel.gerund>
+
+
+  <!-- 氷採集 -->
+
+  <DoBillsUseRPC_GatheringSpot_Ice.label>从冰面上切下冰块。</DoBillsUseRPC_GatheringSpot_Ice.label>
+  <DoBillsUseRPC_GatheringSpot_Ice.verb>采集</DoBillsUseRPC_GatheringSpot_Ice.verb>
+  <DoBillsUseRPC_GatheringSpot_Ice.gerund>正在采集中</DoBillsUseRPC_GatheringSpot_Ice.gerund>
+
+
+</LanguageData>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--==================== Server ======================== -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>ServerSilver</defName>
+    <label>server</label>
+    <description>This server has high processing power and plentiful memory. It can earn a colony a good flow of silver through leasing - provided the machine remains powered. It has an array of communications technology to allow it to service less-developed areas.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>serverImage/server</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(1.93,1,1.69)</volume>
+        <offset>(-0.03,0,-0.1)</offset>
+      </shadowData>
+	  <damageData>
+        <rect>(0,0,1,2)</rect>
+	  </damageData>
+	
+    </graphicData>
+
+
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>true</stealable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <statBases>
+	  <Mass>34</Mass>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>2200</WorkToBuild>
+      <Flammability>0.6</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+	<passability>Impassable</passability>
+    <designationCategory>Production</designationCategory>
+    <designationHotKey>Misc6</designationHotKey>
+    <building>
+      <expandHomeArea>true</expandHomeArea>
+			<ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+<!--     <placeWorkers>
+      <li>PlaceWorker_NeverAdjacentTrap</li>
+    </placeWorkers> -->
+	<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+	<resourcesFractionWhenDeconstructed>1.0</resourcesFractionWhenDeconstructed>
+	<comps>
+	
+	 <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>300</basePowerConsumption>
+     </li>
+     <li Class="CompProperties_Flickable"/>
+	 
+     <li Class="CompProperties_Breakdownable"/>
+	 
+	 <li Class="CompProperties_Explosive">
+        <explosiveRadius>8</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+     </li>
+	 
+	 <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(0, 204, 0,0)</glowColor>
+     </li>
+	 
+     <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>3.5</heatPerSecond>
+        <heatPushMaxTemperature>23</heatPushMaxTemperature>
+     </li>
+	 
+     <li Class="CompProperties_Spawner">
+        <thingToSpawn>Silver</thingToSpawn>
+		<requiresPower>true</requiresPower>
+        <spawnCount>82</spawnCount>
+        <spawnIntervalRange><min>900000</min><max>900000</max></spawnIntervalRange>
+        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+        <showMessageIfOwned>false</showMessageIfOwned>
+      </li>
+	</comps>
+	
+	<tradeability>Sellable</tradeability>
+	<researchPrerequisites>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+	
+  </ThingDef>
+
+
+</Defs>

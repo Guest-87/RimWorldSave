@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Core SK</modName>
+				<yourMod>Sacred WhiteFox</yourMod>
+				<success>Invert</success>
+			</li>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Combat Extended</modName>
+				<yourMod>Sacred WhiteFox</yourMod>
+			</li>
+			<!-- ========== WhiteFox ========== -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[defName="Whitefox"]</xpath>
+				<value>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="Whitefox"]/statBases</xpath>
+				<value>
+				<statBases>
+					<Mass>50</Mass>
+					<MoveSpeed>6.52</MoveSpeed>
+					<ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>35</ComfyTemperatureMax>
+					<ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.16</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.25</ArmorRating_Heat>
+					<PainShockThreshold>0.85</PainShockThreshold>
+					<MeleeHitChance>0.71</MeleeHitChance>
+					<MeleeDodgeChance>0.58</MeleeDodgeChance>
+					<MeleeCritChance>0.6</MeleeCritChance>
+					<MeleeArmorPenetration>1</MeleeArmorPenetration>
+					<MeatAmount>60</MeatAmount>
+					<MarketValue>1500</MarketValue>
+					<CarryingCapacity>70</CarryingCapacity>
+				</statBases>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="Whitefox"]/race/baseHealthScale</xpath>
+				<value>
+					<baseHealthScale>3.5</baseHealthScale>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="Whitefox"]/statBases/MoveSpeed</xpath>
+				<value>
+					<MoveSpeed>7.74</MoveSpeed>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName="Whitefox"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<capacities>
+						<li>Slash</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>1.2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>38</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetration>0.52</armorPenetration>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<capacities>
+						<li>Slash</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>1.2</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>38</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetration>0.52</armorPenetration>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities>
+						<li>Bite</li>
+					</capacities>
+					<power>13</power>
+					<cooldownTime>1.6</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>32</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetration>0.64</armorPenetration>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>Tail</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>0.95</cooldownTime>
+					<linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+					<armorPenetration>0.26</armorPenetration>
+				</li>
+			</tools>
+		</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

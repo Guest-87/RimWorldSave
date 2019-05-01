@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Core SK</modName>
+				<yourMod>Sacred WhiteFox</yourMod>
+			</li>
+			<!-- ========== Sacred WhiteFox SK ========== -->
+		<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="WhitefoxWool"]</xpath>
+			<value>
+			<tickerType>Rare</tickerType>
+			<stackLimit>300</stackLimit>
+			<thingCategories>
+				<li>BTextiles</li>
+			</thingCategories>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="WhitefoxWool"]/stuffProps</xpath>
+			<value>
+			<color>(255,255,255)</color>
+			<commonality>0.15</commonality>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="WhitefoxWool"]/statBases</xpath>
+			<value>
+			<statBases>
+			<MarketValue>7.6</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			</statBases>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="WhitefoxWool"]/stuffProps/statOffsets</xpath>
+			<value>
+			<statOffsets>
+				<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.11</ArmorRating_Sharp>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+				<ArmorRating_Electric>0.09</ArmorRating_Electric>
+			</statOffsets>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "WhitefoxWool"]/stuffProps/statFactors</xpath>
+			<value>
+			<statFactors>
+				<MarketValue>3.25</MarketValue>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<Beauty>2.0</Beauty>
+				<WorkToBuild>1.28</WorkToBuild>
+				<WorkToMake>1.64</WorkToMake>
+				<ArmorRating_Blunt>1.22</ArmorRating_Blunt>
+				<ArmorRating_Sharp>1.54</ArmorRating_Sharp>
+				<ArmorRating_Heat>0.92</ArmorRating_Heat>
+				<ArmorRating_Electric>1.42</ArmorRating_Electric>
+				<Insulation_Cold>1.52</Insulation_Cold>
+				<Insulation_Heat>0.86</Insulation_Heat>
+				<MoveSpeed>1.08</MoveSpeed>
+				<BedRestEffectiveness>1.6</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+				<Mass>0.15</Mass>
+			</statFactors>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+</Patch>

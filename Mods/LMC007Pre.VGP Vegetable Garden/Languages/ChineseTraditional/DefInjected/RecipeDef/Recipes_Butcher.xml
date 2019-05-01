@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeSilage.label>製作青貯飼料（75）</MakeSilage.label>
+  <MakeSilage.description>用乾草和穀物製作青貯飼料。</MakeSilage.description>
+  <MakeSilage.jobString>正在製作青貯飼料。</MakeSilage.jobString>
+
+  <VG_MakebulkKibble.label>批量製作飼料（200）</VG_MakebulkKibble.label>
+  <VG_MakebulkKibble.description>混和生肉和作物製成動物飼料。</VG_MakebulkKibble.description>
+  <VG_MakebulkKibble.jobString>正在批量製作飼料。</VG_MakebulkKibble.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=========================== Animal beds ===============================-->
+
+  <ThingDef ParentName="BuildingBase">
+	<defName>CCPMAnimalSleepingSpot</defName>
+	<thingClass>Building_Bed</thingClass>
+	<label>medium animal sleeping spot</label>
+	<description>Designates a spot on the ground where animals should sleep.</description>
+	<size>(1,1)</size>
+	<passability>Standable</passability>
+	<designationCategory>Furniture</designationCategory>
+	<scatterableOnMapGen>false</scatterableOnMapGen>
+	<useHitPoints>False</useHitPoints>
+	<altitudeLayer>FloorEmplacement</altitudeLayer>
+    <rotatable>false</rotatable>
+    <graphicData>
+		<texPath>Things/Building/Misc/AnimalBed/AnimalSleepSpot</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(1.5,1.5)</drawSize>
+	</graphicData>
+    <uiIconScale>0.6</uiIconScale>
+	<statBases>
+		<WorkToBuild>0</WorkToBuild>
+		<SurgerySuccessChanceFactor>0.7</SurgerySuccessChanceFactor>
+	</statBases>
+	<building>
+		<bed_humanlike>false</bed_humanlike>
+		<bed_showSleeperBody>True</bed_showSleeperBody>
+		<sowTag>SupportPlantsOnly</sowTag>
+		<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+        <ai_chillDestination>false</ai_chillDestination>
+	</building>
+	<comps>
+		<li Class="CompProperties_RoomIdentifier">
+			<roomStat>Impressiveness</roomStat>
+		</li>
+	</comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+	<defName>CCPLAnimalSleepingSpot</defName>
+	<thingClass>Building_Bed</thingClass>
+	<label>large animal sleeping spot</label>
+	<description>Designates a spot on the ground where animals should sleep.</description>
+	<size>(1,1)</size>
+	<passability>Standable</passability>
+	<designationCategory>Furniture</designationCategory>
+	<scatterableOnMapGen>false</scatterableOnMapGen>
+	<useHitPoints>False</useHitPoints>
+	<altitudeLayer>FloorEmplacement</altitudeLayer>
+    <rotatable>false</rotatable>
+    <graphicData>
+		<texPath>Things/Building/Misc/AnimalBed/AnimalSleepSpot</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(2,2)</drawSize>
+	</graphicData>
+    <uiIconScale>0.55</uiIconScale>
+	<statBases>
+		<WorkToBuild>0</WorkToBuild>
+		<SurgerySuccessChanceFactor>0.7</SurgerySuccessChanceFactor>
+	</statBases>
+	<building>
+		<bed_humanlike>false</bed_humanlike>
+		<bed_showSleeperBody>True</bed_showSleeperBody>
+		<sowTag>SupportPlantsOnly</sowTag>
+		<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+        <ai_chillDestination>false</ai_chillDestination>
+	</building>
+	<comps>
+		<li Class="CompProperties_RoomIdentifier">
+			<roomStat>Impressiveness</roomStat>
+		</li>
+	</comps>
+  </ThingDef>
+  
+  
+
+   <ThingDef ParentName="FurnitureWithQualityBase">
+	<defName>CCPMAnimalSleepingBox</defName>
+	<thingClass>Building_Bed</thingClass>
+	<label>medium animal sleeping box</label>
+	<description>A small box for animals to sleep in. Fits medium animals.</description>
+	<rotatable>false</rotatable>
+	<fillPercent>0.25</fillPercent>
+	<pathCost>40</pathCost>
+	<passability>PassThroughOnly</passability>
+    <canOverlapZones>false</canOverlapZones>
+	<graphicData>
+		<texPath>Things/Building/Misc/AnimalBed/AnimalSleepBox</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(1.5,1.5)</drawSize>
+        <damageData>
+			<rect>(0.05,0.05,0.9,0.9)</rect>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+	</graphicData>
+	<castEdgeShadows>true</castEdgeShadows>
+	<stuffCategories>
+		<li>Metallic</li>
+		<li>Woody</li>
+		<li>Stony</li>
+	</stuffCategories>
+	<costStuffCount>55</costStuffCount>
+	<building>
+      <bed_humanlike>false</bed_humanlike>
+	  <bed_maxBodySize>0.85</bed_maxBodySize>
+	  <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+	</building>
+	<altitudeLayer>Building</altitudeLayer>
+	<statBases>
+		<MaxHitPoints>95</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+		<WorkToBuild>220</WorkToBuild>
+        <Mass>5</Mass>
+		<BedRestEffectiveness>0.93</BedRestEffectiveness>
+		<Comfort>0.60</Comfort>
+		<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+		<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+	</statBases>
+	<comps>
+		<li Class="CompProperties_RoomIdentifier">
+			<roomStat>Impressiveness</roomStat>
+		</li>
+	</comps>
+    <uiIconScale>0.6</uiIconScale>
+  </ThingDef>
+ 
+   <ThingDef ParentName="FurnitureWithQualityBase">
+	<defName>CCPLAnimalSleepingBox</defName>
+	<thingClass>Building_Bed</thingClass>
+	<label>large animal sleeping box</label>
+	<description>A small box for animals to sleep in. Fits large animals.</description>
+	<rotatable>false</rotatable>
+	<fillPercent>0.35</fillPercent>
+	<pathCost>40</pathCost>
+	<passability>PassThroughOnly</passability>
+    <canOverlapZones>false</canOverlapZones>
+	<graphicData>
+		<texPath>Things/Building/Misc/AnimalBed/AnimalSleepBox</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(2,2)</drawSize>
+        <damageData>
+			<rect>(0.05,0.05,0.9,0.9)</rect>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+	</graphicData>
+	<castEdgeShadows>true</castEdgeShadows>
+	<stuffCategories>
+		<li>Metallic</li>
+		<li>Woody</li>
+		<li>Stony</li>
+	</stuffCategories>
+	<costStuffCount>85</costStuffCount>
+	<building>
+      <bed_humanlike>false</bed_humanlike>
+	  <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+	</building>
+	<altitudeLayer>Building</altitudeLayer>
+	<statBases>
+		<MaxHitPoints>125</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+		<WorkToBuild>280</WorkToBuild>
+        <Mass>7</Mass>
+		<BedRestEffectiveness>0.93</BedRestEffectiveness>
+		<Comfort>0.60</Comfort>
+		<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+		<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+	</statBases>
+	<comps>
+		<li Class="CompProperties_RoomIdentifier">
+			<roomStat>Impressiveness</roomStat>
+		</li>
+	</comps>
+    <uiIconScale>0.55</uiIconScale>
+  </ThingDef>
+
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+	<defName>CCPMAnimalBed</defName>
+	<thingClass>Building_Bed</thingClass>
+	<label>medium animal bed</label>
+	<description>A soft bed for animals to sleep on. Fits any animal (though some better than others).</description>
+	<rotatable>false</rotatable>
+	<fillPercent>0.25</fillPercent>
+	<pathCost>40</pathCost>
+	<passability>PassThroughOnly</passability>
+    <canOverlapZones>false</canOverlapZones>
+	<graphicData>
+		<texPath>Things/Building/Misc/AnimalBed/AnimalBed</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(1.75,1.75)</drawSize>
+	</graphicData>
+	<castEdgeShadows>true</castEdgeShadows>
+    <uiIconScale>0.6</uiIconScale>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>60</costStuffCount>
+	<building>
+      <bed_humanlike>false</bed_humanlike>
+	  <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+	</building>
+	<altitudeLayer>Building</altitudeLayer>
+	<statBases>
+		<MaxHitPoints>180</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+		<WorkToBuild>460</WorkToBuild>
+		<Mass>12</Mass>
+		<BedRestEffectiveness>1</BedRestEffectiveness>
+		<Comfort>0.75</Comfort>
+		<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
+		<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+	</statBases>
+	<comps>
+		<li Class="CompProperties_RoomIdentifier">
+			<roomStat>Impressiveness</roomStat>
+		</li>
+	</comps>
+	</ThingDef>
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+	<defName>CCPLAnimalBed</defName>
+	<thingClass>Building_Bed</thingClass>
+	<label>large animal bed</label>
+	<description>A soft bed for animals to sleep on. Fits any animal (though some better than others).</description>
+	<rotatable>false</rotatable>
+	<fillPercent>0.35</fillPercent>
+	<pathCost>40</pathCost>
+	<passability>PassThroughOnly</passability>
+    <canOverlapZones>false</canOverlapZones>
+	<graphicData>
+		<texPath>Things/Building/Misc/AnimalBed/AnimalBed</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(2.3,2.3)</drawSize>
+	</graphicData>
+	<castEdgeShadows>true</castEdgeShadows>
+    <uiIconScale>0.5</uiIconScale>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>90</costStuffCount>
+	<building>
+      <bed_humanlike>false</bed_humanlike>
+	  <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+	</building>
+	<altitudeLayer>Building</altitudeLayer>
+	<statBases>
+		<MaxHitPoints>220</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+		<WorkToBuild>520</WorkToBuild>
+		<Mass>15</Mass>
+		<BedRestEffectiveness>1</BedRestEffectiveness>
+		<Comfort>0.75</Comfort>
+		<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
+		<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+	</statBases>
+	<comps>
+		<li Class="CompProperties_RoomIdentifier">
+			<roomStat>Impressiveness</roomStat>
+		</li>
+	</comps>
+	</ThingDef>
+	
+</Defs>

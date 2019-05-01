@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WDSmallSolarGenerator.label>小型太阳能板</WDSmallSolarGenerator.label>
+  <WDSmallSolarGenerator.description>利用太阳光来发电，在阳光不足时不工作，人工光源无法用作发电。</WDSmallSolarGenerator.description>
+  <WDSmallSolarGenerator_Blueprint.label>小型太阳能板 (蓝图)</WDSmallSolarGenerator_Blueprint.label>
+  <WDSmallSolarGenerator_Frame.label>小型太阳能板 (建造中)</WDSmallSolarGenerator_Frame.label>
+  <WDSmallSolarGenerator_Frame.description>利用太阳光来发电，在阳光不足时不工作，人工光源无法用作发电。</WDSmallSolarGenerator_Frame.description>
+
+
+</LanguageData>

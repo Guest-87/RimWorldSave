@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LevelUpLabel>升级啦! {0} 的 {2} 技能达到了 {1} 级。</LevelUpLabel>
+
+  <LevelUpTextMessageLabel>文本通知</LevelUpTextMessageLabel>
+  <LevelUpTextMessageLabelTooltip>在殖民者技能升级的时候显示相应的文本通知。</LevelUpTextMessageLabelTooltip>
+  <LevelUpSoundEffectLabel>音效</LevelUpSoundEffectLabel>
+  <LevelUpSoundEffectLabelTooltip>在殖民者技能升级的时候播放音效。</LevelUpSoundEffectLabelTooltip>
+  <LevelUpAnimationLabel>动画</LevelUpAnimationLabel>
+  <LevelUpAnimationLabelTooltip>在殖民者技能升级的时候播放动画。</LevelUpAnimationLabelTooltip>
+
+</LanguageData>

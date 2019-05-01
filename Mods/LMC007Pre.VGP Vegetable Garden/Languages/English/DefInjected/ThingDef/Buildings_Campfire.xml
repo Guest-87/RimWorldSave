@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VG_Campfire.label>bamboo campfire</VG_Campfire.label>
+  <VG_Campfire.description>Cooks meals and produces heat. Burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</VG_Campfire.description>
+  <VG_Campfire_Blueprint.label>bamboo campfire (blueprint)</VG_Campfire_Blueprint.label>
+  <VG_Campfire_Frame.label>bamboo campfire (building)</VG_Campfire_Frame.label>
+  <VG_Campfire_Frame.description>Cooks meals and produces heat. Burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</VG_Campfire_Frame.description>
+
+
+</LanguageData>

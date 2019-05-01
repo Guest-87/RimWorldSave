@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+
+  <!--[Core] <RawAgave.label>agave fruit</RawAgave.label>-->
+  <!--[Core] <RawAgave.description>Raw agave fruit.</RawAgave.description>-->
+
+  <!--[Core] <RawBerries.label>berries</RawBerries.label>-->
+  <!--[Core] <RawBerries.description>Assorted berries. Nice to eat, even when raw.</RawBerries.description>-->
+
+  <Rawapple.label>pommes</Rawapple.label>
+  <Rawapple.description>Un fruit rouge qui pousse sur les arbres.</Rawapple.description>
+
+  <Rawbanana.label>banane</Rawbanana.label>
+  <Rawbanana.description>Un fruit jaune qui pousse sur les arbres.</Rawbanana.description>
+
+  <Rawgrape.label>raisin</Rawgrape.label>
+  <Rawgrape.description>Un fruit sucré qui pousse sur les vignes.</Rawgrape.description>
+
+  <Raworange.label>orange</Raworange.label>
+  <Raworange.description>Un fruit sucré qui pousse sur les arbres.</Raworange.description>
+
+  <Rawpeach.label>pêche</Rawpeach.label>
+  <Rawpeach.description>Un fruit sucré qui pousse sur les arbres.</Rawpeach.description>
+
+  <Rawpineapple.label>ananas</Rawpineapple.label>
+  <Rawpineapple.description>Fruit tropical ayant de grandes feuilles en forme d'épée et de gros fruits charnus, comestibles et multiples, avec une touffe bourgeonnante de feuilles.</Rawpineapple.description>
+
+  <Rawblueberry.label>myrtille</Rawblueberry.label>
+  <Rawblueberry.description>Baies de couleur bleue qui poussent dans les buissons. Même bon cru.</Rawblueberry.description>
+
+  <Rawwatermelon.label>pastèque</Rawwatermelon.label>
+  <Rawwatermelon.description>Gros fruit arrondi ou allongé d'une vigne traînante à écorce dure et verte et à pulpe sucrée, juteuse, généralement rose ou rouge.</Rawwatermelon.description>
+
+  <Rawdate.label>datte</Rawdate.label>
+  <Rawdate.description>Un fruit sucré qui pousse sur les arbres.</Rawdate.description>
+
+  <Rawfig.label>figue</Rawfig.label>
+  <Rawfig.description>Un fruit sucré qui pousse sur les arbres.</Rawfig.description>
+
+  <Rawgooseberry.label>groseille à maquereau</Rawgooseberry.label>
+  <Rawgooseberry.description>Un fruit sucré qui pousse sur les vignes.</Rawgooseberry.description>
+
+  <Rawcloudberry.label>plaquebière</Rawcloudberry.label>
+  <Rawcloudberry.description>Un fruit sucré qui pousse sur les vignes.</Rawcloudberry.description>
+
+  <RawCherry.label>Cerise</RawCherry.label>
+  <RawCherry.description>Fruits rouges qui poussent sur les arbres.</RawCherry.description>
+
+  <RawCoconut.label>Noix de coco</RawCoconut.label>
+  <RawCoconut.description>Fruit du cocotier qui pousse sur les arbres. A une coquille extérieure dure avec une chair de fruits juteuse à l'intérieur.</RawCoconut.description>
+
+
+</LanguageData>

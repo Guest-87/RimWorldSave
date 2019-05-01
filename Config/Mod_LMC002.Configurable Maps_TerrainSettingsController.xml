@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ConfigurableMaps.Settings.TerrainSettings">
+		<geysersLevel>1</geysersLevel>
+		<chunksLevel>1</chunksLevel>
+		<waterLevel>2</waterLevel>
+		<fertilityLevel>2</fertilityLevel>
+		<mountainLevel>2</mountainLevel>
+	</ModSettings>
+</SettingsBlock>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<LFTerr_Drain.label>排水溝</LFTerr_Drain.label>
+	<LFTerr_Drain.description>沖洗身體後用以排洩汙水的排水溝。在其上不會產生汙垢。</LFTerr_Drain.description>
+
+	<LFTerr_Spring.label>泉源</LFTerr_Spring.label>
+	<LFTerr_Spring.tools.water.label>水面</LFTerr_Spring.tools.water.label>
+
+	<LFTerr_HotSpring.label>温泉</LFTerr_HotSpring.label>
+	<LFTerr_HotSpring.tools.water.label>水面</LFTerr_HotSpring.tools.water.label>
+
+</LanguageData>

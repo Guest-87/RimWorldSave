@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FoxFlame.label>火焰</FoxFlame.label>
+  <FoxFlame.deathMessage>{0} 被烧死了。</FoxFlame.deathMessage>
+
+  <FoxFlamewt.label>火焰</FoxFlamewt.label>
+  <FoxFlamewt.deathMessage>{0} 被烧死了。</FoxFlamewt.deathMessage>
+
+
+</LanguageData>

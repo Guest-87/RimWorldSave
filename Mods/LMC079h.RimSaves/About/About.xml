@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>LMC079h.存档界面改进</name>
+    <author>aRandomKiwi</author>
+	<supportedVersions>
+        <li>1.0</li>
+	</supportedVersions>
+    <description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+
+Save menu improvements.
+Organize your saves into folders, no more autosave overwriting between colonies in different folders, rename/duplicate saves, mass saves removing...
+保存菜单改进。
+将您的存档归类到文件夹中，避免不同文件夹中的殖民地之间自动保存被覆盖的问题，重命名/复制存档，批量删除存档…
+
+Version 2019 rev2b for Rimworld.
+
+</description>
+
+</ModMetaData>

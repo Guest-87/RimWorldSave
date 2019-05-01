@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeChemfuelFromBamboo.label>Herstellung von Biotreibstoff aus Bambus</MakeChemfuelFromBamboo.label>
+  <MakeChemfuelFromBamboo.description>Vergase Bambus für einen Stapel Biotreibstoff.</MakeChemfuelFromBamboo.description>
+  <MakeChemfuelFromBamboo.jobString>Raffiniere Biotreibstoff aus Bambus.</MakeChemfuelFromBamboo.jobString>
+
+  <VG_MakeBiofuel.label>Herstellung von Biotreibstoff aus Körnern</VG_MakeBiofuel.label>
+  <VG_MakeBiofuel.description>Extrahiere einen Stapel Biotreibstoff aus Weizen, Mais oder Bohnen.</VG_MakeBiofuel.description>
+  <VG_MakeBiofuel.jobString>Raffiniere Biotreibstoff aus organischen Stoffen.</VG_MakeBiofuel.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Building_ShieldGeneratorLarge.label>大型护盾发生器</Building_ShieldGeneratorLarge.label>
+  <Building_ShieldGeneratorLarge.description>一个更大的护盾发生器，能够在崩溃前承受更多的伤害。</Building_ShieldGeneratorLarge.description>
+  <Building_ShieldGeneratorLarge_Blueprint.label>大型护盾发生器 (蓝图)</Building_ShieldGeneratorLarge_Blueprint.label>
+  <Building_ShieldGeneratorLarge_Frame.label>大型护盾发生器 (建造中)</Building_ShieldGeneratorLarge_Frame.label>
+  <Building_ShieldGeneratorLarge_Frame.description>一个更大的护盾发生器，能够在崩溃前承受更多的伤害。</Building_ShieldGeneratorLarge_Frame.description>
+
+
+</LanguageData>

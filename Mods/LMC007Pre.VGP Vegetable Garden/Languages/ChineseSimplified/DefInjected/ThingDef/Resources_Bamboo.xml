@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bamboo.label>竹子</Bamboo.label>
+  <Bamboo.description>速生草本植物。优良的建材。</Bamboo.description>
+  <Bamboo.stuffProps.stuffAdjective>竹</Bamboo.stuffProps.stuffAdjective>
+
+  <VG_IronWoodLog.label>铁树木</VG_IronWoodLog.label>
+  <VG_IronWoodLog.description>来自铁木树的木材。良好的建材，能制作武器和义肢。 紧要关头拿起木头便可当作武器。非常美丽的装饰材料。</VG_IronWoodLog.description>
+  <VG_IronWoodLog.stuffProps.stuffAdjective>铁树木</VG_IronWoodLog.stuffProps.stuffAdjective>
+
+
+</LanguageData>

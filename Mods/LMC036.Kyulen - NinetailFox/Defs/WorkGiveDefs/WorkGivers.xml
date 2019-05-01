@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorkGiverDef>
+    <defName>Bead</defName>
+    <label>bead animals</label>
+    <giverClass>Ninetail.WorkGiver_Bead</giverClass>
+    <workType>Handling</workType>
+    <verb>gathering a bead from</verb>
+    <gerund>gather a bead from</gerund>
+    <priorityInType>85</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+</Defs>

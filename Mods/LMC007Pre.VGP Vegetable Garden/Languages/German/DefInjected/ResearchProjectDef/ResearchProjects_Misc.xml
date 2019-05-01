@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <agriculture.label>Landwirtschaft I</agriculture.label>
+  <agriculture.description>Forschung im Bereich der pflanzlichen Genetik zum freischalten neuer Pflanzentypen! \n\n Schaltet neues Gemüse frei. \n\n Schaltet den Anbau von Schneebohnen, Bohnen, roten Linsen und Oliven frei.</agriculture.description>
+
+  <agricultureII.label>Landwirtschaft II</agricultureII.label>
+  <agricultureII.description>Forschung im Bereich der pflanzlichen Genetik zum freischalten neuer Pflanzentypen! \n\n Schaltet neue Früchte frei. Früchte haben einen höheren Nahrungswert und sind effizenter beim Herstellen von Mahlzeiten. \n\n Schaltet den Anbau von Trauben, Agaven, Erdbeeren, Blaubeeren und Wassermelonen frei. </agricultureII.description>
+
+  <agricultureIII.label>Landwirtschaft III</agricultureIII.label>
+  <agricultureIII.description>Forschung im Bereich der pflanzlichen Genetik zum freischalten neuer Pflanzentypen! \n\n Schaltet neue Obstbäume frei. Obstbäume haben eine lange Wachstumszeit, aber eine größere Ernte. \n\n Schaltet den Anbau von Äpfeln-, Bananen-, Orangen- und Pfirschbäumen frei.</agricultureIII.description>
+
+  <flowersandtrees.label>Blumen and Bäume</flowersandtrees.label>
+  <flowersandtrees.description>Schaltet Blumen and Bäume für den Anbau frei.</flowersandtrees.description>
+
+  <VG_Ambrosia.label>Ambrosia</VG_Ambrosia.label>
+  <VG_Ambrosia.description>Erforscht die Fähigkeit Ambrosia in Hydroponik Becken anzubauen.</VG_Ambrosia.description>
+
+
+</LanguageData>

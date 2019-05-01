@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Starter Plants -->
+
+  <!--[Core] <PlantPotato.label>馬鈴薯</PlantPotato.label>-->
+  <!--[Core] <PlantPotato.description>一種簡單，營養豐富的塊莖作物。在較差的土壤環境中也能正常生長。</PlantPotato.description>-->
+
+  <!--[Core] <PlantCorn.label>玉米</PlantCorn.label>-->
+  <!--[Core] <PlantCorn.description>生長出一粒粒美味黃色種子的大型作物，需要較長的時間生長，能收穫的糧食非常多，但也需要更長的時間收割。未經烹調的玉米也非常美味。玉米株需要在肥沃的土地上才能良好的生長。</PlantCorn.description>-->
+
+  <!--[Core] <PlantRice.label>稻米</PlantRice.label>-->
+  <!--[Core] <PlantRice.description>在肥沃的土地上生長的小型作物，生長快速，但不適合生食。</PlantRice.description>-->
+
+  <PlantBarley.label>大麥</PlantBarley.label>
+  <PlantBarley.description>一種能夠免疫枯萎病的強壯穀物，可用於烹調食物和釀酒。</PlantBarley.description>
+
+
+  <!-- Tier 2 Plants -->
+
+  <PlantSnowbeet.label>雪甜菜</PlantSnowbeet.label>
+  <PlantSnowbeet.description>簡單的營養豐富的植物。即使在一些貧瘠的土壤中也能種植。收穫迅速。一種強大的多用途的作物。在寒冷的氣候下也不會枯萎。</PlantSnowbeet.description>
+
+  <Plantredlentil.label>紅扁豆</Plantredlentil.label>
+  <Plantredlentil.description>紅色的扁豆品種。已知的最古老的人工種植作物之一。</Plantredlentil.description>
+
+  <Plantbean.label>黃豆</Plantbean.label>
+  <Plantbean.description>黃豆是烹飪中的常見材料。</Plantbean.description>
+
+  <PlantOlivetree.label>橄欖樹</PlantOlivetree.label>
+  <PlantOlivetree.description>橄欖樹，採摘後能保留樹木。</PlantOlivetree.description>
+
+
+  <!-- Other Plants -->
+
+  <!--[Core] <PlantHaygrass.label>牧草</PlantHaygrass.label>-->
+  <!--[Core] <PlantHaygrass.description>營養豐富的牧草，做為動物的飼料，人類無法食用。</PlantHaygrass.description>-->
+
+  <!--[Core] <PlantGrass.label>草</PlantGrass.label>-->
+  <!--[Core] <PlantGrass.description>野草，在稍微有點光線和土地的地方就能發現它的蹤跡。</PlantGrass.description>-->
+
+  <PlantTea.label>茶樹</PlantTea.label>
+  <PlantTea.description>一種灌木。葉子可以沖泡成美味的飲料。</PlantTea.description>
+
+  <PlantCoffee.label>咖啡樹</PlantCoffee.label>
+  <PlantCoffee.description>這種矮小的樹木結出的紅色果實酷似櫻桃，種子經過發酵晾曬等工藝，或煮、或研磨成粉沖泡，最後成為美味的飲料。</PlantCoffee.description>
+
+  <!--[Core] <PlantHops.label>啤酒花</PlantHops.label>-->
+  <!--[Core] <PlantHops.description>一種能夠收穫啤酒花的開花作物，是釀造啤酒不可或缺的重要成分。</PlantHops.description>-->
+
+  <!--[Core] <PlantTreeBamboo.label>竹子</PlantTreeBamboo.label>-->
+  <!--[Core] <PlantTreeBamboo.description>一種生長快速的類樹木草本植物，收穫後可作為木質材料。植物本身並不美觀。</PlantTreeBamboo.description>-->
+
+
+</LanguageData>

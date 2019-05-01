@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+  <RecipeDef>
+    <defName>VeggieMix5</defName>
+    <label>Mix 5 veggies</label>
+    <description>Chop up a few vegetables, making a blend for cooking.</description>
+    <jobString>Mixing veggies.</jobString>
+    <workAmount>250</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.25</count>
+      </li>
+	 </ingredients>
+	<products>
+      <VeggiemixRaw>5</VeggiemixRaw>
+    </products>
+		    <fixedIngredientFilter>
+            <categories>
+                <li>PlantFoodRaw</li>
+            </categories>
+            <disallowedThingDefs>
+                <li>VeggiemixRaw</li>
+            </disallowedThingDefs>
+        </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+	<workSkill>Cooking</workSkill>
+	    <recipeUsers>
+		<li>TableButcher</li>
+		</recipeUsers>
+  </RecipeDef>	
+  
+  <RecipeDef>
+    <defName>VeggieMixTwenty</defName>
+    <label>Mix 20 Veggies</label>
+    <description>Chop up a few vegetables, making a blend for cooking.</description>
+    <jobString>Chopping veggies.</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+	<allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+	 </ingredients>
+	<products>
+      <VeggiemixRaw>20</VeggiemixRaw>
+    </products>
+		    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+            <disallowedThingDefs>
+                <li>VeggiemixRaw</li>
+            </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>VeggiemixRaw</li>
+     </disallowedThingDefs>
+    </defaultIngredientFilter>
+	<workSkill>Cooking</workSkill>
+	    <recipeUsers>
+		 <li>TableButcher</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>VeggieMix100</defName>
+    <label>Mix 100 veggies</label>
+    <description>Chop up a few vegetables, making a blend for cooking.</description>
+    <jobString>Mixing veggies.</jobString>
+    <workAmount>4000</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+	 </ingredients>
+	<products>
+      <VeggiemixRaw>100</VeggiemixRaw>
+    </products>
+		    <fixedIngredientFilter>
+            <categories>
+                <li>PlantFoodRaw</li>
+            </categories>
+            <disallowedThingDefs>
+                <li>VeggiemixRaw</li>
+            </disallowedThingDefs>
+        </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+	<workSkill>Cooking</workSkill>
+	    <recipeUsers>
+		<li>TableButcher</li>
+		</recipeUsers>
+  </RecipeDef>	
+
+
+</Defs>  

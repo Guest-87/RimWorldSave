@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============================== Tier 2.5 Microelectronics ===================================-->
+
+  <ResearchProjectDef>
+    <defName>MoisturePump</defName>
+    <label>moisture pump</label>
+    <description>Construct moisture pumps, which very slowly normalize the moisture in the ground around them. They can turn wet ground dry and convert soft sand into normal sand.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>10</researchViewX>
+    <researchViewY>1.6</researchViewY>
+  </ResearchProjectDef>	 
+
+  <ResearchProjectDef>
+    <defName>WDMoisturePumpAdvanced</defName>
+    <label>advanced moisture pump</label>
+    <description>Allows the construction of advanced moisture pumps, which turn wet ground dry much faster.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MoisturePump</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>11</researchViewX>
+    <researchViewY>1.6</researchViewY>
+  </ResearchProjectDef>		
+	
+</Defs>

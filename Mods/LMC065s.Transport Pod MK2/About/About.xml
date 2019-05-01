@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LMC065s.运输舱MK2</name>
+	<author>ww9</author>
+  	<supportedVersions><li>1.0</li></supportedVersions>
+	<description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+
+[h1]Transport Pod MK2[/h1]
+Adds a new transport pod that can carry 5000kg (vanilla is 150kg)
+Adds a new Pod Launcher that can hold 1600 fuel (vanilla is 150)
+Reaches anywhere on the planet
+Pod launcher is compact: 1x1 compared to vanilla 2x1
+Adds new research required: Transport Pod MK2
+
+运输舱MK2
+新增了一种新型运输舱，可以携带5000kg重量的物品（原版为150kg）
+新增了一种运输舱发射器，可以填充1600单位的燃料（原版为150单位）
+运输范围包括整个星球！
+更紧凑的运输舱发射器，仅占地1X1，原版为2X1
+需要研究运输舱MK2以解锁
+
+时间戳：2019年3月23日 01:12:04
+
+[h1]Zip download[/h1]
+Please check my github repo for direct downloads of my mods: https://github.com/ww9/rimworld
+
+[h1]Todo[/h1]
+Reusable pods
+All-in-one pods (no launcher required)
+Buildable floor area to determine where pods land in base. https://i.imgur.com/dVWtaf6.jpg
+</description>
+</ModMetaData>

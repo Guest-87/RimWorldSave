@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Ninetailfox.label>큐렌</Ninetailfox.label>
+  <Ninetailfox.labelPlural>큐렌들</Ninetailfox.labelPlural>
+  <Ninetailfox.labelMale>큐렌(수컷)</Ninetailfox.labelMale>
+  <Ninetailfox.labelMalePlural>수컷 큐렌들</Ninetailfox.labelMalePlural>
+  <Ninetailfox.labelFemale>큐렌(암컷)</Ninetailfox.labelFemale>
+  <Ninetailfox.labelFemalePlural>암컷 큐렌들</Ninetailfox.labelFemalePlural>
+
+  <Ninetailfoxwt.label>큐렌</Ninetailfoxwt.label>
+  <Ninetailfoxwt.labelPlural>큐렌들</Ninetailfoxwt.labelPlural>
+  <Ninetailfoxwt.labelMale>큐렌(수컷)</Ninetailfoxwt.labelMale>
+  <Ninetailfoxwt.labelMalePlural>수컷 큐렌들</Ninetailfoxwt.labelMalePlural>
+  <Ninetailfoxwt.labelFemale>큐렌(암컷)</Ninetailfoxwt.labelFemale>
+  <Ninetailfoxwt.labelFemalePlural>암컷 큐렌들</Ninetailfoxwt.labelFemalePlural>
+
+
+</LanguageData>

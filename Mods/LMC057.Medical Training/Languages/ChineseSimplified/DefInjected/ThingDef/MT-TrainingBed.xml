@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <IF_MeditrainTable.label>医疗训练(tm)工作台</IF_MeditrainTable.label>
+  <IF_MeditrainTable.description>医生们通过在尸体上训练他们的技术来提高医疗技能。</IF_MeditrainTable.description>
+  <IF_MeditrainTable_Blueprint.label>医疗训练(tm)工作台 (蓝图)</IF_MeditrainTable_Blueprint.label>
+  <IF_MeditrainTable_Frame.label>医疗训练(tm)工作台 (建造中)</IF_MeditrainTable_Frame.label>
+  <IF_MeditrainTable_Frame.description>医生们通过在尸体上训练他们的技术来提高医疗技能。</IF_MeditrainTable_Frame.description>
+
+
+</LanguageData>

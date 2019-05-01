@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="VG_PlantBase">
+    <defName>VG_PlantAmbrosia</defName>
+    <label>ambrosia bush</label>
+    <description>A bush which yields the ambrosia fruit. Ambrosia is pleasurable to eat and produces a slightly addictive chemical warmth effect. Harder to be grown but able to be sown in hydroponic basin with a lower yield and longer grow time.</description>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Nutrition>0.35</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Ambrosia</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.1, 0.2, 0.1)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <fertilityMin>0.3</fertilityMin>
+      <fertilitySensitivity>0.15</fertilitySensitivity>
+      <growDays>10</growDays>
+      <leaflessGraphicPath>Things/Plant/Ambrosia_Leafless</leaflessGraphicPath>
+      <immatureGraphicPath>Things/Plant/Ambrosia_Immature</immatureGraphicPath>
+      <harvestYield>2</harvestYield>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.3</harvestAfterGrowth>
+      <harvestedThingDef>Ambrosia</harvestedThingDef>
+      <sowMinSkill>15</sowMinSkill>
+      <visualSizeRange>
+        <min>0.6</min>
+        <max>1.1</max>
+      </visualSizeRange>
+      <topWindExposure>0.1</topWindExposure>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+     <sowResearchPrerequisites>
+        <li>VG_Ambrosia</li>
+     </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="CavePlantBase">
+    <defName>VGP_Agarilux</defName>
+    <label>baby agarilux</label>
+    <description>An purple mushroom. Its size and glowing protrusions make this fungus beautiful to look at. Dies when exposed to light. Faster grow than the kind that grow in nature, but also has a much smaller yield</description>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Beauty>3</Beauty>
+       <Nutrition>0.5</Nutrition>
+   </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Agarilux</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.3, 0.13)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>25</pathCost>
+    <plant>
+      <fertilityMin>0.01</fertilityMin>
+      <fertilitySensitivity>0.15</fertilitySensitivity>
+      <growDays>12</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestYield>17</harvestYield>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawFungus</harvestedThingDef>
+      <sowMinSkill>5</sowMinSkill>
+      <neverBlightable>true</neverBlightable>
+      <visualSizeRange>
+        <min>0.5</min>
+        <max>.75</max>
+      </visualSizeRange>
+      <topWindExposure>0.1</topWindExposure>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(23,15,30,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+</Defs>

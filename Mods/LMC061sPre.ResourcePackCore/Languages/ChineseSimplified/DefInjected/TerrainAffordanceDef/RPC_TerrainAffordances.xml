@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Author jxb12306 FROM 3DM Localization Group-->
+
+  <!-- 土採集可 -->
+
+  <RPC_DirtGatherable.label>可采集泥土</RPC_DirtGatherable.label>
+
+
+  <!-- 砂利採集可 -->
+
+  <RPC_GravelGatherable.label>可采集砾石</RPC_GravelGatherable.label>
+
+
+  <!-- 砂採集可 -->
+
+  <RPC_SandGatherable.label>可采集沙子</RPC_SandGatherable.label>
+
+
+  <!-- 泥採集可 -->
+
+  <RPC_MudGatherable.label>可采集泥浆</RPC_MudGatherable.label>
+
+
+  <!-- 氷採集可 -->
+
+  <RPC_IceGatherable.label>可采集冰块</RPC_IceGatherable.label>
+
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeKibble.label>Fabrication de croquettes</MakeKibble.label>
+  <MakeKibble.description>Faites des croquettes animales en combinant de la viande crue et des plantes. \n\nNécessite 1 nutrition de viande et 1 nutrition de légumes, de fruits ou de foin. \n\nDonne 50 croquettes</MakeKibble.description>
+  <MakeKibble.jobString>Fabrication de croquettes</MakeKibble.jobString>
+
+
+</LanguageData>

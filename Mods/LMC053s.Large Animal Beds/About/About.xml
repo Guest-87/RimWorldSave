@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>LMC053s.给大型动物的床铺</name>
+  <author>cucumpear</author>
+  <supportedVersions><li>1.0</li></supportedVersions>
+  <description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+
+Normal sleeping spots and pet beds look a bit silly for large animals.
+对于大型动物来说，普通的睡觉地点和宠物床看起来有点傻。
+
+This mod adds larger versions. Due to alignement issues (animals were sleeping in the bottom left corner only) the size change is purely graphical so only the centre tile is actively in use. Clipping may occur if you place the beds against a wall.
+这个mod添加了更大的动物床铺。由于对齐问题(动物只睡在左下角)，大小的变化纯粹是图形化的，因此只有中心部分会被使用。如果你把床靠墙放置，可能会发生画面撕裂。
+
+</description>
+</ModMetaData>

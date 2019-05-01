@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LMC064s.狗曰...我们也需要假体！</name>
+	<author>spoonshortage</author>
+	<url>https://ludeon.com/forums/index.php?topic=46210.0</url>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+
+Adds prosthetics/bionics and surgeries for animals
+添加了简易动物假肢和动物仿生组织。
+
+Following parts are added to the game:
+以下列出的部位被添加入游戏之中。
+
+A Dog Said Research Tab: Simple Animal Prosthetics, Animal Bionics, Animal Healing
+狗曰研究标签卡：简易动物假肢，动物仿生学，动物治愈
+
+* animal brain stimulator 
+* bionic animal eyes  
+* bionic animal heart 
+* bionic animal lung 
+* bionic animal kidney 
+* bionic animal liver 
+* bionic animal stomach
+* simple/bionic animal ears 
+* simple/bionic animal jaw 
+* simple/bionic animal spine 
+* simple/bionic animal arms
+* peglegs 
+* simple/bionic animal legs 
+* simple prosthetic tail 
+* simple prosthetic nose 
+* power claws as leg replacements
+
+*仿生动物大脑刺激器
+*仿生动物眼
+*仿生动物心脏
+*仿生动物肺
+*仿生动物肾
+*仿生动物肝脏
+*仿生动物胃
+*简易的/仿生动物人工耳
+*简易的/仿生动物人工颌
+*简易的/仿生动物脊椎
+*简易的/仿生动物臂
+*木制假腿
+*简易的/仿生动物腿
+*简易的/仿生动物尾巴
+*简易的/仿生动物鼻子
+*动力爪
+
+All parts can be obtained from traders, except peglegs.
+All parts can be crafted at the animal prosthetics bench, after research of electricity and simple animal prosthetics
+所有的部位可以从商人处获得，除了木制假腿。
+所有的部位可以在动物假体工作台制造，但是需要研究电力以及狗曰标签卡中的科技。
+
+All parts need medicine skill and 1 medicine to be installed. 
+所有的部位需要不同的医疗技能等级以及1单位医药来给动物安装。
+
+Animal Healing of old wounds requires research, min med skill of 10 and 5 normal medicine. (make sure animals are set to receive it, applies to all animal categories)
+如果要给动物治愈旧伤需要研究对应科技，需要最少10级医疗技能和5单位医药。（确保动物已准备好医疗，适用于所有动物类别）
+
+Animals and what part they can receive have been divided into 3 categories as follows:
+动物能安装何种部位被分为以下3个目录：
+
+Category 1: can receive peglegs, simple jaws, noses and tails (where applicable)
+目录1：能安装木制假腿，简易的人工颌，鼻子和尾巴（如果动物有的话）
+
+Alphabeaver 
+Boomrat 
+Capybara 
+Cassowary 
+Chicken 
+Chinchilla
+Cobra 
+Deer 
+Emu 
+Gazelle 
+Hare
+Hare Snow
+Ibex 
+Iguana 
+Megascarab 
+Raccoon 
+Rat 
+Squirrel 
+Tortoise
+Turkey
+
+
+Category 2: can receive all category 1 + simple prosthetics, ears/eyes/organs
+目录2：能安装目录1列出的部位+简易的假肢，耳朵/眼睛/器官
+
+Boomalope
+Caribou
+Cat
+Cow
+Elk
+Fox Fennec
+Fox Arctic
+Fox Red
+Monkey
+Ostrich
+Pig
+Spelopede
+Wild Boar
+Yorkie
+
+
+Category 3: can receive all categories 1+2 + bionics, powerclaws
+目录3：能安装目录1+2列出的部位+仿生部位，动力爪
+
+Bear Grizzly
+Alpaca
+Bear Polar
+Cougar
+Dromedary
+Elphant
+Husky
+Labrador
+Lynx
+Megasloth
+Megaspider
+Muffalo
+Panther
+Rhino
+Thrumbo
+Warg
+Wolf Arctic
+Wolf Timber
+
+	</description>
+</ModMetaData>

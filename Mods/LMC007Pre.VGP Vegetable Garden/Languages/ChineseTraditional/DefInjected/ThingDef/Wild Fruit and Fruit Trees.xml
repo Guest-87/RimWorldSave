@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New crop types Wild Fruit Trees -->
+
+  <WildAppletree.label>蘋果樹</WildAppletree.label>
+  <WildAppletree.description>蘋果樹，採摘後能保留樹木。</WildAppletree.description>
+
+  <WildBananaTree.label>香蕉樹</WildBananaTree.label>
+  <WildBananaTree.description>香蕉樹，採摘後能保留樹木。</WildBananaTree.description>
+
+  <WildorangeTree.label>橙樹</WildorangeTree.label>
+  <WildorangeTree.description>橙樹，採摘後能保留樹木。</WildorangeTree.description>
+
+  <WildPeachTree.label>桃樹</WildPeachTree.label>
+  <WildPeachTree.description>桃果，採摘後能保留樹木。</WildPeachTree.description>
+
+  <WildDateTree.label>海棗樹</WildDateTree.label>
+  <WildDateTree.description>海棗樹，採摘後能保留樹木。</WildDateTree.description>
+
+  <WildFigTree.label>無花果樹</WildFigTree.label>
+  <WildFigTree.description>無花果樹，採摘後能保留樹木。</WildFigTree.description>
+
+  <WildCoconuttree.label>椰子樹</WildCoconuttree.label>
+  <WildCoconuttree.description>椰子樹，採摘後能保留樹木。</WildCoconuttree.description>
+
+  <PlantCherrytree.label>櫻桃樹</PlantCherrytree.label>
+  <PlantCherrytree.description>櫻桃樹，採摘後能保留樹木。</PlantCherrytree.description>
+
+
+  <!-- New crop types Wild Fruit Plants -->
+
+  <Plantpineapple.label>鳳梨</Plantpineapple.label>
+  <Plantpineapple.description>一種在頂部結果的低矮植物，有點扎手。</Plantpineapple.description>
+
+  <Plantcloudberry.label>雲莓</Plantcloudberry.label>
+  <Plantcloudberry.description>寒冷氣候中生長的漿果灌木。</Plantcloudberry.description>
+
+  <Plantgooseberry.label>醋粟</Plantgooseberry.label>
+  <Plantgooseberry.description>寒冷氣候中生長的漿果灌木。</Plantgooseberry.description>
+
+  <Plantmushroom.label>蘑菇</Plantmushroom.label>
+  <Plantmushroom.description>這種經過轉基因處理的壯碩蘑菇可以作為肉食的替代品。</Plantmushroom.description>
+
+  <!--[Core] <PlantRaspberry.label>野莓</PlantRaspberry.label>-->
+  <!--[Core] <PlantRaspberry.description>一種長有可口红莓的灌木。</PlantRaspberry.description>-->
+
+
+</LanguageData>

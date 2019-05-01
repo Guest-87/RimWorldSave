@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+
+  <!--[Core] <RawAgave.label>agave fruit</RawAgave.label>-->
+  <!--[Core] <RawAgave.description>Raw agave fruit.</RawAgave.description>-->
+
+  <!--[Core] <RawBerries.label>berries</RawBerries.label>-->
+  <!--[Core] <RawBerries.description>Assorted berries. Nice to eat, even when raw.</RawBerries.description>-->
+
+  <Rawapple.label>apples</Rawapple.label>
+  <Rawapple.description>A red fruit grow on trees.</Rawapple.description>
+
+  <Rawbanana.label>banana</Rawbanana.label>
+  <Rawbanana.description>A yellow fruit that grows on trees.</Rawbanana.description>
+
+  <Rawgrape.label>grapes</Rawgrape.label>
+  <Rawgrape.description>A sweet fruit that grows on vines.</Rawgrape.description>
+
+  <Raworange.label>orange</Raworange.label>
+  <Raworange.description>A sweet fruit that grows on trees.</Raworange.description>
+
+  <Rawpeach.label>peach</Rawpeach.label>
+  <Rawpeach.description>A sweet fruit that grows on trees.</Rawpeach.description>
+
+  <Rawpineapple.label>pineapple</Rawpineapple.label>
+  <Rawpineapple.description>A tropical fruit having large swordlike leaves and a large, fleshy, edible, multiple fruit with a terminal tuft of leaves.</Rawpineapple.description>
+
+  <Rawblueberry.label>blueberry</Rawblueberry.label>
+  <Rawblueberry.description>Blue colored berry that grows in bushes. Even good raw.</Rawblueberry.description>
+
+  <Rawwatermelon.label>watermelon</Rawwatermelon.label>
+  <Rawwatermelon.description>A large, roundish or elongated fruit of a trailing vine having a hard, green rind and a sweet, juicy, usually pink or red pulp.</Rawwatermelon.description>
+
+  <Rawdate.label>date</Rawdate.label>
+  <Rawdate.description>A sweet fruit that grows on trees.</Rawdate.description>
+
+  <Rawfig.label>fig</Rawfig.label>
+  <Rawfig.description>A sweet fruit that grows on trees.</Rawfig.description>
+
+  <Rawgooseberry.label>gooseberry</Rawgooseberry.label>
+  <Rawgooseberry.description>A sweet fruit that grows on vines.</Rawgooseberry.description>
+
+  <Rawcloudberry.label>cloudberry</Rawcloudberry.label>
+  <Rawcloudberry.description>A sweet fruit that grows on vines.</Rawcloudberry.description>
+
+  <RawCherry.label>Cherries</RawCherry.label>
+  <RawCherry.description>A red berry fruit that grows on trees.</RawCherry.description>
+
+  <RawCoconut.label>Coconut</RawCoconut.label>
+  <RawCoconut.description>A coconut fruit that grows on trees. Has a hard outer shell with a juicy fruit flesh inside.</RawCoconut.description>
+
+
+</LanguageData>

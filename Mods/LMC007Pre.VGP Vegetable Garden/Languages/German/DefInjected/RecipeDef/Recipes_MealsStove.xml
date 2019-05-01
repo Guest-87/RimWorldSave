@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealSimple_Bulk.label>Koche vier einfache Mahlzeiten</CookMealSimple_Bulk.label>
+  <CookMealSimple_Bulk.description>Koche ein simples Gericht aus einer Zutat. Ergibt vier Mahlzeiten.</CookMealSimple_Bulk.description>
+  <CookMealSimple_Bulk.jobString>Koche einfache Mahlzeiten.</CookMealSimple_Bulk.jobString>
+
+  <CookMealFine_Bulk.label>Koche vier gute Mahlzeiten</CookMealFine_Bulk.label>
+  <CookMealFine_Bulk.description>Koche ein realtiv leckeres Gericht mit rohem Fleisch und Gemüse. Ergibt vier Mahlzeiten.</CookMealFine_Bulk.description>
+  <CookMealFine_Bulk.jobString>Koche gute Mahlzeiten.</CookMealFine_Bulk.jobString>
+
+  <CookMealLavish_Bulk.label>Koche vier großzügige Mahlzeiten</CookMealLavish_Bulk.label>
+  <CookMealLavish_Bulk.description>Kocht ein fürstliches Gericht mit Fleisch und Gemüse. Sehr verschwenderisch. Ergibt vier Mahlzeiten.</CookMealLavish_Bulk.description>
+  <CookMealLavish_Bulk.jobString>Koche großzügige Mahlzeiten.</CookMealLavish_Bulk.jobString>
+
+  <CookBulkMealSurvival.label>Koche vier Überlebensrationen</CookBulkMealSurvival.label>
+  <CookBulkMealSurvival.description>Koche vier verpackte Mahlzeiten aus einer Kombination von rohem Fleisch und Gemüse. Sehr verschwenderisch.</CookBulkMealSurvival.description>
+  <CookBulkMealSurvival.jobString>Bereit Überlebensrationen vor.</CookBulkMealSurvival.jobString>
+
+  <Stirfrymeal.label>Koche vier Pfannengerichte</Stirfrymeal.label>
+  <Stirfrymeal.description>Koche vier Pfannengerichte mit rohem Fleisch und Gemüse. \n\nGenug für vier Mahlzeiten.  \n\nEffekte: Manipulation and Blutentgiftung.</Stirfrymeal.description>
+  <Stirfrymeal.jobString>Koche vier Pfannengerichte.</Stirfrymeal.jobString>
+
+  <Cookstewpot.label>Koche acht Teller Eintopf</Cookstewpot.label>
+  <Cookstewpot.description>Koche Eintop aus einer Kombination von rohem Fleisch und Gemüse. \n\nGenug für acht Mahlzeiten. \n\nEffekte: Bewusstsein, Metabolismus, Blutentgiftung und Blutdruck.</Cookstewpot.description>
+  <Cookstewpot.jobString>Koche Eintopf. Zeitaufwendig.</Cookstewpot.jobString>
+
+  <VG_MakebulkPemmican.label>Stelle eine Menge Pemmikan her</VG_MakebulkPemmican.label>
+  <VG_MakebulkPemmican.description>Pemmikan, eine haltbare Mischugn aus rohem Fleisch und Pflanzen. Es schmeckt nicht gut, aber hält ein Jahr ohne Kühlung.</VG_MakebulkPemmican.description>
+  <VG_MakebulkPemmican.jobString>Pemmikan herstellen.</VG_MakebulkPemmican.jobString>
+
+
+</LanguageData>

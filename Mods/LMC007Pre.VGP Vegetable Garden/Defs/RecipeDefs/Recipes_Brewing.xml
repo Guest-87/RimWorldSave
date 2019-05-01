@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+<RecipeDef>
+	<defName>Fruitdrink</defName>
+	<label>make fruit drink</label>
+	<description>Press fruit into a juicy drink.</description>
+	<jobString>Pressing fruit.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+     <soundWorking>Recipe_CookMeal</soundWorking>
+     <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+         <li>Brewery</li>
+      </recipeUsers>
+	<ingredients>
+	  <li>
+		<filter>
+			<categories>
+					<li>FruitFoodRaw</li>
+			</categories>
+		</filter>
+		<count>20</count>
+	   </li>
+
+	</ingredients>
+	<fixedIngredientFilter>
+	  	<categories>
+			<li>FruitFoodRaw</li>
+		</categories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <Fruitdrink>4</Fruitdrink>
+	</products>
+	<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>BrewCoffee</defName>
+	<label>brew four garden coffees</label>
+	<description>Brew four cups of coffee</description>
+	<jobString>Brewing coffee.</jobString>
+	<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+          <soundWorking>Recipe_Brewing</soundWorking>
+          <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+          	<li>ElectricStove</li>
+	  	<li>FueledStove</li>
+		<li>Campfire</li>
+     </recipeUsers>
+
+	<workAmount>400</workAmount>
+          <targetCountAdjustment>1</targetCountAdjustment>
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>CPD_CoffeeBeans</li>
+	      </thingDefs>
+	    </filter>
+	    <count>12</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>CPD_CoffeeBeans</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products>
+	  <Coffee>4</Coffee>
+	</products>
+	<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>BulkBrewCoffee</defName>
+	<label>brew 12 cups of garden coffee</label>
+	<description>Brew 12 cups of coffee.</description>
+	<jobString>Brewing coffee.</jobString>
+	<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+          <soundWorking>Recipe_Brewing</soundWorking>
+          <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+          	<li>ElectricStove</li>
+	  	<li>FueledStove</li>
+      </recipeUsers>
+
+	<workAmount>900</workAmount>
+          <targetCountAdjustment>1</targetCountAdjustment>
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>CPD_CoffeeBeans</li>
+	      </thingDefs>
+	    </filter>
+	    <count>36</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>CPD_CoffeeBeans</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products>
+	  <Coffee>12</Coffee>
+	</products>
+	<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>BrewTea</defName>
+	<label>brew two garden teas</label>
+	<description>Prepare tea leaves and brew them into cups of tea.</description>
+	<jobString>Brewing tea.</jobString>
+	<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+	<workAmount>400</workAmount>
+     	<allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+          	<li>ElectricStove</li>
+	  	<li>FueledStove</li>
+		<li>Campfire</li>
+     </recipeUsers>
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>Rawtea</li>
+	      </thingDefs>
+	    </filter>
+	    <count>6</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>Rawtea</li>
+	  </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <Cuptea>2</Cuptea>
+	</products>
+	<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>BulkBrewTea</defName>
+	<label>brew ten cups of garden tea</label>
+	<description>Prepare bulk amounts of tea leaves and brew them into cups of tea.</description>
+	<jobString>Brewing tea.</jobString>
+	<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+	<workAmount>900</workAmount>
+     	<allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+          	<li>ElectricStove</li>
+	  	<li>FueledStove</li>
+      </recipeUsers>
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>Rawtea</li>
+	      </thingDefs>
+	    </filter>
+	    <count>30</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>Rawtea</li>
+	  </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <Cuptea>10</Cuptea>
+	</products>
+	<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+
+</Defs>

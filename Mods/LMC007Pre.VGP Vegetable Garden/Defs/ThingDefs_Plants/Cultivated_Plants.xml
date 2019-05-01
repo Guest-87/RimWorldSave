@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Tier 1 Plants -->
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>Plant_Barley</defName>
+    <label>barley plant</label>
+    <description>A cereal grain. Hearty plant that is imune to blight. Used in cooking and for making ale.</description>
+    <graphicData>
+      <texPath>Things/Plants/BarleyPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <neverBlightable>true</neverBlightable>
+      <harvestedThingDef>RawBarley</harvestedThingDef>
+	<harvestYield>13</harvestYield>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>7</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+ <immatureGraphicPath>Things/Immature/BarleyPlant</immatureGraphicPath>
+     <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+	 </plant>
+  </ThingDef>
+
+	<!-- Tier 2 Plants -->
+
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>Plant_Snowbeet</defName>
+    <label>snow beet plant</label>
+    <description>A simple, highly nutritious plants. Grows well even in somewhat poor soil. Harvests quickly. A strong, versatile crop. Does not die in cold weather.</description>
+    <graphicData>
+      <texPath>Things/Plants/SnowBeetPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>Rawsnowbeet</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>6</growDays>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <sowResearchPrerequisites>
+        <li>agriculture</li>
+      </sowResearchPrerequisites>
+ <immatureGraphicPath>Things/Immature/SnowBeetPlant</immatureGraphicPath>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+
+<ThingDef ParentName="VG_PlantDef">
+		<defName>Plant_redlentil</defName>
+		<label>red lentil plant</label>
+		<description>A redish variety of the lentil plant. One of the oldest know domesticated plants.</description>
+    <graphicData>
+      <texPath>Things/Plants/RedLentilPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawRedLentil</harvestedThingDef>
+	<harvestYield>6</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>3.75</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <sowResearchPrerequisites>
+        <li>agriculture</li>
+      </sowResearchPrerequisites>
+<immatureGraphicPath>Things/Immature/RedLentilPlant</immatureGraphicPath>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+
+  </ThingDef>
+
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>Plant_bean</defName>
+	<label>bean plant</label>
+	<description>Common bean cooked up in many ways.</description>
+    <graphicData>
+      <texPath>Things/Plants/beanPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Rawbean</harvestedThingDef>
+      <harvestYield>8</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+     	 <growDays>4.5</growDays>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <sowResearchPrerequisites>
+      	  <li>agriculture</li>
+      </sowResearchPrerequisites>
+  <immatureGraphicPath>Things/Immature/beanPlant</immatureGraphicPath>
+     <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+   </plant>
+  </ThingDef>
+
+  
+
+  <ThingDef ParentName="VG_PlantBase">
+    <defName>Plant_Olivetree</defName>
+    <label>olive tree</label>
+    <description>A fruit bearing tree that grows olives and is not destroyed when picked.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Tree/TreeOlive</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>30</pathCost>
+    <plant>
+ 		<fertilityMin>0.6</fertilityMin>
+		<fertilitySensitivity>0.6</fertilitySensitivity>
+     		<growDays>10</growDays>
+       	<sowMinSkill>6</sowMinSkill>
+ 		<harvestYield>12</harvestYield>
+		<harvestWork>400</harvestWork>
+		<harvestTag>Standard</harvestTag>
+		<harvestAfterGrowth>0.30</harvestAfterGrowth>
+   		<harvestedThingDef>RawOlive</harvestedThingDef>
+      	<sowResearchPrerequisites>
+        		<li>agriculture</li>
+      	</sowResearchPrerequisites>
+       	<sowTags>
+        		<li>Ground</li>
+      	</sowTags>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+   </plant>
+  </ThingDef>
+
+
+
+
+	<!-- Other Plants -->
+
+
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>Plant_Tea</defName>
+    <label>tea plant</label>
+    <description>A green leafy plant, who's leaves can be brewed into a tasty beverage.</description>
+    <graphicData>
+      <texPath>Things/Plants/teaPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Rawtea</harvestedThingDef>
+	<harvestYield>5</harvestYield>
+      <sowMinSkill>5</sowMinSkill>
+      <growDays>4.25</growDays>
+      <fertilitySensitivity>1</fertilitySensitivity>
+       <wildOrder>2</wildOrder>
+   </plant>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>Plant_Coffee</defName>
+    <label>coffee plant</label>
+    <description>A green, leafy plant yielding coffee beans. These beans can be brewed into a tasty beverage.</description>
+    <graphicData>
+      <texPath>Things/Plants/CoffeePlant</texPath>
+	 <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>CPD_CoffeeBeans</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <sowMinSkill>5</sowMinSkill>
+      <growDays>4.5</growDays>
+      <fertilitySensitivity>1</fertilitySensitivity>
+ <immatureGraphicPath>Things/Immature/CoffeePlant</immatureGraphicPath>
+       <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>Plant_TreeBamboo</defName>
+    <label>bamboo plant</label>
+		<description>A fast-growing tree-like species that grows in cluster. Bamboo can be harvested for a wood-like material. The plant itself is not beautiful.</description>
+		<graphicData>
+			<texPath>Things/Plants/bambooPlant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.38, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.47)</offset>
+			</shadowData>
+		</graphicData>
+    <plant>
+      <harvestedThingDef>Bamboo</harvestedThingDef>
+	<harvestYield>14</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <growDays>10</growDays>
+      <fertilitySensitivity>0.75</fertilitySensitivity>
+			<wildClusterRadius>5</wildClusterRadius>
+			<wildClusterWeight>15</wildClusterWeight>
+   <immatureGraphicPath>Things/Immature/bambooPlant</immatureGraphicPath>
+       <wildOrder>2</wildOrder>
+   </plant>
+  </ThingDef>
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>Plantcocoa</defName>
+	<label>cocoa bush</label>
+	<description>A tropical bush that produces chocolate, genetically engineered to sweeten its own product, and survive in slightly less-warm climates. Produces a lot less then the trees.</description>
+    <graphicData>
+      <texPath>Things/Plants/cocoaPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Chocolate</harvestedThingDef>
+	<harvestYield>2</harvestYield>
+      <sowMinSkill>5</sowMinSkill>
+      <growDays>6</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+ <immatureGraphicPath>Things/Immature/cocoaPlant</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>Cocoa</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+
+
+</Defs>

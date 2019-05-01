@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VG_Campfire.label>篝火(竹)</VG_Campfire.label>
+  <VG_Campfire.description>烹饪食物并产生热量。数天后烧烬。和其他热源一样，必须放置在室内封闭空间才能取暖。可以补充燃料。</VG_Campfire.description>
+  <VG_Campfire_Blueprint.label>篝火(竹) (蓝图)</VG_Campfire_Blueprint.label>
+  <VG_Campfire_Frame.label>篝火(竹) (建造中)</VG_Campfire_Frame.label>
+  <VG_Campfire_Frame.description>烹饪食物并产生热量。数天后烧烬。和其他热源一样，必须放置在室内封闭空间才能取暖。可以补充燃料。</VG_Campfire_Frame.description>
+
+
+</LanguageData>

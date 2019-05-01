@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fruitdrink.label>榨果汁</Fruitdrink.label>
+  <Fruitdrink.description>将水果榨成汁。</Fruitdrink.description>
+  <Fruitdrink.jobString>正在榨果汁。</Fruitdrink.jobString>
+
+  <BrewCoffee.label>煮咖啡（4）</BrewCoffee.label>
+  <BrewCoffee.description>用咖啡豆煮醇厚的咖啡。</BrewCoffee.description>
+  <BrewCoffee.jobString>正在煮咖啡。</BrewCoffee.jobString>
+
+  <BulkBrewCoffee.label>批量煮咖啡（12）</BulkBrewCoffee.label>
+  <BulkBrewCoffee.description>一次煮12杯咖啡。</BulkBrewCoffee.description>
+  <BulkBrewCoffee.jobString>正在煮咖啡。</BulkBrewCoffee.jobString>
+
+  <BrewTea.label>泡茶（2）</BrewTea.label>
+  <BrewTea.description>用新鲜茶叶冲泡两杯香浓的茶。</BrewTea.description>
+  <BrewTea.jobString>正在泡茶。</BrewTea.jobString>
+
+  <BulkBrewTea.label>批量泡茶（10）</BulkBrewTea.label>
+  <BulkBrewTea.description>用新鲜茶叶冲泡10杯香浓的茶。</BulkBrewTea.description>
+  <BulkBrewTea.jobString>正在泡茶。</BulkBrewTea.jobString>
+
+
+</LanguageData>

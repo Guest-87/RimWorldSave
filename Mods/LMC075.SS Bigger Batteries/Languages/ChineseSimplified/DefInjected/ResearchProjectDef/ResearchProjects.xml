@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LargeBatteries.label>大型蓄电池</LargeBatteries.label>
+  <LargeBatteries.description>解锁建造「大型蓄电池」用于更有效率地储存电力。解锁4K和16K容量蓄电池。</LargeBatteries.description>
+
+  <VeryLargeBatteries.label>超大型蓄电池</VeryLargeBatteries.label>
+  <VeryLargeBatteries.description>解锁建造「超大型蓄电池」用于储存大量的电力。解锁64K和256K容量蓄电池。</VeryLargeBatteries.description>
+
+
+</LanguageData>

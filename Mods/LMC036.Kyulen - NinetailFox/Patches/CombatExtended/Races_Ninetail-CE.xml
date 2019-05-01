@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Core SK</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+				<success>Invert</success>
+			</li>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Combat Extended</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<!-- ========== Ninetailfox ========== -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[@Name="ThingBaseNinetailFox"]</xpath>
+				<value>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="ThingBaseNinetailFox"]/race/baseHealthScale</xpath>
+				<value>
+					<baseHealthScale>7</baseHealthScale>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="ThingBaseNinetailFox"]/race/baseBodySize</xpath>
+				<value>
+					<baseBodySize>1</baseBodySize>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="ThingBaseNinetailFox"]/statBases</xpath>
+				<value>
+				<statBases>
+					<Mass>40</Mass>
+					<MoveSpeed>8.18</MoveSpeed>
+					<ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+					<ToxicSensitivity>0.25</ToxicSensitivity>
+					<ComfyTemperatureMin>-75</ComfyTemperatureMin>
+					<ComfyTemperatureMax>40</ComfyTemperatureMax>
+					<ArmorRating_Blunt>0.54</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.34</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.95</ArmorRating_Heat>
+					<PainShockThreshold>0.9</PainShockThreshold>
+					<MeleeHitChance>1.21</MeleeHitChance>
+					<MeleeDodgeChance>1.08</MeleeDodgeChance>
+					<MeleeCritChance>1.12</MeleeCritChance>
+					<MeleeArmorPenetration>1.25</MeleeArmorPenetration>
+					<MeatAmount>50</MeatAmount>
+					<MarketValue>9500</MarketValue>
+					<CarryingCapacity>75</CarryingCapacity>
+				</statBases>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+		<xpath>*/ThingDef[@Name="ThingBaseNinetailFox"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<capacities>
+						<li>Slash</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>1.2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>28</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetration>0.55</armorPenetration>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<capacities>
+						<li>Slash</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>1.2</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>28</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetration>0.55</armorPenetration>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities>
+						<li>Bite</li>
+					</capacities>
+					<power>18</power>
+					<cooldownTime>1.5</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>26</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetration>0.78</armorPenetration>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>Tail</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>0.9</cooldownTime>
+					<linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+					<armorPenetration>0.32</armorPenetration>
+				</li>
+			</tools>
+		</value>
+		</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RebuiltLamppost.label>高速公路路灯杆</RebuiltLamppost.label>
+  <RebuiltLamppost.description>非常久远之前的路灯，被古代人用于道路照明，现在已经修复可供殖民地使用。</RebuiltLamppost.description>
+  <RebuiltLamppost_Blueprint.label>高速公路路灯杆 (蓝图)</RebuiltLamppost_Blueprint.label>
+  <RebuiltLamppost_Blueprint_Install.label>高速公路路灯杆 (蓝图)</RebuiltLamppost_Blueprint_Install.label>
+  <RebuiltLamppost_Frame.label>高速公路路灯杆 (建造中)</RebuiltLamppost_Frame.label>
+  <RebuiltLamppost_Frame.description>非常久远之前的路灯，被古代人用于道路照明，现在已经修复可供殖民地使用。</RebuiltLamppost_Frame.description>
+
+  <HighwayBarrierLarge.label>高速公路水泥围栏</HighwayBarrierLarge.label>
+  <HighwayBarrierLarge.description>非常久远之前的交通管制设施，现在已经完成修复，比起沙包能提供更好的掩护。</HighwayBarrierLarge.description>
+  <HighwayBarrierLarge_Blueprint.label>高速公路水泥围栏 (蓝图)</HighwayBarrierLarge_Blueprint.label>
+  <HighwayBarrierLarge_Frame.label>高速公路水泥围栏 (建造中)</HighwayBarrierLarge_Frame.label>
+  <HighwayBarrierLarge_Frame.description>非常久远之前的交通管制设施，现在已经完成修复，比起沙包能提供更好的掩护。</HighwayBarrierLarge_Frame.description>
+
+
+</LanguageData>

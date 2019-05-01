@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <TerrainDef Name="FloorBase" Abstract="True">
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+    <designationCategory>Floors</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructDirt</constructEffect>
+    <acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+  </TerrainDef>
+
+  
+
+  <!-- ================= Misc ================= -->
+
+
+  <TerrainDef  ParentName="FloorBase">
+    <defName>BambooFloor</defName>
+    <label>bamboo floor</label>
+	<renderPrecedence>250</renderPrecedence>
+    <description>bamboo flooring. For that warm, homey feeling.</description>
+    <texturePath>Things/floor/bamboofloor</texturePath>
+    <burnedDef>BurnedWoodPlankFloor</burnedDef>
+   <statBases>
+      <WorkToBuild>85</WorkToBuild>
+  	 <Flammability>0.22</Flammability>
+   </statBases>
+    <costList>
+      <Bamboo>4</Bamboo>
+    </costList>
+    <constructEffect>ConstructWood</constructEffect>
+  </TerrainDef>
+
+  <TerrainDef  ParentName="FloorBase">
+    <defName>IronwoodFloor</defName>
+    <label>ironwood floor</label>
+	<renderPrecedence>250</renderPrecedence>
+    <description>Ironwood flooring.</description>
+    <texturePath>Things/floor/IronwoodFloor</texturePath>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+      <Beauty>2</Beauty>
+    </statBases>
+    <costList>
+      <VG_IronWoodLog>4</VG_IronWoodLog>
+    </costList>
+    <constructEffect>ConstructWood</constructEffect>
+  </TerrainDef>
+
+</Defs>

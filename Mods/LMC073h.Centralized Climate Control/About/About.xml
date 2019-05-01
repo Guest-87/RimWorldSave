@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>LMC073h.中央温度控制系统</name>
+  <author>Vasu Mahesh (coldtoad)</author>
+  <url>https://ludeon.com/forums/index.php?topic=34346.msg351202</url>
+  <description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+  
+A Mod which allows centralized air cooling/heating. Build Large Piped Air Climate Systems away from your buildings.
+允许建造中央冷却/加热的空气模块。在远离建筑物的地方建造大型空气调节系统。
+  </description>
+  <targetVersion>1.0.2059</targetVersion>
+</ModMetaData>

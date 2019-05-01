@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>[XND] Animal Armor</modName>
+				<yourMod>Sacred WhiteFox</yourMod>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Whitefox"]/recipes</xpath>
+				<value>
+					<li>InstallMakeshiftAnimalArmorMedium</li>
+					<li>InstallStandardAnimalArmorMedium</li>
+					<li>InstallHeavyAnimalArmorMedium</li>
+					<li>RemoveMakeshiftAnimalArmorMedium</li>
+					<li>RemoveStandardAnimalArmorMedium</li>
+					<li>RemoveHeavyAnimalArmorMedium</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

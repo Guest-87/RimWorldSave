@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: grenadier -->
+  <Grenadier_Destructive.label>granatiere</Grenadier_Destructive.label>
+  <GrenadierDestructive.labelPlural>granatieri</GrenadierDestructive.labelPlural>
+  
+  <!-- EN: EMP grenadier -->
+  <Grenadier_EMP.label>granatiere</Grenadier_EMP.label>
+  <GrenadierEMP.labelPlural>granatieri EMP</GrenadierEMP.labelPlural>
+  
+  <!-- EN: elite mercenary -->
+  <Mercenary_Elite.label>mercenario d'elite</Mercenary_Elite.label>
+  <!-- EN: elite mercenaries -->
+  <Mercenary_Elite.labelPlural>mercenari d'elite</Mercenary_Elite.labelPlural>
+  
+  <!-- EN: mercenary gunner -->
+  <Mercenary_Gunner.label>mercenario artigliere</Mercenary_Gunner.label>
+  <MercenaryGunner.labelPlural>mercenari artiglieri</MercenaryGunner.labelPlural>
+  
+  <!-- EN: heavy mercenary -->
+  <Mercenary_Heavy.label>mercenario pesante</Mercenary_Heavy.label>
+  <!-- EN: heavy mercenaries -->
+  <Mercenary_Heavy.labelPlural>mercenari pesanti</Mercenary_Heavy.labelPlural>
+  
+  <!-- EN: mercenary slasher -->
+  <Mercenary_Slasher.label>mercenario squartatore</Mercenary_Slasher.label>
+  <MercenarySlasher.labelPlural>mercenari squartatori</MercenarySlasher.labelPlural>
+  
+  <!-- EN: mercenary sniper -->
+  <Mercenary_Sniper.label>mercenario cecchino</Mercenary_Sniper.label>
+  <MercenarySniper.labelPlural>mercenari cecchini</MercenarySniper.labelPlural>
+  
+  <!-- EN: boss -->
+  <PirateBoss.label>boss</PirateBoss.label>
+  <!-- EN: bosses -->
+  <PirateBoss.labelPlural>boss</PirateBoss.labelPlural>
+  
+</LanguageData>

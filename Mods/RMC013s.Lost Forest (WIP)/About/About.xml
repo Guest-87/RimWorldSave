@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RMC013s.失落森林</name>
+	<author>IGNI</author>
+<!--	<targetVersion>1.0.2150</targetVersion> -->
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<description>需要LMC061sPre.额外资源包核心前置
+Mod version:0.3.0
+
+-------------------En---------------------
+This mod brings some elements from exotic another world to rimworld. Present main contents is adding exotic animals. Other elements are scheduled to be added from time to time, so eventually it may become a comprehensive mod with additional faction.
+
+[required mods]
+[*]none
+
+[recommended mods]
+[*]a Dog Said...
+[*]Camera+
+
+below : current all changes
+[Animals]
+[*]8 exotic animal races (for details, see the change log plz)
+
+[Buildings]
+[*]adventurer bedroll (silver x 10, medicine, stuff x 80)
+[*]cushion (stuff x 20)
+[*]1x1 tiny chabu table (stuff x 15)
+[*]1x1 tiny caffe table (stuff x 15)
+[*]precision mortar (stuff x 150, advanced comp x 4)
+
+[Resources]
+[*]fluffy wool and fur (from LF animals)
+[*]foxia tear (from exotic trader)
+[*]ancient holy wood log (wood log x 150, LF wool x 100, foxia tear, at crafting spot)
+[*]compressed iron scrap (from slag steel, at stonecutting table)
+[new]needle spreader mortar shell
+
+[Weapons]
+[new]1 weapon (portable light mortar)
+
+[Special Buildings (temporary recipes using dragonic resources)]
+[new]alchemy core
+[new]alchemic battery
+[new]entropy reduction cooler
+[new]Eltguelm heater
+[new]Dalius' sun
+[new]Atzldoir's stella
+[new]holy wood sapling
+
+[Joy]
+[new]hot spring joy (dig aquifer on terafoaming)
+
+[Misc]
+[new]Terafoaming (pull watersource, digging cold/hot spring)
+[new]drain (floor)
+
+-------------------Jp----------------------
+このmodはリムの世界に少し変わった世界線の要素を追加します。
+現状は主に動物の異種族追加modです。その他要素は随時追加予定で、最終的には派閥追加有りの総合modになるかも。
+
+[推奨環境（必須ではない）]
+・a Dog Said...
+・Camera+
+
+↓以下、現在の追加要素一覧
+[動物]
+・８種の異世界動物 (詳細はchangelogを参照)
+
+[建造物]
+・特製寝袋 (シルバーx10、医薬品、材料x80)
+・座布団 (材料x20)
+・1x1 ちゃぶ台 (材料x15)
+・1x1 カフェテーブル (材料x15)
+・高精度迫撃砲 (材料x150、先進コンポx4)
+
+[資源]
+・もふもふ (Lost Forestの動物たちから)
+・ちび狐の涙 (エキゾチック商から)
+・古代神聖樹の木材 (木材x150、もふもふx100、ちび狐の涙、作業場)
+・圧縮成型スクラップ (鉄くず高速処理用。ストーンカッター)
+[new]広域拡散重炸裂弾（広範囲迫撃砲弾）
+[new]排水溝(汚れの発生しない床。食肉加工台の下に敷く用)
+
+[武器]
+[new]広域制圧重擲弾筒（広範囲低威力の軽迫撃砲。壁超え攻撃。）
+
+[竜素材を使った特殊建築物（仮レシピ）]
+[new]錬成コア
+[new]錬成蓄電器
+[new]エントロピー遡行冷却器
+[new]エルトゲルム発熱器
+[new]ダリウスの煌輝灯
+[new]アートルの星爛灯
+[new]神聖樹の苗木
+
+[娯楽]
+[new]温泉娯楽（温泉を掘り当てると可能になる）
+
+[その他]
+[new]水源引き込み予定地
+[new]上総掘り櫓
+[new]地下水脈ボーリング装置
+[new]排水溝(床汚れの発生しない床。食肉加工台の下に敷く用)
+[new]食肉加工（装備破棄）レシピの追加
+[new]すべての獣人種族に掃除・整頓ＡＩ追加。
+
+---------------Change log-----------------
+v0.3 NOSTALGIA update
+
+v0.2
+タンカータイプとヘヴィアタッカータイプの大型獣人２種が追加されました。キャラバンにおいても高い積載能力を誇ります。野生には出現せず、闇商からの入手となります。Two types of large beast humans (tanker and heavy attacker) were added. They boasts high loading capacity even in caravans. They will not appear in the wild,  only can be obtained from the black market.
+[*]Icy pumanoid-like girl "Glacia" 
+[*]Crimson terrorbird-like girl "Flammelia" 
+
+v0.1.4 mod version B18 -> B19
+
+v0.1
+比較的戦闘にも耐えうる４種族が追加されました。獣人系動物はいずれもキャラバンで荷物もちができるようになりました。4 tamable animals were updated. All beasthuman became able to pack on caravan. 
+[*]Little fluffy looks girl "Lefca" 
+[*]Little wolf-like girl "Wolvern" 
+[*]Little blue dragon girl "Dragonia" 
+[*]Petite servant dragons 
+
+v0.0.3 mod version A17 -> B18
+
+v0.0
+ペットに出来るちび巫女狐ともふもふ毛玉種族を追加します。どちらも戦闘は苦手ですが、特別な毛を生産する事でコロニーを（特に心情・疾病面で強力に）バックアップしてくれるでしょう。バニラの場合でもバランスを崩さないよう出現率はかなり抑えてあります。面倒な方は開発者モードからどうぞ。
+This Mod will adding some tamable races. 
+
+[*]Little shrine maiden fox girl "Foxia" 
+[*]Fluffy ball-like animal "Leffy" 
+
+These animals are not good for combat, but they will support your colony by producing special wools (especially in mood and illness). Their appearance probability has been extremely suppressed considering game ballance in vanilla. If you feel troublesome for finding them, please use developer mode! XD 
+
+※MODの再配布等はバージョン対応の為の改変を除きご遠慮下さい。
+Prohibiting modification and redistribution of this Mod except for version upgrading.
+</description>
+</ModMetaData>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LMC080s.商业服务器</name>
+	<author>SpessCarp</author>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+
+MOD名：Commercial Server
+时间戳：2019年4月17日 23:50:25
+	
+Building, powering, and maintaining a server is quite an investment. However the silver gained by leasing it will probably be worth it! Requires microelectronics research.
+构建、供电和维护服务器是一项相当大的投资。然而，通过租赁获得的白银是很值的！需要微电子研究。
+
+更新：4月18日开始启动MOD新命名计划，所有MOD规范命名，添加前缀LMC(Localized MOD Collection)+3位序号，英文原名移动至描述中而不出现在MOD名中。
+</description>
+	</ModMetaData>

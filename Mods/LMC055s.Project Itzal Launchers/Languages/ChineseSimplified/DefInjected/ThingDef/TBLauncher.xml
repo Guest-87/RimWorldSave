@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Itzal_TBLauncher.label>热压弹发射器</Itzal_TBLauncher.label>
+  <Itzal_TBLauncher.description>一种一次性的火箭发射器，发射中等尺寸大小的爆炸/燃烧火箭弹。\n\n注释：热压弹（Thermobaric）：利用散布高可燃物质增加爆炸范围与威力的弹药，英语原文如此。</Itzal_TBLauncher.description>
+  <Itzal_TBLauncher.tools.0.label>barrel</Itzal_TBLauncher.tools.0.label>
+
+  <Bullet_TBLauncher.label>热压火箭弹</Bullet_TBLauncher.label>
+
+
+</LanguageData>

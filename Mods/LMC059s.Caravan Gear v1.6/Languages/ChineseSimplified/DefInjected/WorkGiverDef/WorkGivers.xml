@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsCookAtCaravanStove.label>使用便携式燃炉烹饪</DoBillsCookAtCaravanStove.label>
+  <DoBillsCookAtCaravanStove.verb>烹饪</DoBillsCookAtCaravanStove.verb>
+  <DoBillsCookAtCaravanStove.gerund>烹饪中</DoBillsCookAtCaravanStove.gerund>
+
+  <DoBillsCaravanBiofuelRefinery_TWB.label>使用便携式精炼厂精炼燃料</DoBillsCaravanBiofuelRefinery_TWB.label>
+  <DoBillsCaravanBiofuelRefinery_TWB.verb>精炼化合燃料</DoBillsCaravanBiofuelRefinery_TWB.verb>
+  <DoBillsCaravanBiofuelRefinery_TWB.gerund>正在精炼化合燃料</DoBillsCaravanBiofuelRefinery_TWB.gerund>
+
+
+</LanguageData>

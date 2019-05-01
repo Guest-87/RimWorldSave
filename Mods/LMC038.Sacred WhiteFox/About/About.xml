@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>LMC038s.圣白狐</name>
+  <author>[KOR]Bichang</author>
+  <supportedVersions><li>1.0</li></supportedVersions>
+  <description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+  
+前言：咳咳，这次的简介貌似又得我自己来写（编）了。
+
+汉化：jxb12306
+合集地址：http://bbs.3dmgame.com/thread-5842015-1-1.html
+
+添加了圣白狐作为可以饲养的动物，与九莲-九尾狐为同一作者的作品。出现概率极低并且只会出现在寒带和温带，热带看来是不会有了。实在想要的：1.开发者模式，2.重开档自己加剧本条件。具体参数见原文或者MOD站截图。
+
+兼容的附加MOD：狗曰，Animal Gear，Combat Extended，HardCore SK (not 1.0 ver)
+
+I personally drew a picture and added it.
+
+– Stat
+Value : 1750
+Size : 0.9
+HealthScale : 2.5
+Wildness : 75%
+Temperature : -70 ~ 30
+MoveSpeed : 7.14
+ExpectancyAge : 60 (0 ~Puppy~ 2.5 ~Juvenile~ 7.5 ~Adult)
+Wool : 25day, x50 wool
+FoodType : Omnivore
+
+– Appearance position
+Very low probability, one appears in cold climates or in temperate climate.
+
+— Compatible Modes —
+– A Dog Said..
+– Animal Gear
+– Combat Extended
+– HardCore SK (not 1.0 ver)
+
+</description>
+</ModMetaData>

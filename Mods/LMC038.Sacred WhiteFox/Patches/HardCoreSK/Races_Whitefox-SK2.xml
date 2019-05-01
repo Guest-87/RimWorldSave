@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Core SK</modName>
+				<yourMod>Sacred WhiteFox</yourMod>
+			</li>
+			<!-- ========== Whitefox SK ========== -->
+		<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "Whitefox"]/race</xpath>
+			<value>
+				<useMeatFrom>Muffalo</useMeatFrom>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "Whitefox"]/race</xpath>
+			<value>
+				<hediffGiverSets>
+					<li>ThickPassiveSet</li>
+				</hediffGiverSets>
+				<useMeatFrom>Muffalo</useMeatFrom>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "Whitefox"]/statBases/MarketValue</xpath>
+			<value>
+			<MarketValue>4000</MarketValue>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "Whitefox"]/race/leatherMarketValueFactor</xpath>
+			<value>
+				<leatherMarketValueFactor>8.5</leatherMarketValueFactor>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "Whitefox"]/race/leatherStatFactors</xpath>
+			<value>
+			<leatherStatFactors>
+			<MarketValue>2.25</MarketValue>
+			<ArmorRating_Blunt>1.41</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.74</ArmorRating_Sharp>
+			<ArmorRating_Electric>1.54</ArmorRating_Electric>
+			<ArmorRating_Heat>1.09</ArmorRating_Heat>
+			<Insulation_Cold>1.33</Insulation_Cold>
+			<Insulation_Heat>0.96</Insulation_Heat>
+			<BedRestEffectiveness>1.15</BedRestEffectiveness>
+			<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+			<WorkToMake>1.28</WorkToMake>
+			<MaxHitPoints>1.25</MaxHitPoints>
+			<MoveSpeed>1.06</MoveSpeed>
+			<Beauty>1.5</Beauty>
+			</leatherStatFactors>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+</Patch>

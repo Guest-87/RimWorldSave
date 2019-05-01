@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="MealBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+			<Beauty>0</Beauty>
+			<Mass>0.44</Mass>
+			<DeteriorationRate>10</DeteriorationRate>
+		</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>10</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="MealBase" Name="MealRottable" Abstract="True">
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>4</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <tradeability>Buyable</tradeability>
+  </ThingDef>
+
+
+    <!-- 簡単な食事 -->
+    <!-- 卵かけご飯 -->
+  <ThingDef ParentName="MealRottable">
+    <defName>TKG</defName>
+    <label>TKG</label>
+    <description>Easy and delicious Japanese breakfast with eggs on hot rice.
+After hanging soy sauce, in addition to crushing and eating the yolk, disguising the white body and destroying only the yolk and putting it on rice,
+How to eat is different from person to person, such as mixing rice and eggs mixed up and eating.
+For Japanese people to eat TKG, they produce eggs that can be eaten raw!
+Using raw eggs in this environment has a lot of courage, but do not mind food poisoning!</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/TKG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>18</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+
+    <!-- 目玉焼き -->
+  <ThingDef ParentName="MealRottable">
+    <defName>Medamayaki</defName>
+    <label>Fried egg</label>
+    <description>simple is best. Just breaking the egg and baking it in a frying pan,
+Baking methods are also abundant, such as single-sided grinding, double-sided grilling, steamed grilling, etc. You can enjoy different taste even if it is semi-finished or hard-baked.
+Also, the seasoning applied also varies from person to person, soy sauce, salt, sauce and so on.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Medamayaki</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>18</MarketValue>
+      <WorkToMake>200</WorkToMake>
+      <Nutrition>0.8</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+
+    <!-- 手の込んだ食事 -->
+    <!-- 卵焼き -->
+  <ThingDef ParentName="MealRottable">
+    <defName>Tamagoyaki</defName>
+    <label>Tamagoyaki</label>
+    <description>Fluffy and tasty Japanese cuisine made by thinly burning melted eggs and winding up.
+It is a classic side dish of lunch box, and there are two tastes of salty taste and sweet taste.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Tamagoyaki</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>24</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.85</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+
+    <!-- エッグトースト -->
+  <ThingDef ParentName="MealRottable">
+    <defName>EggToast</defName>
+    <label>Egg Toast</label>
+    <description>put meat and fried egg on the crispy toast. Very delicious breakfast.
+First of all, eating only fried eggs is also fun</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Rapyutaman</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>24</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+
+    <!-- 贅沢な食事 -->
+    <!-- オムライス -->
+  <ThingDef ParentName="MealRottable">
+    <defName>Omuraisu</defName>
+    <label>Omelette rice</label>
+    <description>A Japanese-style western food of children's and adult's favorite which can be made by wrapping chicken rice made by stir-frying rice, meat and ketchup etc. with fluffy eggs thinly baked.
+Using ketchup on the surface, writing pictures and words is a lot of fun!</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Omuraisu</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>45</MarketValue>
+      <WorkToMake>720</WorkToMake>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+			<tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+
+    <!-- おやつ -->
+    <!-- プリン -->
+  <ThingDef ParentName="MealRottable">
+    <defName>Purin</defName>
+    <label>Custard Pudding</label>
+    <description>Sweet and tasty shivering sweets.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Purin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>5</DeteriorationRate>
+      <MarketValue>6</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <joy>0.08</joy>
+      <joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+
+</Defs>

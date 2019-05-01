@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="DubsMintMinimap.Settings">
+		<IcoScale>1</IcoScale>
+		<ShowCorpses>True</ShowCorpses>
+		<multi21>200</multi21>
+		<LastVersion>8220</LastVersion>
+	</ModSettings>
+</SettingsBlock>

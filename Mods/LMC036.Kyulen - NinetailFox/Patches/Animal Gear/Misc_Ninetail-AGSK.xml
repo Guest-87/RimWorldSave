@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Core SK</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Combat Extended</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Animal Gear</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<!-- ========== Kyulen AG ========== -->
+			<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+			
+			<ThingDef ParentName="ArmorHelmetMakeableBase">
+			<defName>Apparel_KyulenArmor</defName>
+			<label>Kyulen Armor</label>
+			<description>Special armor made for Kyulen to wear. This armor has an additional energy shield device.</description>
+			<techLevel>Medieval</techLevel>
+			<thingClass>Ninetail.NinetailarmorShield</thingClass>
+			<tickerType>Normal</tickerType>
+			<costList>
+				<Apparel_ShieldBelt>1</Apparel_ShieldBelt>
+				<Component>1</Component>
+				<SteelBar>50</SteelBar>
+				<Kevlar>25</Kevlar>
+				<SilverBar>10</SilverBar>
+				<GoldBar>5</GoldBar>
+				<DevilstrandCloth>30</DevilstrandCloth>
+			</costList>
+			<recipeMaker>
+				<researchPrerequisite>Smithing</researchPrerequisite>
+				<recipeUsers>
+					<li>ElectricSmithy</li>
+			</recipeUsers>
+			</recipeMaker>
+			<graphicData>
+				<texPath>Things/item/special/Ninetailarmor</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<statBases>
+				<WorkToMake>3500</WorkToMake>
+				<MaxHitPoints>100</MaxHitPoints>
+				<MarketValue>2500</MarketValue>
+				<Mass>10</Mass>
+				<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+				<EnergyShieldRechargeRate>0.5</EnergyShieldRechargeRate>
+				<EnergyShieldEnergyMax>5</EnergyShieldEnergyMax>
+			</statBases>
+			<equippedStatOffsets>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MeleeHitChance>0.2</MeleeHitChance>
+				<MeleeDodgeChance>0.25</MeleeDodgeChance>
+				<ShootingAccuracy>-0.1</ShootingAccuracy>
+				<AimingDelayFactor>0.2</AimingDelayFactor>
+			</equippedStatOffsets>
+			<thingCategories>
+				<li>Apparel</li>
+			</thingCategories>
+			<apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>FullHead</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Animal/Ninetailarmor</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Animal</li>
+        <li>Ninetailfox</li>
+        <li>Ninetailfoxwt</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+			</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

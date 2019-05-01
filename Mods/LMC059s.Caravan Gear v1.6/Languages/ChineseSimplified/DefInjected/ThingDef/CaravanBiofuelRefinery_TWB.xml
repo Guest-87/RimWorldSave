@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CaravanBiofuelRefinery_TWB.label>便携式精炼厂</CaravanBiofuelRefinery_TWB.label>
+  <CaravanBiofuelRefinery_TWB.description>可以用有机物制作化合燃料的便携式精炼厂。</CaravanBiofuelRefinery_TWB.description>
+  <CaravanBiofuelRefinery_TWB_Blueprint.label>便携式精炼厂 (蓝图)</CaravanBiofuelRefinery_TWB_Blueprint.label>
+  <CaravanBiofuelRefinery_TWB_Blueprint_Install.label>便携式精炼厂 (蓝图)</CaravanBiofuelRefinery_TWB_Blueprint_Install.label>
+  <CaravanBiofuelRefinery_TWB_Frame.label>便携式精炼厂 (建造中)</CaravanBiofuelRefinery_TWB_Frame.label>
+  <CaravanBiofuelRefinery_TWB_Frame.description>可以用有机物制作化合燃料的便携式精炼厂。</CaravanBiofuelRefinery_TWB_Frame.description>
+
+
+</LanguageData>

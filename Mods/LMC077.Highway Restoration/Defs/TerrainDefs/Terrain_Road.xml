@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TerrainDef>
+		<defName>RepavedAsphalt</defName>
+		<label>repaved asphalt</label>
+		<texturePath>Terrain/Surfaces/RepairedAsphalt</texturePath>
+		<layerable>true</layerable>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>370</renderPrecedence>
+		<pathCost>0</pathCost>
+		<resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+		<designationCategory>Floors</designationCategory>
+		<scatterType>Rocky</scatterType>
+		<description>Repaved Asphalt, a once ancient road surface restored to its former glory.</description>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+		<affordances>
+			<li>Light</li>
+			<li>Heavy</li>
+		</affordances>
+		<fertility>0.0</fertility>
+		<tags>
+			<li>Road</li>
+		</tags>
+		<acceptTerrainSourceFilth>False</acceptTerrainSourceFilth>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+	</TerrainDef>
+</Defs>

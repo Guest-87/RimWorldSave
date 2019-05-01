@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Name="ThingBaseNinetailFox" ParentName="AnimalThingBase" Abstract="True">
+    <description>The result of some scientist's obsession, this horse-sized fox is a marvelous exemplar of genetic engineering so advanced that it is indistinguishable from magic. They possess nine fiery orange tails, fiery breath, and fiery spirit. They are highly intelligent, and befriending one won't be too challenging, though quite risky - approaching one when it is in a bad mood is a fair way to go down in flames. Literally. Their reproduction is a big mystery. Some suspect energetic bead, but it is not confirmed.</description>
+    <statBases>
+		<Mass>50</Mass>
+		<MoveSpeed>7.48</MoveSpeed>
+		<ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+		<ToxicSensitivity>0.25</ToxicSensitivity>
+		<ComfyTemperatureMin>-75</ComfyTemperatureMin>
+		<ComfyTemperatureMax>40</ComfyTemperatureMax>
+		<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+		<ArmorRating_Heat>1.0</ArmorRating_Heat>
+        <PsychicSensitivity>0</PsychicSensitivity>
+		<PainShockThreshold>0.9</PainShockThreshold>
+		<MeleeHitChance>20</MeleeHitChance>
+        <Flammability>0</Flammability>
+		<MeleeDodgeChance>12</MeleeDodgeChance>
+		<MeleeArmorPenetration>1</MeleeArmorPenetration>
+		<MeatAmount>50</MeatAmount>
+		<MarketValue>5000</MarketValue>
+		<CarryingCapacity>60</CarryingCapacity>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <armorPenetration>0.55</armorPenetration>
+        <cooldownTime>1.18</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>28</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>Right claw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.18</cooldownTime>
+        <armorPenetration>0.5</armorPenetration>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>28</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.52</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <armorPenetration>0.35</armorPenetration>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>34</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>Tail</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>0.97</cooldownTime>
+        <armorPenetration>0.15</armorPenetration>
+        <linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>16</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </tools>
+    <race>
+	  <thinkTreeMain>Ninetail</thinkTreeMain>
+      <nameGenerator>NamerNinetail</nameGenerator>
+      <nameGeneratorFemale>NamerNinetail</nameGeneratorFemale>
+      <useMeatFrom>Fox_Fennec</useMeatFrom>
+      <leatherDef>Leather_Fox</leatherDef>
+	  <hediffGiverSets>
+		<li>NinetailPassiveSet</li>
+	  </hediffGiverSets>
+	  <packAnimal>true</packAnimal>
+	  <herdAnimal>false</herdAnimal>
+	  <body>Ninetailfox</body>
+      <baseBodySize>1.1</baseBodySize>
+      <baseHungerRate>0.15</baseHungerRate>
+      <baseHealthScale>6.5</baseHealthScale>
+      <predator>true</predator>
+      <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+      <trainability>Excellent</trainability>
+      <gestationPeriodDays>999</gestationPeriodDays>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <nameOnTameChance>1</nameOnTameChance>
+      <wildness>0.5</wildness>
+      <manhunterOnTameFailChance>0.028</manhunterOnTameFailChance>
+      <nuzzleMtbHours>9</nuzzleMtbHours>
+	  <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.1, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>100</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+        </li>
+      </lifeStageAges>
+		<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+	</race>
+    <tradeTags>
+      <li>AnimalKyulen</li>
+    </tradeTags>
+    <comps>
+      <li Class="Ninetail.CompProperties_Bead">
+        <woolDef>Foxbead</woolDef>
+        <BeadIntervalDays>60</BeadIntervalDays>
+        <BeadAmount>1</BeadAmount>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase" Name="AnimalKindBaseNinetailfox" Abstract="True">
+    <combatPower>365</combatPower>
+    <canArriveManhunter>false</canArriveManhunter>
+  </PawnKindDef>
+  
+  <ThingDef ParentName="ThingBaseNinetailFox">
+    <defName>Ninetailfox</defName>
+    <label>Kyulen</label>
+			<verbs>
+			  <li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>0.9</accuracyShort>
+				<accuracyMedium>0.8</accuracyMedium>
+				<accuracyLong>0.75</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Projectile_Ninetailshot</defaultProjectile>
+				<warmupTime>2.37</warmupTime>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>14</ticksBetweenBurstShots>
+				<minRange>5</minRange>
+				<range>20</range>
+				<soundCast>NinetailShot</soundCast>
+				<muzzleFlashScale>2</muzzleFlashScale>
+			  </li>
+		   </verbs>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <compClass>Ninetail.Battle</compClass>
+        <glowRadius>0</glowRadius>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ThingBaseNinetailFox">
+    <defName>Ninetailfoxwt</defName>
+    <label>Kyulen</label>
+			<verbs>
+			  <li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>0.9</accuracyShort>
+				<accuracyMedium>0.8</accuracyMedium>
+				<accuracyLong>0.75</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Projectile_Ninetailshotwt</defaultProjectile>
+				<warmupTime>2.37</warmupTime>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>14</ticksBetweenBurstShots>
+				<minRange>5</minRange>
+				<range>20</range>
+				<soundCast>NinetailShot</soundCast>
+				<muzzleFlashScale>2</muzzleFlashScale>
+			  </li>
+		   </verbs>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <compClass>Ninetail.Battlewt</compClass>
+        <glowRadius>0</glowRadius>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseNinetailfox">
+    <defName>Ninetailfox</defName>
+    <label>Kyulen</label>
+    <race>Ninetailfox</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ninetail</texPath>
+          <drawSize>3.8</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.3, 0.2)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Red/Dessicated_Fox_Red</texPath>
+          <drawSize>3.0</drawSize>
+        </dessicatedBodyGraphicData>
+        <butcherBodyPart>
+		  <bodyPartGroup>Ninetail</bodyPartGroup>
+          <thing>NinetailfoxTail</thing>
+        </butcherBodyPart>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseNinetailfox">
+    <defName>Ninetailfoxwt</defName>
+    <label>Kyulen</label>
+    <race>Ninetailfoxwt</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ninetailwt</texPath>
+          <drawSize>3.8</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.3, 0.2)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Red/Dessicated_Fox_Red</texPath>
+          <drawSize>3.0</drawSize>
+        </dessicatedBodyGraphicData>
+        <butcherBodyPart>
+		  <bodyPartGroup>TailAttackTool</bodyPartGroup>
+          <thing>NinetailfoxTail</thing>
+        </butcherBodyPart>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+</Defs>

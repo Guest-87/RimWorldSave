@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- Author jxb12306 FROM 3DM Localization Group-->
+  <Shelf_small.label>小型物品架</Shelf_small.label>
+  <Shelf_small.description>用来存放各种物品的小物品架，储存于此的物品即使露天也不会老化。</Shelf_small.description>
+  <Shelf_small_Blueprint.label>小型物品架 (蓝图)</Shelf_small_Blueprint.label>
+  <Shelf_small_Blueprint_Install.label>小型物品架 (蓝图)</Shelf_small_Blueprint_Install.label>
+  <Shelf_small_Frame.label>小型物品架 (建造中)</Shelf_small_Frame.label>
+  <Shelf_small_Frame.description>用来存放各种物品的小物品架，储存于此的物品即使露天也不会老化。</Shelf_small_Frame.description>
+
+
+</LanguageData>

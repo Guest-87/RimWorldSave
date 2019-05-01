@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RMC003.Xen的动物驯化修复</name>
+	<author>Xen</author>
+	<url>https://www.patreon.com/EmpireXen</url>
+	<targetVersion>1.0.0</targetVersion>
+	<description>No more taming reversion!\n\n动物的驯化度不会下降。</description>
+</ModMetaData>

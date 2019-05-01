@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lighting_MURWallLightVII.label>壁灯</Lighting_MURWallLightVII.label>
+  <Lighting_MURWallLightVII.description>一种设计成安装于墙壁上的照明用具。</Lighting_MURWallLightVII.description>
+  <Blueprint_Lighting_MURWallLightVII.label>壁灯(設計)</Blueprint_Lighting_MURWallLightVII.label>
+  <Blueprint_Install_Lighting_MURWallLightVII.label>壁灯(移動先)</Blueprint_Install_Lighting_MURWallLightVII.label>
+  <Frame_Lighting_MURWallLightVII.label>壁灯(施工)</Frame_Lighting_MURWallLightVII.label>
+  <Frame_Lighting_MURWallLightVII.description>一种设计成安装于墙壁上的照明用具。</Frame_Lighting_MURWallLightVII.description>
+
+  <Lighting_MURWallLightRedVII.label>壁灯（红色）</Lighting_MURWallLightRedVII.label>
+  <Lighting_MURWallLightRedVII.description>一种设计成安装于墙壁上的照明用具。发出红色的光。</Lighting_MURWallLightRedVII.description>
+  <Blueprint_Lighting_MURWallLightRedVII.label>壁灯（红色）(設計)</Blueprint_Lighting_MURWallLightRedVII.label>
+  <Blueprint_Install_Lighting_MURWallLightRedVII.label>壁灯（红色）(移動先)</Blueprint_Install_Lighting_MURWallLightRedVII.label>
+  <Frame_Lighting_MURWallLightRedVII.label>壁灯（红色）(施工)</Frame_Lighting_MURWallLightRedVII.label>
+  <Frame_Lighting_MURWallLightRedVII.description>一种设计成安装于墙壁上的照明用具。发出红色的光。</Frame_Lighting_MURWallLightRedVII.description>
+
+  <Lighting_MURWallLightGreenVII.label>壁灯（绿色）</Lighting_MURWallLightGreenVII.label>
+  <Lighting_MURWallLightGreenVII.description>一种设计成安装于墙壁上的照明用具。发出绿色的光。</Lighting_MURWallLightGreenVII.description>
+  <Blueprint_Lighting_MURWallLightGreenVII.label>壁灯（绿色）(設計)</Blueprint_Lighting_MURWallLightGreenVII.label>
+  <Blueprint_Install_Lighting_MURWallLightGreenVII.label>壁灯（绿色）(移動先)</Blueprint_Install_Lighting_MURWallLightGreenVII.label>
+  <Frame_Lighting_MURWallLightGreenVII.label>壁灯（绿色）(施工)</Frame_Lighting_MURWallLightGreenVII.label>
+  <Frame_Lighting_MURWallLightGreenVII.description>一种设计成安装于墙壁上的照明用具。发出绿色的光。</Frame_Lighting_MURWallLightGreenVII.description>
+
+  <Lighting_MURWallLightBlueVII.label>壁灯（青色）</Lighting_MURWallLightBlueVII.label>
+  <Lighting_MURWallLightBlueVII.description>一种设计成安装于墙壁上的照明用具。发出青色的光。</Lighting_MURWallLightBlueVII.description>
+  <Blueprint_Lighting_MURWallLightBlueVII.label>壁灯（青色）(設計)</Blueprint_Lighting_MURWallLightBlueVII.label>
+  <Blueprint_Install_Lighting_MURWallLightBlueVII.label>壁灯（青色）(移動先)</Blueprint_Install_Lighting_MURWallLightBlueVII.label>
+  <Frame_Lighting_MURWallLightBlueVII.label>壁灯（青色）(施工)</Frame_Lighting_MURWallLightBlueVII.label>
+  <Frame_Lighting_MURWallLightBlueVII.description>一种设计成安装于墙壁上的照明用具。发出青色的光。</Frame_Lighting_MURWallLightBlueVII.description>
+
+  <Lighting_MURWallLightVII_Glower.label>壁灯</Lighting_MURWallLightVII_Glower.label>
+  <Lighting_MURWallLightVII_Glower.description>一种设计成安装于墙壁上的照明用具。</Lighting_MURWallLightVII_Glower.description>
+
+  <Lighting_MURWallLightVII_GlowerRed.label>壁灯</Lighting_MURWallLightVII_GlowerRed.label>
+  <Lighting_MURWallLightVII_GlowerRed.description>一种设计成安装于墙壁上的照明用具。</Lighting_MURWallLightVII_GlowerRed.description>
+
+  <Lighting_MURWallLightVII_GlowerGreen.label>壁灯</Lighting_MURWallLightVII_GlowerGreen.label>
+  <Lighting_MURWallLightVII_GlowerGreen.description>一种设计成安装于墙壁上的照明用具。</Lighting_MURWallLightVII_GlowerGreen.description>
+
+  <Lighting_MURWallLightVII_GlowerBlue.label>壁灯</Lighting_MURWallLightVII_GlowerBlue.label>
+  <Lighting_MURWallLightVII_GlowerBlue.description>一种设计成安装于墙壁上的照明用具。</Lighting_MURWallLightVII_GlowerBlue.description>
+
+</LanguageData>

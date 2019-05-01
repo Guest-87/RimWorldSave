@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!-- ============= Joy - Rest in hot spring ============= -->
+  <JobDef>
+    <defName>LFJob_RestInHotSpring</defName>
+    <driverClass>JobDriver_LFRestInHotSpring</driverClass>
+    <reportString>resting at TargetA.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyKind>LFJoyKind_HotSpringRelaxation</joyKind>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  
+
+  <!-- ============= Waterway Drawing ============= -->
+  <JobDef>
+    <defName>LFJob_WaterwayDrawing</defName>
+    <driverClass>JobDriver_LFWaterwayDrawing</driverClass>
+    <reportString>working at TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  
+  <!-- ============= WaterVein Drilling ============= -->
+  <JobDef>
+    <defName>LFJob_KAZUSASystem</defName>
+    <driverClass>JobDriver_LF_KAZUSASystem</driverClass>
+    <reportString>drilling at TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
+    <defName>LFJob_WaterVeinDrill</defName>
+    <driverClass>JobDriver_LFWaterVeinDrill</driverClass>
+    <reportString>drilling at TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+
+</Defs>

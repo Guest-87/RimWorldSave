@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Itzal_SSGL.label>单发榴弹发射器</Itzal_SSGL.label>
+  <Itzal_SSGL.description>一种单发可重新装填榴弹发射器，榴弹在接触目标时爆炸。武器体积非常小并且很轻。</Itzal_SSGL.description>
+  <Itzal_SSGL.tools.0.label>stock</Itzal_SSGL.tools.0.label>
+  <Itzal_SSGL.tools.1.label>barrel</Itzal_SSGL.tools.1.label>
+
+  <Bullet_SSGL.label>发射榴弹</Bullet_SSGL.label>
+
+
+</LanguageData>

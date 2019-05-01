@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Animal Gear</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<!-- ========== Sacred WhiteFox AG ========== -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/groups</xpath>
+			<value>
+					<li>Torso</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def = "Spine"]/groups</xpath>
+			<value>
+					<li>Torso</li>
+			</value>
+			</li>
+	
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def = "NinefoxTail"]/parts/li[def="tails"]/groups</xpath>
+				<value>
+					<li>Torso</li>
+				</value>
+			</li>
+
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def = "Spine"]/groups</xpath>
+			<value>
+					<li>Torso</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def = "Stomach"]/groups</xpath>
+			<value>
+					<li>Torso</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def = "Heart"]/groups</xpath>
+			<value>
+					<li>Torso</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def = "Lung"]/groups</xpath>
+			<value>
+					<li>Torso</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def = "Kidney"]/groups</xpath>
+			<value>
+					<li>Torso</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def = "Liver"]/groups</xpath>
+			<value>
+					<li>Torso</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def = "Neck"]/groups</xpath>
+			<value>
+					<li>Neck</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def="Neck"]/parts/li[def = "Head"]/groups</xpath>
+			<value>
+				<li>UpperHead</li>
+				<li>FullHead</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def="Neck"]/parts/li[def = "Head"]/parts/li[def="Skull"]/groups</xpath>
+			<value>
+					<li>UpperHead</li>
+					<li>FullHead</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def="Neck"]/parts/li[def = "Head"]/parts/li[def="Skull"]/parts/li[def = "Brain"]/groups</xpath>
+			<value>
+					<li>UpperHead</li>
+					<li>FullHead</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def="Neck"]/parts/li[def = "Head"]/parts/li[def="Eye"]/groups</xpath>
+			<value>
+				<li>FullHead</li>
+				<li>Eyes</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def="Neck"]/parts/li[def = "Head"]/parts/li[def="Ear"]/groups</xpath>
+			<value>
+				<li>FullHead</li>
+				<li>UpperHead</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def="Neck"]/parts/li[def = "Head"]/parts/li[def="Nose"]/groups</xpath>
+			<value>
+				<li>FullHead</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def="Neck"]/parts/li[def = "Head"]/parts/li[def="AnimalJaw"]/groups</xpath>
+			<value>
+				<li>FullHead</li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+			<xpath>*/BodyDef[defName = "Ninetailfox"]/corePart/parts/li[def = "Leg"]/groups</xpath>
+			<value>
+				<li>Legs</li>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

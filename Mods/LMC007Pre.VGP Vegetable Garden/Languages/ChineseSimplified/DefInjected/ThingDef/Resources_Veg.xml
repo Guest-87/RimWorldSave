@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <!--[Core] <RawRice.label>稻米</RawRice.label>-->
+  <!--[Core] <RawRice.description>生稻米。生吃味道很差。</RawRice.description>-->
+
+  <!--[Core] <RawPotatoes.label>土豆</RawPotatoes.label>-->
+  <!--[Core] <RawPotatoes.description>生土豆。生吃味道很差。</RawPotatoes.description>-->
+
+  <!--[Core] <RawCorn.label>玉米</RawCorn.label>-->
+  <!--[Core] <RawCorn.description>生玉米。生吃味道很差。</RawCorn.description>-->
+
+  <Rawsnowbeet.label>雪甜菜</Rawsnowbeet.label>
+  <Rawsnowbeet.description>生的雪甜菜。</Rawsnowbeet.description>
+
+  <RawBarley.label>大麦</RawBarley.label>
+  <RawBarley.description>一种可以用来酿酒、制成饲料或当成普通食材使用的谷物。</RawBarley.description>
+
+  <Rawbean.label>黄豆</Rawbean.label>
+  <Rawbean.description>黄豆在各种烹饪方式中很常见。</Rawbean.description>
+
+  <RawOlive.label>橄榄</RawOlive.label>
+  <RawOlive.description>长在树上的小果实。</RawOlive.description>
+
+  <Rawmushroom.label>蘑菇</Rawmushroom.label>
+  <Rawmushroom.description>富含蛋白质的生蘑菇。即使生吃味道也不错。</Rawmushroom.description>
+
+
+</LanguageData>

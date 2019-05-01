@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Server -->
+
+  <ServerSilver.label>服务器</ServerSilver.label>
+  <ServerSilver.description>这些服务器具有强大的处理能力和极大的内存。只要给其供应足够的电力，它就可以通过租赁为一个殖民地赚取大量的白银。它拥有一系列的远程通信技术，可以为欠发达地区提供服务。</ServerSilver.description>
+  <ServerSilver_Blueprint.label>服务器 (蓝图)</ServerSilver_Blueprint.label>
+  <ServerSilver_Blueprint_Install.label>服务器 (蓝图)</ServerSilver_Blueprint_Install.label>
+  <ServerSilver_Frame.label>服务器 (建造中)</ServerSilver_Frame.label>
+  <ServerSilver_Frame.description>这些服务器具有强大的处理能力和极大的内存。只要给其供应足够的电力，它就可以通过租赁为一个殖民地赚取大量的白银。它拥有一系列的远程通信技术，可以为欠发达地区提供服务。</ServerSilver_Frame.description>
+
+
+</LanguageData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LMC081s.小型太阳能板</name>
+	<description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+	
+英文原名：[WD] Small Solar Panels	
+A small content mod which adds new 2x2 solar panels that produce up to 425 power.
+一个小型化太阳能板，占地2X2，提供425W电力。
+</description>
+	<author>Wemd</author>
+    <supportedVersions>
+    <li>1.0</li>
+    </supportedVersions>
+</ModMetaData>

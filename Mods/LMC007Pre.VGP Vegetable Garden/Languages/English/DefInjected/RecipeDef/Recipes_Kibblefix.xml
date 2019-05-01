@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeKibble.label>make kibble</MakeKibble.label>
+  <MakeKibble.description>Make animal kibble by combining raw meat and plants. \n\nRequires 1 nutrition of meat and 1 nutrition of veg, fruit, or hay. \n\nMakes 50 Kibble.</MakeKibble.description>
+  <MakeKibble.jobString>Making kibble.</MakeKibble.jobString>
+
+
+</LanguageData>

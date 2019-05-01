@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeSilage.label>make silage</MakeSilage.label>
+  <MakeSilage.description>Make silage from hay and raw grains.</MakeSilage.description>
+  <MakeSilage.jobString>Making silage.</MakeSilage.jobString>
+
+  <MakebulkSilage.label>make bulk silage</MakebulkSilage.label>
+  <MakebulkSilage.description>Make large amounts silage from hay and raw grains.</MakebulkSilage.description>
+  <MakebulkSilage.jobString>Making bulk silage.</MakebulkSilage.jobString>
+
+  <VG_MakebulkKibble.label>make bulk kibble</VG_MakebulkKibble.label>
+  <VG_MakebulkKibble.description>Make animal kibble by combining raw meat and plants.</VG_MakebulkKibble.description>
+  <VG_MakebulkKibble.jobString>Making kibble.</VG_MakebulkKibble.jobString>
+
+
+</LanguageData>

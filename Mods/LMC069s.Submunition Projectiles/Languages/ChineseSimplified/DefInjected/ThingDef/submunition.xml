@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- antipersonel warhead -->
+
+  <Shell_AirBurst.label>空炸弹头</Shell_AirBurst.label>
+  <Shell_AirBurst.description>一种高科技弹头，在目标上方引爆，子母弹将对目标进行大面积杀伤！！警告：瞄准近距离目标可能导致意外的友军误伤！！</Shell_AirBurst.description>
+
+  <Bullet_Shell_AirBurst.label>空炸弹头</Bullet_Shell_AirBurst.label>
+
+  <Shell_Napalm.label>凝固汽油弹头</Shell_Napalm.label>
+  <Shell_Napalm.description>一种高科技弹头，接近目标时对飞行轨迹下方造成范围燃烧效果。！！！警告：瞄准近距离目标可能导致意外的友军误伤！！</Shell_Napalm.description>
+
+  <Bullet_Shell_Napalm.label>凝固汽油弹头</Bullet_Shell_Napalm.label>
+
+
+</LanguageData>

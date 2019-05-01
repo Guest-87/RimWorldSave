@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Author jxb12306 FROM 3DM Localization Group-->
+
+  <!-- 土採集場 -->
+
+  <RPC_GatheringSpot_Dirt.label>泥土采集点</RPC_GatheringSpot_Dirt.label>
+  <RPC_GatheringSpot_Dirt.description>一个采集泥土的地方。</RPC_GatheringSpot_Dirt.description>
+  <RPC_GatheringSpot_Dirt_Blueprint.label>泥土采集点 (蓝图)</RPC_GatheringSpot_Dirt_Blueprint.label>
+  <RPC_GatheringSpot_Dirt_Frame.label>泥土采集点 (建造中)</RPC_GatheringSpot_Dirt_Frame.label>
+  <RPC_GatheringSpot_Dirt_Frame.description>一个采集泥土的地方。</RPC_GatheringSpot_Dirt_Frame.description>
+
+
+  <!-- 砂採集場 -->
+
+  <RPC_GatheringSpot_Sand.label>沙子采集点</RPC_GatheringSpot_Sand.label>
+  <RPC_GatheringSpot_Sand.description>一个采集沙子的地方。</RPC_GatheringSpot_Sand.description>
+  <RPC_GatheringSpot_Sand_Blueprint.label>沙子采集点 (蓝图)</RPC_GatheringSpot_Sand_Blueprint.label>
+  <RPC_GatheringSpot_Sand_Frame.label>沙子采集点 (建造中)</RPC_GatheringSpot_Sand_Frame.label>
+  <RPC_GatheringSpot_Sand_Frame.description>一个采集沙子的地方。</RPC_GatheringSpot_Sand_Frame.description>
+
+
+  <!-- 砂利採集場 -->
+
+  <RPC_GatheringSpot_Gravel.label>砾石采集点</RPC_GatheringSpot_Gravel.label>
+  <RPC_GatheringSpot_Gravel.description>一个采集砾石的地方。</RPC_GatheringSpot_Gravel.description>
+  <RPC_GatheringSpot_Gravel_Blueprint.label>砾石采集点 (蓝图)</RPC_GatheringSpot_Gravel_Blueprint.label>
+  <RPC_GatheringSpot_Gravel_Frame.label>砾石采集点 (建造中)</RPC_GatheringSpot_Gravel_Frame.label>
+  <RPC_GatheringSpot_Gravel_Frame.description>一个采集砾石的地方。</RPC_GatheringSpot_Gravel_Frame.description>
+
+
+  <!-- 氷採集場 -->
+
+  <RPC_GatheringSpot_Ice.label>冰块采集点</RPC_GatheringSpot_Ice.label>
+  <RPC_GatheringSpot_Ice.description>一个采集冰块的地方。</RPC_GatheringSpot_Ice.description>
+  <RPC_GatheringSpot_Ice_Blueprint.label>冰块采集点 (蓝图)</RPC_GatheringSpot_Ice_Blueprint.label>
+  <RPC_GatheringSpot_Ice_Frame.label>冰块采集点 (建造中)</RPC_GatheringSpot_Ice_Frame.label>
+  <RPC_GatheringSpot_Ice_Frame.description>一个采集冰块的地方。</RPC_GatheringSpot_Ice_Frame.description>
+
+
+  <!-- 泥収集所 -->
+
+  <RPC_GatheringSpot_Mud.label>泥浆采集点</RPC_GatheringSpot_Mud.label>
+  <RPC_GatheringSpot_Mud.description>(允许建筑的位置：沼泽地。) 一个采集泥浆用于制作土壤地方。</RPC_GatheringSpot_Mud.description>
+  <RPC_GatheringSpot_Mud_Blueprint.label>泥浆采集点 (蓝图)</RPC_GatheringSpot_Mud_Blueprint.label>
+  <RPC_GatheringSpot_Mud_Frame.label>泥浆采集点 (建造中)</RPC_GatheringSpot_Mud_Frame.label>
+  <RPC_GatheringSpot_Mud_Frame.description>(允许建筑的位置：沼泽地。) 一个采集泥浆用于制作土壤地方。</RPC_GatheringSpot_Mud_Frame.description>
+
+
+</LanguageData>

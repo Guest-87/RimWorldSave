@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VG_Campfire.label>篝火(竹)</VG_Campfire.label>
+  <VG_Campfire.description>一個能夠持續燃燒數天的臨時取暖設備，必須放置在室內才能有效的溫暖空間。</VG_Campfire.description>
+  <VG_Campfire_Blueprint.label>篝火(竹) (藍圖)</VG_Campfire_Blueprint.label>
+  <VG_Campfire_Frame.label>篝火(竹) (建造中)</VG_Campfire_Frame.label>
+  <VG_Campfire_Frame.description>一個能夠持續燃燒數天的臨時取暖設備，必須放置在室內才能有效的溫暖空間。</VG_Campfire_Frame.description>
+
+
+</LanguageData>

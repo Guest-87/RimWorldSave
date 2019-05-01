@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LMC069s.子母弹</name>
+	<author>pyrofreak4321</author>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+
+One part modders resource, one part sick mortar shells
+
+Adds Air-burst Shells and Napalm for Mortars and a new projectile type for creating advanced explosions.
+
+Air-burst Shells are a high-er velocity mortar shell that peppers a large area with micro munitions.
+- Requires Submunitions research (2000, Mortars, Precision Rifling) 
+- Crafting 6 required
+- 100 steel, 15 chem fuel
+- Work to build: 107
+- Speed: 55 (HE-shells are 41)
+- “Blast” radius: 10
+- Submunition blast radius: .9
+- Submunition duration: 30 ticks (~0.5 sec) 
+- Submunition pre-impact detonation: 30 ticks (~0.5 sec)
+- Submunition damage: 8, 200% AP (Bullet)
+- Submunition frequency: 10 every tick
+空炸弹是一种高速迫击炮弹，能在很大的区域内覆盖微型弹药。
+-需要子母弹研究（2000工作量，前置：迫击炮，精准步枪）
+-需要6级手工技能
+-100单位钢铁，15单位化合燃料
+-工作量：107
+-速度：55（壳41）
+-爆炸半径：10
+-子母弹爆炸半径：0.9
+-子母弹持续时间：30节（~0.5秒）
+-子母弹预撞击爆炸：30节（~0.5秒）
+-子弹伤害：8200% AP（子弹）
+-子母弹频率：每格10次
+ 
+Napalm Shells detonate before impact and create a stream of fire leading to the impact site.
+- Requires Submunitions research (2000, Mortars, Precision Rifling) 
+- Crafting 6 required
+- 20 steel, 100 chem fuel
+- Work to build: 40
+- Speed: 41
+- “Blast” radius: 1
+- Submunition blast radius: 2
+- Submunition duration: till impact
+- Submunition pre-impact detonation: 70 ticks (~1 sec)
+- Submunition damage:  default for “Flame” explosions
+- Submunition frequency: 1 every 5 ticks (~0.01 sec)
+凝固汽油弹在撞击前引爆，形成一股火流，通向撞击地点。
+-需要子母弹研究（2000工作量，前置：迫击炮，精准步枪）
+-需要6级手工技能
+-20钢铁，100单位化合燃料
+-工作量：40
+-速度：41
+-爆炸半径：1
+-子母弹爆炸半径：2
+-子母弹持续时间：直到撞击
+-子母弹预撞击爆炸：70节（~1秒）
+-子母弹伤害：默认为“火焰”爆炸
+-子母弹频率：每5帧1次（~0.01秒）
+
+
+Uses all standard explosion parameters and a modExtension for configuring submunitions.
+
+-CE compatibility: No idea... I don't use it, Not sure how much CE affects...
+
+
+Almost any feedback is welcome
+
+TO DO:
+	- Minimum safe range
+	- Roof checks
+	- LOS checks
+	- Figure out stack icons...
+	  
+		  
+	</description>
+</ModMetaData>

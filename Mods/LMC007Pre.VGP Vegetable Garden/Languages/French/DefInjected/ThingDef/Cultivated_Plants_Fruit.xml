@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New crop types Fruit Trees -->
+
+  <PlantAppletree.label>pommier</PlantAppletree.label>
+  <PlantAppletree.description>Arbre fruitier qui produit des pommes et qui n'est pas détruit au moment de la cueillette.</PlantAppletree.description>
+
+  <PlantBananaTree.label>bananier</PlantBananaTree.label>
+  <PlantBananaTree.description>Arbre fruitier qui produit des bananes et qui n'est pas détruit lors de la cueillette.</PlantBananaTree.description>
+
+  <PlantorangeTree.label>oranger</PlantorangeTree.label>
+  <PlantorangeTree.description>Arbre fruitier qui produit des oranges et qui n'est pas détruit au moment de la cueillette.</PlantorangeTree.description>
+
+  <PlantPeachTree.label>pêcher</PlantPeachTree.label>
+  <PlantPeachTree.description>Arbre fruitier qui produit des pêches et qui n'est pas détruit au moment de la cueillette.</PlantPeachTree.description>
+
+  <DateTree.label>palmier dattier</DateTree.label>
+  <DateTree.description>Arbre fruitier qui produit des dattes et qui n'est pas détruit au moment de la cueillette.</DateTree.description>
+
+  <FigTree.label>figuier</FigTree.label>
+  <FigTree.description>Arbre fruitier qui produit des figues et qui n'est pas détruit lors de la cueillette.</FigTree.description>
+
+  <Coconuttree.label>cocotier</Coconuttree.label>
+  <Coconuttree.description>Arbre fruitier qui produit des noix de coco et qui n'est pas détruit au moment de la cueillette.</Coconuttree.description>
+
+  <PlantCherrytree.label>cerisier</PlantCherrytree.label>
+  <PlantCherrytree.description>Arbre fruitier qui produit des cerises et qui n'est pas détruit lors de la cueillette.</PlantCherrytree.description>
+
+
+  <!-- New fruit crop types -->
+
+  <Plantpineapple.label>ananas</Plantpineapple.label>
+  <Plantpineapple.description>Pensez aux fruits à peau qui poussent à la cime d'un buisson.</Plantpineapple.description>
+
+  <Plantcloudberry.label>plaquebière</Plantcloudberry.label>
+  <Plantcloudberry.description>Un arbuste à baies qui pousse bien dans les climats froids.</Plantcloudberry.description>
+
+  <Plantgooseberry.label>Groseillier à maquereau</Plantgooseberry.label>
+  <Plantgooseberry.description>Un arbuste à baies qui pousse bien dans les climats froids.</Plantgooseberry.description>
+
+  <Plantgrape.label>raisin</Plantgrape.label>
+  <Plantgrape.description>Un petit fruit sucré qui pousse dans de petits buissons de vignes.</Plantgrape.description>
+
+  <Plantblueberry.label>myrtille</Plantblueberry.label>
+  <Plantblueberry.description>Baies de couleur bleue qui poussent dans les buissons.</Plantblueberry.description>
+
+  <Plantwatermelon.label>pastèque</Plantwatermelon.label>
+  <Plantwatermelon.description>Ce fruit est riche en vitamines A et C et peut être consommé cru ou cuit de diverses façons.</Plantwatermelon.description>
+
+
+</LanguageData>

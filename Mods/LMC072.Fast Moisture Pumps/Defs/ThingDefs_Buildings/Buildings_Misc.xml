@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>MoisturePump</defName>
+    <label>moisture pump</label>
+    <description>Equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, and soft sand into normal sand. Does not affect deep water.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/MoisturePump</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.58, 0.35, 0.25)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>150</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_TerrainPumpDry">
+        <radius>6.9</radius>
+        <!--daysToRadius>60</daysToRadius-->  
+		<daysToRadius>12</daysToRadius>
+      </li>	 
+    </comps>
+    <tickerType>Rare</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>	
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>	
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>80</Mass>	  
+      <Flammability>1.0</Flammability>
+      <Beauty>-8</Beauty>
+    </statBases>
+    <fillPercent>0.15</fillPercent>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <specialDisplayRadius>6.9</specialDisplayRadius>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <pathCost>25</pathCost>
+    <designationCategory>Misc</designationCategory>
+    <rotatable>false</rotatable>
+    <researchPrerequisites>
+      <li>MoisturePump</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef> 
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>WDMoisturePumpAdvanced</defName>
+    <label>advanced moisture pump</label>
+    <description>Equalizes moisture in nearby terrain very fast (2,5 times faster than a normal pump).</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/MoisturePumpAdvanced</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.58, 0.35, 0.25)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>		
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>150</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_TerrainPumpDry">
+        <radius>6.9</radius>
+        <!--daysToRadius>60</daysToRadius-->  
+		<daysToRadius>5</daysToRadius>
+      </li>	 
+    </comps>
+    <tickerType>Rare</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>	
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>	
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>4500</WorkToBuild>
+      <Mass>80</Mass> 
+      <Flammability>1.0</Flammability>
+      <Beauty>-8</Beauty>
+    </statBases>
+    <fillPercent>0.15</fillPercent>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+    <costList>
+      <Steel>75</Steel>    
+	  <Plasteel>25</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <specialDisplayRadius>6.9</specialDisplayRadius>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <pathCost>25</pathCost>
+    <designationCategory>Misc</designationCategory>
+    <rotatable>false</rotatable>
+    <researchPrerequisites>
+      <li>WDMoisturePumpAdvanced</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef>
+  
+</Defs>

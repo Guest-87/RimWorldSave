@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New crop types Fruit Trees -->
+
+  <PlantAppletree.label>Apfelbaum</PlantAppletree.label>
+  <PlantAppletree.description>Ein fruchttragender Baum, der Äpfel anbaut und bei der Ernte nicht zerstört wird.</PlantAppletree.description>
+
+  <PlantBananaTree.label>Bananenbaum</PlantBananaTree.label>
+  <PlantBananaTree.description>Ein fruchttragender Baum, der Bananen anbaut und bei der Ernte nicht zerstört wird.</PlantBananaTree.description>
+
+  <PlantorangeTree.label>Orangenbaum</PlantorangeTree.label>
+  <PlantorangeTree.description>Ein fruchttragender Baum, der Orangen anbaut und bei der Ernte nicht zerstört wird.</PlantorangeTree.description>
+
+  <PlantPeachTree.label>Pfirsichbaum</PlantPeachTree.label>
+  <PlantPeachTree.description>Ein fruchttragender Baum, der Pfirsiche anbaut und bei der Ernte nicht zerstört wird.</PlantPeachTree.description>
+
+  <DateTree.label>Dattelpalme</DateTree.label>
+  <DateTree.description>Ein Obstbaum, der Datteln wachsen lässt und bei der Ernte nicht zerstört wird.</DateTree.description>
+
+  <FigTree.label>Feigenbaum</FigTree.label>
+  <FigTree.description>Ein Obstbaum, der Feigen wachsen lässt und bei der Ernte nicht zerstört wird.</FigTree.description>
+
+  <Coconuttree.label>Kokosnusspalme</Coconuttree.label>
+  <Coconuttree.description>Ein Obstbaum, der Kokosnüsse wachsen lässt und bei der Ernte nicht zerstört wird.</Coconuttree.description>
+
+  <PlantCherrytree.label>Kirschbaum</PlantCherrytree.label>
+  <PlantCherrytree.description>Ein Obstbaum, der Kirschen wachsen lässt und bei der Ernte nicht zerstört wird.</PlantCherrytree.description>
+  
+  
+  <!-- New fruit crop types -->
+
+ <Plantpineapple.label>Ananasbaum</Plantpineapple.label>
+  <Plantpineapple.description>Eine wunderbar duftende Frucht an einem Busch.</Plantpineapple.description>
+
+  <Plantcloudberry.label>Sumpfbeerenbusch</Plantcloudberry.label>
+  <Plantcloudberry.description>Ein Beerenbusch der im Kalten wächst.</Plantcloudberry.description>
+
+  <Plantgooseberry.label>Stachelbeerenbusch</Plantgooseberry.label>
+  <Plantgooseberry.description>Ein Beerenstrauch, der in kaltem Klima gut wächst.</Plantgooseberry.description> 
+
+ <Plantgrape.label>Traubenreebe</Plantgrape.label>
+  <Plantgrape.description>Eine kleine süße Frucht die in kleinen Büschen an Reeben wächst.</Plantgrape.description>
+
+  <Plantblueberry.label>Blaubeerbusch</Plantblueberry.label>
+  <Plantblueberry.description>Bläuchlich gefärbte Beere die in Büschen wächst.</Plantblueberry.description>
+
+  <Plantwatermelon.label>Wassermelonen Strauch</Plantwatermelon.label>
+  <Plantwatermelon.description>Diese Frucht ist reich an den Vitaminen A und C und kann auf verschiedene Weise roh oder gekocht gegessen werden.</Plantwatermelon.description>
+
+
+</LanguageData>

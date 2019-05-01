@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Cuptea.label>茶</Cuptea.label>
+  <Cuptea.description>茶叶冲泡而成的饮料。</Cuptea.description>
+  <Cuptea.ingestible.ingestCommandString>喝{0}</Cuptea.ingestible.ingestCommandString>
+  <Cuptea.ingestible.ingestReportString>正在喝{0}。</Cuptea.ingestible.ingestReportString>
+
+  <Coffee.label>咖啡</Coffee.label>
+  <Coffee.description>一杯咖啡。</Coffee.description>
+  <Coffee.ingestible.ingestCommandString>喝{0}</Coffee.ingestible.ingestCommandString>
+  <Coffee.ingestible.ingestReportString>正在喝{0}。</Coffee.ingestible.ingestReportString>
+
+  <Fruitdrink.label>果汁</Fruitdrink.label>
+  <Fruitdrink.description>压榨水果得到的汁。</Fruitdrink.description>
+  <Fruitdrink.ingestible.ingestCommandString>喝{0}</Fruitdrink.ingestible.ingestCommandString>
+  <Fruitdrink.ingestible.ingestReportString>正在喝{0}。</Fruitdrink.ingestible.ingestReportString>
+
+  <bowlstew.label>炖菜</bowlstew.label>
+  <bowlstew.description>一碗文火慢炖的菜肴。 \n\n食用效果：意识、新陈代谢、血液过滤、血液循环。</bowlstew.description>
+
+  <stirfry.label>炒菜</stirfry.label>
+  <stirfry.description>用热油炒制而成的菜。 \n\n食用效果：操作、血液循环。</stirfry.description>
+
+
+</LanguageData>

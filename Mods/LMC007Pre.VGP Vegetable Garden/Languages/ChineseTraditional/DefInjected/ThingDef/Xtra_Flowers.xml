@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Flowers Vanilla -->
+
+  <!--[Core] <PlantDandelion.label>蒲公英</PlantDandelion.label>-->
+  <!--[Core] <PlantDandelion.description>常見的野花。因為繁殖迅速一般被當成野草。是一種比較好看的花。</PlantDandelion.description>-->
+
+  <!--[Core] <PlantRose.label>玫瑰</PlantRose.label>-->
+  <!--[Core] <PlantRose.description>一種漂亮的栽培植物，從遠古時代就是浪漫與愛情的象徵。</PlantRose.description>-->
+
+  <!--[Core] <PlantDaylily.label>金針花</PlantDaylily.label>-->
+  <!--[Core] <PlantDaylily.description>一種漂亮的栽培植物，非常適合替單調的院子增添色彩，需要經常重新種植。</PlantDaylily.description>-->
+
+
+  <!-- New Flowers -->
+
+  <PlantPlumeria.label>雞蛋花</PlantPlumeria.label>
+  <PlantPlumeria.description>一種漂亮的顏色多變的灌木花卉。</PlantPlumeria.description>
+
+
+</LanguageData>

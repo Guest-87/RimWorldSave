@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Portrait_OptionLabel>详细参数</Portrait_OptionLabel>
+  <Portrait_ScaleSize>比例尺寸缩放</Portrait_ScaleSize>
+  <Portrait_PositionX>X轴方向偏移量</Portrait_PositionX>
+  <Portrait_PositionZ>Z轴方向偏移量</Portrait_PositionZ>
+
+  <enableChangePortraitSizesLabel>允许更改头像大小。</enableChangePortraitSizesLabel>
+  <Portraits_ScaleX>头像窗口宽度</Portraits_ScaleX>
+  <Portraits_ScaleY>头像窗口高度</Portraits_ScaleY>
+
+  <Portrait_presetLabel>预设值</Portrait_presetLabel>
+  <Portrait_ClseupShotLabel1>特写镜头 1</Portrait_ClseupShotLabel1>
+  <Portrait_ClseupShotLabel2>特写镜头 2</Portrait_ClseupShotLabel2>
+  <Portrait_FaceShotLabel>面部</Portrait_FaceShotLabel>
+  <Portrait_BustShotLabel>胸部以上</Portrait_BustShotLabel>
+  <Portrait_MediumShotLabel>上半身</Portrait_MediumShotLabel>
+  <Portrait_FullShotLabel>全身(游戏预设值)</Portrait_FullShotLabel>
+  <Portrait_SetLabel>设定</Portrait_SetLabel>
+
+</LanguageData>

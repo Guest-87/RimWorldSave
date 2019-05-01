@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VeggieMix5.label>混合5单位蔬菜</VeggieMix5.label>
+  <VeggieMix5.description>将一些蔬菜切碎混合，得到适合烹饪的混合蔬菜。</VeggieMix5.description>
+  <VeggieMix5.jobString>正在混合蔬菜。</VeggieMix5.jobString>
+
+  <VeggieMixTwenty.label>混合20单位蔬菜</VeggieMixTwenty.label>
+  <VeggieMixTwenty.description>将一些蔬菜切碎混合，得到适合烹饪的混合蔬菜。</VeggieMixTwenty.description>
+  <VeggieMixTwenty.jobString>正在混合蔬菜。</VeggieMixTwenty.jobString>
+
+  <VeggieMix100.label>混合100单位蔬菜</VeggieMix100.label>
+  <VeggieMix100.description>将一些蔬菜切碎混合，得到适合烹饪的混合蔬菜。</VeggieMix100.description>
+  <VeggieMix100.jobString>正在混合蔬菜。</VeggieMix100.jobString>
+
+
+</LanguageData>

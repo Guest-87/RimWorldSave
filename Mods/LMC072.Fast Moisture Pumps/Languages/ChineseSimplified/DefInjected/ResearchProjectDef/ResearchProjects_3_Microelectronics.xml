@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 2.5 Microelectronics -->
+
+  <!--[Core] <MoisturePump.label>排水泵</MoisturePump.label>-->
+  <!--[Core] <MoisturePump.description>解锁建造「排水泵」，非常缓慢的使附近土壤中的水份正常化。它能让潮湿土地变干，并且将软沙变成普通沙地。</MoisturePump.description>-->
+
+  <WDMoisturePumpAdvanced.label>先进排水泵</WDMoisturePumpAdvanced.label>
+  <WDMoisturePumpAdvanced.description>解锁建造「先进排水泵」，快速使附近土壤中的水份正常化。它能让潮湿土地变干，并且将软沙变成普通沙地。</WDMoisturePumpAdvanced.description>
+
+
+</LanguageData>

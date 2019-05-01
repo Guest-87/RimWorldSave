@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/TerrainDef[defName="Soil" or defName="MossyTerrain" or defName="SoilRich" or defName="Gravel"]/affordances</xpath>
+    <value>
+		<li>Packable</li>
+	</value>    
+  </Operation>
+</Patch>

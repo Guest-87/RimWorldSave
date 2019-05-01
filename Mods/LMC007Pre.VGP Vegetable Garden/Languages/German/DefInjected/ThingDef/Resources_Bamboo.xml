@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bamboo.label>Bambus</Bamboo.label>
+  <Bamboo.description>Schnellwachsende Grasart, wird oft genutzt für die Konstruktion.</Bamboo.description>
+   <Bamboo.tools.0.label>Block</Bamboo.tools.0.label>
+  <Bamboo.stuffProps.stuffAdjective>Bambus</Bamboo.stuffProps.stuffAdjective>
+
+  <VG_IronWoodLog.label>Eisenholz</VG_IronWoodLog.label>
+  <VG_IronWoodLog.description>Holz des Eisenholzbaumes. Hervorragend für den Bau von Strukturen, Waffen oder einfachen Prothesen.Ein einfacher Scheit kann als Waffe im Nahkampf verwendet werden. Sehr schönes und dekoratives Material.</VG_IronWoodLog.description>
+   <VG_IronWoodLog.tools.0.label>Block</VG_IronWoodLog.tools.0.label>
+  <VG_IronWoodLog.stuffProps.stuffAdjective>Eisenholz</VG_IronWoodLog.stuffProps.stuffAdjective>
+
+
+</LanguageData>

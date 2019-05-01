@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+    <defName>Bead</defName>
+    <driverClass>Ninetail.JobDriver_Bead</driverClass>
+    <reportString>Get Bead TargetA.</reportString>
+  </JobDef>
+</Defs>

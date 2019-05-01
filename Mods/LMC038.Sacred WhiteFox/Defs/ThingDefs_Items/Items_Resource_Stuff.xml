@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="WoolBase">
+    <defName>WhitefoxWool</defName>
+    <label>Sacred WhiteFox Wool</label>
+    <description>The Wool of a sacred white fox is usually softer and warmer than the fur of other animals.</description>
+    <graphicData>
+      <color>(250,250,250)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>5.8</MarketValue>
+      <Mass>0.016</Mass>
+      <Flammability>0.5</Flammability>
+      <StuffPower_Armor_Sharp>1.52</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.14</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.64</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(250,250,250)</color>
+      <commonality>0.15</commonality>
+      <statFactors>
+        <Flammability>0.5</Flammability>
+        <MarketValue>4.2</MarketValue>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+    <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Whitefox</defName>
+    <label>Whitefox fur</label>
+    <description>It is difficult to pierce and insulates well against heat.</description>
+    <graphicData>
+      <color>(250,250,250)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>9.4</MarketValue>
+      <StuffPower_Armor_Sharp>1.52</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.38</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.12</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(250,250,0)</color>
+      <commonality>0</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+</Defs>

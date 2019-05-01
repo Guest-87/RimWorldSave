@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <IF_MedTable.label>医疗训练</IF_MedTable.label>
+  <IF_MedTable.description>医生们通过在尸体上训练他们的技术来提高医疗技能。</IF_MedTable.description>
+  <IF_MedTable.jobString>训练中。</IF_MedTable.jobString>
+
+
+</LanguageData>

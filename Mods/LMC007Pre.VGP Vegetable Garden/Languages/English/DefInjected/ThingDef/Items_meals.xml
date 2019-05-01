@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Cuptea.label>Garden Tea</Cuptea.label>
+  <Cuptea.description>A drink made from brew tea leaves.</Cuptea.description>
+  <Cuptea.ingestible.ingestCommandString>Drink {0}</Cuptea.ingestible.ingestCommandString>
+  <Cuptea.ingestible.ingestReportString>Drinking {0}.</Cuptea.ingestible.ingestReportString>
+
+  <Coffee.label>Garden Coffee</Coffee.label>
+  <Coffee.description>A cup of coffee</Coffee.description>
+  <Coffee.ingestible.ingestCommandString>Drink {0}</Coffee.ingestible.ingestCommandString>
+  <Coffee.ingestible.ingestReportString>Drinking {0}.</Coffee.ingestible.ingestReportString>
+
+  <Fruitdrink.label>Fruit drink</Fruitdrink.label>
+  <Fruitdrink.description>A drink made from pressing fruit for their juice.</Fruitdrink.description>
+  <Fruitdrink.ingestible.ingestCommandString>Drink {0}</Fruitdrink.ingestible.ingestCommandString>
+  <Fruitdrink.ingestible.ingestReportString>Drinking {0}.</Fruitdrink.ingestible.ingestReportString>
+
+  <bowlstew.label>bowl of stew</bowlstew.label>
+  <bowlstew.description>A bowl of slow cooking stew. \n\nFood Effects: Consciousness, Metabolism, Blood Filtration, and Blood Pumping.</bowlstew.description>
+
+  <stirfry.label>stirfry</stirfry.label>
+  <stirfry.description>Cooking technique in which ingredients are fried in a small amount of very hot oil. \n\nFood Effects: Manipulation and Blood Filtration.</stirfry.description>
+
+
+</LanguageData>

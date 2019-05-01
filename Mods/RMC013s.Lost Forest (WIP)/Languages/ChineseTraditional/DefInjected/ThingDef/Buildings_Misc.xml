@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<LF_WaterwayConstructionSpot.label>引圳預定地</LF_WaterwayConstructionSpot.label>
+	<LF_WaterwayConstructionSpot.description>從鄰接地點引入水源的工事。工程時數與水源流量成正比。完成必要的研究後，無法涉足的深湶也能進行引圳。</LF_WaterwayConstructionSpot.description>
+
+	<LF_KAZUSA_WaterVeinDrillSystem.label>上總掘櫓</LF_KAZUSA_WaterVeinDrillSystem.label>
+	<LF_KAZUSA_WaterVeinDrillSystem.description>異國的傳統型垂直挖鑿裝置，無須使用電力即能挖鑿至蓄水層。雖須耗上一段時間，但只需木材、少許鋼鐵，以及些許人力即能挖鑿至500米深。工程完竣後，原施工處會變成溫泉或泉源，會變成哪一方得要實際挖過才知道。</LF_KAZUSA_WaterVeinDrillSystem.description>
+
+	<LF_WaterVeinDrill.label>蓄水層鑿井裝置</LF_WaterVeinDrill.label>
+	<LF_WaterVeinDrill.description>為了挖掘地下水而設置的電動挖鑿裝置。比起人力挖掘要來得快速，鑽頭會隨工程而磨損，因此無法重複使用。工程完竣後，原施工處會變成溫泉或泉源，會變成哪一方得要實際挖過才知道。</LF_WaterVeinDrill.description>
+
+</LanguageData>

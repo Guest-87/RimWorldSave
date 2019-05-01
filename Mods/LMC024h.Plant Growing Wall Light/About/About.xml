@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LMC024.壁挂式太阳灯</name>
+	<author>Murmur</author>
+	<targetVersion>1.0.2059</targetVersion>
+	<description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+	
+Adds a grow light that is placed directly on walls. By default it uses a lot less power than the Sun Lamp but also has a lot less range.\n\n添加了一个直接安装于墙壁上的太阳灯，在默认情况下，它消耗的功率比日光灯小得多，但照明范围也小得多。\n\n翻译：jxb12306</description>
+</ModMetaData>

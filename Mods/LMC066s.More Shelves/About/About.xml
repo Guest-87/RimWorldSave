@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>LMC066s.更多的物品架</name>
+    <author>daavko</author>
+    <supportedVersions><li>1.0</li></supportedVersions>
+    <description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+
+新增了三种物品架：
+
+-小型物品架（1X1）
+-中型物品架（3X1）
+-大型物品架（4X1）
+
+所有的物品架与原版相似，并且具有相同的默认存储设置。
+无需任何前置。
+存档兼容！但是移除该MOD前需要先解构所有新增的物品架。
+
+时间戳：2019年3月23日 17:01:42
+</description>
+</ModMetaData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fruitdrink.label>Stelle Fruchtsaft her</Fruitdrink.label>
+  <Fruitdrink.description>Süßer Saft aus frischen Früchten.</Fruitdrink.description>
+  <Fruitdrink.jobString>Früchte entsaften.</Fruitdrink.jobString>
+
+  <BrewCoffee.label>Koche vier Kaffee</BrewCoffee.label>
+  <BrewCoffee.description>Koche vier frischen Tassen Kaffee.</BrewCoffee.description>
+  <BrewCoffee.jobString>Kaffee kochen.</BrewCoffee.jobString>
+
+  <BulkBrewCoffee.label>Koche 12 Tassen Kaffee.</BulkBrewCoffee.label>
+  <BulkBrewCoffee.description>Koche 12 Tassen frischen Kaffee.</BulkBrewCoffee.description>
+  <BulkBrewCoffee.jobString>Kaffee kochen.</BulkBrewCoffee.jobString>
+
+  <BrewTea.label>Koche zwei Tassen Tee.</BrewTea.label>
+  <BrewTea.description>Bereite Teeblätter vor und koche Tee.</BrewTea.description>
+  <BrewTea.jobString>Tee kochen.</BrewTea.jobString>
+
+  <BulkBrewTea.label>Koche zehn Tassen Tee.</BulkBrewTea.label>
+  <BulkBrewTea.description>Bereite einen Stapel Teeblätter vor und koche Tee.</BulkBrewTea.description>
+  <BulkBrewTea.jobString>Tee kochen.</BulkBrewTea.jobString>
+
+
+</LanguageData>

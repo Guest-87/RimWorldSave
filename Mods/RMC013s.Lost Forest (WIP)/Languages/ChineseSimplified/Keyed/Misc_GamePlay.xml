@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!-- LF Cooler & Heater -->
+	<Running>運作中</Running>
+	<Stopped>停止中</Stopped>
+
+    <!-- Incident : ShortCircuit-->
+	<ShortCircuitWasPrevented>但那只是杞人之憂。產生的過電流被{0}的内部機構完全吸收了。並沒有帶來足以著目的災害。</ShortCircuitWasPrevented>
+	<ShortCircuitRainWasPrevented>但因著{0}精細的制御機構，過電流被完全遮断，而未產生任何災害。</ShortCircuitRainWasPrevented>
+	<SCPEffectReductionBatteryPowerLossOnLeakage>[{0} 効果]\n漏電時電池的損失{1}%輕減</SCPEffectReductionBatteryPowerLossOnLeakage>
+	<SCPEffectAbsorptionAllLeakedEnergy>[{0} 効果]\n放出的能量放出{1}Wd全部都被吸收了</SCPEffectAbsorptionAllLeakedEnergy>
+
+    <!-- AuraEffect of HolyWoodSapring : Treatment of infections -->
+	<MechanitesInfectionWasCuredCompletely>{0}的傷勢痊癒了</MechanitesInfectionWasCuredCompletely>
+
+    <!-- Waterway Construction -->
+	<WaterVeinDrillingProgress>進行程度</WaterVeinDrillingProgress>
+	<WaterVeinDrillingSucceeded>{0}挖鑿到{1}了!</WaterVeinDrillingSucceeded>
+    <!-- PlaceWorkerReport : Waterway Construction -->
+	<MustPlaceWithWaterSourceAndFreeSpace>需要水源及工作空間。</MustPlaceWithWaterSourceAndFreeSpace>
+    <!-- TerrainSourceError : Waterway Construction -->
+	<DrawWaterwayFailedNonWaterSource>{0}試著將水源以外的東西引圳入溝，但這愚蠢的嘗試顯然失敗了。</DrawWaterwayFailedNonWaterSource>
+
+    <!-- RestInHotSpring : GetReport -->
+	<RelaxingInHotSpring>在温泉裡歇息</RelaxingInHotSpring>
+	<WatchingEclipseAtHotSpring>泡在温泉中眺望著日食</WatchingEclipseAtHotSpring>
+	<WatchingAuroraAtHotSpring>泡在温泉中眺望著極光</WatchingAuroraAtHotSpring>
+	<StargazingAtHotSpring>泡在温泉中眺望著夜空中的星座</StargazingAtHotSpring>
+	<CloudWatchingAtHotSpring>泡在温泉中眺望著流雲</CloudWatchingAtHotSpring>
+	<WatchingSunriseAtHotSpring>泡在温泉中眺望著日出</WatchingSunriseAtHotSpring>
+	<WatchingSunsetAtHotSpring>泡在温泉中眺望著日落</WatchingSunsetAtHotSpring>
+
+
+    <!-- MOD Settings -->
+	<LFSetting_HotSprings>♨===== 温泉関係 =====♨</LFSetting_HotSprings>
+	<LFSetting_UpdateSpringWaterRegularly>・定期更新泉源、温泉地形的水（效能影響：低）</LFSetting_UpdateSpringWaterRegularly>
+	<LFSetting_RenderBodyInHotSpringJoy>・温泉娛樂中、表示角色的身體（效能影響：極小）</LFSetting_RenderBodyInHotSpringJoy>
+	<LFSetting_RenderSpringWaterSurface>・表現温泉的水面效果（效能影響：低）</LFSetting_RenderSpringWaterSurface>
+	<LFSetting_RenderSpringWaterEdge>・(不完全)平順地表現溫泉水面的境界（效能影響：低-中）</LFSetting_RenderSpringWaterEdge>
+	<LFSetting_RenderHotSpringVapor>・表現溫泉的熱氣（效能影響：低）</LFSetting_RenderHotSpringVapor>
+
+
+
+</LanguageData>

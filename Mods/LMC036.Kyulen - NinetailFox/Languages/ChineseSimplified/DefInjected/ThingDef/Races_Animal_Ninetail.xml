@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Ninetailfox.label>九莲</Ninetailfox.label>
+  <Ninetailfox.description>九莲是一些科学家幻想的产物，这些和马差不多大小的狐狸正是基因工程的一个奇妙的例子，它是如此不可思议，简直和魔法无异。它们拥有九条火红的橙色尾巴、炽热的气息和炽热的灵魂。它们非常聪明，和一个人成为朋友不会有太大的挑战，尽管这相当冒险——在九莲心情不好的时候接近它很容易引火烧身，没错就是字面意思。它们的繁殖是一个很大的谜。有人怀疑宝珠的力量另有玄机，但目前尚未得到证实。</Ninetailfox.description>
+  <Ninetailfox.tools.0.label>左爪</Ninetailfox.tools.0.label>
+  <Ninetailfox.tools.1.label>右爪</Ninetailfox.tools.1.label>
+  <Ninetailfox.tools.3.label>尾巴</Ninetailfox.tools.3.label>
+  <Ninetailfox_Leather.label>九莲皮</Ninetailfox_Leather.label>
+  <Ninetailfox_Leather.description>九莲皮</Ninetailfox_Leather.description>
+  <Ninetailfox_Leather.stuffProps.stuffAdjective>九莲皮</Ninetailfox_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Fox_Fennec -->
+  <Ninetailfox_Corpse.label>九莲 corpse</Ninetailfox_Corpse.label>
+  <Ninetailfox_Corpse.description>九莲 corpse</Ninetailfox_Corpse.description>
+
+  <Ninetailfoxwt.label>九莲</Ninetailfoxwt.label>
+  <Ninetailfoxwt.description>九莲是一些科学家幻想的产物，这些和马差不多大小的狐狸正是基因工程的一个奇妙的例子，它是如此不可思议，简直和魔法无异。它们拥有九条火红的橙色尾巴、炽热的气息和炽热的灵魂。它们非常聪明，和一个人成为朋友不会有太大的挑战，尽管这相当冒险——在九莲心情不好的时候接近它很容易引火烧身，没错就是字面意思。它们的繁殖是一个很大的谜。有人怀疑宝珠的力量另有玄机，但目前尚未得到证实。</Ninetailfoxwt.description>
+  <Ninetailfoxwt.tools.0.label>左爪</Ninetailfoxwt.tools.0.label>
+  <Ninetailfoxwt.tools.1.label>右爪</Ninetailfoxwt.tools.1.label>
+  <Ninetailfoxwt.tools.3.label>尾巴</Ninetailfoxwt.tools.3.label>
+  <Ninetailfoxwt_Leather.label>九莲皮</Ninetailfoxwt_Leather.label>
+  <Ninetailfoxwt_Leather.description>九莲皮</Ninetailfoxwt_Leather.description>
+  <Ninetailfoxwt_Leather.stuffProps.stuffAdjective>九莲皮</Ninetailfoxwt_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Fox_Fennec -->
+  <Ninetailfoxwt_Corpse.label>九莲尸体</Ninetailfoxwt_Corpse.label>
+  <Ninetailfoxwt_Corpse.description>九莲的尸体</Ninetailfoxwt_Corpse.description>
+
+
+</LanguageData>

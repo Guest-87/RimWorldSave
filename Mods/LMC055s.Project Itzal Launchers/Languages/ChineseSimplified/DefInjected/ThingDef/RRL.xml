@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Itzal_RRL.label>可重装填火箭发射器</Itzal_RRL.label>
+  <Itzal_RRL.description>火箭发射器的一种古老设计，与其他火箭发射器不同，它可以重新装填，但是伤害较低。</Itzal_RRL.description>
+  <Itzal_RRL.tools.0.label>stock</Itzal_RRL.tools.0.label>
+  <Itzal_RRL.tools.1.label>barrel</Itzal_RRL.tools.1.label>
+
+  <Bullet_RRL.label>可重装填火箭</Bullet_RRL.label>
+
+
+</LanguageData>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+	<li Class="ModFinder.PatchOperationFindMod">
+		<modName>DeCore 1.0</modName>
+      	<success>Invert</success>
+	</li>	
+	<li Class="ModFinder.PatchOperationFindMod">
+		<modName>[RF] Wild Cultivation [1.0]</modName>
+      	<success>Invert</success>
+	</li>	
+	<li Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "Plant_Grass"]/plant</xpath>
+  <value>
+		<sowTags>
+			<li>Ground</li>
+		</sowTags>
+  </value>
+	</li>
+  </operations>
+</Operation>
+
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+	<li Class="PatchOperationTest">
+<xpath>Defs/ThingDef[defName = "Plant_Agave"]/plant/sowTags</xpath>
+      <success>Invert</success>
+	</li>	
+	<li Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "Plant_Agave"]/plant</xpath>
+  <value>
+		<sowTags>
+			<li>Ground</li>
+        		<li>Hydroponic</li>
+		</sowTags>
+  </value>
+	</li>
+<li Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "Plant_Agave"]/plant</xpath>
+  <value>
+       <sowResearchPrerequisites>
+        <li>agricultureII</li>
+      </sowResearchPrerequisites>
+  </value>
+</li>
+<li Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Agave"]/plant/growDays</xpath>
+  <value>
+			<growDays>5</growDays>
+  </value>
+</li>
+<li Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Agave"]/plant/harvestYield</xpath>
+  <value>
+			<harvestYield>6</harvestYield>
+  </value>
+</li>
+<li Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "RawAgave"]/statBases</xpath>
+  <value>
+			<Nutrition>0.08</Nutrition>
+  </value>
+</li>
+  </operations>
+</Operation>
+
+
+
+
+
+
+
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "Plant_Strawberry"]/plant</xpath>
+  <value>
+       <sowResearchPrerequisites>
+        <li>agricultureII</li>
+      </sowResearchPrerequisites>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Strawberry"]/plant/growDays</xpath>
+  <value>
+			<growDays>5</growDays>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Strawberry"]/plant/harvestYield</xpath>
+  <value>
+			<harvestYield>6</harvestYield>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "RawBerries"]/statBases</xpath>
+  <value>
+			<Nutrition>0.08</Nutrition>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "Plant_PincushionCactus"]/plant</xpath>
+  <value>
+		<dieIfLeafless>true</dieIfLeafless>
+		<harvestTag>Standard</harvestTag>
+		<harvestedThingDef>RawCactusFruit</harvestedThingDef>
+		<harvestYield>3</harvestYield>
+		<sowTags>
+			<li>Ground</li>
+        		<li>Hydroponic</li>
+		</sowTags>
+      	<purpose>Food</purpose>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ResearchProjectDef[defName = "Cocoa"]/description</xpath>
+  <value>
+    <description>Sow cocoa plants to create your own delicious chocolate. Eating chocolate fulfills the need for recreation, and it's valuable on the market too. \n\nUnlocks Trees and Bushes.</description>
+  </value>
+</Operation>
+
+
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+	<li Class="PatchOperationTest">
+<xpath>Defs/ThingDef[defName = "Plant_Devilstrand"]/plant/sowTags/li/Hydroponic</xpath>
+      <success>Invert</success>
+	</li>	
+<li Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "Plant_Devilstrand"]/plant/sowTags</xpath>
+  <value>
+        <li>Hydroponic</li>
+  </value>
+</li>
+  </operations>
+</Operation>
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+	<li Class="PatchOperationTest">
+<xpath>Defs/ThingDef[defName = "Plant_Corn"]/plant/sowTags/li/Hydroponic</xpath>
+      <success>Invert</success>
+	</li>	
+<li Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "Plant_Corn"]/plant/sowTags</xpath>
+  <value>
+        <li>Hydroponic</li>
+  </value>
+</li>
+  </operations>
+</Operation>
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+	<li Class="PatchOperationTest">
+<xpath>Defs/ThingDef[defName = "Plant_Haygrass"]/plant/sowTags/li/Hydroponic</xpath>
+      <success>Invert</success>
+	</li>	
+<li Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "Plant_Haygrass"]/plant/sowTags</xpath>
+  <value>
+        <li>Hydroponic</li>
+  </value>
+</li>
+  </operations>
+</Operation>
+
+
+</Patch>
+

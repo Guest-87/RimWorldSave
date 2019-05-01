@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Rice"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/RicePlant</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "Plant_Rice"]/plant</xpath>
+  <value>
+<immatureGraphicPath>Things/Immature/RicePlant</immatureGraphicPath>
+  </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Potato"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/PotatoPlant</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Corn"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/CornPlant</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Corn"]/plant/immatureGraphicPath</xpath>
+  <value>
+<immatureGraphicPath>Things/Immature/CornPlant</immatureGraphicPath>
+  </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Strawberry"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/StrawberryPlant</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Strawberry"]/plant/immatureGraphicPath</xpath>
+  <value>
+<immatureGraphicPath>Things/Immature/StrawberryPlant</immatureGraphicPath>
+  </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Cotton"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/CottonPlant</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Cotton"]/plant/immatureGraphicPath</xpath>
+  <value>
+<immatureGraphicPath>Things/Immature/CottonPlant</immatureGraphicPath>
+  </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Devilstrand"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/Devilstrand</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "Plant_Devilstrand"]/plant</xpath>
+  <value>
+<immatureGraphicPath>Things/Immature/Devilstrand</immatureGraphicPath>
+  </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[@Name = "HealrootBase"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/Healroot</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[@Name = "HealrootBase"]/plant</xpath>
+  <value>
+<immatureGraphicPath>Things/Immature/Healroot</immatureGraphicPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Agave"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/Agave</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Hops"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/HopsPlant</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Agave"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/Agave</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Berry"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/Raspberry</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Daylily"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/Daylily</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Daylily"]/plant/visualSizeRange/max</xpath>
+  <value>
+        <max>0.80</max>
+  </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Rose"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Plants/Rose</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "Plant_Rose"]/plant/visualSizeRange/max</xpath>
+  <value>
+        <max>0.80</max>
+  </value>
+</Operation>
+
+
+</Patch>
+

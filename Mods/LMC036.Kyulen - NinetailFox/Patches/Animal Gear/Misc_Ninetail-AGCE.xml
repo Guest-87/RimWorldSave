@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Core SK</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+				<success>Invert</success>
+			</li>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Combat Extended</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Animal Gear</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<!-- ========== Kyulen AG ========== -->
+			<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+			
+			<ThingDef ParentName="ArmorHelmetMakeableBase">
+			<defName>Apparel_KyulenArmor</defName>
+			<label>Kyulen Armor</label>
+			<description>Special armor made for Kyulen to wear. This armor has an additional energy shield device.</description>
+			<techLevel>Medieval</techLevel>
+			<thingClass>Ninetail.NinetailarmorShield</thingClass>
+			<tickerType>Normal</tickerType>
+			<costList>
+				<Apparel_ShieldBelt>1</Apparel_ShieldBelt>
+				<ComponentIndustrial>2</ComponentIndustrial>
+				<ComponentSpacer>1</ComponentSpacer>
+				<Steel>75</Steel>
+				<Plasteel>50</Plasteel>
+				<Silver>50</Silver>
+				<Gold>5</Gold>
+				<DevilstrandCloth>45</DevilstrandCloth>
+			</costList>
+			<recipeMaker>
+				<researchPrerequisite>Smithing</researchPrerequisite>
+				<recipeUsers>
+					<li>ElectricSmithy</li>
+					<li>FueledSmithy</li>
+			</recipeUsers>
+			</recipeMaker>
+			<graphicData>
+				<texPath>Things/item/special/Ninetailarmor</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<statBases>
+				<WorkToMake>7500</WorkToMake>
+				<MaxHitPoints>100</MaxHitPoints>
+				<MarketValue>2500</MarketValue>
+				<Mass>10</Mass>
+				<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+				<EnergyShieldRechargeRate>0.4</EnergyShieldRechargeRate>
+				<EnergyShieldEnergyMax>5</EnergyShieldEnergyMax>
+			</statBases>
+			<thingCategories>
+				<li>Apparel</li>
+			</thingCategories>
+			<apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>FullHead</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Animal/Ninetailarmor</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Animal</li>
+        <li>Ninetailfox</li>
+        <li>Ninetailfoxwt</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+			</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

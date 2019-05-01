@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	<order>Append</order>
+	<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Category">
+        			<categoryDef>CookingSupplies</categoryDef>
+						<thingDefCountRange>
+							<min>2</min>
+							<max>4</max>
+						</thingDefCountRange>
+        				<totalPriceRange>
+          					<min>200</min>
+          					<max>700</max>
+        				</totalPriceRange>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	<order>Append</order>
+	<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Category">
+        			<categoryDef>CookingSupplies</categoryDef>
+						<thingDefCountRange>
+							<min>2</min>
+							<max>4</max>
+						</thingDefCountRange>
+        				<totalPriceRange>
+          					<min>200</min>
+          					<max>700</max>
+        				</totalPriceRange>
+			</li>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+	<order>Append</order>
+	<xpath>/Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
+		<value>
+		<li Class="StockGenerator_Category">
+        		<categoryDef>CookingSupplies</categoryDef>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>4</max>
+				</thingDefCountRange>
+        			<totalPriceRange>
+          				<min>400</min>
+          				<max>1000</max>
+        			</totalPriceRange>
+		</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	<order>Append</order>
+	<xpath>/Defs/TraderKindDef[defName = "Orbital_Exotic"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Category">
+        			<categoryDef>CookingSupplies</categoryDef>
+						<thingDefCountRange>
+							<min>2</min>
+							<max>4</max>
+						</thingDefCountRange>
+        				<totalPriceRange>
+          					<min>200</min>
+          					<max>700</max>
+        				</totalPriceRange>
+			</li>
+		</value>
+	</Operation>
+
+
+</Patch>

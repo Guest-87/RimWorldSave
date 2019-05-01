@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- Author jxb12306 FROM 3DM Localization Group-->
+  <!-- Launcher -->
+
+  <PodLauncherMKTwo.label>运输舱发射器MK2</PodLauncherMKTwo.label>
+  <PodLauncherMKTwo.description>先进的运输舱发射器，可以填充足够抵达整个星球任何地点的燃料。</PodLauncherMKTwo.description>
+  <PodLauncherMKTwo_Blueprint.label>运输舱发射器MK2 (蓝图)</PodLauncherMKTwo_Blueprint.label>
+  <PodLauncherMKTwo_Frame.label>运输舱发射器MK2 (建造中)</PodLauncherMKTwo_Frame.label>
+  <PodLauncherMKTwo_Frame.description>先进的运输舱发射器，可以填充足够抵达整个星球任何地点的燃料。</PodLauncherMKTwo_Frame.description>
+
+
+  <!-- <DesignatorDropdownGroupDef>
+		<defName>AdvTransportPods</defName>
+	</DesignatorDropdownGroupDef> -->
+
+  <TransportPodMKTwo.label>运输舱MK2</TransportPodMKTwo.label>
+  <TransportPodMKTwo.description>一种重型可发射亚轨道运输舱。可用于发送礼物、运送人员或物资、突然袭击或增援战斗。</TransportPodMKTwo.description>
+  <TransportPodMKTwo_Blueprint.label>运输舱MK2 (蓝图)</TransportPodMKTwo_Blueprint.label>
+  <TransportPodMKTwo_Frame.label>运输舱MK2 (建造中)</TransportPodMKTwo_Frame.label>
+  <TransportPodMKTwo_Frame.description>一种重型可发射亚轨道运输舱。可用于发送礼物、运送人员或物资、突然袭击或增援战斗。</TransportPodMKTwo_Frame.description>
+
+
+</LanguageData>

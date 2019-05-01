@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealSimple_Rocketstove.label>烹饪简单的食物</CookMealSimple_Rocketstove.label>
+  <CookMealSimple_Rocketstove.description>用单种材料烹饪一份简单的食物。</CookMealSimple_Rocketstove.description>
+  <CookMealSimple_Rocketstove.jobString>正在烹饪简单食物。</CookMealSimple_Rocketstove.jobString>
+
+  <CookMealSimple_Bulk_Rocketstove.label>烹饪四份简单的食物</CookMealSimple_Bulk_Rocketstove.label>
+  <CookMealSimple_Bulk_Rocketstove.description>用单种材料烹饪四份简单的食物。</CookMealSimple_Bulk_Rocketstove.description>
+  <CookMealSimple_Bulk_Rocketstove.jobString>>正在烹饪四份简单食物。</CookMealSimple_Bulk_Rocketstove.jobString>
+
+  <CookMealFine_Rocketstove.label>烹饪精致的食物</CookMealFine_Rocketstove.label>
+  <CookMealFine_Rocketstove.description>将生肉和素食材料组合，烹饪一份相对复杂的食物。\n\n必须同时有肉食和素食。</CookMealFine_Rocketstove.description>
+  <CookMealFine_Rocketstove.jobString>正在烹饪精致食物。</CookMealFine_Rocketstove.jobString>
+
+  <CookMealFine_Bulk_Rocketstove.label>烹饪四份精致的食物</CookMealFine_Bulk_Rocketstove.label>
+  <CookMealFine_Bulk_Rocketstove.description>将生肉和素食材料组合，烹饪四份相对复杂的食物。\n\n必须同时有肉食和素食。</CookMealFine_Bulk_Rocketstove.description>
+  <CookMealFine_Bulk_Rocketstove.jobString>正在烹饪四份精致食物。</CookMealFine_Bulk_Rocketstove.jobString>
+
+  <MakePemmican_Rocketstove.label>制作干肉饼</MakePemmican_Rocketstove.label>
+  <MakePemmican_Rocketstove.description>一种由肉食和素食混合脱水制成的食物。味道平平。无需冷藏即能保存很长时间。</MakePemmican_Rocketstove.description>
+  <MakePemmican_Rocketstove.jobString>正在制作干肉饼。</MakePemmican_Rocketstove.jobString>
+
+  <MakeKibble_Rocketstove.label>制作粗饲料</MakeKibble_Rocketstove.label>
+  <MakeKibble_Rocketstove.description>用肉和植物原料制作动物粗饲料。</MakeKibble_Rocketstove.description>
+  <MakeKibble_Rocketstove.jobString>正在制作粗饲料。</MakeKibble_Rocketstove.jobString>
+
+  <BurnDrugs_Rocketstove.label>销毁成瘾品</BurnDrugs_Rocketstove.label>
+  <BurnDrugs_Rocketstove.description>彻底销毁成瘾品。</BurnDrugs_Rocketstove.description>
+  <BurnDrugs_Rocketstove.jobString>正在销毁成瘾品。</BurnDrugs_Rocketstove.jobString>
+
+
+</LanguageData>

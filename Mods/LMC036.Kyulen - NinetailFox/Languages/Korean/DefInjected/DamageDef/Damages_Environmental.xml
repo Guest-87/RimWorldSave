@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FoxFlame.label>여우불</FoxFlame.label>
+  <FoxFlame.deathMessage>{0}(이)가 여우불에 타 죽었습니다.</FoxFlame.deathMessage>
+
+  <FoxFlamewt.label>여우불</FoxFlamewt.label>
+  <FoxFlamewt.deathMessage>{0}(이)가 여우불에 타 죽었습니다.</FoxFlamewt.deathMessage>
+
+
+</LanguageData>

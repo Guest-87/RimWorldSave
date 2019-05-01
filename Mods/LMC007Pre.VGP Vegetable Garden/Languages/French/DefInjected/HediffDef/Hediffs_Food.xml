@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HedStew.label>Manger du ragoût</HedStew.label>
+  <HedStew.stages.0.label>Bien nourri : ragoût</HedStew.stages.0.label>
+
+  <HedStirfry.label>Manger repas frit</HedStirfry.label>
+  <HedStirfry.stages.0.label>Bien nourri : Repas frit</HedStirfry.stages.0.label>
+
+
+</LanguageData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <IncidentDef>
+		<defName>KyulenAppear</defName>
+		<label>Kyulen Appear</label>
+		<category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+	<workerClass>Ninetail.IncidentWorker_Ninetailappear</workerClass>		
+	<letterLabel>Kyulen Appear</letterLabel>
+	<letterText>Kyulen appeared in this area.\n\nThis fox is an extremely rare animal to meet. Do not miss this opportunity because can tame it easily..</letterText>
+	<letterDef>PositiveEvent</letterDef>
+	<baseChance>0.3</baseChance>
+	<earliestDay>90</earliestDay>
+    <minRefireDays>999</minRefireDays>
+  </IncidentDef>
+  
+  <IncidentDef>
+		<defName>KyulenAppearwt</defName>
+		<label>Kyulen Appear</label>
+		<category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+	<workerClass>Ninetail.IncidentWorker_Ninetailappearwt</workerClass>		
+	<letterLabel>Kyulen Appear</letterLabel>
+	<letterText>Kyulen appeared in this area.\n\nThis fox is an extremely rare animal to meet. Do not miss this opportunity because can tame it easily..</letterText>
+	<letterDef>PositiveEvent</letterDef>
+	<baseChance>0.3</baseChance>
+	<earliestDay>90</earliestDay>
+    <minRefireDays>999</minRefireDays>
+  </IncidentDef>
+  
+</Defs>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+	
+
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <ThingDef ParentName="VG_PlantFoodRawBase">
+    <defName>Rawsnowbeet</defName>
+    <label>snow beet</label>
+    <description>Raw snow beet.</description>
+    <graphicData>
+      <texPath>Things/Veg/snowbeet</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+      </li>
+    </comps>
+  </ThingDef>
+
+<ThingDef ParentName="VG_RawFoodBase">
+		<defName>RawBarley</defName>
+		<label>barley</label>
+		<description>Cereal grain used for livestock feed, cooked for food, and used for beer making.</description>
+		<graphicData>
+      <texPath>Things/Veg/Barley</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>Seed</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+<ThingDef ParentName="VG_RawFoodBase">
+		<defName>Rawbean</defName>
+		<label>bean</label>
+		<description>Common bean cooked up in many ways.</description>
+		<graphicData>
+      <texPath>Things/Veg/bean</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>20</daysToRotStart>
+      </li>
+    </comps>
+    
+  </ThingDef>
+
+
+
+<ThingDef ParentName="VG_PlantFoodRawBase">
+		<defName>RawOlive</defName>
+		<label>Olive</label>
+		<description>A small berry fruit that grows on trees.</description>
+		<graphicData>
+      <texPath>Things/Fruits/OliveFruit</texPath>
+    </graphicData>
+    <statBases>
+      	<MarketValue>1.1</MarketValue>
+ 		<Mass>0.027</Mass>
+   </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>8</daysToRotStart>
+      </li>
+    </comps>
+  </ThingDef>  
+
+  <ThingDef ParentName="VG_PlantProductBase">
+    <defName>Rawmushroom</defName>
+    <label>mushroom</label>
+    <description>Raw protein-rich mushrooms. Nice to eat, even when raw.</description>
+    <graphicData>
+      <texPath>Things/Veg/mushroom</texPath>
+    </graphicData>
+    <thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>2</MarketValue>
+      <Nutrition>0.06</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+    </ingestible>
+
+  </ThingDef>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawCactusFruit</defName>
+    <label>cactus fruit</label>
+    <description>Raw cactus fruit.</description>
+    <graphicData>
+      <texPath>Things/Veg/CactusFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>25</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+    </comps>
+  </ThingDef>
+
+
+</Defs>

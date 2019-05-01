@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/DamageDef[defName="Bullet"]</xpath>
+		<value>
+      <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+      <explosionHeatEnergyPerCell>0</explosionHeatEnergyPerCell>
+      <explosionCellMote>Mote_ShotHit_Dirt</explosionCellMote>
+      <soundExplosion>BulletImpact_Ground</soundExplosion>
+		</value>
+	</Operation>
+
+</Patch>

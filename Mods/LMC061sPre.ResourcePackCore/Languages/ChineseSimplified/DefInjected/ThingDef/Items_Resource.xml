@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Author jxb12306 FROM 3DM Localization Group-->
+
+  <!-- 土 -->
+
+  <RPC_Dirt.label>泥土</RPC_Dirt.label>
+  <RPC_Dirt.description>一堆泥土。</RPC_Dirt.description>
+  <RPC_Dirt.stuffProps.stuffAdjective>泥土</RPC_Dirt.stuffProps.stuffAdjective>
+
+
+  <!-- 砂 -->
+
+  <RPC_Sand.label>沙子</RPC_Sand.label>
+  <RPC_Sand.description>一堆沙子。</RPC_Sand.description>
+  <RPC_Sand.stuffProps.stuffAdjective>沙子</RPC_Sand.stuffProps.stuffAdjective>
+
+
+  <!-- 砂利 -->
+
+  <RPC_Gravel.label>砾石</RPC_Gravel.label>
+  <RPC_Gravel.description>一堆砾石。</RPC_Gravel.description>
+  <RPC_Gravel.stuffProps.stuffAdjective>砾石</RPC_Gravel.stuffProps.stuffAdjective>
+
+
+  <!-- 氷 -->
+
+  <RPC_Ice.label>冰块</RPC_Ice.label>
+  <RPC_Ice.description>一块冰。</RPC_Ice.description>
+  <RPC_Ice.stuffProps.stuffAdjective>冰块</RPC_Ice.stuffProps.stuffAdjective>
+
+
+  <!-- 炭 -->
+
+  <RPC_Charcoal.label>木炭</RPC_Charcoal.label>
+  <RPC_Charcoal.description>一些木炭。</RPC_Charcoal.description>
+  <RPC_Charcoal.stuffProps.stuffAdjective>木炭</RPC_Charcoal.stuffProps.stuffAdjective>
+
+
+  <!-- 和紙 -->
+
+  <RPC_JapanesePaper.label>日式和紙</RPC_JapanesePaper.label>
+  <RPC_JapanesePaper.description>一种被称为和紙的日式传统纸张。</RPC_JapanesePaper.description>
+  <RPC_JapanesePaper.stuffProps.stuffAdjective>日式和紙</RPC_JapanesePaper.stuffProps.stuffAdjective>
+
+
+  <!-- 羊皮紙 -->
+
+  <RPC_Parchment.label>羊皮纸</RPC_Parchment.label>
+  <RPC_Parchment.description>用兽皮制成的羊皮纸。</RPC_Parchment.description>
+  <RPC_Parchment.stuffProps.stuffAdjective>羊皮纸</RPC_Parchment.stuffProps.stuffAdjective>
+
+
+  <!-- 正絹 -->
+
+  <RPC_PureSilk.label>丝绸</RPC_PureSilk.label>
+  <RPC_PureSilk.description>这是一种只能通过纺织蚕丝得到的布料。</RPC_PureSilk.description>
+  <RPC_PureSilk.stuffProps.stuffAdjective>丝绸</RPC_PureSilk.stuffProps.stuffAdjective>
+
+
+  <!-- 肥料 -->
+
+  <RPC_Compost.label>肥料</RPC_Compost.label>
+  <RPC_Compost.description>发酵植物制造的肥料。用于改良土壤肥力。</RPC_Compost.description>
+
+
+  <!-- 泥 -->
+
+  <RPC_Mud.label>泥浆</RPC_Mud.label>
+  <RPC_Mud.description>泥浆可以被用于改良土壤。</RPC_Mud.description>
+
+
+  <!-- ガラス材 -->
+
+  <RPC_GlassCullet.label>碎玻璃</RPC_GlassCullet.label>
+  <RPC_GlassCullet.description>一堆碎玻璃。</RPC_GlassCullet.description>
+  <RPC_GlassCullet.stuffProps.stuffAdjective>碎玻璃</RPC_GlassCullet.stuffProps.stuffAdjective>
+
+
+  <!-- 白米 -->
+
+  <WhiteRice.label>白米</WhiteRice.label>
+  <WhiteRice.description>经过彻底脱粒和抛光的大米。\n在抛光过程中，营养物质会丢失，但味道会得到极大的改善。</WhiteRice.description>
+
+
+  <!-- 大豆 -->
+
+  <ZP_SoyBeen.label>大豆</ZP_SoyBeen.label>
+  <ZP_SoyBeen.description>在烹饪时，大豆可以被视作肉类，尽管它们也可以用来做味噌和酱油。</ZP_SoyBeen.description>
+
+
+  <!-- 繭 -->
+
+  <RPC_Cocoon.label>茧</RPC_Cocoon.label>
+  <RPC_Cocoon.description>蚕茧是由蚕蛹所结的茧。\n用纺纱的方法织线，它将成为最好的纺织品。</RPC_Cocoon.description>
+
+
+  <!-- 楮 -->
+
+  <RPC_Kouzo.label>楮树皮</RPC_Kouzo.label>
+  <RPC_Kouzo.description>这是一束从楮树上剥取的树皮。\n楮树皮的纤维紧密地缠绕在一起。\n使用楮树皮制造的纸十分结实耐用。</RPC_Kouzo.description>
+
+
+  <!-- 小豆 -->
+
+  <WA_Azuki.label>红小豆</WA_Azuki.label>
+  <WA_Azuki.description>未经加工的红小豆。这些豆子被用来做甜豆、糖果、糖果、红米等等。</WA_Azuki.description>
+
+
+</LanguageData>

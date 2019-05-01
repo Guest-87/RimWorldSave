@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<LF_Bedroll.label>特制睡袋</LF_Bedroll.label>
+	<LF_Bedroll.description>为了便於携带而将轻量化设为优先考量，特别设计来提升旅途上的休息效率，并能对应受伤等突发意外。是适用於旅行者与冒険家的寝具。</LF_Bedroll.description>
+	<LF_Cushion.label>座布團</LF_Cushion.label>
+	<LF_Cushion.description>只要座在其上就能得到些许舒适感的简易家具。能用皮革丶毛皮丶羽毛等柔软的材料制作。</LF_Cushion.description>
+	<LF_Tinytable1st.label>迷你桌</LF_Tinytable1st.label>
+	<LF_Tinytable1st.description>将椅子摆在桌子前，让人们能在其上用餐。（茶几式）</LF_Tinytable1st.description>
+	<LF_Tinytable2nd.label>迷你桌</LF_Tinytable2nd.label>
+	<LF_Tinytable2nd.description>将椅子摆在桌子前，让人们能在其上用餐。（咖啡桌式）</LF_Tinytable2nd.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VG_PlantAmbrosia.label>ambrosia bush</VG_PlantAmbrosia.label>
+  <VG_PlantAmbrosia.description>A bush which yields the ambrosia fruit. Ambrosia is pleasurable to eat and produces a slightly addictive chemical warmth effect. Harder to be grown but able to be sown in hydroponic basin with a lower yield and longer grow time.</VG_PlantAmbrosia.description>
+
+  <VGP_Agarilux.label>baby agarilux</VGP_Agarilux.label>
+  <VGP_Agarilux.description>An purple mushroom. Its size and glowing protrusions make this fungus beautiful to look at. Dies when exposed to light. Faster grow than the kind that grow in nature, but also has a much smaller yield</VGP_Agarilux.description>
+
+
+</LanguageData>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "RawRice"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Veg/Rice</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "RawPotatoes"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Veg/Potato</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "RawCorn"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Veg/Corn</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "RawBerries"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Fruits/Berries</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "RawAgave"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Veg/AgaveFruit</texPath>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName = "RawHops"]/graphicData/texPath</xpath>
+  <value>
+      <texPath>Things/Veg/Hops</texPath>
+  </value>
+</Operation>
+
+
+
+</Patch>
+

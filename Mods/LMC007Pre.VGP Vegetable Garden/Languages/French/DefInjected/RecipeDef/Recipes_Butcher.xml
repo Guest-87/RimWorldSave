@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeSilage.label>faire de l'ensilage</MakeSilage.label>
+  <MakeSilage.description>Faire de l'ensilage à partir de foin et de céréales brutes.</MakeSilage.description>
+  <MakeSilage.jobString>Fabrication de l'ensilage</MakeSilage.jobString>
+
+  <MakebulkSilage.label>faire de l'ensilage en vrac</MakebulkSilage.label>
+  <MakebulkSilage.description>Faites de grandes quantités d'ensilage à partir de foin et de céréales brutes.</MakebulkSilage.description>
+  <MakebulkSilage.jobString>Fabrication d'ensilage en vrac</MakebulkSilage.jobString>
+
+  <VG_MakebulkKibble.label>faire des croquettes en vrac</VG_MakebulkKibble.label>
+  <VG_MakebulkKibble.description>Faites des croquettes animales en combinant de la viande crue et des plantes.</VG_MakebulkKibble.description>
+  <VG_MakebulkKibble.jobString>Fabrication de croquettes</VG_MakebulkKibble.jobString>
+
+
+</LanguageData>

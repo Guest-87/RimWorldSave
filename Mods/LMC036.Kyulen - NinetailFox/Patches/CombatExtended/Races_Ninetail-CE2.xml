@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Core SK</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+				<success>Invert</success>
+			</li>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Combat Extended</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<!-- ========== Ninetailfox ========== -->
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Ninetailfox"]/verbs</xpath>
+			<value>
+			<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+			<recoilAmount>1</recoilAmount>
+			<verbClass>Verb_Shoot</verbClass>
+			<defaultProjectile>Projectile_NinetailshotCE</defaultProjectile>
+			<warmupTime>1.74</warmupTime>
+			<burstShotCount>5</burstShotCount>
+			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			<minRange>7</minRange>
+			<range>32</range>
+			<soundCast>NinetailShot</soundCast>
+			<muzzleFlashScale>2</muzzleFlashScale>
+			</li>
+			</verbs>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Ninetailfoxwt"]/verbs</xpath>
+			<value>
+			<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+			<recoilAmount>1</recoilAmount>
+			<verbClass>Verb_Shoot</verbClass>
+			<defaultProjectile>Projectile_NinetailshotwtCE</defaultProjectile>
+			<warmupTime>1.74</warmupTime>
+			<burstShotCount>5</burstShotCount>
+			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			<minRange>7</minRange>
+			<range>32</range>
+			<soundCast>NinetailShot</soundCast>
+			<muzzleFlashScale>2</muzzleFlashScale>
+			</li>
+			</verbs>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+</Patch>

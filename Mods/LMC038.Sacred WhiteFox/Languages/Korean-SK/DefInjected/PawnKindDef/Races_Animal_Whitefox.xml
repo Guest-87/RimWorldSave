@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Whitefox.label>성백호</Whitefox.label>
+  <Whitefox.labelPlural>성백호들</Whitefox.labelPlural>
+  <Whitefox.lifeStages.0.label>새끼 성백호</Whitefox.lifeStages.0.label>
+  <Whitefox.lifeStages.0.labelPlural>새끼 성백호들</Whitefox.lifeStages.0.labelPlural>
+  <Whitefox.lifeStages.0.labelMale>새끼 성백호</Whitefox.lifeStages.0.labelMale>
+  <Whitefox.lifeStages.0.labelMalePlural>새끼 성백호들</Whitefox.lifeStages.0.labelMalePlural>
+  <Whitefox.lifeStages.0.labelFemale>새끼 성백호</Whitefox.lifeStages.0.labelFemale>
+  <Whitefox.lifeStages.0.labelFemalePlural>새끼 성백호들</Whitefox.lifeStages.0.labelFemalePlural>
+  <Whitefox.lifeStages.1.label>성장기 성백호</Whitefox.lifeStages.1.label>
+  <Whitefox.lifeStages.1.labelPlural>성장기 성백호들</Whitefox.lifeStages.1.labelPlural>
+  <Whitefox.lifeStages.1.labelMale>성장기 성백호</Whitefox.lifeStages.1.labelMale>
+  <Whitefox.lifeStages.1.labelMalePlural>성장기 성백호들</Whitefox.lifeStages.1.labelMalePlural>
+  <Whitefox.lifeStages.1.labelFemale>성장기 성백호</Whitefox.lifeStages.1.labelFemale>
+  <Whitefox.lifeStages.1.labelFemalePlural>성장기 성백호들</Whitefox.lifeStages.1.labelFemalePlural>
+  <Whitefox.lifeStages.2.label>성백호</Whitefox.lifeStages.2.label>
+  <Whitefox.lifeStages.2.labelPlural>성백호들</Whitefox.lifeStages.2.labelPlural>
+  <Whitefox.lifeStages.2.labelMale>성백호</Whitefox.lifeStages.2.labelMale>
+  <Whitefox.lifeStages.2.labelMalePlural>성백호들</Whitefox.lifeStages.2.labelMalePlural>
+  <Whitefox.lifeStages.2.labelFemale>성백호</Whitefox.lifeStages.2.labelFemale>
+  <Whitefox.lifeStages.2.labelFemalePlural>성백호들</Whitefox.lifeStages.2.labelFemalePlural>
+  <Whitefox.labelMale>수컷 성백호</Whitefox.labelMale>
+  <Whitefox.labelMalePlural>수컷 성백호들</Whitefox.labelMalePlural>
+  <Whitefox.labelFemale>암컷 성백호</Whitefox.labelFemale>
+  <Whitefox.labelFemalePlural>암컷 성백호들</Whitefox.labelFemalePlural>
+
+
+</LanguageData>

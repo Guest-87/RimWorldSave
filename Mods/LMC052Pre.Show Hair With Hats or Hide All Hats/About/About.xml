@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>LMC052Pre.在装备帽子时显示头发或者隐藏所有帽子</name>
+    <author>Kiame Vivacity</author>
+    <targetVersion>1.0.0</targetVersion>
+	<url></url>
+    <description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+	
+Show hair for all hats or select which hats do hide hair in Mod Settings.
+在MOD配置中，可以选择无论佩戴何种帽子都会显示头发或者佩戴特定种类的帽子时隐藏头发。
+
+Hide all hats from Mod Settings.
+也可以选中隐藏所有的帽子。
+
+AlienRaces is now supported.
+支持 类人外星种族
+
+Thanks to "YouAllJilao" for creating "Headgear Frame" and "Vaniat" for supporting it. That mod gave me the idea to do this mod.
+
+Translators:
+- Proxyer - Japanese
+- jxb12306 - Chinese
+</description>
+</ModMetaData>

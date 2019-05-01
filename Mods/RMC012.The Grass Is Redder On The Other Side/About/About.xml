@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RMC012.另一个世界的草更红了</name>
+  <author>AllyJamy</author>
+  <description>
+合集地址：http://bbs.3dmgame.com/thread-5842015-1-1.html
+  
+ 
+This is a editied version of the original. Vegitation is less vibrant and less likley to blind you. It has less magenta, and a
+lot more red.
+
+这是原版的改进后版本。红色变得更加柔和，不会给人刺眼的感觉。
+  
+  
+Changes the Rimworld into a planet that orbits a red dwarf. The photosynthesis 
+makes it so the plant life has a very different colour pallet.
+
+把边缘世界变成一颗围绕红矮星运转的行星。光合作用使植物的颜色发生了变化。
+  
+-Most biomes are changed to a more reddish colour.
+-The planet map has been recoloured to match the biome change.
+
+-大多数生物群落都变得更红。
+-行星地图已重新着色，以配合生物群落的变化。 
+
+For those who are want a more vibrant "alien" enviroment.
+
+对于那些想要更有活力的外星环境的人来说，这个MOD是不二之选！
+ 
+Works well with Makaru's "Fertile planet" mod. 
+  
+  </description>
+  <targetVersion>1.0.2059</targetVersion>
+</ModMetaData>

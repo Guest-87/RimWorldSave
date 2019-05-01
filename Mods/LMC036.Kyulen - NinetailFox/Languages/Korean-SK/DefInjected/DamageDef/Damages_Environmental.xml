@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FoxFlame.label>화상</FoxFlame.label>
+  <FoxFlame.deathMessage>{0}(이)가 불에 타 죽었습니다.</FoxFlame.deathMessage>
+
+
+</LanguageData>

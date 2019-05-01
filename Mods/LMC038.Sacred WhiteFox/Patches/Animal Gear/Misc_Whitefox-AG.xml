@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Combat Extended</modName>
+				<yourMod>Sacred WhiteFox</yourMod>
+				<success>Invert</success>
+			</li>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Animal Gear</modName>
+				<yourMod>Sacred WhiteFox</yourMod>
+			</li>
+			<!-- ========== Sacred WhiteFox AG ========== -->
+			<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+			
+			<ThingDef ParentName="ApparelMakeableBase">
+			<defName>Apparel_Whitefoxcloth</defName>
+			<label>Sacred WhiteFox Cloth</label>
+			<description>A stylish accessory for Whitefox.</description>
+			<techLevel>Medieval</techLevel>
+			<recipeMaker>
+				<researchPrerequisite />
+				<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				</recipeUsers>
+			</recipeMaker>
+			<graphicData>
+				<texPath>Things/Pawn/Animal/Apparel/Body/whitefoxcloth</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<costStuffCount>100</costStuffCount>
+			<equippedStatOffsets>
+				<MoveSpeed>0.42</MoveSpeed>
+				<MeleeHitChance>0.18</MeleeHitChance>
+				<MeleeDodgeChance>0.24</MeleeDodgeChance>
+			</equippedStatOffsets>
+			<stuffCategories>
+				<li>Fabric</li>
+				<li>Leathery</li>
+			</stuffCategories>
+			<thingCategories>
+				<li>Apparel</li>
+			</thingCategories>
+			<statBases>
+				<WorkToMake>1600</WorkToMake>
+				<MaxHitPoints>40</MaxHitPoints>
+				<MarketValue>400</MarketValue>
+				<Mass>0.15</Mass>
+				<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+				<Insulation_Heat>9</Insulation_Heat>
+				<Flammability>1.0</Flammability>
+			</statBases>
+			<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Animal/Apparel/Body/whitefoxcloth</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Animal</li>
+				<li>Whitefox</li>
+			</tags>
+			</apparel>
+			<colorGenerator Class="ColorGenerator_Options">
+			<options>
+			<li>
+				<weight>100</weight>
+				<only>RGBA(1,1,1,1)</only>
+			</li>
+			</options>
+			</colorGenerator>
+			</ThingDef>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

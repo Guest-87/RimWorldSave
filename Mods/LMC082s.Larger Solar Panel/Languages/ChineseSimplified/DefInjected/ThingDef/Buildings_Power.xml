@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SolarGeneratorLarge.label>5X5太阳能板</SolarGeneratorLarge.label>
+  <SolarGeneratorLarge.description>利用太阳光来发电，在阳光不足时不工作，人工光源无法用作发电。</SolarGeneratorLarge.description>
+  <SolarGeneratorLarge_Blueprint.label>5X5太阳能板 (蓝图)</SolarGeneratorLarge_Blueprint.label>
+  <SolarGeneratorLarge_Frame.label>5X5太阳能板 (建造中)</SolarGeneratorLarge_Frame.label>
+  <SolarGeneratorLarge_Frame.description>利用太阳光来发电，在阳光不足时不工作，人工光源无法用作发电。</SolarGeneratorLarge_Frame.description>
+
+  <CCPSolarGeneratorLarger.label>5X7太阳能板</CCPSolarGeneratorLarger.label>
+  <CCPSolarGeneratorLarger.description>利用太阳光来发电，在阳光不足时不工作，人工光源无法用作发电。</CCPSolarGeneratorLarger.description>
+  <CCPSolarGeneratorLarger_Blueprint.label>5X7太阳能板 (蓝图)</CCPSolarGeneratorLarger_Blueprint.label>
+  <CCPSolarGeneratorLarger_Frame.label>5X7太阳能板 (建造中)</CCPSolarGeneratorLarger_Frame.label>
+  <CCPSolarGeneratorLarger_Frame.description>利用太阳光来发电，在阳光不足时不工作，人工光源无法用作发电。</CCPSolarGeneratorLarger_Frame.description>
+
+  <CCPSolarGeneratorLargest.label>6X7太阳能板</CCPSolarGeneratorLargest.label>
+  <CCPSolarGeneratorLargest.description>利用太阳光来发电，在阳光不足时不工作，人工光源无法用作发电。</CCPSolarGeneratorLargest.description>
+  <CCPSolarGeneratorLargest_Blueprint.label>6X7太阳能板 (蓝图)</CCPSolarGeneratorLargest_Blueprint.label>
+  <CCPSolarGeneratorLargest_Frame.label>6X7太阳能板 (建造中)</CCPSolarGeneratorLargest_Frame.label>
+  <CCPSolarGeneratorLargest_Frame.description>利用太阳光来发电，在阳光不足时不工作，人工光源无法用作发电。</CCPSolarGeneratorLargest_Frame.description>
+
+  <CCPSolarGeneratorTiled.label>1X1太阳能板</CCPSolarGeneratorTiled.label>
+  <CCPSolarGeneratorTiled.description>利用太阳光来发电，在阳光不足时不工作，人工光源无法用作发电。</CCPSolarGeneratorTiled.description>
+  <CCPSolarGeneratorTiled_Blueprint.label>1X1太阳能板 (蓝图)</CCPSolarGeneratorTiled_Blueprint.label>
+  <CCPSolarGeneratorTiled_Frame.label>1X1太阳能板 (建造中)</CCPSolarGeneratorTiled_Frame.label>
+  <CCPSolarGeneratorTiled_Frame.description>利用太阳光来发电，在阳光不足时不工作，人工光源无法用作发电。</CCPSolarGeneratorTiled_Frame.description>
+
+
+</LanguageData>

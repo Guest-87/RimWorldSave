@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <Rawsnowbeet.label>snow beet</Rawsnowbeet.label>
+  <Rawsnowbeet.description>Raw snow beet.</Rawsnowbeet.description>
+
+  <RawBarley.label>barley</RawBarley.label>
+  <RawBarley.description>Cereal grain used for livestock feed, cooked for food, and used for beer making.</RawBarley.description>
+
+  <Rawbean.label>bean</Rawbean.label>
+  <Rawbean.description>Common bean cooked up in many ways.</Rawbean.description>
+
+  <RawOlive.label>Olive</RawOlive.label>
+  <RawOlive.description>A small berry fruit that grows on trees.</RawOlive.description>
+
+  <Rawmushroom.label>mushroom</Rawmushroom.label>
+  <Rawmushroom.description>Raw protein-rich mushrooms. Nice to eat, even when raw.</Rawmushroom.description>
+
+  <RawCactusFruit.label>cactus fruit</RawCactusFruit.label>
+  <RawCactusFruit.description>Raw cactus fruit.</RawCactusFruit.description>
+
+
+</LanguageData>

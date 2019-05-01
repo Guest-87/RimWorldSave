@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 1 Plants -->
+
+  <Plant_Barley.label>barley plant</Plant_Barley.label>
+  <Plant_Barley.description>A cereal grain. Hearty plant that is imune to blight. Used in cooking and for making ale.</Plant_Barley.description>
+
+
+  <!-- Tier 2 Plants -->
+
+  <Plant_Snowbeet.label>snow beet plant</Plant_Snowbeet.label>
+  <Plant_Snowbeet.description>A simple, highly nutritious plants. Grows well even in somewhat poor soil. Harvests quickly. A strong, versatile crop. Does not die in cold weather.</Plant_Snowbeet.description>
+
+  <Plant_redlentil.label>red lentil plant</Plant_redlentil.label>
+  <Plant_redlentil.description>A redish variety of the lentil plant. One of the oldest know domesticated plants.</Plant_redlentil.description>
+
+  <Plant_bean.label>bean plant</Plant_bean.label>
+  <Plant_bean.description>Common bean cooked up in many ways.</Plant_bean.description>
+
+  <Plant_Olivetree.label>olive tree</Plant_Olivetree.label>
+  <Plant_Olivetree.description>A fruit bearing tree that grows olives and is not destroyed when picked.</Plant_Olivetree.description>
+
+
+  <!-- Other Plants -->
+
+  <Plant_Tea.label>tea plant</Plant_Tea.label>
+  <Plant_Tea.description>A green leafy plant, who's leaves can be brewed into a tasty beverage.</Plant_Tea.description>
+
+  <Plant_Coffee.label>coffee plant</Plant_Coffee.label>
+  <Plant_Coffee.description>A green, leafy plant yielding coffee beans. These beans can be brewed into a tasty beverage.</Plant_Coffee.description>
+
+  <!--[Core] <Plant_TreeBamboo.label>bamboo tree</Plant_TreeBamboo.label>-->
+  <!--[Core] <Plant_TreeBamboo.description>A fast-growing tree-like plant that grows in dense groves. Bamboo can be harvested for a wood-like material. The plant itself is not beautiful.</Plant_TreeBamboo.description>-->
+
+
+</LanguageData>

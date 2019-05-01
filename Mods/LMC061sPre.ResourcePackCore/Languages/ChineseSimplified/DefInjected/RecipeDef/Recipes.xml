@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 土採集　Gathering dirt -->
+
+  <RPC_Gathering_Dirt.label>采集泥土</RPC_Gathering_Dirt.label>
+  <RPC_Gathering_Dirt.description>从土壤中采集泥土。</RPC_Gathering_Dirt.description>
+  <RPC_Gathering_Dirt.jobString>正在采集泥土。</RPC_Gathering_Dirt.jobString>
+
+
+  <!-- 砂採集　Gathering sand -->
+
+  <RPC_Gathering_Sand.label>采集沙子</RPC_Gathering_Sand.label>
+  <RPC_Gathering_Sand.description>从土壤中采集沙子。</RPC_Gathering_Sand.description>
+  <RPC_Gathering_Sand.jobString>正在采集沙子。</RPC_Gathering_Sand.jobString>
+
+
+  <!-- 砂利採集　Gathering gravel -->
+
+  <RPC_Gathering_Gravel.label>采集砾石</RPC_Gathering_Gravel.label>
+  <RPC_Gathering_Gravel.description>从土壤中采集砾石。</RPC_Gathering_Gravel.description>
+  <RPC_Gathering_Gravel.jobString>正在采集砾石。</RPC_Gathering_Gravel.jobString>
+
+
+  <!-- 氷採集　Gathering ice -->
+
+  <RPC_Gathering_Ice.label>采集冰块</RPC_Gathering_Ice.label>
+  <RPC_Gathering_Ice.description>从冰面上切下冰块。</RPC_Gathering_Ice.description>
+  <RPC_Gathering_Ice.jobString>正在采集冰块。</RPC_Gathering_Ice.jobString>
+
+
+  <!-- 正絹を紡ぐ -->
+
+  <RPC_MakePureSilk.label>纺织丝绸</RPC_MakePureSilk.label>
+  <RPC_MakePureSilk.description>用蚕茧纺织丝绸。</RPC_MakePureSilk.description>
+  <RPC_MakePureSilk.jobString>正在纺织丝绸。</RPC_MakePureSilk.jobString>
+
+
+  <!-- 和紙を漉く -->
+
+  <RPC_MakePaper.label>制造日式和紙</RPC_MakePaper.label>
+  <RPC_MakePaper.description>用楮树制造日式和紙。</RPC_MakePaper.description>
+  <RPC_MakePaper.jobString>正在造纸。</RPC_MakePaper.jobString>
+
+
+  <!-- 泥集め -->
+
+  <ZP_CollectMud.label>采集泥浆</ZP_CollectMud.label>
+  <ZP_CollectMud.description>从沼泽地里采集泥浆。</ZP_CollectMud.description>
+  <ZP_CollectMud.jobString>正在采集泥浆。</ZP_CollectMud.jobString>
+  
+  
+<!-- Author jxb12306 FROM 3DM Localization Group-->
+
+</LanguageData>

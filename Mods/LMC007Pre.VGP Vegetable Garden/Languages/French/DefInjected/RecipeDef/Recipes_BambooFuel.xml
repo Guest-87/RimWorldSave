@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeChemfuelFromBamboo.label>faire du combustible chimique à partir de bambou</MakeChemfuelFromBamboo.label>
+  <MakeChemfuelFromBamboo.description>Faire un lot de combustibles chimiques en gazéifiant le bambou.</MakeChemfuelFromBamboo.description>
+  <MakeChemfuelFromBamboo.jobString>Raffinage de combustible chimique à partir du bois.</MakeChemfuelFromBamboo.jobString>
+
+  <VG_MakeBiofuel.label>produire du biocarburant à partir de céréales</VG_MakeBiofuel.label>
+  <VG_MakeBiofuel.description>Préparez un lot de biocarburant en extrayant le biocarburant du blé, du maïs ou des haricots.</VG_MakeBiofuel.description>
+  <VG_MakeBiofuel.jobString>Raffinage de biocarburant à partir de matières organiques.</VG_MakeBiofuel.jobString>
+
+
+</LanguageData>

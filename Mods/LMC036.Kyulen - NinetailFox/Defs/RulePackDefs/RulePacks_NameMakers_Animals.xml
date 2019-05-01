@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerNinetail</defName>
+    <rulePack>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>ninetailname</keyword>
+          <path>Names/Animal_ninetail</path>
+        </li>
+      </rulesRaw>
+		<rulesStrings>
+			<li>name->[ninetailname]</li>
+		</rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

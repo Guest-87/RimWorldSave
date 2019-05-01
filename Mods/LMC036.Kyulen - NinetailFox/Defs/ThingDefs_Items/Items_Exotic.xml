@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>NinetailfoxTail</defName>
+    <label>Kyulen Tail</label>
+    <description>A bunch of incredibly valuable Kyulen tail. This can be sold at very expensive values.</description>
+    <graphicData>
+      <texPath>Things/item/special/NinefoxTail</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>4500</MarketValue>
+      <MaxHitPoints>99</MaxHitPoints>
+      <Mass>2.0</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+	  <Beauty>80</Beauty>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+	<tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Foxbead</defName>
+    <label>Kyulen Bead</label>
+    <description>It is a Bead made by Kyulen. Emits soothing psychic impulse when used, which grants temporary mood boost to everyone on the map, Or, can sell it to a rare merchant at an expensive price.</description>
+    <graphicData>
+      <texPath>Things/item/special/Foxbead</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.01</Mass>
+    </statBases>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Artifacts</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseArtifact</useJob>
+        <useLabel>Activate</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>Ninetail.CompUseEffect_Artifact</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+      <li Class="CompProperties_Targetable">
+        <compClass>CompTargetable_AllPawnsOnTheMap</compClass>
+        <psychicSensitiveTargetsOnly>true</psychicSensitiveTargetsOnly>
+        <doCameraShake>true</doCameraShake>
+      </li>
+      <li>
+        <compClass>Ninetail.CompTargetEffect_FoxbeadMoodBoost</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+</Defs>

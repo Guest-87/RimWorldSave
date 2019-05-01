@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- antipersonel warhead -->
+  <ResearchProjectDef>
+    <defName>Submunitions</defName>
+    <label>submunitions</label>
+    <description>Manufacture advanced munitions.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Mortars</li>
+      <li>PrecisionRifling</li>
+    </prerequisites>
+    <researchViewX>10</researchViewX>
+    <researchViewY>5</researchViewY>
+  </ResearchProjectDef>
+  
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>Shell_AirBurst</defName>
+    <label>air-burst shell</label>
+    <description>An High-tech warhead that detonates above the target and showers it with shrapnel for wide area damage !! Warning: targeting close range targets may result in unexpected friendly fire !!</description>
+    <graphicData>
+      <texPath>Submunition/Item/Shell_AirBurst</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>2</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_Shell_AirBurst</projectileWhenLoaded>
+    <costList>
+      <Steel>100</Steel>
+      <Chemfuel>15</Chemfuel>
+    </costList>
+    <recipeMaker>
+      <workAmount>6400</workAmount>
+      <researchPrerequisite>Submunitions</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>300</MarketValue>
+      <Mass>10</Mass>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Shell_AirBurst</defName>
+    <label>air-burst shell</label>
+    <graphicData>
+      <texPath>Submunition/Item/Bullet_Shell_AirBurst</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Submunition.Projectile_SubmunitionPrime</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <armorPenetrationBase>2</armorPenetrationBase>
+      <stoppingPower>4.0</stoppingPower>
+      <explosionDelay>0</explosionDelay>
+      <speed>55</speed>
+      <explosionRadius>10</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.05</preExplosionSpawnChance>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+	<modExtensions>
+		<li Class="Submunition.DefSubmunitionExtension">
+			<submunitionCount>0</submunitionCount>
+			<submunitionMultiplier>1</submunitionMultiplier>
+			<submunitionExplosionRadius>0.9</submunitionExplosionRadius>
+			<submunitionDelay>20</submunitionDelay>
+			<submunitionPreDetonation>50</submunitionPreDetonation>
+			<submunitionDuration>30</submunitionDuration>
+			<submunitionInterval>1</submunitionInterval>
+			<submunitionDamageDef>Bullet</submunitionDamageDef>
+			<submunitionSoundExplode>BulletImpact_Ground</submunitionSoundExplode>
+		</li>
+	</modExtensions>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>Shell_Napalm</defName>
+    <label>napalm shell</label>
+    <description>An High-tech warhead that leaves a trail of napalm behind as it flys. !! Warning: targeting close range targets may result in unexpected friendly fire !!</description>
+    <graphicData>
+      <texPath>Submunition/Item/Shell_Napalm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <explosiveExpandPerStackcount>1</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_Shell_Napalm</projectileWhenLoaded>
+    <costList>
+      <Steel>20</Steel>
+      <Chemfuel>100</Chemfuel>
+    </costList>
+    <recipeMaker>
+      <workAmount>2400</workAmount>
+      <researchPrerequisite>Submunitions</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>300</MarketValue>
+      <Mass>10</Mass>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Shell_Napalm</defName>
+    <label>napalm shell</label>
+    <graphicData>
+      <texPath>Submunition/Item/Bullet_Shell_Napalm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Submunition.Projectile_SubmunitionPrime</thingClass>
+    <projectile>
+      <damageDef>Flame</damageDef>
+      <speed>41</speed>
+      <explosionRadius>1</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+    </projectile>
+	<modExtensions>
+		<li Class="Submunition.DefSubmunitionExtension">
+			<submunitionCount>1</submunitionCount>
+			<submunitionExplosionRadius>2</submunitionExplosionRadius>
+			<submunitionDelay>20</submunitionDelay>
+			<submunitionPreDetonation>90</submunitionPreDetonation>
+			<submunitionDuration>99999</submunitionDuration>
+			<submunitionInterval>5</submunitionInterval>
+			<submunitionDamageDef>Flame</submunitionDamageDef>
+			<submunitionDestroyOnImpact>true</submunitionDestroyOnImpact>
+		</li>
+	</modExtensions>
+  </ThingDef>
+  
+</Defs>

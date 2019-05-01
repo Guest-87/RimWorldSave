@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NinetailfoxTail.label>큐렌의 꼬리</NinetailfoxTail.label>
+  <NinetailfoxTail.description>이것은 큐렌의 꼬리입니다. 이 9개의 꼬리는 비싼값에 판매 할 수 있습니다.</NinetailfoxTail.description>
+
+  <Foxbead.label>큐렌의 구슬</Foxbead.label>
+  <Foxbead.description>큐렌이 만들어낸 구슬입니다. 활성화해서 1분기동안 10의 무드보너스를 주거나 희귀품 상인에게 팔수 있습니다..</Foxbead.description>
+  <Foxbead.comps.1.useLabel>활성화</Foxbead.comps.1.useLabel>
+
+
+</LanguageData>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!-- LF Cooler & Heater -->
+	<Running>Running.</Running>
+	<Stopped>Stopped.</Stopped>
+
+    <!-- Incident : ShortCircuit-->
+	<ShortCircuitWasPrevented>A short circuit was prevented. All overcurrent that occurred was absorbed by the internal mechanism of {0}. Thankfully, there's no noticeable damage.</ShortCircuitWasPrevented>
+	<ShortCircuitRainWasPrevented>A circuit was exposed to rain and nearly shorted; however, since the overcurrent was interrupted by the advanced control mechanism of {0}, it was not damaged.</ShortCircuitRainWasPrevented>
+	<SCPEffectReductionBatteryPowerLossOnLeakage>[{0} effect]\n {1}% reduction of battery loss on leakage.</SCPEffectReductionBatteryPowerLossOnLeakage>
+	<SCPEffectAbsorptionAllLeakedEnergy>[{0} effect]\n All the released energy of {1} Wd was absorbed.</SCPEffectAbsorptionAllLeakedEnergy>
+
+    <!-- AuraEffect of HolyWoodSapring : Treatment of infections -->
+	<MechanitesInfectionWasCuredCompletely>{0} cured completely</MechanitesInfectionWasCuredCompletely>
+
+    <!-- Waterway Construction -->
+	<WaterVeinDrillingProgress>progress</WaterVeinDrillingProgress>
+	<WaterVeinDrillingSucceeded>{0} dug out {1}!</WaterVeinDrillingSucceeded>
+    <!-- PlaceWorkerReport : Waterway Construction -->
+	<MustPlaceWithWaterSourceAndFreeSpace>Both water source and work space necessary.</MustPlaceWithWaterSourceAndFreeSpace>
+    <!-- TerrainSourceError : Waterway Construction -->
+	<DrawWaterwayFailedNonWaterSource>{0} tried to draw something other than a water source into the waterway. But a foolish attempt ended in failure.</DrawWaterwayFailedNonWaterSource>
+
+    <!-- RestInHotSpring : GetReport -->
+	<RelaxingInHotSpring>relaxing in a hot spring.</RelaxingInHotSpring>
+	<WatchingEclipseAtHotSpring>watching eclipse while relaxing in hot spring.</WatchingEclipseAtHotSpring>
+	<WatchingAuroraAtHotSpring>watching aurora while relaxing in hot spring.</WatchingAuroraAtHotSpring>
+	<StargazingAtHotSpring>gazing stars while relaxing in hot spring.</StargazingAtHotSpring>
+	<CloudWatchingAtHotSpring>watching clouds while relaxing in hot spring.</CloudWatchingAtHotSpring>
+	<WatchingSunriseAtHotSpring>watching sunrise while relaxing in hot spring.</WatchingSunriseAtHotSpring>
+	<WatchingSunsetAtHotSpring>watching sunset while relaxing in hot spring.</WatchingSunsetAtHotSpring>
+
+    <!-- MOD Settings -->
+	<LFSetting_HotSprings>===== hot springs =====</LFSetting_HotSprings>
+	<LFSetting_UpdateSpringWaterRegularly>- Update spring water regularly（performance impact : Low)</LFSetting_UpdateSpringWaterRegularly>
+	<LFSetting_RenderBodyInHotSpringJoy>- Render pawn body while hot spring bathing（performance impact : VeryLow)</LFSetting_RenderBodyInHotSpringJoy>
+	<LFSetting_RenderSpringWaterSurface>- Render water surfaces of the hot springs（performance impact : Low)</LFSetting_RenderSpringWaterSurface>
+	<LFSetting_RenderSpringWaterEdge>- (imperfect) Render water edges of the hot springs（performance impact : Low - Mid)</LFSetting_RenderSpringWaterEdge>
+	<LFSetting_RenderHotSpringVapor>- Render Vapor of the hot springs（performance impact : Low)</LFSetting_RenderHotSpringVapor>
+
+
+
+
+</LanguageData>

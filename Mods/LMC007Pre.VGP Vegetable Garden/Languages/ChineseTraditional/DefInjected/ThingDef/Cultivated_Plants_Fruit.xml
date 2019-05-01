@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New crop types Fruit Trees -->
+
+  <PlantAppletree.label>蘋果樹</PlantAppletree.label>
+  <PlantAppletree.description>蘋果樹，採摘後能保留樹木。</PlantAppletree.description>
+
+  <PlantBananaTree.label>香蕉樹</PlantBananaTree.label>
+  <PlantBananaTree.description>香蕉樹，採摘後能保留樹木。</PlantBananaTree.description>
+
+  <PlantorangeTree.label>橙樹</PlantorangeTree.label>
+  <PlantorangeTree.description>橙樹，採摘後能保留樹木。</PlantorangeTree.description>
+
+  <PlantPeachTree.label>桃樹</PlantPeachTree.label>
+  <PlantPeachTree.description>桃果，採摘後能保留樹木。</PlantPeachTree.description>
+
+
+  <!-- New fruit crop types -->
+
+  <Plantgrape.label>葡萄</Plantgrape.label>
+  <Plantgrape.description>能在細長藤蔓上結出甜蜜小果實的植物。</Plantgrape.description>
+
+  <!--[Core] <PlantAgave.label>龍舌蘭</PlantAgave.label>-->
+  <!--[Core] <PlantAgave.description>長葉的沙漠植物，花和根莖可以食用。</PlantAgave.description>-->
+
+  <!--[Core] <PlantStrawberry.label>草莓</PlantStrawberry.label>-->
+  <!--[Core] <PlantStrawberry.description>一種脆弱，但是非常好吃的水果。就算生吃也很美味，需要肥沃的土地才能正常生長。</PlantStrawberry.description>-->
+
+  <Plantblueberry.label>藍莓</Plantblueberry.label>
+  <Plantblueberry.description>一種長有藍色漿果的灌木。</Plantblueberry.description>
+
+  <Plantwatermelon.label>西瓜</Plantwatermelon.label>
+  <Plantwatermelon.description>這種水果富含維生素A和C，可以生吃，也可以用多種方法進行烹調。</Plantwatermelon.description>
+
+
+</LanguageData>

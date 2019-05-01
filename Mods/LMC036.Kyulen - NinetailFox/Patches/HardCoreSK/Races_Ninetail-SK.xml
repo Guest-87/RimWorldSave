@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Core SK</modName>
+				<yourMod>Kyulen - NinetailFox</yourMod>
+			</li>
+			<!-- ========== Kyulen - NinetailFox SK ========== -->
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="ThingBaseNinetailFox"]/race/useMeatFrom</xpath>
+			<value>
+				<useMeatFrom>Muffalo</useMeatFrom>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="ThingBaseNinetailFox"]/race/hediffGiverSets</xpath>
+			<value>
+				<li>ThickPassiveSet</li>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="ThingBaseNinetailFox"]/statBases/MarketValue</xpath>
+			<value>
+			<MarketValue>15000</MarketValue>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="ThingBaseNinetailFox"]/race/leatherMarketValueFactor</xpath>
+			<value>
+				<leatherMarketValueFactor>15.2</leatherMarketValueFactor>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+</Patch>

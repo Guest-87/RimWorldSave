@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <GermanShepherd.label>немецкая овчарка</GermanShepherd.label>
+  <GermanShepherd.description>Немецкая овчарка - универсальна. Она одинаково хорошо может быть пастухом, сторожем, ищейкой и домашним любимцем. Возможно самая умная и преданная порода собак.</GermanShepherd.description>
+  <GermanShepherd_Meat.label>мясо овчарки</GermanShepherd_Meat.label>
+  <GermanShepherd_Meat.description>Сырое мясо овчарки.</GermanShepherd_Meat.description>
+  <GermanShepherd_Corpse.label>туша овчарки</GermanShepherd_Corpse.label>
+  <GermanShepherd_Corpse.description>Мёртвая немецкая овчарка.</GermanShepherd_Corpse.description>
+  
+</LanguageData>

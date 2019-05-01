@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+<!-- New crop types Wild Fruit Trees -->
+
+  <ThingDef ParentName="VG_PlantBase" Name="VG_WildFruitTree" Abstract="True">
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+        <Beauty>3</Beauty>
+     <Nutrition>1.50</Nutrition>
+    </statBases>
+    <description>A tree.</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.43</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.3, 0.3, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>1200</sowWork>
+      <harvestWork>600</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestMinGrowth>0.60</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+	 <harvestAfterGrowth>0.30</harvestAfterGrowth>
+	 <harvestYield>20</harvestYield>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <visualSizeRange>
+        <min>1.5</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+
+
+
+
+  <ThingDef ParentName="VG_WildFruitTree">
+    <defName>WildAppletree</defName>
+    <label>apple tree</label>
+    <description>A fruit bearing tree that grows apples and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/appleTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+       <shaderParameters>
+        <_FallColorSource>(0.282, 0.325, 0.156)</_FallColorSource>
+        <_FallColorDestination>/Other/TreeFallGradient</_FallColorDestination>
+        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+      </shaderParameters>
+    </graphicData>
+    <plant>
+      <growDays>13</growDays>
+      <harvestedThingDef>Rawapple</harvestedThingDef>
+	<wildBiomes>
+	   <TemperateForest>0.01</TemperateForest>
+	</wildBiomes>
+ <immatureGraphicPath>Things/Immature/appleTree</immatureGraphicPath>
+   </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="VG_WildFruitTree">
+    <defName>WildBananaTree</defName>
+    <label>banana tree</label>
+    <description>A fruit bearing tree that grows banana and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/bananaTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>   
+      <growDays>12</growDays>
+      <harvestedThingDef>Rawbanana</harvestedThingDef>
+	<wildBiomes>
+	   <TropicalRainforest>0.01</TropicalRainforest>    		
+	</wildBiomes>
+<immatureGraphicPath>Things/Immature/bananaTree</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+
+    <ThingDef ParentName="VG_WildFruitTree">
+    <defName>WildorangeTree</defName>
+    <label>orange tree</label>
+    <description>A fruit bearing tree that grows oranges and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/orangeTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+       <shaderParameters>
+        <_FallColorSource>(0.352, 0.384, 0.137)</_FallColorSource>
+        <_FallColorDestination>/Other/TreeFallGradient</_FallColorDestination>
+        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+      </shaderParameters>
+    </graphicData>
+    <plant>
+      <growDays>13</growDays>
+      <harvestedThingDef>Raworange</harvestedThingDef>
+	<wildBiomes>
+	   <TropicalRainforest>0.01</TropicalRainforest>    		
+	</wildBiomes>
+ <immatureGraphicPath>Things/Immature/orangeTree</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_WildFruitTree">
+    <defName>WildPeachTree</defName>
+    <label>peach tree</label>
+    <description>A fruit bearing tree that grows peaches and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/peachTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shaderParameters>
+        <_FallColorSource>(0.352, 0.384, 0.137)</_FallColorSource>
+        <_FallColorDestination>/Other/TreeFallGradient</_FallColorDestination>
+        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+      </shaderParameters>
+   </graphicData>
+    <plant>
+      <growDays>13</growDays>
+      <harvestedThingDef>Rawpeach</harvestedThingDef>
+	<wildBiomes>
+	   <TemperateForest>0.01</TemperateForest>
+	   <TropicalRainforest>0.01</TropicalRainforest>    		
+	</wildBiomes>
+    <immatureGraphicPath>Things/Immature/peachTree</immatureGraphicPath>
+    </plant>
+ </ThingDef>
+
+
+    <ThingDef ParentName="VG_WildFruitTree">
+    <defName>WildDateTree</defName>
+    <label>date palm tree</label>
+    <description>A fruit bearing tree that grows dates and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/DateTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>12</growDays>
+      <harvestedThingDef>Rawdate</harvestedThingDef>
+	<wildBiomes>
+        <AridShrubland>0.01</AridShrubland>
+        <Desert>0.01</Desert>
+	</wildBiomes>
+    <immatureGraphicPath>Things/Immature/DateTree</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+
+    <ThingDef ParentName="VG_WildFruitTree">
+    <defName>WildFigTree</defName>
+    <label>fig tree</label>
+    <description>A fruit bearing tree that grows figs and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/FigTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>12</growDays>
+      <harvestedThingDef>Rawfig</harvestedThingDef>
+	<wildBiomes>
+        <AridShrubland>0.01</AridShrubland>
+        <Desert>0.01</Desert>
+	</wildBiomes>
+    <immatureGraphicPath>Things/Immature/FigTree</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+
+
+  <ThingDef ParentName="VG_WildFruitTree">
+    <defName>WildCoconuttree</defName>
+    <label>coconut tree</label>
+    <description>A fruit bearing tree that grows coconuts and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Tree/TreeCoconut</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>14</growDays>
+      <harvestedThingDef>RawCoconut</harvestedThingDef>
+	<wildBiomes>
+	   <TropicalRainforest>0.01</TropicalRainforest>    		
+	</wildBiomes>
+   </plant>
+  </ThingDef>
+
+
+  <ThingDef ParentName="VG_WildFruitTree">
+    <defName>WildPlantCherrytree</defName>
+    <label>cherry tree</label>
+    <description>A fruit bearing tree that grows cherries and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Tree/TreeCherryFruit</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>18</growDays>
+      <harvestedThingDef>RawCherry</harvestedThingDef>
+	<wildBiomes>
+		<TemperateForest>0.01</TemperateForest>
+    		<BorealForest>0.01</BorealForest>
+	</wildBiomes>
+ <immatureGraphicPath>Things/Immature/TreeCherryFruit</immatureGraphicPath>
+ </plant>
+  </ThingDef>
+
+
+<!-- New crop types Wild Fruit Plants -->
+
+
+<ThingDef ParentName="VG_WildPlantDef">
+	<defName>WildPlantpineapple</defName>
+	<label>pineapple plant</label>
+	<description>Think skin fruit that grows a top a bush.</description>
+    <graphicData>
+      <texPath>Things/Plants/pineapplePlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Rawpineapple</harvestedThingDef>
+	<harvestYield>6</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>5.75</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+	<wildBiomes>
+	   <TropicalRainforest>0.01</TropicalRainforest>    		
+	</wildBiomes>
+       <immatureGraphicPath>Things/Immature/pineapplePlant</immatureGraphicPath>
+   </plant>
+  </ThingDef>
+
+<ThingDef ParentName="VG_WildPlantDef">
+	<defName>WildPlantcloudberry</defName>
+	<label>cloudberry plant</label>
+	<description>A berry bush that grows well in cold climates.</description>
+    <graphicData>
+      <texPath>Things/Plants/cloudberryPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>Rawcloudberry</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>6.25</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+	<wildBiomes>
+	   	<Tundra>0.01</Tundra>
+    		<BorealForest>0.01</BorealForest>
+	</wildBiomes>
+      <immatureGraphicPath>Things/Immature/cloudberryPlant</immatureGraphicPath>
+   </plant>
+  </ThingDef>
+
+<ThingDef ParentName="VG_WildPlantDef">
+	<defName>WildPlantgooseberry</defName>
+	<label>gooseberry plant</label>
+	<description>A berry bush that grows well in cold climates.</description>
+    <graphicData>
+      <texPath>Things/Plants/gooseberryPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>Rawgooseberry</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>6.25</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+	<wildBiomes>
+	   	<Tundra>0.01</Tundra>
+    		<BorealForest>0.01</BorealForest>
+	</wildBiomes>
+   </plant>
+  </ThingDef>
+
+<ThingDef ParentName="VG_WildPlantDef">
+	<defName>Plantmushroom</defName>
+	<label>Mushroom</label>
+	<description>This robust mushroom has been genetically engineered and cultivated to produce a filling meat substitute. Found in the wild and grown in hydroponics.</description>
+    <graphicData>
+      <texPath>Things/Plants/Mushroom</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Rawmushroom</harvestedThingDef>
+	<harvestYield>8</harvestYield>
+      <sowMinSkill>5</sowMinSkill>
+      <topWindExposure>0.3</topWindExposure>
+      <growDays>4.75</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+	<wildBiomes>
+	   <TemperateForest>0.15</TemperateForest>
+	   <TropicalRainforest>0.15</TropicalRainforest>    			   <BorealForest>0.15</BorealForest>
+	</wildBiomes>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+      </plant>
+</ThingDef>
+
+
+</Defs>

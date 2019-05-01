@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+   
+	
+<ThingDef ParentName="VG_DrinksBase">
+      <defName>Cuptea</defName>
+      <label>Garden Tea</label>
+      <description>A drink made from brew tea leaves.</description>
+      <graphicData>
+      <texPath>Things/Item/cuptea</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+      <thingCategories>
+         <li>SweetMeals</li>
+      </thingCategories>
+      <statBases>
+         <MarketValue>8</MarketValue>
+      </statBases>
+      <ingestible>
+         <preferability>NeverForNutrition</preferability>
+         <foodType>Processed</foodType>
+         <joy>0.07</joy>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <chairSearchRadius>25</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Caffeine</hediffDef>
+          <severity>0.05</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.07</offset>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+   </ThingDef>
+
+
+<ThingDef ParentName="VG_DrinksBase">
+	<defName>Coffee</defName>
+	<label>Garden Coffee</label>
+	<description>A cup of coffee</description>
+    <graphicData>
+	<texPath>Things/Item/Coffee</texPath>
+	<graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+      <thingCategories>
+         <li>SweetMeals</li>
+      </thingCategories>
+	<stackLimit>75</stackLimit>
+	<statBases>
+	  <MarketValue>8</MarketValue>
+	</statBases>
+      <ingestible>
+         <preferability>NeverForNutrition</preferability>
+        <foodType>Processed</foodType>
+         <joy>0.07</joy>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <chairSearchRadius>25</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Caffeine</hediffDef>
+          <severity>0.05</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.07</offset>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+</ThingDef>
+
+
+
+<ThingDef ParentName="VG_DrinksBase">
+      <defName>Fruitdrink</defName>
+      <label>Fruit drink</label>
+      <description>A drink made from pressing fruit for their juice.</description>
+      <graphicData>
+      <texPath>Things/Item/Fruitdrink</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+      <statBases>
+         <DeteriorationRate>1</DeteriorationRate>
+         <MarketValue>7</MarketValue>
+         <WorkToMake>600</WorkToMake>
+      </statBases>
+      <ingestible>
+         <preferability>NeverForNutrition</preferability>
+         <joy>0.07</joy>
+      <nurseable>true</nurseable>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <chairSearchRadius>25</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>GoodHappy</hediffDef>
+          <severity>0.25</severity>
+        </li>
+      </outcomeDoers>
+  </ingestible>
+      <thingCategories>
+         <li>SweetMeals</li>
+      </thingCategories>
+   </ThingDef>
+   
+<ThingDef ParentName="VG_MealRottable">
+      <defName>bowlstew</defName>
+      <label>bowl of stew</label>
+      <description>A bowl of slow cooking stew. \n\nFood Effects: Consciousness, Metabolism, Blood Filtration, and Blood Pumping.</description>
+      <graphicData>
+      <texPath>Things/Item/Meal/bowlstew</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+      <statBases>
+         <DeteriorationRate>10</DeteriorationRate>
+         <MarketValue>25</MarketValue>
+         <WorkToMake>1500</WorkToMake>
+         <Nutrition>1.00</Nutrition>
+     </statBases>
+      <ingestible>
+       <preferability>MealLavish</preferability>
+	<tasteThought>AteLavishMeal</tasteThought>
+         <ingestEffect>EatVegetarian</ingestEffect>
+         <ingestSound>Meal_Eat</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>HedStew</hediffDef>
+          <severity>0.25</severity>
+        </li>
+      </outcomeDoers>
+      </ingestible>
+    <thingCategories>
+      <li>LavishMeals</li>
+    </thingCategories>
+   </ThingDef>
+
+<ThingDef ParentName="VG_MealRottable">
+      <defName>stirfry</defName>
+      <label>stirfry</label>
+      <description>Cooking technique in which ingredients are fried in a small amount of very hot oil. \n\nFood Effects: Manipulation and Blood Filtration.</description>
+      <graphicData>
+      <texPath>Things/Item/Meal/stirfry</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+      <statBases>
+         <DeteriorationRate>10</DeteriorationRate>
+         <MarketValue>25</MarketValue>
+         <WorkToMake>10000</WorkToMake>
+      	<Nutrition>0.90</Nutrition>
+      </statBases>
+      <ingestible>
+      <preferability>MealFine</preferability>
+		<tasteThought>AteFineMeal</tasteThought>
+         <ingestEffect>EatVegetarian</ingestEffect>
+         <ingestSound>Meal_Eat</ingestSound>
+       <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>HedStirfry</hediffDef>
+          <severity>0.25</severity>
+        </li>
+      </outcomeDoers>
+     </ingestible>
+    <thingCategories>
+      <li>FineMeals</li>
+    </thingCategories>
+   </ThingDef>
+
+</Defs>

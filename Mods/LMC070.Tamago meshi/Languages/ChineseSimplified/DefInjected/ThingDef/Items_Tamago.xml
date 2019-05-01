@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- Author jxb12306 FROM 3DM Localization Group-->
+  <!-- 卵かけご飯 -->
+
+  <TKG.label>生蛋拌饭</TKG.label>
+  <TKG.description>简单而美味的日本早餐，热饭配鸡蛋。
+挂上酱油后，只保留蛋黄遗弃蛋白，然后放在米饭上，
+吃的方法因人而异，比如把米饭和鸡蛋混在一起吃。
+对于日本人来说，吃生蛋拌饭是很常见的事情，毕竟他们生产的鸡蛋可以生吃！（译者注：日本国内生产的鸡蛋都是按照厚生劳动省制定的“卫生管理要领”严格进行消毒与检查后才出产的，大大降低了人们食生鸡蛋中毒的几率。）
+在这种环境下食用生鸡蛋有很大的勇气，但不用担心会食物中毒！</TKG.description>
+
+
+  <!-- 目玉焼き -->
+
+  <Medamayaki.label>煎荷包蛋</Medamayaki.label>
+  <Medamayaki.description>简单是最好的。把鸡蛋打碎，放在煎锅里煎，
+烘烤方法也很丰富，如单面研磨、双面烤制、蒸烤等。即使鸡蛋没有煎熟或煎的过久，也可以享受到不同的味道，
+此外，调味料的使用也因人而异，酱油、盐、酱油等等。</Medamayaki.description>
+
+
+  <!-- 卵焼き -->
+
+  <Tamagoyaki.label>摊鸡蛋卷</Tamagoyaki.label>
+  <Tamagoyaki.description>松软可口的日本料理，由烧得很薄的融化的鸡蛋做成。
+这是一款经典的便当配菜，有咸味和甜味两种口味。</Tamagoyaki.description>
+
+
+  <!-- エッグトースト -->
+
+  <EggToast.label>鸡蛋吐司</EggToast.label>
+  <EggToast.description>把肉和煎蛋放在脆吐司上，很美味的早餐。
+总之，只吃煎蛋也很有趣</EggToast.description>
+
+
+  <!-- オムライス -->
+
+  <Omuraisu.label>蛋包饭</Omuraisu.label>
+  <Omuraisu.description>一种日本风味的西式食品，深受儿童和成人的喜爱，用薄烤的蓬松的鸡蛋包裹炒米饭、肉和番茄酱等制成的鸡蛋包饭饭。
+在表面使用番茄酱绘制图片或者写文字是非常有趣的!</Omuraisu.description>
+
+
+  <!-- プリン -->
+
+  <Purin.label>奶油布丁</Purin.label>
+  <Purin.description>又甜又好吃，摇摇晃晃的甜点。</Purin.description>
+
+
+</LanguageData>

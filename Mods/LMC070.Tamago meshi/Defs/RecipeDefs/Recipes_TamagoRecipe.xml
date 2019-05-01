@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="CookTamagoBase" Abstract="True">
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li>InsectJelly</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+	<recipeUsers>
+		<li>ElectricStove</li>
+	  	<li>FueledStove</li>
+    </recipeUsers>
+	</RecipeDef>
+
+    <!-- 卵かけご飯を作る -->
+	<RecipeDef Name="CookTamagoRecipe" ParentName="CookTamagoBase">
+    <defName>CookTKG</defName>
+    <label>Cook TKG</label>
+    <description>Cook TKG with eggs and rice.</description>
+    <jobString>Cooking TKG</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <!-- 材料 -->
+    <ingredients>
+	  <li>
+	    <filter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+	    </filter>
+	    <count>0.25</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRice</li>
+          </thingDefs>
+        </filter>
+        <count>0.25</count>
+      </li>
+    </ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+			<thingDefs>
+			    <li>RawRice</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+                <!-- 完成品 -->
+		<products>
+			<TKG>1</TKG>
+		</products>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+
+
+    <!-- 目玉焼きを作る -->
+  <RecipeDef ParentName="CookTamagoBase">
+    <defName>CookMedamayaki</defName>
+    <label>Cook Fried egg</label>
+    <description>Cook Fried egg with eggs.</description>
+    <jobString>Cooking Fried egg</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <!-- 材料 -->
+    <ingredients>
+	  <li>
+	    <filter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+	    </filter>
+	    <count>0.5</count>
+	  </li>
+    </ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+		</fixedIngredientFilter>
+                <!-- 完成品 -->
+		<products>
+			<Medamayaki>2</Medamayaki>
+		</products>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+
+
+    <!-- 手の込んだ食事 -->
+    <!-- 卵焼きを作る -->
+  <RecipeDef ParentName="CookTamagoBase">
+		<defName>CookTamagoyaki</defName>
+		<label>Cook Tamagoyaki</label>
+		<description>Cook Tamagoyaki with eggs.</description>
+		<jobString>Cooking Tamagoyaki</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+	  <li>
+	    <filter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+	    </filter>
+	    <count>0.5</count>
+	  </li>
+		</ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+		</fixedIngredientFilter>
+		<products>
+      <Tamagoyaki>1</Tamagoyaki>
+    </products>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+  </RecipeDef>
+
+
+    <!-- エッグトーストを作る -->
+  <RecipeDef ParentName="CookTamagoBase">
+		<defName>CookEggToast</defName>
+		<label>Cook Egg Toast</label>
+		<description>Cook Egg Toast with eggs, meat and vegetables.</description>
+		<jobString>Cooking Egg Toast</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+	  <li>
+	    <filter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+	    </filter>
+	    <count>0.2</count>
+	  </li>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>0.1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.25</count>
+      </li>
+		</ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+            <li>MeatRaw</li>
+            <li>PlantFoodRaw</li>
+      </categories>
+		</fixedIngredientFilter>
+		<products>
+      <EggToast>1</EggToast>
+    </products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+  </RecipeDef>
+
+
+    <!-- 贅沢な食事 -->
+    <!-- オムライスを作る -->
+	<RecipeDef ParentName="CookTamagoBase">
+		<defName>CookOmuraisu</defName>
+		<label>Cook Omelette rice</label>
+		<description>Cook Omelette rice with eggs, rice and meat.</description>
+		<jobString>Cooking Omelette rice</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+	  <li>
+	    <filter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+	    </filter>
+	    <count>0.5</count>
+	  </li>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+          </categories>
+				</filter>
+				<count>0.2</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRice</li>
+          </thingDefs>
+        </filter>
+        <count>0.3</count>
+      </li>
+		</ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+            <li>MeatRaw</li>
+            <li>PlantFoodRaw</li>
+      </categories>
+		</fixedIngredientFilter>
+		<products>
+      <Omuraisu>1</Omuraisu>
+    </products>
+		<skillRequirements>
+			<Cooking>7</Cooking>
+		</skillRequirements>
+  </RecipeDef>
+
+
+    <!-- プリンを作る -->
+  <RecipeDef ParentName="CookTamagoBase">
+		<defName>CookPurin</defName>
+		<label>Cook Custard Pudding</label>
+		<description>Cook Custard Pudding with eggs and milk.</description>
+		<jobString>Cooking Custard Pudding</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+	  <li>
+	    <filter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+	    </filter>
+	    <count>0.25</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+          </thingDefs>
+        </filter>
+        <count>0.25</count>
+      </li>
+		</ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+			<thingDefs>
+			    <li>Milk</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+      <Purin>1</Purin>
+    </products>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>LMC071.火箭柴炉</name>
+  <author>forestfey</author>
+  <targetVersion>1.0.0</targetVersion>
+  <description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+  
+Adds an additional heat- and mealsource that doesn't use electricity and only little wood as fuel. The origin of this technology is unclear, as the superior draft-principle might have been invented or (re-)discovered by several people or cultures at different times and places in human history. Due to the elaborate proportions that are needed inside a rocketstove, more than only basic metal- and stoneworking knowledge is required to build it. Well, actually not at all, you might only need some crafty aptitude and common sense. But... balancing reasons!
+
+火箭柴炉烹饪食物速度很快，并能通过石头传导燃烧产生的热量。用木头作燃料。和所有热源一样，它必须放在室内，这样它就可以加热一个封闭的空间。
+
+已修正因Def导致的加载错误。（By jxb12306） 
+
+时间戳：2019年4月2日 00:18:37 
+   </description>
+</ModMetaData>

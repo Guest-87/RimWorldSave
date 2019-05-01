@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>MakeChemfuelFromBamboo</defName>
+		<label>make chemfuel from bamboo</label>
+		<description>Make a batch of chemfuel by gasifying bamboo.</description>
+		<jobString>Refining chemfuel from wood.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Bamboo</li>
+					</thingDefs>
+				</filter>
+				<count>70</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Bamboo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chemfuel>35</Chemfuel>
+		</products>
+		<workSkill>Crafting</workSkill>
+	<recipeUsers>
+         <li>BiofuelRefinery</li>
+      </recipeUsers>
+
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>VG_MakeBiofuel</defName>
+		<label>make biofuel from grains</label>
+		<description>Make a batch of biofuel by extracting biofuel from barley, corn, or beans.</description>
+		<jobString>Refining biofuel from organics.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>2500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>RawCorn</li>
+	        <li>Rawbean</li>
+	        <li>RawBarley</li>
+	      </thingDefs>
+	    </filter>
+	    <count>3.5</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>RawCorn</li>
+	    <li>Rawbean</li>
+	    <li>RawBarley</li>
+	  </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+		<products>
+			<VG_Biofuel>35</VG_Biofuel>
+		</products>
+	<recipeUsers>
+         <li>BiofuelRefinery</li>
+      </recipeUsers>
+
+	</RecipeDef>
+
+
+</Defs>

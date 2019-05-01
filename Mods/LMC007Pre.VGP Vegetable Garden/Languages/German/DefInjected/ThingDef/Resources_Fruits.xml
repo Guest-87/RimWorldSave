@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+  
+   <!--[Core] <RawAgave.label>Agave</RawAgave.label>-->
+  <!--[Core] <RawAgave.description>Rohe Agaven Frucht.</RawAgave.description>-->
+
+  <!--[Core] <RawBerries.label>Beeren</RawBerries.label>-->
+  <!--[Core] <RawBerries.description>Verschiedene Beeren. Lecker zu essen, auch roh.</RawBerries.description>-->
+
+  <Rawapple.label>Äpfel</Rawapple.label>
+  <Rawapple.description>Eine rote Frucht die auf Bäumen wächst.</Rawapple.description>
+
+  <Rawbanana.label>Bananen</Rawbanana.label>
+  <Rawbanana.description>Eine gelbe Frucht die auf Bäumen wächst.</Rawbanana.description>
+
+  <Rawgrape.label>Trauben</Rawgrape.label>
+  <Rawgrape.description>Eine süße Frucht die an Reben wächst.</Rawgrape.description>
+
+  <Raworange.label>Orangen</Raworange.label>
+  <Raworange.description>Eine süße Frucht die an Bäumen wächst.</Raworange.description>
+
+  <Rawpeach.label>Pfirsich</Rawpeach.label>
+  <Rawpeach.description>Eine süße Frucht die an Bäumen wächst.</Rawpeach.description>
+
+  <Rawpineapple.label>Ananas</Rawpineapple.label>
+  <Rawpineapple.description>Ein tropisches Obst mit schwertartigen Blättern and einer großen, fleischigen, essbaren Frucht.</Rawpineapple.description>
+
+  <Rawblueberry.label>Blaubeere</Rawblueberry.label>
+  <Rawblueberry.description>Blaue Beere die in Büschen wächst. Schmeckt auch roh.</Rawblueberry.description>
+
+  <Rawwatermelon.label>Wassermelone</Rawwatermelon.label>
+  <Rawwatermelon.description>Die Wassermelone ist eine niederliegende bis kletternde, einjährige, krautige Pflanze. Das Fruchtfleisch ist meistens rötlich oder gelblich.</Rawwatermelon.description>
+
+  <Rawdate.label>Dattel</Rawdate.label>
+  <Rawdate.description>Eine süße Frucht die an Bäumen wächst.</Rawdate.description>
+
+  <Rawfig.label>Feige</Rawfig.label>
+  <Rawfig.description>Eine süße Frucht die an Bäumen wächst.</Rawfig.description>
+
+  <Rawgooseberry.label>Stachelbeere</Rawgooseberry.label>
+  <Rawgooseberry.description>Eine süße grünliche Beere die an Sträuchern wächst.</Rawgooseberry.description>
+
+  <Rawcloudberry.label>Sumpfbrombeere</Rawcloudberry.label>
+  <Rawcloudberry.description>Eine süße, orange rötliche Beere die in Büschen wächst.</Rawcloudberry.description>
+
+  <RawCherry.label>Kirsche</RawCherry.label>
+  <RawCherry.description>Eine rote Beere die auf Bäumen wächst.</RawCherry.description>
+
+  <RawCoconut.label>Kokosnuss</RawCoconut.label>
+  <RawCoconut.description>Eine Frucht die an Palmen wächst. Sie hat eine harte äußere Schale und süßes Fruchtfleisch im Kern.</RawCoconut.description>
+
+
+</LanguageData>

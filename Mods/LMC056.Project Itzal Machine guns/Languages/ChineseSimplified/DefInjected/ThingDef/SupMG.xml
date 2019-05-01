@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Itzal_SupMG.label>压制用轻机枪</Itzal_SupMG.label>
+  <Itzal_SupMG.description>一种气动轻机枪，有一个巨大的弹鼓，可以像加特林机枪一样射击。</Itzal_SupMG.description>
+  <Itzal_SupMG.tools.0.label>barrels</Itzal_SupMG.tools.0.label>
+
+  <Bullet_SupMG.label>压制用轻机枪子弹</Bullet_SupMG.label>
+
+
+</LanguageData>

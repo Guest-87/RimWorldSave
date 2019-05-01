@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New crop types Wild Fruit Trees -->
+
+  <WildAppletree.label>pommier</WildAppletree.label>
+  <WildAppletree.description>Arbre fruitier qui produit des pommes et qui n'est pas détruit au moment de la cueillette.</WildAppletree.description>
+
+  <WildBananaTree.label>bananier</WildBananaTree.label>
+  <WildBananaTree.description>Arbre fruitier qui produit des bananes et qui n'est pas détruit au moment de la cueillette.</WildBananaTree.description>
+
+  <WildorangeTree.label>oranger</WildorangeTree.label>
+  <WildorangeTree.description>Arbre fruitier qui produit des oranges et qui n'est pas détruit au moment de la cueillette.</WildorangeTree.description>
+
+  <WildPeachTree.label>pêcher</WildPeachTree.label>
+  <WildPeachTree.description>Arbre fruitier qui produit des pêches et qui n'est pas détruit au moment de la cueillette.</WildPeachTree.description>
+
+  <WildDateTree.label>palmier dattier</WildDateTree.label>
+  <WildDateTree.description>Arbre fruitier qui produit des dattes et qui n'est pas détruit au moment de la cueillette.</WildDateTree.description>
+
+  <WildFigTree.label>figuier</WildFigTree.label>
+  <WildFigTree.description>Arbre fruitier qui produit des figues et qui n'est pas détruit au moment de la cueillette.</WildFigTree.description>
+
+  <WildCoconuttree.label>cocotier</WildCoconuttree.label>
+  <WildCoconuttree.description>Arbre fruitier qui produit des noix de coco et qui n'est pas détruit au moment de la cueillette.</WildCoconuttree.description>
+
+  <WildPlantCherrytree.label>cerisier</WildPlantCherrytree.label>
+  <WildPlantCherrytree.description>Arbre fruitier qui produit des cerises et qui n'est pas détruit au moment de la cueillette.</WildPlantCherrytree.description>
+
+
+  <!-- New crop types Wild Fruit Plants -->
+
+  <WildPlantpineapple.label>ananas</WildPlantpineapple.label>
+  <WildPlantpineapple.description>Pensez aux fruits à peau qui poussent à la cime d'un buisson.</WildPlantpineapple.description>
+
+  <WildPlantcloudberry.label>plaquebière</WildPlantcloudberry.label>
+  <WildPlantcloudberry.description>Un arbuste à baies qui pousse bien dans les climats froids.</WildPlantcloudberry.description>
+
+  <WildPlantgooseberry.label>Groseillier à maquereau</WildPlantgooseberry.label>
+  <WildPlantgooseberry.description>Un arbuste à baies qui pousse bien dans les climats froids.</WildPlantgooseberry.description>
+
+  <Plantmushroom.label>champignon</Plantmushroom.label>
+  <Plantmushroom.description>Ce champignon robuste a été génétiquement modifié et cultivé pour produire un substitut de viande. Se trouve à l'état sauvage et cultivé en hydroponie.</Plantmushroom.description>
+
+
+</LanguageData>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LMC061sPre.额外资源包核心</name>
+	<author>RimWorld相談所</author>
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<description>&lt;color=orange&gt;&lt;b&gt;汉化：jxb12306
+Author jxb12306 FROM 3DM Localization Group
+合集链接：http://bbs.3dmgame.com/thread-5842015-1-1.html
+&lt;/b&gt;&lt;/color&gt;
+	
+Mod version:0.4
+
+		
+[ 重要 ] 当MODを必須とするMODを入れていない場合は導入しないで下さい！
+[ CAUTION ] If you don't have mods which requires this, please NEVER install!
+[警告] 如果你没有需要此前置的MOD，千万千万不要让其处于加载状态。（我也不知道为什么，反正既然作者说不行肯定是有原因的）
+		
+The sharable resource MOD for all modders.
+This mod itself does not make any changes to the game.
+--------------------------------
+Modder支援用の共有リソースパックMODです。
+このMOD自体はゲームになんら変更を加えません。
+</description>
+</ModMetaData>

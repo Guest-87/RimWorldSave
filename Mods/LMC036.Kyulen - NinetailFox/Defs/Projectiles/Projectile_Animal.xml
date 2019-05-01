@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="Ninetailshot">
+	<defName>Projectile_Ninetailshot</defName>
+	<label>Flame Spear</label>
+	<category>Projectile</category>
+	<tickerType>Normal</tickerType>
+	<altitudeLayer>Projectile</altitudeLayer>
+	<useHitPoints>False</useHitPoints>
+	<neverMultiSelect>True</neverMultiSelect>
+		<thingClass>AnimalRangeAttack.Projectile_Fire</thingClass>
+    <graphicData>
+      <shaderType>TransparentPostLight</shaderType>
+	  <texPath>AnimalProjectile/Ninetailshot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+	  <flyOverhead>false</flyOverhead>
+      <speed>32</speed>
+      <damageDef>FoxFlame</damageDef>
+		<stoppingPower>1.2</stoppingPower>
+		<armorPenetrationBase>0.25</armorPenetrationBase>
+      <damageAmountBase>7</damageAmountBase>
+      <explosionRadius>1</explosionRadius>
+    </projectile>
+  </ThingDef>  
+  
+  <ThingDef ParentName="Ninetailshot">
+	<defName>Projectile_Ninetailshotwt</defName>
+    <graphicData>
+      <shaderType>TransparentPostLight</shaderType>
+	  <texPath>AnimalProjectile/Ninetailshotwt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+	  <flyOverhead>false</flyOverhead>
+      <speed>32</speed>
+      <damageDef>FoxFlamewt</damageDef>
+		<stoppingPower>1.2</stoppingPower>
+		<armorPenetrationBase>0.25</armorPenetrationBase>
+      <damageAmountBase>7</damageAmountBase>
+      <explosionRadius>1</explosionRadius>
+    </projectile>
+  </ThingDef>  
+  
+  <ThingDef>
+	<defName>Projectile_NinetailshotCE</defName>
+	<label>Flame Spear</label>
+	<category>Projectile</category>
+	<tickerType>Normal</tickerType>
+	<altitudeLayer>Projectile</altitudeLayer>
+	<useHitPoints>False</useHitPoints>
+	<neverMultiSelect>True</neverMultiSelect>
+		<thingClass>AnimalRangeAttack.Projectile_Fire</thingClass>
+    <graphicData>
+      <shaderType>TransparentPostLight</shaderType>
+	  <texPath>AnimalProjectile/Ninetailshot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+	  <flyOverhead>false</flyOverhead>
+      <speed>56</speed>
+      <damageDef>FoxFlame</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <explosionRadius>1.5</explosionRadius>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef>
+	<defName>Projectile_NinetailshotwtCE</defName>
+	<label>Flame Spear</label>
+	<category>Projectile</category>
+	<tickerType>Normal</tickerType>
+	<altitudeLayer>Projectile</altitudeLayer>
+	<useHitPoints>False</useHitPoints>
+	<neverMultiSelect>True</neverMultiSelect>
+		<thingClass>AnimalRangeAttack.Projectile_Fire</thingClass>
+    <graphicData>
+      <shaderType>TransparentPostLight</shaderType>
+	  <texPath>AnimalProjectile/Ninetailshotwt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+	  <flyOverhead>false</flyOverhead>
+      <speed>56</speed>
+      <damageDef>FoxFlame</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <explosionRadius>1.5</explosionRadius>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef>
+	<defName>Projectile_NinetailshotSK</defName>
+	<label>Flame Spear</label>
+	<category>Projectile</category>
+	<tickerType>Normal</tickerType>
+	<altitudeLayer>Projectile</altitudeLayer>
+	<useHitPoints>False</useHitPoints>
+	<neverMultiSelect>True</neverMultiSelect>
+		<thingClass>AnimalRangeAttack.Projectile_Fire</thingClass>
+    <graphicData>
+      <shaderType>TransparentPostLight</shaderType>
+	  <texPath>AnimalProjectile/Ninetailshot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+	  <flyOverhead>false</flyOverhead>
+      <speed>58</speed>
+      <damageDef>FoxFlame</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <explosionRadius>1.6</explosionRadius>
+    </projectile>
+  </ThingDef>  
+</Defs>

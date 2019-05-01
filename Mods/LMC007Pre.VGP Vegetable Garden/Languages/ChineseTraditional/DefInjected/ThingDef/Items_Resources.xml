@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_CoffeeBeans.label>咖啡豆</CPD_CoffeeBeans.label>
+  <CPD_CoffeeBeans.description>咖啡豆，煮一杯咖啡吧！</CPD_CoffeeBeans.description>
+
+  <Rawtea.label>茶葉</Rawtea.label>
+  <Rawtea.description>用來泡茶的茶葉。</Rawtea.description>
+
+  <!--[Core] <RawHops.label>啤酒花</RawHops.label>-->
+  <!--[Core] <RawHops.description>生啤酒花。味道糟糕且毫無營養，但卻是釀造啤酒不可或缺的原料。</RawHops.description>-->
+
+  <!--[Core] <Hay.label>牧草</Hay.label>-->
+  <!--[Core] <Hay.description>營養豐富的牧草，專門做為動物的飼料，人類無法食用。</Hay.description>-->
+
+
+  <!-- Kibble -->
+
+  <!--[Core] <Kibble.label>飼料</Kibble.label>-->
+  <!--[Core] <Kibble.description>混合肉類與作物製成的動物飼料。</Kibble.description>-->
+
+  <Silage.label>青貯飼料</Silage.label>
+  <Silage.description>由牧草和穀物發酵而成營養豐富的動物飼料。發酵可以防止青貯飼料腐壞。</Silage.description>
+
+  <VG_Biofuel.label>生物燃料</VG_Biofuel.label>
+  <VG_Biofuel.description>通過精煉各種類型的油和醇類植物製成的燃料。可用作燃料發電機和工作台的燃料。</VG_Biofuel.description>
+
+
+</LanguageData>

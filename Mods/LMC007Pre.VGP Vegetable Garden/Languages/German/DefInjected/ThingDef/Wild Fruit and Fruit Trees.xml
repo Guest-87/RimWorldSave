@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New crop types Wild Fruit Trees -->
+
+  <WildAppletree.label>Apfelbaum</WildAppletree.label>
+  <WildAppletree.description>Ein fruchttragender Baum, der Äpfel anbaut und bei der Ernte nicht zerstört wird.</WildAppletree.description>
+
+  <WildBananaTree.label>Banenenbaum</WildBananaTree.label>
+  <WildBananaTree.description>Ein fruchttragender Baum, der Bananen anbaut und bei der Ernte nicht zerstört wird.</WildBananaTree.description>
+
+  <WildorangeTree.label>Orangenbaum</WildorangeTree.label>
+  <WildorangeTree.description>Ein fruchttragender Baum, der Orangen anbaut und bei der Ernte nicht zerstört wird.</WildorangeTree.description>
+
+  <WildPeachTree.label>Pfirsichbaum</WildPeachTree.label>
+  <WildPeachTree.description>Ein fruchttragender Baum, der Pfirsiche anbaut und bei der Ernte nicht zerstört wird.</WildPeachTree.description>
+
+  <WildDateTree.label>Dattelpalme</WildDateTree.label>
+  <WildDateTree.description>Ein fruchttragender Baum, der Datteln anbaut und bei der Ernte nicht zerstört wird.</WildDateTree.description>
+
+  <WildFigTree.label>Feigenbaum</WildFigTree.label>
+  <WildFigTree.description>Ein fruchttragender Baum, der Feigen anbaut und bei der Ernte nicht zerstört wird.</WildFigTree.description>
+
+  <WildCoconuttree.label>Kokosnusspalme</WildCoconuttree.label>
+  <WildCoconuttree.description>Ein fruchttragender Baum, der Kokosnüsse anbaut und bei der Ernte nicht zerstört wird.</WildCoconuttree.description>
+
+  <PlantCherrytree.label>Kirschbaum</PlantCherrytree.label>
+  <PlantCherrytree.description>Ein fruchttragender Baum, der Kirschen anbaut und bei der Ernte nicht zerstört wird.</PlantCherrytree.description>
+
+
+  <!-- New crop types Wild Fruit Plants -->
+
+  <Plantpineapple.label>Ananasbusch</Plantpineapple.label>
+  <Plantpineapple.description>Dicke Frucht, die auf einem Busch wächst.</Plantpineapple.description>
+
+  <Plantcloudberry.label>Sumpfbeerenbusch</Plantcloudberry.label>
+  <Plantcloudberry.description>Ein Beerenstrauch, der in kalten Klimazonen gut wächst.</Plantcloudberry.description>
+
+  <Plantgooseberry.label>Stachelbeere</Plantgooseberry.label>
+  <Plantgooseberry.description>Ein Beerenstrauch, der in kalten Klimazonen gut wächst.</Plantgooseberry.description>
+
+  <Plantmushroom.label>Pilz</Plantmushroom.label>
+  <Plantmushroom.description>Dieser robuste Pilz wurde gentechnisch hergestellt und kultiviert, um einen füllenden Fleischersatz herzustellen. Gefunden in der Wildnis und gewachsen in Hydrokultur.</Plantmushroom.description>
+
+
+</LanguageData>

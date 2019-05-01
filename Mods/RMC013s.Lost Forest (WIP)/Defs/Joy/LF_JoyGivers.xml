@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <JoyGiverDef>
+    <defName>LFJoy_RestInHotSpring</defName>
+    <giverClass>JoyGiver_LFRestInHotSpring</giverClass>
+    <baseChance>1</baseChance>
+    <jobDef>LFJob_RestInHotSpring</jobDef>
+    <joyKind>LFJoyKind_HotSpringRelaxation</joyKind>
+    <requiredCapacities>
+
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+</Defs>
